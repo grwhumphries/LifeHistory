@@ -1,7 +1,6 @@
 BaseField
 GeomField
 Area
-unicode_literals
 GeoSelectFormatMixin
 DistanceField
 AreaField

@@ -11,7 +11,6 @@ AdminErrorList
 capfirst
 help_text_for_field
 static
-flatten_fieldsets
 label_for_field
 ManyToManyRel
 InlineAdminForm
@@ -28,7 +27,7 @@ ActionForm
 AdminField
 Fieldline
 forms
-RemovedInDjango20Warning
+flatten_fieldsets
 Fieldset
 display_for_field
 RemovedInDjango110Warning

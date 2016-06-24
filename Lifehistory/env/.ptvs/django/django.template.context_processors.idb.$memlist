@@ -1,12 +1,12 @@
 static
-i18n
+six
+request
 get_token
 unicode_literals
 tz
 debug
 smart_text
-request
-SimpleLazyObject
+i18n
 lazy
 csrf
 media

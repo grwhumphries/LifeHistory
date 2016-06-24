@@ -1,6 +1,7 @@
-OracleGISSchemaEditor
+OracleDatabaseWrapper
+DatabaseFeatures
+OracleCreation
+OracleOperations
 OracleIntrospection
 DatabaseWrapper
-OracleOperations
-DatabaseFeatures
-OracleDatabaseWrapper
+OracleGISSchemaEditor

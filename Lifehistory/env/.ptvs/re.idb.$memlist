@@ -8,7 +8,7 @@ _compile_repl
 U
 T
 S
-sys
+compile
 __all__
 DEBUG
 LOCALE
@@ -27,7 +27,7 @@ MULTILINE
 Scanner
 error
 purge
-compile
+sys
 sre_parse
 findall
 _alphanum
@@ -36,7 +36,6 @@ _cache
 _pickle
 search
 _pattern_type
-_locale
 _compile
 _cache_repl
 __version__

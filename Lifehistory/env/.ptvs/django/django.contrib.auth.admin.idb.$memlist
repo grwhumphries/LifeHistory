@@ -1,6 +1,6 @@
-sensitive_post_parameters_m
-_
-escape
+UserAdmin
+sensitive_post_parameters
+ugettext
 unquote
 PermissionDenied
 UserCreationForm
@@ -11,11 +11,10 @@ csrf_protect
 url
 admin
 UserChangeForm
-UserAdmin
 settings
-sensitive_post_parameters
-ugettext
-reverse
+sensitive_post_parameters_m
+_
+escape
 User
 AdminPasswordChangeForm
 transaction

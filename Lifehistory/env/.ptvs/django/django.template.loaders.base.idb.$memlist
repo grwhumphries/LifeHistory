@@ -1,7 +1,3 @@
-Template
-func_supports_parameter
-warnings
-Loader
-Origin
 TemplateDoesNotExist
-RemovedInDjango20Warning
+Template
+Loader

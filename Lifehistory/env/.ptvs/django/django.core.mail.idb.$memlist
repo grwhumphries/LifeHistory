@@ -1,7 +1,7 @@
 __all__
-unicode_literals
+BadHeaderError
 _original_email_backend
-CachedDnsName
+EmailMessage
 SafeMIMEMultipart
 import_string
 DEFAULT_ATTACHMENT_MIME_TYPE
@@ -9,10 +9,10 @@ mail_admins
 settings
 EmailMultiAlternatives
 mail_managers
-BadHeaderError
+unicode_literals
 utils
 SafeMIMEText
-EmailMessage
+CachedDnsName
 message
 backends
 outbox

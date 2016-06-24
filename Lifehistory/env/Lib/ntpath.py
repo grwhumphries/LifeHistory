@@ -12,7 +12,6 @@ import genericpath
 import warnings
 
 from genericpath import *
-from genericpath import _unicode
 
 __all__ = ["normcase","isabs","join","splitdrive","split","splitext",
            "basename","dirname","commonprefix","getsize","getmtime",
@@ -114,7 +113,7 @@ def splitdrive(p):
     """
     if len(p) > 1:
         normp = p.replace(altsep, sep)
-        if (normp[0:2] == sep*2) and (normp[2:3] != sep):
+        if (normp[0:2] == sep*2) and (normp[2] != sep):
             # is a UNC path:
             # vvvvvvvvvvvvvvvvvvvv drive letter or UNC path
             # \\machine\mountpoint\directory\etc\...
@@ -332,7 +331,7 @@ def expandvars(path):
         return path
     import string
     varchars = string.ascii_letters + string.digits + '_-'
-    if isinstance(path, _unicode):
+    if isinstance(path, unicode):
         encoding = sys.getfilesystemencoding()
         def getenv(var):
             return os.environ[var.encode(encoding)].decode(encoding)
@@ -351,7 +350,7 @@ def expandvars(path):
                 index = path.index('\'')
                 res = res + '\'' + path[:index + 1]
             except ValueError:
-                res = res + c + path
+                res = res + path
                 index = pathlen - 1
         elif c == '%':  # variable or '%'
             if path[index + 1:index + 2] == '%':
@@ -415,7 +414,7 @@ def expandvars(path):
 def normpath(path):
     """Normalize path, eliminating double slashes, etc."""
     # Preserve unicode (if path is unicode)
-    backslash, dot = (u'\\', u'.') if isinstance(path, _unicode) else ('\\', '.')
+    backslash, dot = (u'\\', u'.') if isinstance(path, unicode) else ('\\', '.')
     if path.startswith(('\\\\.\\', '\\\\?\\')):
         # in the case of paths with these prefixes:
         # \\.\ -> device names
@@ -472,7 +471,7 @@ except ImportError: # not running on Windows - mock up something sensible
     def abspath(path):
         """Return the absolute version of a path."""
         if not isabs(path):
-            if isinstance(path, _unicode):
+            if isinstance(path, unicode):
                 cwd = os.getcwdu()
             else:
                 cwd = os.getcwd()
@@ -488,7 +487,7 @@ else:  # use native Windows method on Windows
                 path = _getfullpathname(path)
             except WindowsError:
                 pass # Bad path - return unchanged.
-        elif isinstance(path, _unicode):
+        elif isinstance(path, unicode):
             path = os.getcwdu()
         else:
             path = os.getcwd()

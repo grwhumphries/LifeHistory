@@ -1,14 +1,4 @@
-AddField
-AlterOrderWithRespectTo
-AlterIndexTogether
-CreateModel
-DeleteModel
+six
 unicode_literals
 MigrationOptimizer
-AlterModelTable
-AlterUniqueTogether
-six
-RemoveField
-RenameField
-AlterField
-RenameModel
+migrations

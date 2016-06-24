@@ -10,6 +10,7 @@ AdminBigIntegerFieldWidget
 AdminRadioSelect
 forms
 static
+Media
 RadioFieldRenderer
 Truncator
 copy
@@ -17,7 +18,6 @@ AdminTextareaWidget
 FilteredSelectMultiple
 AdminRadioFieldRenderer
 AdminDateWidget
-escapejs
 RelatedFieldWidgetWrapper
 url_params_from_lookup_dict
 flatatt

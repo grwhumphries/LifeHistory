@@ -1,5 +1,4 @@
 TEST_DATABASE_PREFIX
-cached_property
 BaseDatabaseCreation
 time
 PASSWORD

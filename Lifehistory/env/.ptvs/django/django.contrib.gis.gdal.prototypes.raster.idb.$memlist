@@ -1,9 +1,8 @@
 set_ds_projection_ref
-flush_ds
+get_band_description
 get_ds_projection_ref
-auto_create_warped_vrt
 create_ds
-const_string_output
+double_output
 reproject_image
 c_void_p
 get_band_xsize
@@ -27,14 +26,12 @@ set_ds_geotransform
 std_call
 get_band_minimum
 get_band_ds
-get_band_description
 get_ds_description
+const_string_output
 get_ds_driver
-double_output
 get_driver
 get_band_index
 band_io
-GDAL_VERSION
 close_ds
 register_all
 add_band_ds

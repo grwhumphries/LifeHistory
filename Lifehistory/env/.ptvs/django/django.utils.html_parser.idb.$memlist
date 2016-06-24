@@ -1,5 +1,4 @@
 _html_parser
-six
 HTMLParser
 tagfind
 re

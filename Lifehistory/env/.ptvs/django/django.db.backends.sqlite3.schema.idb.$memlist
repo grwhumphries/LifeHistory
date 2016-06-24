@@ -4,5 +4,4 @@ Decimal
 codecs
 Apps
 DatabaseSchemaEditor
-contextlib
 BaseDatabaseSchemaEditor

@@ -2,8 +2,10 @@ time
 BaseSettings
 locale
 ENVIRONMENT_VARIABLE
+app_template
 os
 Settings
+six
 LazySettings
 global_settings
 settings

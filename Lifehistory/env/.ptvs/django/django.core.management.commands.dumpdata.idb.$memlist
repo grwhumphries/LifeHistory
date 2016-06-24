@@ -1,8 +1,10 @@
 BaseCommand
 CommandError
-router
+Command
+warnings
 DEFAULT_DB_ALIAS
 serializers
 apps
 OrderedDict
-Command
+router
+RemovedInDjango19Warning

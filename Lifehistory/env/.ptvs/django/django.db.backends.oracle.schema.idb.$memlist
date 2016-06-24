@@ -2,8 +2,7 @@ datetime
 copy
 six
 binascii
-BaseDatabaseSchemaEditor
+force_text
 DatabaseSchemaEditor
 DatabaseError
-force_text
-re
+BaseDatabaseSchemaEditor

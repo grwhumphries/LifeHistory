@@ -4,10 +4,10 @@ Truncator
 Library
 length
 timesince_filter
-unordered_list
-urlquote
+Variable
+format
+title
 iri_to_uri
-escapejs
 force_text
 linebreaks_filter
 truncatechars_html
@@ -58,10 +58,10 @@ truncatechars
 ungettext
 center
 wraps
-format
-title
+unordered_list
+urlquote
 RemovedInDjango110Warning
-Variable
+escapejs
 timeuntil_filter
 six
 slice_filter

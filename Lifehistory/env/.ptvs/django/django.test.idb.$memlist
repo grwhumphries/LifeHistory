@@ -1,7 +1,7 @@
 html
-Client
+utils
 TransactionTestCase
-skipUnlessAnyDBFeature
+SimpleTestCase
 mock
 ignore_warnings
 skipIfDBFeature
@@ -10,9 +10,8 @@ LiveServerTestCase
 modify_settings
 testcases
 __all__
-utils
 runner
-SimpleTestCase
+Client
 signals
 skipUnlessDBFeature
 override_system_checks

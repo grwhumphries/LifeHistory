@@ -10,8 +10,7 @@ CommandError
 MigrationQuestioner
 Migration
 zip
-Command
 MigrationAutodetector
+Command
 InteractiveMigrationQuestioner
 MigrationLoader
-NonInteractiveMigrationQuestioner

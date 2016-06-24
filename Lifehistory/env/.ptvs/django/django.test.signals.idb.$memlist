@@ -1,7 +1,6 @@
 connections
 time
 ConnectionRouter
-update_connections_time_zone
 router
 clear_routers_cache
 os
@@ -11,12 +10,13 @@ complex_setting_changed
 timezone
 setting_changed
 language_changed
+settings
 clear_serializers_cache
 clear_cache_handlers
 reset_template_engines
 file_storage_changed
 COMPLEX_OVERRIDE_SETTINGS
-auth_password_validators_changed
+update_connections_time_zone
 warnings
 template_rendered
 root_urlconf_changed

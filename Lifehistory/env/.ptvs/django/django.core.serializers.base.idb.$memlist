@@ -1,10 +1,11 @@
 build_instance
 SerializationError
-Serializer
-ProgressBar
-DeserializedObject
-Deserializer
 six
+DeserializedObject
+warnings
+Deserializer
+Serializer
 SerializerDoesNotExist
 models
 DeserializationError
+RemovedInDjango19Warning

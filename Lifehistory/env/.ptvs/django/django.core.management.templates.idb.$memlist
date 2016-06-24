@@ -10,7 +10,6 @@ re
 os
 CommandError
 get_docs_version
-six
 TemplateCommand
 archive
 handle_extensions
@@ -19,6 +18,7 @@ cgi
 posixpath
 stat
 Context
+rmtree_errorhandler
 shutil
 urlretrieve
 _drive_re

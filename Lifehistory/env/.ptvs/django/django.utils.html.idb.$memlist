@@ -3,7 +3,8 @@ warnings
 unicode_literals
 allow_lazy
 remove_tags
-hard_coded_bullets_re
+format_html
+sys
 unencoded_ampersands_re
 force_text
 WRAPPING_PUNCTUATION
@@ -31,8 +32,8 @@ urlunsplit
 HTMLParser
 unquote
 parse_qsl
-format_html
 DOTS
+hard_coded_bullets_re
 SafeData
 link_target_attribute_re
 format_html_join

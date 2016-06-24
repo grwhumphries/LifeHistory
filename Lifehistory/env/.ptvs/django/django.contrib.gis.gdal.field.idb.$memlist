@@ -1,4 +1,4 @@
-OFTInteger64
+OFTRealList
 GDALBase
 time
 date
@@ -9,9 +9,9 @@ OFTDateTime
 OFTWideString
 Field
 OFTString
-OFTInteger64List
+OGRFieldTypes
 datetime
-OFTRealList
+OFTWideStringList
 OFTTime
 GDALException
 OFTInteger
@@ -20,7 +20,5 @@ OFTIntegerList
 ROGRFieldTypes
 OFTStringList
 force_text
-OGRFieldTypes
 OFTBinary
 c_int
-OFTWideStringList

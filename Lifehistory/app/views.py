@@ -1,8 +1,8 @@
-"""
+﻿"""
 Definition of views.
 """
 
-from django.shortcuts import render
+from django.shortcuts import render, render_to_response
 from django.http import HttpRequest
 from django.template import RequestContext
 from datetime import datetime
@@ -17,33 +17,30 @@ def home(request):
         {
             'title':'Home Page',
             'year':datetime.now().year,
+            'month':datetime.now().month,
+            'day':datetime.now().day,
         })
     )
 
-def contact(request):
+
+def lifehistory(request):
     """Renders the contact page."""
     assert isinstance(request, HttpRequest)
     return render(
         request,
-        'app/contact.html',
+        'app/lifehistory.html',
         context_instance = RequestContext(request,
         {
-            'title':'Contact',
-            'message':'Your contact page.',
+            'title':'lifehistory',
+            'message':'the lifehistory database',
             'year':datetime.now().year,
+            'month':datetime.now().month,
+            'day':datetime.now().day,
         })
     )
 
-def about(request):
-    """Renders the about page."""
-    assert isinstance(request, HttpRequest)
-    return render(
-        request,
-        'app/about.html',
-        context_instance = RequestContext(request,
-        {
-            'title':'About',
-            'message':'Your application description page.',
-            'year':datetime.now().year,
-        })
-    )
+def dbsearch(request):
+    return render_to_response('app/dbsearch.html') 
+
+def dbadd(request):
+    return render_to_response('app/dbadd.html') 

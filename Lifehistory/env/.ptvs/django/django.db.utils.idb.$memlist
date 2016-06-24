@@ -1,8 +1,9 @@
+RemovedInDjango19Warning
 DatabaseError
-ConnectionHandler
-load_backend
+HAS_INSPECT_SIGNATURE
+ConnectionDoesNotExist
 OperationalError
-NotSupportedError
+DatabaseErrorWrapper
 local
 import_string
 upath
@@ -16,11 +17,11 @@ inspect
 settings
 ImproperlyConfigured
 ConnectionRouter
-ConnectionDoesNotExist
+ConnectionHandler
 InterfaceError
-DatabaseErrorWrapper
+load_backend
 IntegrityError
-npath
+NotSupportedError
 warnings
 import_module
 RemovedInDjango110Warning

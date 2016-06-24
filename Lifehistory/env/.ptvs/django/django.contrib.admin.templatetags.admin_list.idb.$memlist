@@ -1,7 +1,6 @@
 PAGE_VAR
 ResultList
 display_for_value
-warnings
 unicode_literals
 search_form
 date_hierarchy
@@ -13,11 +12,10 @@ result_list
 capfirst
 static
 label_for_field
-RemovedInDjango20Warning
 admin_actions
-ORDER_VAR
+EMPTY_CHANGELIST_VALUE
 paginator_number
-register
+formats
 result_headers
 escapejs
 add_preserved_filters
@@ -36,6 +34,7 @@ ALL_VAR
 Library
 items_for_result
 display_for_field
+ORDER_VAR
 result_hidden_fields
-formats
 mark_safe
+register

@@ -1,10 +1,11 @@
-apps
+models
 management
 default_app_config
+forms
 checks
 views
-models
+apps
 migrations
 fields
 admin
-forms
+generic

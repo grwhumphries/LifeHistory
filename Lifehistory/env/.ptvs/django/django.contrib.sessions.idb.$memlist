@@ -1,4 +1,3 @@
-migrations
 exceptions
 apps
 management
@@ -6,5 +5,5 @@ middleware
 backends
 serializers
 models
-base_session
+migrations
 default_app_config

@@ -7,7 +7,6 @@ getctime
 getsize
 stat
 isdir
-_unicode
 getatime
 isfile
 exists

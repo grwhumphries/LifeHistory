@@ -1,4 +1,5 @@
 connections
+DEFAULT_PORT
 naiveip_re
 unicode_literals
 autoreload
@@ -8,7 +9,6 @@ os
 CommandError
 force_text
 six
-MigrationSchemaMissing
 DEFAULT_DB_ALIAS
 datetime
 sys
@@ -21,4 +21,3 @@ MigrationExecutor
 run
 socket
 BaseRunserverCommand
-settings

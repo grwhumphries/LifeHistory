@@ -1,5 +1,6 @@
 sys
 models
+EMPTY_CHANGELIST_VALUE
 reverse
 ORDER_VAR
 FieldListFilter
@@ -15,6 +16,7 @@ InvalidPage
 urlencode
 ImproperlyConfigured
 ERROR_FLAG
+ChangeList
 ALL_VAR
 ugettext
 prepare_lookup_value
@@ -24,7 +26,7 @@ PAGE_VAR
 get_fields_from_path
 force_text
 six
-ChangeList
+ugettext_lazy
 DisallowedModelAdminLookup
 SuspiciousOperation
 IGNORED_PARAMS

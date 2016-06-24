@@ -12,7 +12,7 @@ DatabaseCreation
 BaseDatabaseValidation
 convert_unicode
 VariableWrapper
-RemovedInDjango20Warning
+decimal
 DatabaseSchemaEditor
 force_bytes
 six
@@ -29,7 +29,6 @@ DatabaseWrapper
 sys
 _UninitializedOperatorsDescriptor
 Oracle_datetime
-decimal
 os
 ImproperlyConfigured
 Database

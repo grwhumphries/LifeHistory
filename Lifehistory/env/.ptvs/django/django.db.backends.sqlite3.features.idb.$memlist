@@ -3,6 +3,6 @@ Database
 unicode_literals
 utils
 DatabaseFeatures
-six
 BaseDatabaseFeatures
+sys
 pytz

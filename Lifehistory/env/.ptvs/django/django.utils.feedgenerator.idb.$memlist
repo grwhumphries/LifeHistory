@@ -1,4 +1,3 @@
-SyndicationFeed
 unicode_literals
 Rss201rev2Feed
 rfc2822_date
@@ -10,12 +9,12 @@ six
 Enclosure
 RssUserland091Feed
 datetime
-RemovedInDjango20Warning
+SyndicationFeed
 Atom1Feed
 rfc3339_date
-warnings
 iri_to_uri
 get_tag_uri
 force_text
+is_aware
 SimplerXMLGenerator
 datetime_safe

@@ -1,4 +1,3 @@
-GDAL_RESAMPLE_ALGORITHMS
 GDALBase
 c_double
 byref
@@ -6,17 +5,15 @@ force_bytes
 capi
 os
 cached_property
-GDALRaster
+GDALBand
 six
-json_regex
 addressof
 GDALException
-c_void_p
 Driver
 SpatialReference
 SRSException
-json
 TransformPoint
-BandList
+GDALRaster
+range
 force_text
 python_2_unicode_compatible

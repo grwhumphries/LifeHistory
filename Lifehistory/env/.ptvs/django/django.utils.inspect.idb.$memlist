@@ -1,10 +1,9 @@
 func_has_no_args
 func_supports_parameter
-get_func_args
+HAS_INSPECT_SIGNATURE
 absolute_import
 inspect
-get_func_full_args
-func_accepts_var_args
 getargspec
-six
+get_func_args
 func_accepts_kwargs
+sys

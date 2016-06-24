@@ -3,13 +3,12 @@ print_function
 six
 os
 unicode_literals
-MigrationLoader
-NonInteractiveMigrationQuestioner
+InteractiveMigrationQuestioner
 MigrationQuestioner
 timezone
 importlib
 datetime_safe
 apps
-InteractiveMigrationQuestioner
+MIGRATIONS_MODULE_NAME
 sys
 NOT_PROVIDED

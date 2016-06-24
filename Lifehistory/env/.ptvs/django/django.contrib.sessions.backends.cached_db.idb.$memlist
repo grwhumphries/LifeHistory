@@ -6,4 +6,5 @@ logging
 force_text
 SessionStore
 timezone
+Session
 settings

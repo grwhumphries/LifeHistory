@@ -2,10 +2,14 @@ module_has_submodule
 copy
 six
 os
-module_dir
+absolute_import
+importlib_find
 import_module
+warnings
 autodiscover_modules
 import_string
-importlib_find
-sys
+import_by_path
 imp
+RemovedInDjango19Warning
+sys
+ImproperlyConfigured

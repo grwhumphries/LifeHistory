@@ -1,10 +1,9 @@
-_is_safe_url
 int_to_base36
+same_origin
 unicode_literals
 allow_lazy
 urlunquote_plus
 __T
-is_same_domain
 urlsafe_base64_decode
 quote_plus
 base36_to_int
@@ -27,7 +26,7 @@ cookie_date
 unquote_plus
 ETAG_MATCH
 parse_etags
-unquote_etag
+_is_safe_url
 formatdate
 __Y2
 calendar

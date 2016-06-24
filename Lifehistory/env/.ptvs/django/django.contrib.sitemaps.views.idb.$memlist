@@ -1,11 +1,12 @@
 datetime
 PageNotAnInteger
-index
+six
 x_robots_tag
 EmptyPage
 http_date
 urlresolvers
 timegm
+index
 sitemap
 TemplateResponse
 wraps

@@ -1,9 +1,8 @@
 sys
 ErrorDict
 unicode_literals
-pretty_name
 from_current_timezone
-force_text
+six
 UserList
 timezone
 format_html
@@ -15,7 +14,7 @@ escape
 json
 ErrorList
 html_safe
+force_text
 flatatt
-six
 ValidationError
 python_2_unicode_compatible

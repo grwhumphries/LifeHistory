@@ -1,12 +1,11 @@
 OFTReal
-OFTDateTime
+OFTTime
 six
 zip
 OFTString
 OFTDate
-OFTInteger64
 _ogrinspect
-OFTTime
+OFTDateTime
 ogrinspect
 mapping
 OFTInteger

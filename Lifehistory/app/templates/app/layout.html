@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html>
 {% load staticfiles %}
 <head>
@@ -13,7 +13,8 @@
     {% endblock title %}
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>    
     <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>        
-    <script src="https://code.highcharts.com/highcharts.js"></script>    
+    <script src="https://code.highcharts.com/highcharts.js"></script>
+    <script src="{% static "app/scripts/OtherScripts.js" %}"></script>    
     {% block extrascripts %}
     {% endblock extrascripts %}
            
@@ -21,7 +22,14 @@
 
 <body>
 <div class="top">
-
+    
+    {% if user.is_authenticated %}
+    <div class="user"><p style="color:#ffffff">You are logged in as <span style="color:#ffcc00">{{user.username}}</span> on {{day}}/{{month}}/{{year}}</p></div>
+    <a href="/">Home</a>
+    <div class="logout"><a class="btn btn-default" href="/logout">Log Out &raquo;</a></div> 
+    {% else %}
+    <a href="{% url 'login' %}" class="top-menu"><span class="glyphicon glyphicon-lock"></span> Login</a>
+    {% endif %}
 
 </div>
 <div class="container body-content">

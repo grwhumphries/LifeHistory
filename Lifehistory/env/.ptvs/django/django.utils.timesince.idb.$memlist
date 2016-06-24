@@ -1,11 +1,10 @@
 datetime
-calendar
 timesince
 timeuntil
 unicode_literals
-ugettext
+ungettext_lazy
 is_aware
 TIMESINCE_CHUNKS
 utc
 avoid_wrapping
-ungettext_lazy
+ugettext

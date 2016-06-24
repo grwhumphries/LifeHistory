@@ -25,6 +25,6 @@ warnings
 upath
 cached_property
 force_text
-glob_escape
 zipfile
 product
+RemovedInDjango19Warning

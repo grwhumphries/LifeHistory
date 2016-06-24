@@ -1,12 +1,6 @@
-Loader
-Template
 TemplateDoesNotExist
-force_text
-hashlib
-warnings
-BaseLoader
-func_supports_parameter
-Origin
-copy_exception
 force_bytes
-RemovedInDjango20Warning
+Template
+BaseLoader
+Loader
+hashlib

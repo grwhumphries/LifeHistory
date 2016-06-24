@@ -1,4 +1,4 @@
-django_conversions
+parse_datetime_with_timezone_support
 DatabaseIntrospection
 DatabaseFeatures
 unicode_literals
@@ -8,14 +8,15 @@ DatabaseError
 conversions
 CLIENT
 FIELD_TYPE
-RemovedInDjango20Warning
+DatabaseValidation
 Thing2Literal
-adapt_datetime_warn_on_aware_datetime
+adapt_datetime_with_timezone_support
 force_str
 six
 cached_property
 DatabaseClient
 re
+django_conversions
 timezone
 SafeBytes
 e
@@ -29,7 +30,7 @@ version
 DatabaseCreation
 SafeText
 DatabaseSchemaEditor
-DatabaseValidation
+parse_datetime
 ImproperlyConfigured
 Database
 DatabaseOperations

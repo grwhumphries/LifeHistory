@@ -1,10 +1,8 @@
+FunctionTransform
 Unaccent
 PostgresSimpleLookup
-Lookup
+ContainedBy
 DataContains
-HasKey
 Overlap
 Transform
-HasKeys
-ContainedBy
-HasAnyKeys
+Lookup

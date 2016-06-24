@@ -1,6 +1,6 @@
 LayerMapping
-sample
 HAS_GDAL
+sample
 ogrinfo
 precision_wkt
 srs

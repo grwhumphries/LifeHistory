@@ -1,5 +1,5 @@
-SitemapNotFound
-ImproperlyConfigured
+RemovedInDjango19Warning
+models
 urlopen
 apps
 ping_google
@@ -8,10 +8,14 @@ django_apps
 views
 default_app_config
 settings
+SitemapNotFound
 urlencode
 urlresolvers
 PING_URL
 paginator
-translation
+warnings
 GenericSitemap
+translation
 management
+FlatPageSitemap
+ImproperlyConfigured

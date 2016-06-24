@@ -2,8 +2,8 @@ YearArchiveView
 TodayArchiveView
 ListView
 FormView
+WeekArchiveView
 DayArchiveView
-DetailView
 list
 dates
 UpdateView
@@ -15,8 +15,8 @@ GenericViewError
 base
 TemplateView
 edit
+DetailView
 DateDetailView
-WeekArchiveView
 RedirectView
 CreateView
 detail

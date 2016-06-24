@@ -12,7 +12,6 @@ savepoint_rollback
 get_connection
 _non_atomic_requests
 set_rollback
-on_commit
 set_autocommit
 TransactionManagementError
 get_autocommit

@@ -1,0 +1,15 @@
+C:\LifeHistory\Lifehistory\bin\Microsoft.PythonTools.WebRole.dll
+C:\LifeHistory\Lifehistory\obj\Debug\attach_server.py
+C:\LifeHistory\Lifehistory\obj\Debug\visualstudio_py_debugger.py
+C:\LifeHistory\Lifehistory\obj\Debug\visualstudio_py_repl.py
+C:\LifeHistory\Lifehistory\obj\Debug\visualstudio_py_util.py
+C:\LifeHistory\Lifehistory\obj\Debug\__init__.py
+C:\LifeHistory\Lifehistory\obj\Debug\__main__.py
+C:\LifeHistory\Lifehistory\bin\AzureSetup.cfg
+C:\LifeHistory\Lifehistory\bin\Microsoft.PythonTools.AzureSetup.exe
+C:\LifeHistory\Lifehistory\bin\Microsoft.PythonTools.AzureSetup.exe.config
+C:\LifeHistory\Lifehistory\bin\wfastcgi.py
+C:\LifeHistory\Lifehistory\obj\Debug\deployment-updated-orig-prefix.txt
+C:\LifeHistory\Lifehistory\ptvs_virtualenv_proxy.py
+C:\LifeHistory\Lifehistory\obj\Debug\web.config
+C:\LifeHistory\Lifehistory\obj\Debug\web.debug.config

@@ -1,5 +1,3 @@
 ConditionalGetMiddleware
 parse_http_date_safe
-get_conditional_response
-unquote_etag
 http_date

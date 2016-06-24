@@ -5,10 +5,9 @@ handler500
 RegexURLResolver
 handler403
 six
-include
 static
 __all__
-RemovedInDjango20Warning
+ImproperlyConfigured
 handler400
 handler404
 RegexURLPattern
@@ -16,4 +15,4 @@ warnings
 import_module
 RemovedInDjango110Warning
 url
-ImproperlyConfigured
+include

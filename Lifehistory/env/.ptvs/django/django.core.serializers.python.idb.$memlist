@@ -8,6 +8,5 @@ _get_model
 Serializer
 apps
 is_protected_type
-OrderedDict
 base
 settings

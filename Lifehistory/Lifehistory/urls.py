@@ -1,4 +1,4 @@
-"""
+﻿"""
 Definition of urls for Lifehistory.
 """
 
@@ -7,15 +7,16 @@ from django.conf.urls import patterns, url
 from app.forms import BootstrapAuthenticationForm
 
 # Uncomment the next lines to enable the admin:
-# from django.conf.urls import include
-# from django.contrib import admin
-# admin.autodiscover()
+from django.conf.urls import include
+from django.contrib import admin
+admin.autodiscover()
 
 urlpatterns = patterns('',
     # Examples:
     url(r'^$', 'app.views.home', name='home'),
-    url(r'^contact$', 'app.views.contact', name='contact'),
-    url(r'^about', 'app.views.about', name='about'),
+    url(r'^lifehistory$', 'app.views.lifehistory', name='lifehistory'),
+    url(r'^dbsearch$','app.views.dbsearch',name='dbsearch'),
+    url(r'^dbadd$','app.views.dbadd',name='dbadd'),
     url(r'^login/$',
         'django.contrib.auth.views.login',
         {
@@ -25,6 +26,8 @@ urlpatterns = patterns('',
             {
                 'title':'Log in',
                 'year':datetime.now().year,
+                'month':datetime.now().month,
+                'day':datetime.now().day,
             }
         },
         name='login'),
@@ -39,5 +42,5 @@ urlpatterns = patterns('',
     # url(r'^admin/doc/', include('django.contrib.admindocs.urls')),
 
     # Uncomment the next line to enable the admin:
-    # url(r'^admin/', include(admin.site.urls)),
+     url(r'^admin/', include(admin.site.urls)),
 )

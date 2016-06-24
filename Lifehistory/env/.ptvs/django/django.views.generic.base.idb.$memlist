@@ -1,6 +1,7 @@
+RemovedInDjango19Warning
 ImproperlyConfigured
-unicode_literals
-classonlymethod
+_sentinel
+update_wrapper
 reverse
 TemplateResponse
 TemplateView
@@ -8,9 +9,11 @@ logger
 six
 View
 logging
-update_wrapper
+unicode_literals
+classonlymethod
 TemplateResponseMixin
+warnings
 http
 NoReverseMatch
-ContextMixin
 RedirectView
+ContextMixin

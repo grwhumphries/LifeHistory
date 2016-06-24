@@ -1,4 +1,3 @@
-connections
 PROXY_PARENTS
 unicode_literals
 lru_cache
@@ -6,12 +5,12 @@ ImmutableList
 normalize_together
 IMMUTABLE_WARNING
 string_concat
-RemovedInDjango110Warning
+chain
 AutoField
 python_2_unicode_compatible
 six
 FieldDoesNotExist
-OrderWrt
+OrderedSet
 EMPTY_RELATION_TREE
 raise_deprecation
 defaultdict
@@ -23,11 +22,11 @@ make_immutable_fields_list
 DEFAULT_NAMES
 warnings
 cached_property
-chain
+RemovedInDjango110Warning
 camel_case_to_spaces
 force_text
 bisect
 OrderedDict
-OrderedSet
+OrderWrt
 smart_text
 settings

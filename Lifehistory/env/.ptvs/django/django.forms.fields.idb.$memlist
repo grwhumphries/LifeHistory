@@ -1,8 +1,9 @@
+FilePathField
 RenameFieldMethods
 ungettext_lazy
-MultipleChoiceField
 TypedChoiceField
-IntegerField
+RegexField
+urlunsplit
 uuid
 FILE_INPUT_CONTRADICTION
 unicode_literals
@@ -19,7 +20,6 @@ BytesIO
 NullBooleanSelect
 from_current_timezone
 TextInput
-UUIDField
 SplitHiddenDateTimeWidget
 NullBooleanField
 CheckboxInput
@@ -39,12 +39,12 @@ TimeField
 Select
 formats
 re
-FilePathField
 ComboField
+MultipleChoiceField
 to_current_timezone
 CharField
-RegexField
-urlunsplit
+IntegerField
+RemovedInDjango19Warning
 NumberInput
 warnings
 TypedMultipleChoiceField
@@ -59,7 +59,7 @@ DurationField
 BooleanField
 ClearableFileInput
 MultiValueField
-BoundField
+UUIDField
 GenericIPAddressField
 DateInput
 os
@@ -77,3 +77,4 @@ MultipleHiddenInput
 EmailField
 FloatField
 Decimal
+IPAddressField

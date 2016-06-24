@@ -1,6 +1,7 @@
+DatabaseFeatures
 MySQLDatabaseWrapper
 MySQLIntrospection
 MySQLOperations
 DatabaseWrapper
-DatabaseFeatures
 MySQLGISSchemaEditor
+MySQLCreation

@@ -2,13 +2,14 @@ DatabaseFeatures
 SpatiaLiteClient
 Database
 SQLiteCursorWrapper
-SpatialiteSchemaEditor
-settings
 SpatiaLiteIntrospection
+settings
+SpatiaLiteCreation
 SQLiteDatabaseWrapper
 six
 SpatiaLiteOperations
 DatabaseWrapper
 find_library
+SpatialiteSchemaEditor
 sys
 ImproperlyConfigured

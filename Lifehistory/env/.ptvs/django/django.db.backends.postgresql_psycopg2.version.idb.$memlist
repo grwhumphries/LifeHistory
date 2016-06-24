@@ -1,3 +1,4 @@
 VERSION_RE
-get_version
 re
+_parse_version
+get_version

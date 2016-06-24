@@ -1,4 +1,4 @@
-sys
+templates
 lru_cache
 base
 apps
@@ -13,8 +13,8 @@ six
 commands
 OrderedDict
 pkgutil
-defaultdict
 settings
+sys
 handle_default_options
 ImproperlyConfigured
 unicode_literals
@@ -30,4 +30,4 @@ ManagementUtility
 color_style
 execute_from_command_line
 get_commands
-templates
+defaultdict

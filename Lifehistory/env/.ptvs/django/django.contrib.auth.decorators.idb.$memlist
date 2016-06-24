@@ -1,6 +1,5 @@
 user_passes_test
 available_attrs
-six
 permission_required
 REDIRECT_FIELD_NAME
 urlparse

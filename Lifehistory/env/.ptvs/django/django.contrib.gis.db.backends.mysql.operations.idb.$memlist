@@ -1,7 +1,6 @@
-cached_property
-aggregates
+SpatialOperator
 MySQLOperations
+WKTAdapter
+aggregates
 BaseSpatialOperations
 DatabaseOperations
-SpatialOperator
-WKTAdapter

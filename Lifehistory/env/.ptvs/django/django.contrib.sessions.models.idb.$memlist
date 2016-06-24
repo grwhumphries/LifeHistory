@@ -1,5 +1,7 @@
+python_2_unicode_compatible
 Session
-AbstractBaseSession
-unicode_literals
+_
+SessionStore
 SessionManager
-BaseSessionManager
+models
+unicode_literals

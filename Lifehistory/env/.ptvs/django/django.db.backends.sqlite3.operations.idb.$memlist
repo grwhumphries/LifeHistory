@@ -1,13 +1,13 @@
 unicode_literals
 parse_date
 BaseDatabaseOperations
+parse_datetime_with_timezone_support
 FieldError
 timezone
 datetime
 aggregates
 ImproperlyConfigured
 utils
-parse_datetime
 duration_string
 DatabaseOperations
 uuid

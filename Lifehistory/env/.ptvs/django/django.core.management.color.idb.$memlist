@@ -1,9 +1,8 @@
 supports_color
-no_style
+os
 make_style
-Style
 termcolors
 color_style
-os
+no_style
 sys
 lru_cache

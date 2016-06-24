@@ -9,7 +9,6 @@ GeometryField
 GeomField
 GeoQuerySet
 connections
-RemovedInDjango20Warning
 AreaField
 Distance
 warnings

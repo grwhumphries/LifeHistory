@@ -1,10 +1,10 @@
 timezone
 SuspiciousOperation
 CreateError
+Session
 logging
 force_text
 router
-cached_property
 SessionBase
 transaction
 SessionStore

@@ -1,10 +1,9 @@
 client
-functions
+utils
 schema
-creation
+operations
 introspection
 features
 compiler
-utils
 base
-operations
+creation

@@ -1,9 +1,9 @@
 BaseDatabaseValidation
 DatabaseError
 DatabaseWrapper
+BaseDatabaseFeatures
 BaseDatabaseClient
 IntegrityError
-DummyDatabaseFeatures
 ignore
 BaseDatabaseOperations
 complain
