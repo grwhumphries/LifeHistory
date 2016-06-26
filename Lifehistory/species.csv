@@ -1,0 +1,716 @@
+Order,Family,Genus,Species,Synonyms,Common_names
+CHARADRIIFORMES,ALCIDAE,Aethia,cristatella,,Crested Auklet
+CHARADRIIFORMES,ALCIDAE,Aethia,psittacula,Cyclorrhynchus psittacula psittacula|Cyclorrhynchus psittacula psittacula,Parakeet Auklet
+CHARADRIIFORMES,ALCIDAE,Aethia,pusilla,,Least Auklet
+CHARADRIIFORMES,ALCIDAE,Aethia,pygmaea,,Whiskered Auklet
+CHARADRIIFORMES,ALCIDAE,Alca,torda,,Razorbill
+CHARADRIIFORMES,ALCIDAE,Alle,alle,,"Little Auk, Dovekie"
+CHARADRIIFORMES,ALCIDAE,Brachyramphus,brevirostris,,Kittlitz's Murrelet
+CHARADRIIFORMES,ALCIDAE,Brachyramphus,marmoratus,,Marbled Murrelet
+CHARADRIIFORMES,ALCIDAE,Brachyramphus,perdix,,Long-billed Murrelet
+CHARADRIIFORMES,ALCIDAE,Cepphus,carbo,,Spectacled Guillemot
+CHARADRIIFORMES,ALCIDAE,Cepphus,columba,,Pigeon Guillemot
+CHARADRIIFORMES,ALCIDAE,Cepphus,grylle,,Black Guillemot
+CHARADRIIFORMES,ALCIDAE,Cerorhinca,monocerata,,Rhinoceros Auklet
+CHARADRIIFORMES,ALCIDAE,Fratercula,arctica,,"Atlantic Puffin, Puffin"
+CHARADRIIFORMES,ALCIDAE,Fratercula,cirrhata,Lunda cirrhata ,Tufted Puffin
+CHARADRIIFORMES,ALCIDAE,Fratercula,corniculata,,Horned Puffin
+CHARADRIIFORMES,ALCIDAE,Pinguinus,impennis,,Great Auk
+CHARADRIIFORMES,ALCIDAE,Ptychoramphus,aleuticus,,Cassin's Auklet
+CHARADRIIFORMES,ALCIDAE,Synthliboramphus,antiquus,,Ancient Murrelet
+CHARADRIIFORMES,ALCIDAE,Synthliboramphus,craveri,Brachyramphus craveri craveri|Brachyramphus craveri craveri,Craveri's Murrelet
+CHARADRIIFORMES,ALCIDAE,Synthliboramphus,hypoleucus,,Guadalupe Murrelet
+CHARADRIIFORMES,ALCIDAE,Synthliboramphus,scrippsi,,Scripps's Murrelet
+CHARADRIIFORMES,ALCIDAE,Synthliboramphus,wumizusume,,"Japanese Murrelet, Crested Murrelet"
+CHARADRIIFORMES,ALCIDAE,Uria,aalge,,"Common Murre, Guillemot, Common Murre"
+CHARADRIIFORMES,ALCIDAE,Uria,lomvia,,"Thick-billed Murre, Thick-billed Murre, Brünnich's Guillemot"
+CHARADRIIFORMES,BURHINIDAE,Burhinus,bistriatus,,Double-striped Thick-knee
+CHARADRIIFORMES,BURHINIDAE,Burhinus,capensis,,"Spotted Thick-knee, Spotted Dikkop"
+CHARADRIIFORMES,BURHINIDAE,Burhinus,grallarius,,"Bush Thick-knee, Bush Stone-curlew"
+CHARADRIIFORMES,BURHINIDAE,Burhinus,indicus,,Indian Thick-knee
+CHARADRIIFORMES,BURHINIDAE,Burhinus,oedicnemus,,"Eurasian Thick-knee, Stone Curlew"
+CHARADRIIFORMES,BURHINIDAE,Burhinus,senegalensis,,Senegal Thick-knee
+CHARADRIIFORMES,BURHINIDAE,Burhinus,superciliaris,,Peruvian Thick-knee
+CHARADRIIFORMES,BURHINIDAE,Burhinus,vermiculatus,,"Water Thick-knee, Water Dikkop"
+CHARADRIIFORMES,BURHINIDAE,Esacus,magnirostris,Burhinus giganteus giganteus|Esacus giganteus|Esacus magnirostris magnirostris|Esacus neglectus neglectus,"Beach Thick-knee, Beach Stone-curlew"
+CHARADRIIFORMES,BURHINIDAE,Esacus,recurvirostris,Burhinus recurvirostris recurvirostris,"Great Thick-knee, Great Stone-curlew"
+CHARADRIIFORMES,CHARADRIIDAE,Anarhynchus,frontalis,,Wrybill
+CHARADRIIFORMES,CHARADRIIDAE,Charadrius,alexandrinus,,"Kentish Plover, Snowy Plover"
+CHARADRIIFORMES,CHARADRIIDAE,Charadrius,alticola,,Puna Plover
+CHARADRIIFORMES,CHARADRIIDAE,Charadrius,aquilonius,,Northern Red-breasted Plover
+CHARADRIIFORMES,CHARADRIIDAE,Charadrius,asiaticus,,Caspian Plover
+CHARADRIIFORMES,CHARADRIIDAE,Charadrius,bicinctus,,"Double-banded Plover, Banded Dotterel"
+CHARADRIIFORMES,CHARADRIIDAE,Charadrius,bifrontatus,,Madagascar Three-banded Plover
+CHARADRIIFORMES,CHARADRIIDAE,Charadrius,collaris,,Collared Plover
+CHARADRIIFORMES,CHARADRIIDAE,Charadrius,dealbatus,,White-faced Plover
+CHARADRIIFORMES,CHARADRIIDAE,Charadrius,dubius,,Little Ringed Plover
+CHARADRIIFORMES,CHARADRIIDAE,Charadrius,falklandicus,,Two-banded Plover
+CHARADRIIFORMES,CHARADRIIDAE,Charadrius,forbesi,,Forbes's Plover
+CHARADRIIFORMES,CHARADRIIDAE,Charadrius,hiaticula,,"Common Ringed Plover, Ringed Plover"
+CHARADRIIFORMES,CHARADRIIDAE,Charadrius,javanicus,,Javan Plover
+CHARADRIIFORMES,CHARADRIIDAE,Charadrius,leschenaultii,,"Greater Sandplover, Large Sand Dotterel, Greater Sand-Plover"
+CHARADRIIFORMES,CHARADRIIDAE,Charadrius,marginatus,,White-fronted Plover
+CHARADRIIFORMES,CHARADRIIDAE,Charadrius,melodus,,Piping Plover
+CHARADRIIFORMES,CHARADRIIDAE,Charadrius,modestus,,"Rufous-chested Plover, Rufous-chested Dotterel"
+CHARADRIIFORMES,CHARADRIIDAE,Charadrius,mongolus,,"Lesser Sandplover, Mongolian Dotterel, Lesser Sand-Plover, Mongolian Plover"
+CHARADRIIFORMES,CHARADRIIDAE,Charadrius,montanus,,Mountain Plover
+CHARADRIIFORMES,CHARADRIIDAE,Charadrius,nivosus,,Snowy Plover
+CHARADRIIFORMES,CHARADRIIDAE,Charadrius,obscurus,,Southern Red-breasted Plover
+CHARADRIIFORMES,CHARADRIIDAE,Charadrius,pallidus,,Chestnut-banded Plover
+CHARADRIIFORMES,CHARADRIIDAE,Charadrius,pecuarius,,Kittlitz's Plover
+CHARADRIIFORMES,CHARADRIIDAE,Charadrius,peronii,,Malay Plover
+CHARADRIIFORMES,CHARADRIIDAE,Charadrius,placidus,,Long-billed Plover
+CHARADRIIFORMES,CHARADRIIDAE,Charadrius,ruficapillus,,"Red-capped Plover, Red-capped Dotterel"
+CHARADRIIFORMES,CHARADRIIDAE,Charadrius,sanctaehelenae,,"St Helena Plover, St. Helena Plover, Saint Helena Plover, Wirebird"
+CHARADRIIFORMES,CHARADRIIDAE,Charadrius,semipalmatus,,Semipalmated Plover
+CHARADRIIFORMES,CHARADRIIDAE,Charadrius,thoracicus,,"Black-banded Plover, Black-banded Plover"
+CHARADRIIFORMES,CHARADRIIDAE,Charadrius,tricollaris,,"African Three-banded Plover, Three-banded Plover"
+CHARADRIIFORMES,CHARADRIIDAE,Charadrius,veredus,,"Oriental Plover, Oriental Dotterel"
+CHARADRIIFORMES,CHARADRIIDAE,Charadrius,vociferus,,Killdeer
+CHARADRIIFORMES,CHARADRIIDAE,Charadrius,wilsonia,,Wilson's Plover
+CHARADRIIFORMES,CHARADRIIDAE,Elseyornis,melanops,Charadrius melanops melanops,Black-fronted Dotterel
+CHARADRIIFORMES,CHARADRIIDAE,Erythrogonys,cinctus,,Red-kneed Dotterel
+CHARADRIIFORMES,CHARADRIIDAE,Eudromias,morinellus,Charadrius morinellus |Charadrius morinellus morinellus|Charadrius morinellus morinellus|Charadrius morinellus morinellus,"Eurasian Dotterel, Dotterel"
+CHARADRIIFORMES,CHARADRIIDAE,Hoploxypterus,cayanus,Vanellus cayanus,Pied Lapwing
+CHARADRIIFORMES,CHARADRIIDAE,Oreopholus,ruficollis,Eudromias ruficollis |Eudromias ruficollis ruficollis,Tawny-throated Dotterel
+CHARADRIIFORMES,CHARADRIIDAE,Peltohyas,australis,Charadrius australis|Peltohyas australis,"Inland Dotterel, Inland Plover"
+CHARADRIIFORMES,CHARADRIIDAE,Phegornis,mitchellii,,"Diademed Plover, Diademed Plover, Diademed Sandpiper-Plover"
+CHARADRIIFORMES,CHARADRIIDAE,Pluvialis,apricaria,,"Eurasian Golden Plover, European Golden-Plover, European Golden Plover, Eurasian Golden-Plover, Golden Plover"
+CHARADRIIFORMES,CHARADRIIDAE,Pluvialis,dominica,Pluvialis dominicus dominicus,"American Golden Plover, Lesser Golden Plover, American Golden-Plover"
+CHARADRIIFORMES,CHARADRIIDAE,Pluvialis,fulva,,"Pacific Golden Plover, Pacific Golden-Plover"
+CHARADRIIFORMES,CHARADRIIDAE,Pluvialis,squatarola,,"Grey Plover, Black-bellied Plover"
+CHARADRIIFORMES,CHARADRIIDAE,Thinornis,cucullatus,Charadrius rubricollis rubricollis|Charadrius rubricollis rubricollis|Charadrius rubricollis rubricollis|Charadrius rubricollis rubricollis|Thinornis rubricollis,"Hooded Plover, Hooded Dotterel"
+CHARADRIIFORMES,CHARADRIIDAE,Thinornis,novaeseelandiae,,"Shore Plover, Shore Dotterel"
+CHARADRIIFORMES,CHARADRIIDAE,Vanellus,albiceps,,"White-headed Lapwing, White-crowned Lapwing, White-crowned Plover"
+CHARADRIIFORMES,CHARADRIIDAE,Vanellus,armatus,,"Blacksmith Lapwing, Blacksmith Plover"
+CHARADRIIFORMES,CHARADRIIDAE,Vanellus,chilensis,,Southern Lapwing
+CHARADRIIFORMES,CHARADRIIDAE,Vanellus,cinereus,,Grey-headed Lapwing
+CHARADRIIFORMES,CHARADRIIDAE,Vanellus,coronatus,,"Crowned Lapwing, Crowned Plover"
+CHARADRIIFORMES,CHARADRIIDAE,Vanellus,crassirostris,,"Long-toed Lapwing, Long-toed Plover"
+CHARADRIIFORMES,CHARADRIIDAE,Vanellus,duvaucelii,,River Lapwing
+CHARADRIIFORMES,CHARADRIIDAE,Vanellus,gregarius,Chettusia gregaria gregaria|Chettusia gregaria gregaria,"Sociable Lapwing, Sociable Plover"
+CHARADRIIFORMES,CHARADRIIDAE,Vanellus,indicus,Hoplopterus indicus |Hoplopterus indicus indicus,"Red-wattled Lapwing, Red-wattled Plover"
+CHARADRIIFORMES,CHARADRIIDAE,Vanellus,leucurus,Chettusia leucura leucura,"White-tailed Lapwing, White-tailed Plover"
+CHARADRIIFORMES,CHARADRIIDAE,Vanellus,lugubris,,"Senegal Lapwing, Lesser Black-winged Plover"
+CHARADRIIFORMES,CHARADRIIDAE,Vanellus,macropterus,,"Javan Lapwing, Javanese Lapwing, Sunda Plover"
+CHARADRIIFORMES,CHARADRIIDAE,Vanellus,malarbaricus,,Yellow-wattled Lapwing
+CHARADRIIFORMES,CHARADRIIDAE,Vanellus,melanocephalus,,"Spot-breasted Lapwing, Spot-breasted Plover"
+CHARADRIIFORMES,CHARADRIIDAE,Vanellus,melanopterus,,"Black-winged Lapwing, Black-winged Plover"
+CHARADRIIFORMES,CHARADRIIDAE,Vanellus,miles,,"Masked Lapwing, Masked Plover"
+CHARADRIIFORMES,CHARADRIIDAE,Vanellus,novaehollandiae,,Black-shouldered Lapwing
+CHARADRIIFORMES,CHARADRIIDAE,Vanellus,resplendens,,Andean Lapwing
+CHARADRIIFORMES,CHARADRIIDAE,Vanellus,senegallus,,"Wattled Lapwing, African Wattled Lapwing, Senegal Wattled Plover"
+CHARADRIIFORMES,CHARADRIIDAE,Vanellus,spinosus,Hoplopterus spinosus |Hoplopterus spinosus spinosus,"Spur-winged Lapwing, Spur-winged Plover"
+CHARADRIIFORMES,CHARADRIIDAE,Vanellus,superciliosus,,"Brown-chested Lapwing, Brown-chested Wattled Plover"
+CHARADRIIFORMES,CHARADRIIDAE,Vanellus,tectus,Hoplopterus tectus |Hoplopterus tectus tectus,"Black-headed Lapwing, Blackhead Plover, Black-headed Plover"
+CHARADRIIFORMES,CHARADRIIDAE,Vanellus,tricolor,,Banded Lapwing
+CHARADRIIFORMES,CHARADRIIDAE,Vanellus,vanellus,,"Northern Lapwing, Lapwing"
+CHARADRIIFORMES,CHIONIDAE,Chionis,albus,Chionis alba |Chionis alba |Chionis alba |Chionis alba ,"Snowy Sheathbill, American Sheathbill"
+CHARADRIIFORMES,CHIONIDAE,Chionis,minor,,Black-faced Sheathbill
+CHARADRIIFORMES,DROMADIDAE,Dromas,ardeola,,"Crab-plover , Crab-plover"
+CHARADRIIFORMES,GLAREOLIDAE,Cursorius,coromandelicus,,Indian Courser
+CHARADRIIFORMES,GLAREOLIDAE,Cursorius,cursor,,Cream-coloured Courser
+CHARADRIIFORMES,GLAREOLIDAE,Cursorius,rufus,,Burchell's Courser
+CHARADRIIFORMES,GLAREOLIDAE,Cursorius,somalensis,,Somali Courser
+CHARADRIIFORMES,GLAREOLIDAE,Cursorius,temminckii,,Temminck's Courser
+CHARADRIIFORMES,GLAREOLIDAE,Glareola,cinerea,,Grey Pratincole
+CHARADRIIFORMES,GLAREOLIDAE,Glareola,lactea,,"Little Pratincole, Little Pratincole"
+CHARADRIIFORMES,GLAREOLIDAE,Glareola,maldivarum,,Oriental Pratincole
+CHARADRIIFORMES,GLAREOLIDAE,Glareola,nordmanni,,Black-winged Pratincole
+CHARADRIIFORMES,GLAREOLIDAE,Glareola,nuchalis,,Rock Pratincole
+CHARADRIIFORMES,GLAREOLIDAE,Glareola,ocularis,,Madagascar Pratincole
+CHARADRIIFORMES,GLAREOLIDAE,Glareola,pratincola,,"Collared Pratincole, Common Pratincole"
+CHARADRIIFORMES,GLAREOLIDAE,Rhinoptilus,bitorquatus,Cursorius bitorquatus bitorquatus,Jerdon's Courser
+CHARADRIIFORMES,GLAREOLIDAE,Rhinoptilus,chalcopterus,,Bronze-winged Courser
+CHARADRIIFORMES,GLAREOLIDAE,Rhinoptilus,cinctus,,Three-banded Courser
+CHARADRIIFORMES,GLAREOLIDAE,Smutsornis,africanus,Rhinoptilus africanus,Double-banded Courser
+CHARADRIIFORMES,GLAREOLIDAE,Stiltia,isabella,,Australian Pratincole
+CHARADRIIFORMES,HAEMATOPODIDAE,Haematopus,ater,Haematopus bachmani,Blackish Oystercatcher
+CHARADRIIFORMES,HAEMATOPODIDAE,Haematopus,chathamensis,,"Chatham Oystercatcher, Chatham Islands Oystercatcher, Chatham Island Pied Oystercatcher"
+CHARADRIIFORMES,HAEMATOPODIDAE,Haematopus,fuliginosus,,Sooty Oystercatcher
+CHARADRIIFORMES,HAEMATOPODIDAE,Haematopus,leucopodus,,Magellanic Oystercatcher
+CHARADRIIFORMES,HAEMATOPODIDAE,Haematopus,longirostris,,"Pied Oystercatcher, Australian Pied Oystercatcher"
+CHARADRIIFORMES,HAEMATOPODIDAE,Haematopus,meadewaldoi,,"Canarian Oystercatcher, Canarian Black Oystercatcher"
+CHARADRIIFORMES,HAEMATOPODIDAE,Haematopus,moquini,,"African Oystercatcher, African Black Oystercatcher"
+CHARADRIIFORMES,HAEMATOPODIDAE,Haematopus,ostralegus,Haematopus finschi,"Eurasian Oystercatcher, Pied Oystercatcher"
+CHARADRIIFORMES,HAEMATOPODIDAE,Haematopus,palliatus,,American Oystercatcher
+CHARADRIIFORMES,HAEMATOPODIDAE,Haematopus,unicolor,,Variable Oystercatcher
+CHARADRIIFORMES,IBIDORHYNCHIDAE,Ibidorhyncha,struthersii,,Ibisbill
+CHARADRIIFORMES,JACANIDAE,Actophilornis,africanus,,African Jacana
+CHARADRIIFORMES,JACANIDAE,Actophilornis,albinucha,,Madagascar Jacana
+CHARADRIIFORMES,JACANIDAE,Hydrophasianus,chirurgus,,Pheasant-tailed Jacana
+CHARADRIIFORMES,JACANIDAE,Irediparra,gallinacea,,Comb-crested Jacana
+CHARADRIIFORMES,JACANIDAE,Jacana,jacana,,Wattled Jacana
+CHARADRIIFORMES,JACANIDAE,Jacana,spinosa,,Northern Jacana
+CHARADRIIFORMES,JACANIDAE,Metopidius,indicus,,Bronze-winged Jacana
+CHARADRIIFORMES,JACANIDAE,Microparra,capensis,,Lesser Jacana
+CHARADRIIFORMES,LARIDAE,Anous,minutus,,Black Noddy
+CHARADRIIFORMES,LARIDAE,Anous,stolidus,,"Brown Noddy, Common Noddy"
+CHARADRIIFORMES,LARIDAE,Anous,tenuirostris,,"Lesser Noddy, Sooty Noddy"
+CHARADRIIFORMES,LARIDAE,Chlidonias,albostriatus,Chlidonias albostriatus|Chlidonias albostriatus|Chlidonias albostriatus|Sterna albostriata,Black-fronted Tern
+CHARADRIIFORMES,LARIDAE,Chlidonias,hybrida,Chlidonias hybridus hybridus|Chlidonias hybridus hybridus|Chlidonias hybridus hybridus|Chlidonias hybridus hybridus,Whiskered Tern
+CHARADRIIFORMES,LARIDAE,Chlidonias,leucopterus,,"White-winged Tern, White-winged Black Tern"
+CHARADRIIFORMES,LARIDAE,Chlidonias,niger,,Black Tern
+CHARADRIIFORMES,LARIDAE,Creagrus,furcatus,,Swallow-tailed Gull
+CHARADRIIFORMES,LARIDAE,Gelochelidon,macrotarsa,,Australian Gull-billed Tern
+CHARADRIIFORMES,LARIDAE,Gelochelidon,nilotica,,Common Gull-billed Tern
+CHARADRIIFORMES,LARIDAE,Gygis,alba,,"Common White Tern, Fairy Tern, Common White-Tern, Angel Tern, White Tem, White Tern"
+CHARADRIIFORMES,LARIDAE,Gygis,microrhyncha,,"Little White Tern, Little White-Tern"
+CHARADRIIFORMES,LARIDAE,Hydrocoloeus,minutus,Larus minutus,Little Gull
+CHARADRIIFORMES,LARIDAE,Hydroprogne,caspia,Hydroprogne caspia|Hydroprogne caspia|Hydroprogne caspia|Sterna caspia,Caspian Tern
+CHARADRIIFORMES,LARIDAE,Larosterna,inca,,Inca Tern
+CHARADRIIFORMES,LARIDAE,Larus,argentatus,,European Herring Gull
+CHARADRIIFORMES,LARIDAE,Larus,armenicus,,Armenian Gull
+CHARADRIIFORMES,LARIDAE,Larus,atlanticus,,Olrog's Gull
+CHARADRIIFORMES,LARIDAE,Larus,atricilla,Leucophaeus atricilla atricilla,Laughing Gull
+CHARADRIIFORMES,LARIDAE,Larus,audouinii,,Audouin's Gull
+CHARADRIIFORMES,LARIDAE,Larus,belcheri,,"Belcher's Gull, Belcher's Gull"
+CHARADRIIFORMES,LARIDAE,Larus,brunnicephalus,,Brown-headed Gull
+CHARADRIIFORMES,LARIDAE,Larus,bulleri,,Black-billed Gull
+CHARADRIIFORMES,LARIDAE,Larus,cachinnans,,Caspian Gull
+CHARADRIIFORMES,LARIDAE,Larus,californicus,,California Gull
+CHARADRIIFORMES,LARIDAE,Larus,canus,,"Mew Gull, Common Gull"
+CHARADRIIFORMES,LARIDAE,Larus,cirrocephalus,,"Grey-headed Gull, Grey-hooded Gull, Gray-hooded Gull"
+CHARADRIIFORMES,LARIDAE,Larus,crassirostris,,Black-tailed Gull
+CHARADRIIFORMES,LARIDAE,Larus,delawarensis,,Ring-billed Gull
+CHARADRIIFORMES,LARIDAE,Larus,dominicanus,,"Kelp Gull, Southern Black-backed Gull"
+CHARADRIIFORMES,LARIDAE,Larus,fuliginosus,,Lava Gull
+CHARADRIIFORMES,LARIDAE,Larus,fuscus,,Lesser Black-backed Gull
+CHARADRIIFORMES,LARIDAE,Larus,genei,,Slender-billed Gull
+CHARADRIIFORMES,LARIDAE,Larus,glaucescens,,Glaucous-winged Gull
+CHARADRIIFORMES,LARIDAE,Larus,glaucoides,,Iceland Gull
+CHARADRIIFORMES,LARIDAE,Larus,hartlaubii,,"Hartlaub's Gull, Hartlaub's Gull"
+CHARADRIIFORMES,LARIDAE,Larus,heermanni,,Heermann's Gull
+CHARADRIIFORMES,LARIDAE,Larus,hemprichii,,"Sooty Gull, Hemprich's Gull"
+CHARADRIIFORMES,LARIDAE,Larus,hyperboreus,,Glaucous Gull
+CHARADRIIFORMES,LARIDAE,Larus,ichthyaetus,,"Pallas's Gull, Great Black-headed Gull"
+CHARADRIIFORMES,LARIDAE,Larus,leucophthalmus,,White-eyed Gull
+CHARADRIIFORMES,LARIDAE,Larus,livens,,Yellow-footed Gull
+CHARADRIIFORMES,LARIDAE,Larus,maculipennis,,Brown-hooded Gull
+CHARADRIIFORMES,LARIDAE,Larus,marinus,,"Great Black-backed Gull, Greater Black-backed Gull"
+CHARADRIIFORMES,LARIDAE,Larus,melanocephalus,,Mediterranean Gull
+CHARADRIIFORMES,LARIDAE,Larus,michahellis,,Yellow-legged Gull
+CHARADRIIFORMES,LARIDAE,Larus,modestus,,"Grey Gull, Gray Gull"
+CHARADRIIFORMES,LARIDAE,Larus,novaehollandiae,Larus scopulinus,Silver Gull
+CHARADRIIFORMES,LARIDAE,Larus,occidentalis,,Western Gull
+CHARADRIIFORMES,LARIDAE,Larus,pacificus,,Pacific Gull
+CHARADRIIFORMES,LARIDAE,Larus,philadelphia,,Bonaparte's Gull
+CHARADRIIFORMES,LARIDAE,Larus,pipixcan,Leucophaeus pipixcan pipixcan,Franklin's Gull
+CHARADRIIFORMES,LARIDAE,Larus,relictus,,Relict Gull
+CHARADRIIFORMES,LARIDAE,Larus,ridibundus,Chroicocephalus ridibundus ridibundus,"Black-headed Gull, Common Black-headed Gull"
+CHARADRIIFORMES,LARIDAE,Larus,schistisagus,,Slaty-backed Gull
+CHARADRIIFORMES,LARIDAE,Larus,scoresbii,Gabianus scoresbii|Larus scoresbii|Larus scoresbii|Leucophaeus scoresbii,Dolphin Gull
+CHARADRIIFORMES,LARIDAE,Larus,serranus,,Andean Gull
+CHARADRIIFORMES,LARIDAE,Larus,smithsonianus,,"Arctic Herring Gull, American Herring Gull"
+CHARADRIIFORMES,LARIDAE,Larus,thayeri,,Thayer's Gull
+CHARADRIIFORMES,LARIDAE,Onychoprion,aleuticus,Onychoprion aleuticus|Sterna aleutica,Aleutian Tern
+CHARADRIIFORMES,LARIDAE,Onychoprion,anaethetus,Onychoprion anaethetus|Onychoprion anaethetus subspecies anaethetus|Sterna anaethetus,Bridled Tern
+CHARADRIIFORMES,LARIDAE,Onychoprion,fuscatus,Onychoprion fuscata subspecies fuscata|Onychoprion fuscatus|Sterna fuscata,Sooty Tern
+CHARADRIIFORMES,LARIDAE,Onychoprion,lunatus,Onychoprion lunatus|Sterna lunata,"Grey-backed Tern, Gray-backed Tern, Spectacled Tern"
+CHARADRIIFORMES,LARIDAE,Pagophila,eburnea,,Ivory Gull
+CHARADRIIFORMES,LARIDAE,Phaetusa,simplex,,Large-billed Tern
+CHARADRIIFORMES,LARIDAE,Procelsterna,albivitta,,"Grey Noddy, Gray Noddy"
+CHARADRIIFORMES,LARIDAE,Procelsterna,cerulea,,Blue Noddy
+CHARADRIIFORMES,LARIDAE,Rhodostethia,rosea,,Ross's Gull
+CHARADRIIFORMES,LARIDAE,Rissa,brevirostris,,Red-legged Kittiwake
+CHARADRIIFORMES,LARIDAE,Rissa,tridactyla,,"Black-legged Kittiwake, Kittiwake"
+CHARADRIIFORMES,LARIDAE,Rynchops,albicollis,,Indian Skimmer
+CHARADRIIFORMES,LARIDAE,Rynchops,flavirostris,,African Skimmer
+CHARADRIIFORMES,LARIDAE,Rynchops,niger,Rhynchops niger niger,Black Skimmer
+CHARADRIIFORMES,LARIDAE,Saundersilarus,saundersi,Larus saundersi,"Saunders's Gull, Chinese Black-headed Gull"
+CHARADRIIFORMES,LARIDAE,Sterna,acuticauda,,Black-bellied Tern
+CHARADRIIFORMES,LARIDAE,Sterna,aurantia,,River Tern
+CHARADRIIFORMES,LARIDAE,Sterna,dougallii,,Roseate Tern
+CHARADRIIFORMES,LARIDAE,Sterna,forsteri,,Forster's Tern
+CHARADRIIFORMES,LARIDAE,Sterna,hirundinacea,,South American Tern
+CHARADRIIFORMES,LARIDAE,Sterna,hirundo,,Common Tern
+CHARADRIIFORMES,LARIDAE,Sterna,paradisaea,,Arctic Tern
+CHARADRIIFORMES,LARIDAE,Sterna,repressa,,White-cheeked Tern
+CHARADRIIFORMES,LARIDAE,Sterna,striata,,White-fronted Tern
+CHARADRIIFORMES,LARIDAE,Sterna,sumatrana,,Black-naped Tern
+CHARADRIIFORMES,LARIDAE,Sterna,trudeaui,,Snowy-crowned Tern
+CHARADRIIFORMES,LARIDAE,Sterna,virgata,,Kerguelen Tern
+CHARADRIIFORMES,LARIDAE,Sterna,vittata,,Antarctic Tern
+CHARADRIIFORMES,LARIDAE,Sternula,albifrons,Sterna albifrons|Sternula albifrons|Sternula albifrons,Little Tern
+CHARADRIIFORMES,LARIDAE,Sternula,antillarum,Sterna antillarum|Sternula antillarum,Least Tern
+CHARADRIIFORMES,LARIDAE,Sternula,balaenarum,Sterna balaenarum,Damara Tern
+CHARADRIIFORMES,LARIDAE,Sternula,lorata,Sterna lorata,Peruvian Tern
+CHARADRIIFORMES,LARIDAE,Sternula,nereis,Sterna nereis|Sternula nereis subspecies nereis,Fairy Tern
+CHARADRIIFORMES,LARIDAE,Sternula,saundersi,Sterna saundersi,"Saunders's Tern, Saunders' Little Tern"
+CHARADRIIFORMES,LARIDAE,Sternula,superciliaris,Sterna superciliaris|Sternula superciliaris,Yellow-billed Tern
+CHARADRIIFORMES,LARIDAE,Thalasseus,bengalensis,Sterna bengalensis|Thalasseus bengalensis,"Lesser Crested Tern, Lesser Crested-Tern"
+CHARADRIIFORMES,LARIDAE,Thalasseus,bergii,Sterna bergii|Thalasseus bergii|Thalasseus bergii,"Greater Crested Tern, Crested Tern, Greater Crested Tern, Great Crested-Tern, Swift Tern"
+CHARADRIIFORMES,LARIDAE,Thalasseus,bernsteini,Sterna bernsteini,"Chinese Crested Tern, Chinese Crested-Tern"
+CHARADRIIFORMES,LARIDAE,Thalasseus,elegans,Sterna elegans|Thalasseus elegans|Thalasseus elegans,Elegant Tern
+CHARADRIIFORMES,LARIDAE,Thalasseus,maximus,Sterna maxima|Thalasseus maximus|Thalasseus maximus,Royal Tern
+CHARADRIIFORMES,LARIDAE,Thalasseus,sandvicensis,Sterna sandvicensis|Thalasseus sandvicensis|Thalasseus sandvicensis,Sandwich Tern
+CHARADRIIFORMES,LARIDAE,Xema,sabini,Larus sabini |Larus sabini sabini|Larus sabini sabini|Larus sabini sabini,Sabine's Gull
+CHARADRIIFORMES,PEDIONOMIDAE,Pedionomus,torquatus,,Plains-wanderer
+CHARADRIIFORMES,PLUVIANELLIDAE,Pluvianellus,socialis,,Magellanic Plover
+CHARADRIIFORMES,PLUVIANIDAE,Pluvianus,aegyptius,,"Egyptian Plover, Crocodile-bird"
+CHARADRIIFORMES,RECURVIROSTRIDAE,Cladorhynchus,leucocephalus,,Banded Stilt
+CHARADRIIFORMES,RECURVIROSTRIDAE,Himantopus,himantopus,Himantopus leucocephalus|Himantopus mexicanus,Black-winged Stilt
+CHARADRIIFORMES,RECURVIROSTRIDAE,Himantopus,novaezelandiae,,Black Stilt
+CHARADRIIFORMES,RECURVIROSTRIDAE,Recurvirostra,americana,,American Avocet
+CHARADRIIFORMES,RECURVIROSTRIDAE,Recurvirostra,andina,,Andean Avocet
+CHARADRIIFORMES,RECURVIROSTRIDAE,Recurvirostra,avosetta,,"Pied Avocet, Avocet"
+CHARADRIIFORMES,RECURVIROSTRIDAE,Recurvirostra,novaehollandiae,,"Red-necked Avocet, Australian Red-necked Avocet"
+CHARADRIIFORMES,ROSTRATULIDAE,Nycticryphes,semicollaris,Nycticryphes semicollaris|Nycticryphes semicollaris|Rostratula semicollaris,"South American Painted-snipe, American Painted-snipe"
+CHARADRIIFORMES,ROSTRATULIDAE,Rostratula,australis,,"Australian Painted-snipe, Australian Painted-snipe"
+CHARADRIIFORMES,ROSTRATULIDAE,Rostratula,benghalensis,,"Greater Painted-snipe, Greater Painted-Snipe, Greater Painted Snipe, Painted Snipe"
+CHARADRIIFORMES,SCOLOPACIDAE,Actitis,hypoleucos,Tringa hypoleucos hypoleucos|Tringa hypoleucos hypoleucos|Tringa hypoleucos hypoleucos,Common Sandpiper
+CHARADRIIFORMES,SCOLOPACIDAE,Actitis,macularius,Actitis macularia macularia|Actitis macularia macularia|Tringa macularia macularia,Spotted Sandpiper
+CHARADRIIFORMES,SCOLOPACIDAE,Arenaria,interpres,,"Ruddy Turnstone, Turnstone"
+CHARADRIIFORMES,SCOLOPACIDAE,Arenaria,melanocephala,,Black Turnstone
+CHARADRIIFORMES,SCOLOPACIDAE,Bartramia,longicauda,,Upland Sandpiper
+CHARADRIIFORMES,SCOLOPACIDAE,Calidris,acuminata,,Sharp-tailed Sandpiper
+CHARADRIIFORMES,SCOLOPACIDAE,Calidris,alba,,Sanderling
+CHARADRIIFORMES,SCOLOPACIDAE,Calidris,alpina,,Dunlin
+CHARADRIIFORMES,SCOLOPACIDAE,Calidris,bairdii,,Baird's Sandpiper
+CHARADRIIFORMES,SCOLOPACIDAE,Calidris,canutus,,"Red Knot, Knot, Lesser Knot"
+CHARADRIIFORMES,SCOLOPACIDAE,Calidris,falcinellus,Limicola falcinellus,Broad-billed Sandpiper
+CHARADRIIFORMES,SCOLOPACIDAE,Calidris,ferruginea,,Curlew Sandpiper
+CHARADRIIFORMES,SCOLOPACIDAE,Calidris,fuscicollis,Calidris fusicollis ,White-rumped Sandpiper
+CHARADRIIFORMES,SCOLOPACIDAE,Calidris,himantopus,Micropalama himantopus |Micropalama himantopus |Micropalama himantopus |Micropalama himantopus |Micropalama himantopus himantopus,Stilt Sandpiper
+CHARADRIIFORMES,SCOLOPACIDAE,Calidris,maritima,,Purple Sandpiper
+CHARADRIIFORMES,SCOLOPACIDAE,Calidris,mauri,,Western Sandpiper
+CHARADRIIFORMES,SCOLOPACIDAE,Calidris,melanotos,,Pectoral Sandpiper
+CHARADRIIFORMES,SCOLOPACIDAE,Calidris,minuta,,Little Stint
+CHARADRIIFORMES,SCOLOPACIDAE,Calidris,minutilla,,Least Sandpiper
+CHARADRIIFORMES,SCOLOPACIDAE,Calidris,ptilocnemis,,Rock Sandpiper
+CHARADRIIFORMES,SCOLOPACIDAE,Calidris,pugnax,Philomachus pugnax,Ruff
+CHARADRIIFORMES,SCOLOPACIDAE,Calidris,pusilla,,Semipalmated Sandpiper
+CHARADRIIFORMES,SCOLOPACIDAE,Calidris,pygmaea,Eurynorhynchus pygmeus,"Spoon-billed Sandpiper, Spoonbill Sandpiper"
+CHARADRIIFORMES,SCOLOPACIDAE,Calidris,ruficollis,,"Red-necked Stint, Rufous-necked Stint"
+CHARADRIIFORMES,SCOLOPACIDAE,Calidris,subminuta,,Long-toed Stint
+CHARADRIIFORMES,SCOLOPACIDAE,Calidris,subruficollis,Tryngites subruficollis,Buff-breasted Sandpiper
+CHARADRIIFORMES,SCOLOPACIDAE,Calidris,temminckii,,Temminck's Stint
+CHARADRIIFORMES,SCOLOPACIDAE,Calidris,tenuirostris,,Great Knot
+CHARADRIIFORMES,SCOLOPACIDAE,Calidris,virgata,Aphriza virgata,Surfbird
+CHARADRIIFORMES,SCOLOPACIDAE,Coenocorypha,aucklandica,,"Auckland Snipe, New Zealand Snipe, Subantarctic Snipe"
+CHARADRIIFORMES,SCOLOPACIDAE,Coenocorypha,barrierensis,,North Island Snipe
+CHARADRIIFORMES,SCOLOPACIDAE,Coenocorypha,huegeli,,Snares Snipe
+CHARADRIIFORMES,SCOLOPACIDAE,Coenocorypha,iredalei,,South Island Snipe
+CHARADRIIFORMES,SCOLOPACIDAE,Coenocorypha,pusilla,,"Chatham Snipe, Chatham Islands Snipe, Chatham Island Snipe"
+CHARADRIIFORMES,SCOLOPACIDAE,Gallinago,andina,,Puna Snipe
+CHARADRIIFORMES,SCOLOPACIDAE,Gallinago,delicata,,Wilson's Snipe
+CHARADRIIFORMES,SCOLOPACIDAE,Gallinago,gallinago,,Common Snipe
+CHARADRIIFORMES,SCOLOPACIDAE,Gallinago,hardwickii,,"Latham's Snipe, Japanese Snipe"
+CHARADRIIFORMES,SCOLOPACIDAE,Gallinago,imperialis,,Imperial Snipe
+CHARADRIIFORMES,SCOLOPACIDAE,Gallinago,jamesoni,,Andean Snipe
+CHARADRIIFORMES,SCOLOPACIDAE,Gallinago,macrodactyla,,Madagascar Snipe
+CHARADRIIFORMES,SCOLOPACIDAE,Gallinago,media,,Great Snipe
+CHARADRIIFORMES,SCOLOPACIDAE,Gallinago,megala,,Swinhoe's Snipe
+CHARADRIIFORMES,SCOLOPACIDAE,Gallinago,nemoricola,,Wood Snipe
+CHARADRIIFORMES,SCOLOPACIDAE,Gallinago,nigripennis,,"African Snipe, Ethiopian Snipe"
+CHARADRIIFORMES,SCOLOPACIDAE,Gallinago,nobilis,,Noble Snipe
+CHARADRIIFORMES,SCOLOPACIDAE,Gallinago,paraguaiae,,South American Snipe
+CHARADRIIFORMES,SCOLOPACIDAE,Gallinago,solitaria,,Solitary Snipe
+CHARADRIIFORMES,SCOLOPACIDAE,Gallinago,stenura,,"Pintail Snipe, Pin-tailed Snipe"
+CHARADRIIFORMES,SCOLOPACIDAE,Gallinago,stricklandii,,Fuegian Snipe
+CHARADRIIFORMES,SCOLOPACIDAE,Gallinago,undulata,,Giant Snipe
+CHARADRIIFORMES,SCOLOPACIDAE,Limnodromus,griseus,,Short-billed Dowitcher
+CHARADRIIFORMES,SCOLOPACIDAE,Limnodromus,scolopaceus,,Long-billed Dowitcher
+CHARADRIIFORMES,SCOLOPACIDAE,Limnodromus,semipalmatus,,"Asian Dowitcher, Asiatic Dowitcher"
+CHARADRIIFORMES,SCOLOPACIDAE,Limosa,fedoa,,Marbled Godwit
+CHARADRIIFORMES,SCOLOPACIDAE,Limosa,haemastica,,Hudsonian Godwit
+CHARADRIIFORMES,SCOLOPACIDAE,Limosa,lapponica,,Bar-tailed Godwit
+CHARADRIIFORMES,SCOLOPACIDAE,Limosa,limosa,,Black-tailed Godwit
+CHARADRIIFORMES,SCOLOPACIDAE,Lymnocryptes,minimus,,Jack Snipe
+CHARADRIIFORMES,SCOLOPACIDAE,Numenius,americanus,,Long-billed Curlew
+CHARADRIIFORMES,SCOLOPACIDAE,Numenius,arquata,,"Eurasian Curlew, Curlew"
+CHARADRIIFORMES,SCOLOPACIDAE,Numenius,borealis,,Eskimo Curlew
+CHARADRIIFORMES,SCOLOPACIDAE,Numenius,madagascariensis,,"Far Eastern Curlew, Eastern Curlew"
+CHARADRIIFORMES,SCOLOPACIDAE,Numenius,minutus,,"Little Curlew, Little Whimbrel"
+CHARADRIIFORMES,SCOLOPACIDAE,Numenius,phaeopus,,Whimbrel
+CHARADRIIFORMES,SCOLOPACIDAE,Numenius,tahitiensis,,Bristle-thighed Curlew
+CHARADRIIFORMES,SCOLOPACIDAE,Numenius,tenuirostris,,Slender-billed Curlew
+CHARADRIIFORMES,SCOLOPACIDAE,Phalaropus,fulicarius,Phalaropus fulicaria fulicaria|Phalaropus fulicaria fulicaria|Phalaropus fulicaria fulicaria,"Red Phalarope, Grey Phalarope, Grey (Red) Phalarope"
+CHARADRIIFORMES,SCOLOPACIDAE,Phalaropus,lobatus,,Red-necked Phalarope
+CHARADRIIFORMES,SCOLOPACIDAE,Prosobonia,cancellata,,Christmas Sandpiper
+CHARADRIIFORMES,SCOLOPACIDAE,Prosobonia,ellisi,,Moorea Sandpiper
+CHARADRIIFORMES,SCOLOPACIDAE,Prosobonia,leucoptera,,"Tahiti Sandpiper, Tahiti Sandpiper"
+CHARADRIIFORMES,SCOLOPACIDAE,Prosobonia,parvirostris,,Tuamotu Sandpiper
+CHARADRIIFORMES,SCOLOPACIDAE,Scolopax,bukidnonensis,,"Bukidnon Woodcock, Bukidnon Woodcock"
+CHARADRIIFORMES,SCOLOPACIDAE,Scolopax,celebensis,,Sulawesi Woodcock
+CHARADRIIFORMES,SCOLOPACIDAE,Scolopax,minor,,American Woodcock
+CHARADRIIFORMES,SCOLOPACIDAE,Scolopax,mira,,"Amami Woodcock, Amami Woodcock"
+CHARADRIIFORMES,SCOLOPACIDAE,Scolopax,rochussenii,,"Moluccan Woodcock, Obi Woodcock"
+CHARADRIIFORMES,SCOLOPACIDAE,Scolopax,rosenbergii,,"New Guinea Woodcock, New Guniea Woodcock"
+CHARADRIIFORMES,SCOLOPACIDAE,Scolopax,rusticola,,"Eurasian Woodcock, Woodcock"
+CHARADRIIFORMES,SCOLOPACIDAE,Scolopax,saturata,,Javan Woodcock
+CHARADRIIFORMES,SCOLOPACIDAE,Steganopus,tricolor,Phalaropus tricolor |Phalaropus tricolor |Phalaropus tricolor tricolor|Phalaropus tricolor tricolor|Phalaropus tricolor tricolor|Phalaropus tricolor tricolor,Wilson's Phalarope
+CHARADRIIFORMES,SCOLOPACIDAE,Tringa,brevipes,Heteroscelus brevipes|Tringa brevipes|Tringa brevipes|Tringa brevipes|Tringa brevipes,"Grey-tailed Tattler, Siberian (Grey-tailed) Tattler, Gray-tailed Tattler"
+CHARADRIIFORMES,SCOLOPACIDAE,Tringa,erythropus,,Spotted Redshank
+CHARADRIIFORMES,SCOLOPACIDAE,Tringa,flavipes,,Lesser Yellowlegs
+CHARADRIIFORMES,SCOLOPACIDAE,Tringa,glareola,,Wood Sandpiper
+CHARADRIIFORMES,SCOLOPACIDAE,Tringa,guttifer,,"Spotted Greenshank, Nordmann's Greenshank, Nordmann's Greenshank"
+CHARADRIIFORMES,SCOLOPACIDAE,Tringa,incana,Heteroscelus incanus|Tringa incana|Tringa incana|Tringa incana|Tringa incana,"Wandering Tattler, Wandering (Alaskan) Tattler"
+CHARADRIIFORMES,SCOLOPACIDAE,Tringa,melanoleuca,,Greater Yellowlegs
+CHARADRIIFORMES,SCOLOPACIDAE,Tringa,nebularia,,"Common Greenshank, Greenshank"
+CHARADRIIFORMES,SCOLOPACIDAE,Tringa,ochropus,,Green Sandpiper
+CHARADRIIFORMES,SCOLOPACIDAE,Tringa,semipalmata,Catoptrophorus semipalmatus|Tringa semipalmata,Willet
+CHARADRIIFORMES,SCOLOPACIDAE,Tringa,solitaria,,Solitary Sandpiper
+CHARADRIIFORMES,SCOLOPACIDAE,Tringa,stagnatilis,,Marsh Sandpiper
+CHARADRIIFORMES,SCOLOPACIDAE,Tringa,totanus,,"Common Redshank, Redshank"
+CHARADRIIFORMES,SCOLOPACIDAE,Xenus,cinereus,Tringa cinerea cinerea|Tringa cinerea cinerea|Tringa terek terek,Terek Sandpiper
+CHARADRIIFORMES,STERCORARIIDAE,Catharacta,antarctica,Catharacta lonnbergi|Stercorarius lonnbergi,Brown Skua
+CHARADRIIFORMES,STERCORARIIDAE,Catharacta,chilensis,Stercorarius chilensis,Chilean Skua
+CHARADRIIFORMES,STERCORARIIDAE,Catharacta,maccormicki,Stercorarius maccormicki|Stercorarius maccormicki maccormicki|Stercorarius maccormicki maccormicki,South Polar Skua
+CHARADRIIFORMES,STERCORARIIDAE,Catharacta,skua,Stercorarius skua|Stercorarius skua skua|Stercorarius skua skua,Great Skua
+CHARADRIIFORMES,STERCORARIIDAE,Stercorarius,longicaudus,,"Long-tailed Jaeger, Long-tailed Skua"
+CHARADRIIFORMES,STERCORARIIDAE,Stercorarius,parasiticus,,"Arctic Jaeger, Arctic Skua, Arctic Jaeger"
+CHARADRIIFORMES,STERCORARIIDAE,Stercorarius,pomarinus,,"Pomarine Jaeger, Pomarine Skua"
+CHARADRIIFORMES,THINOCORIDAE,Attagis,gayi,,Rufous-bellied Seedsnipe
+CHARADRIIFORMES,THINOCORIDAE,Attagis,malouinus,,White-bellied Seedsnipe
+CHARADRIIFORMES,THINOCORIDAE,Thinocorus,orbignyianus,,"Grey-breasted Seedsnipe, Gray-breasted Seedsnipe"
+CHARADRIIFORMES,THINOCORIDAE,Thinocorus,rumicivorus,,Least Seedsnipe
+CHARADRIIFORMES,TURNICIDAE,Ortyxelos,meiffrenii,,"Quail-plover, Quail-plover"
+CHARADRIIFORMES,TURNICIDAE,Turnix,castanotus,Turnix castanota |Turnix castanota |Turnix castanota |Turnix castanota |Turnix castanota |Turnix castanota ,"Chestnut-backed Buttonquail, Chestnut-backed Button-quail"
+CHARADRIIFORMES,TURNICIDAE,Turnix,everetti,,Sumba Buttonquail
+CHARADRIIFORMES,TURNICIDAE,Turnix,hottentottus,,"Hottentot Buttonquail, Black-rumped Buttonquail"
+CHARADRIIFORMES,TURNICIDAE,Turnix,maculosus,Turnix maculosa |Turnix maculosa |Turnix maculosa ,"Red-backed Buttonquail, Red-backed Button-quail"
+CHARADRIIFORMES,TURNICIDAE,Turnix,melanogaster,,"Black-breasted Buttonquail, Black-breasted Button-quail"
+CHARADRIIFORMES,TURNICIDAE,Turnix,nanus,,Black-rumped Buttonquail
+CHARADRIIFORMES,TURNICIDAE,Turnix,nigricollis,,Madagascar Buttonquail
+CHARADRIIFORMES,TURNICIDAE,Turnix,novaecaledoniae,,New Caledonian Buttonquail
+CHARADRIIFORMES,TURNICIDAE,Turnix,ocellatus,Turnix ocellata |Turnix ocellata ,Spotted Buttonquail
+CHARADRIIFORMES,TURNICIDAE,Turnix,olivii,Turnix olivei olivei,"Buff-breasted Buttonquail, Buff-breasted Button-quail"
+CHARADRIIFORMES,TURNICIDAE,Turnix,pyrrhothorax,,"Red-chested Buttonquail, Red-chested Button-quail"
+CHARADRIIFORMES,TURNICIDAE,Turnix,suscitator,,Barred Buttonquail
+CHARADRIIFORMES,TURNICIDAE,Turnix,sylvaticus,Turnix sylvatica |Turnix sylvatica |Turnix sylvatica |Turnix sylvatica ,"Common Buttonquail, Kurrichane Buttonquail, Andalusian Hemipode"
+CHARADRIIFORMES,TURNICIDAE,Turnix,tanki,,Yellow-legged Buttonquail
+CHARADRIIFORMES,TURNICIDAE,Turnix,varius,,Painted Buttonquail
+CHARADRIIFORMES,TURNICIDAE,Turnix,velox,,"Little Buttonquail, Little Button-quail"
+CHARADRIIFORMES,TURNICIDAE,Turnix,worcesteri,,"Luzon Buttonquail, Worcester's Buttonquail"
+PELECANIFORMES,ARDEIDAE,Agamia,agami,,Agami Heron
+PELECANIFORMES,ARDEIDAE,Ardea,alba,Ardea alba|Ardea alba|Ardea alba|Casmerodius albus|Egretta alba|Egretta alba|Egretta alba|Egretta alba,"Great White Egret, Great White Heron, Great White Egret"
+PELECANIFORMES,ARDEIDAE,Ardea,brachyrhyncha,,Yellow-billed Egret
+PELECANIFORMES,ARDEIDAE,Ardea,cinerea,,"Grey Heron, Gray Heron"
+PELECANIFORMES,ARDEIDAE,Ardea,cocoi,,Cocoi Heron
+PELECANIFORMES,ARDEIDAE,Ardea,goliath,,Goliath Heron
+PELECANIFORMES,ARDEIDAE,Ardea,herodias,,Great Blue Heron
+PELECANIFORMES,ARDEIDAE,Ardea,humbloti,,"Madagascar Heron, Humblot's Heron"
+PELECANIFORMES,ARDEIDAE,Ardea,insignis,Ardea imperialis imperialis,"White-bellied Heron, Imperial Heron"
+PELECANIFORMES,ARDEIDAE,Ardea,intermedia,,Intermediate Egret
+PELECANIFORMES,ARDEIDAE,Ardea,melanocephala,,Black-headed Heron
+PELECANIFORMES,ARDEIDAE,Ardea,pacifica,,"White-necked Heron, Pacific Heron"
+PELECANIFORMES,ARDEIDAE,Ardea,plumifera,,Plumed Egret
+PELECANIFORMES,ARDEIDAE,Ardea,purpurea,,Purple Heron
+PELECANIFORMES,ARDEIDAE,Ardea,sumatrana,,Great-billed Heron
+PELECANIFORMES,ARDEIDAE,Ardeola,bacchus,,"Chinese Pond-heron, Chinese Pond Heron, Chinese Pond-Heron"
+PELECANIFORMES,ARDEIDAE,Ardeola,grayii,,"Indian Pond-heron, Indian Pond Heron, Indian Pond-Heron"
+PELECANIFORMES,ARDEIDAE,Ardeola,idae,,"Madagascar Pond-heron, Madagascar Squacco Heron, Madagascar Pond-Heron, Malagasy Pond Heron"
+PELECANIFORMES,ARDEIDAE,Ardeola,ralloides,,"Squacco Heron, Common Squacco Heron"
+PELECANIFORMES,ARDEIDAE,Ardeola,rufiventris,,Rufous-bellied Heron
+PELECANIFORMES,ARDEIDAE,Ardeola,speciosa,,"Javan Pond-heron, Javan Pond Heron, Javan Pond-Heron"
+PELECANIFORMES,ARDEIDAE,Botaurus,lentiginosus,,American Bittern
+PELECANIFORMES,ARDEIDAE,Botaurus,pinnatus,,Pinnated Bittern
+PELECANIFORMES,ARDEIDAE,Botaurus,poiciloptilus,,Australasian Bittern
+PELECANIFORMES,ARDEIDAE,Botaurus,stellaris,,"Eurasian Bittern, Eurasian Bittern, Common Bittern, Bittern"
+PELECANIFORMES,ARDEIDAE,Bubulcus,ibis,Ardea ibis ibis|Ardea ibis ibis|Ardeola ibis ibis,Cattle Egret
+PELECANIFORMES,ARDEIDAE,Butorides,striata,Butorides virescens,Green-backed Heron
+PELECANIFORMES,ARDEIDAE,Calherodius,leuconotus,Gorsachius leuconotus,"White-backed Night-heron, White-backed Night-Heron, White-backed Night Heron"
+PELECANIFORMES,ARDEIDAE,Cochlearius,cochlearius,Cochlearius cochlearia cochlearius|Cochlearius cochlearia cochlearius,Boat-billed Heron
+PELECANIFORMES,ARDEIDAE,Egretta,ardesiaca,,"Black Heron, Black Egret"
+PELECANIFORMES,ARDEIDAE,Egretta,caerulea,Florida caerulea caerulea,Little Blue Heron
+PELECANIFORMES,ARDEIDAE,Egretta,eulophotes,,Chinese Egret
+PELECANIFORMES,ARDEIDAE,Egretta,garzetta,,Little Egret
+PELECANIFORMES,ARDEIDAE,Egretta,gularis,Egretta dimorpha,"Western Reef-egret, Reef Heron"
+PELECANIFORMES,ARDEIDAE,Egretta,novaehollandiae,Ardea novaehollandiae novaehollandiae,White-faced Heron
+PELECANIFORMES,ARDEIDAE,Egretta,picata,Ardea picata|Egretta picata picata,Pied Heron
+PELECANIFORMES,ARDEIDAE,Egretta,rufescens,Hydranassa rufescens rufescens,Reddish Egret
+PELECANIFORMES,ARDEIDAE,Egretta,sacra,,"Pacific Reef-egret, Pacific Reef-Egret, Eastern Reef Egret, Pacific Reef Heron, Reef Heron"
+PELECANIFORMES,ARDEIDAE,Egretta,thula,,Snowy Egret
+PELECANIFORMES,ARDEIDAE,Egretta,tricolor,Hydranassa tricolor tricolor,"Tricolored Heron, Tricolored Heron"
+PELECANIFORMES,ARDEIDAE,Egretta,vinaceigula,,Slaty Egret
+PELECANIFORMES,ARDEIDAE,Gorsachius,goisagi,,"Japanese Night-heron, Japanese Night Heron, Japanese Night-Heron"
+PELECANIFORMES,ARDEIDAE,Gorsachius,magnificus,,"White-eared Night-heron, White-eared Night Heron, White-eared Night-Heron"
+PELECANIFORMES,ARDEIDAE,Gorsachius,melanolophus,Gorsachius melanophus melanophus,"Malay Night-heron, Malayan Night-Heron, Malayan Night Heron"
+PELECANIFORMES,ARDEIDAE,Ixobrychus,cinnamomeus,,Cinnamon Bittern
+PELECANIFORMES,ARDEIDAE,Ixobrychus,dubius,,Australian Little Bittern
+PELECANIFORMES,ARDEIDAE,Ixobrychus,eurhythmus,,"Schrenck's Bittern, Schrenk's Bittern, Schrenck's Little Bittern, Von Schrenck's Bittern"
+PELECANIFORMES,ARDEIDAE,Ixobrychus,exilis,,Least Bittern
+PELECANIFORMES,ARDEIDAE,Ixobrychus,flavicollis,Dupetor flavicollis flavicollis,Black Bittern
+PELECANIFORMES,ARDEIDAE,Ixobrychus,involucris,,Stripe-backed Bittern
+PELECANIFORMES,ARDEIDAE,Ixobrychus,minutus,,"Common Little Bittern, Little Bittern"
+PELECANIFORMES,ARDEIDAE,Ixobrychus,novaezelandiae,,"New Zealand Little Bittern, New Zealand Little Bittern, New Zealand Bittern"
+PELECANIFORMES,ARDEIDAE,Ixobrychus,sinensis,,Yellow Bittern
+PELECANIFORMES,ARDEIDAE,Ixobrychus,sturmii,Ardeirallus sturmii sturmii,Dwarf Bittern
+PELECANIFORMES,ARDEIDAE,Nyctanassa,carcinocatactes,,Bermuda Night-heron
+PELECANIFORMES,ARDEIDAE,Nyctanassa,violacea,Nycticorax violaceus violaceus,"Yellow-crowned Night-heron, Yellow-crowned Night Heron, Yellow-crowned Night-Heron"
+PELECANIFORMES,ARDEIDAE,Nycticorax,caledonicus,,"Rufous Night-heron, Nankeen Night Heron, Nankeen Night-Heron, Rufous Night Heron, Rufous Night-Heron"
+PELECANIFORMES,ARDEIDAE,Nycticorax,duboisi,,"Reunion Night-heron, Réunion Night-Heron"
+PELECANIFORMES,ARDEIDAE,Nycticorax,mauritianus,,"Mauritius Night-heron, Mauritius Night-Heron"
+PELECANIFORMES,ARDEIDAE,Nycticorax,megacephalus,,"Rodrigues Night-heron, Rodrigues Night-Heron"
+PELECANIFORMES,ARDEIDAE,Nycticorax,nycticorax,,"Black-crowned Night-heron, Black-crowned Night-Heron., Black-crowned Night-Heron, Black-crowned Night Heron, Night Heron"
+PELECANIFORMES,ARDEIDAE,Pilherodius,pileatus,Nycticorax pileatus pileatus,Capped Heron
+PELECANIFORMES,ARDEIDAE,Syrigma,sibilatrix,,Whistling Heron
+PELECANIFORMES,ARDEIDAE,Tigriornis,leucolopha,Tigriornis leucolophus |Tigriornis leucolophus |Tigriornis leucolophus |Tigriornis leucolophus ,"White-crested Tiger-heron, White-crested Tiger Heron, White-crested Bittern"
+PELECANIFORMES,ARDEIDAE,Tigrisoma,fasciatum,,"Fasciated Tiger-heron, Fasciated Tiger Heron, Fasciated Tiger-Heron"
+PELECANIFORMES,ARDEIDAE,Tigrisoma,lineatum,,"Rufescent Tiger-heron, Rufescent Tiger Heron, Rufescent Tiger-Heron"
+PELECANIFORMES,ARDEIDAE,Tigrisoma,mexicanum,,"Bare-throated Tiger-heron, Bare-throated Tiger Heron, Bare-throated Tiger-Heron"
+PELECANIFORMES,ARDEIDAE,Zebrilus,undulatus,,Zigzag Heron
+PELECANIFORMES,ARDEIDAE,Zonerodius,heliosylus,,Forest Bittern
+PELECANIFORMES,BALAENICIPITIDAE,Balaeniceps,rex,,"Shoebill, Whale-headed Stork"
+PELECANIFORMES,PELECANIDAE,Pelecanus,conspicillatus,,Australian Pelican
+PELECANIFORMES,PELECANIDAE,Pelecanus,crispus,,Dalmatian Pelican
+PELECANIFORMES,PELECANIDAE,Pelecanus,erythrorhynchos,,American White Pelican
+PELECANIFORMES,PELECANIDAE,Pelecanus,occidentalis,,Brown Pelican
+PELECANIFORMES,PELECANIDAE,Pelecanus,onocrotalus,,"Great White Pelican, White Pelican"
+PELECANIFORMES,PELECANIDAE,Pelecanus,philippensis,,"Spot-billed Pelican, Grey Pelican"
+PELECANIFORMES,PELECANIDAE,Pelecanus,rufescens,,Pink-backed Pelican
+PELECANIFORMES,PELECANIDAE,Pelecanus,thagus,,Peruvian Pelican
+PELECANIFORMES,SCOPIDAE,Scopus,umbretta,,Hamerkop
+PELECANIFORMES,THRESKIORNITHIDAE,Bostrychia,bocagei,,"Dwarf Ibis, Sao Tome Ibis"
+PELECANIFORMES,THRESKIORNITHIDAE,Bostrychia,carunculata,,Wattled Ibis
+PELECANIFORMES,THRESKIORNITHIDAE,Bostrychia,hagedash,,"Hadada Ibis, Hadada"
+PELECANIFORMES,THRESKIORNITHIDAE,Bostrychia,olivacea,,"Olive Ibis, Olive Ibis"
+PELECANIFORMES,THRESKIORNITHIDAE,Bostrychia,rara,,Spot-breasted Ibis
+PELECANIFORMES,THRESKIORNITHIDAE,Cercibis,oxycerca,,Sharp-tailed Ibis
+PELECANIFORMES,THRESKIORNITHIDAE,Eudocimus,albus,,"White Ibis, American White Ibis"
+PELECANIFORMES,THRESKIORNITHIDAE,Eudocimus,ruber,,Scarlet Ibis
+PELECANIFORMES,THRESKIORNITHIDAE,Geronticus,calvus,,"Southern Bald Ibis, Bald Ibis"
+PELECANIFORMES,THRESKIORNITHIDAE,Geronticus,eremita,,"Northern Bald Ibis, Waldrapp, Bald Ibis, Hermit Ibis"
+PELECANIFORMES,THRESKIORNITHIDAE,Lophotibis,cristata,,"Madagascar Crested Ibis, White-winged Ibis, Madagascar Ibis"
+PELECANIFORMES,THRESKIORNITHIDAE,Mesembrinibis,cayennensis,,Green Ibis
+PELECANIFORMES,THRESKIORNITHIDAE,Nipponia,nippon,,"Asian Crested Ibis, Japanese Crested Ibis, Crested Ibis"
+PELECANIFORMES,THRESKIORNITHIDAE,Phimosus,infuscatus,,"Bare-faced Ibis, Whispering Ibis"
+PELECANIFORMES,THRESKIORNITHIDAE,Platalea,ajaja,Ajaia ajaja ajaja|Ajaia ajaja ajaja,Roseate Spoonbill
+PELECANIFORMES,THRESKIORNITHIDAE,Platalea,alba,,African Spoonbill
+PELECANIFORMES,THRESKIORNITHIDAE,Platalea,flavipes,,Yellow-billed Spoonbill
+PELECANIFORMES,THRESKIORNITHIDAE,Platalea,leucorodia,,"Eurasian Spoonbill, Spoonbill, European Spoonbill"
+PELECANIFORMES,THRESKIORNITHIDAE,Platalea,minor,,Black-faced Spoonbill
+PELECANIFORMES,THRESKIORNITHIDAE,Platalea,regia,,Royal Spoonbill
+PELECANIFORMES,THRESKIORNITHIDAE,Plegadis,chihi,,White-faced Ibis
+PELECANIFORMES,THRESKIORNITHIDAE,Plegadis,falcinellus,,Glossy Ibis
+PELECANIFORMES,THRESKIORNITHIDAE,Plegadis,ridgwayi,,Puna Ibis
+PELECANIFORMES,THRESKIORNITHIDAE,Pseudibis,davisoni,,"White-shouldered Ibis, Black Ibis"
+PELECANIFORMES,THRESKIORNITHIDAE,Pseudibis,papillosa,,Red-naped Ibis
+PELECANIFORMES,THRESKIORNITHIDAE,Thaumatibis,gigantea,Pseudibis gigantea gigantea|Pseudibis gigantea gigantea|Pseudibis gigantea gigantea,Giant Ibis
+PELECANIFORMES,THRESKIORNITHIDAE,Theristicus,branickii,,Andean Ibis
+PELECANIFORMES,THRESKIORNITHIDAE,Theristicus,caerulescens,Harpiprion caerulescens caerulescens,Plumbeous Ibis
+PELECANIFORMES,THRESKIORNITHIDAE,Theristicus,caudatus,,Buff-necked Ibis
+PELECANIFORMES,THRESKIORNITHIDAE,Theristicus,melanopis,,Black-faced Ibis
+PELECANIFORMES,THRESKIORNITHIDAE,Threskiornis,aethiopicus,,"African Sacred Ibis, Sacred Ibis"
+PELECANIFORMES,THRESKIORNITHIDAE,Threskiornis,bernieri,,Madagascar Sacred Ibis
+PELECANIFORMES,THRESKIORNITHIDAE,Threskiornis,melanocephalus,,Black-headed Ibis
+PELECANIFORMES,THRESKIORNITHIDAE,Threskiornis,moluccus,Threskiornis molucca,"Australian Ibis, Australian White Ibis, Australian Ibis, White Ibis"
+PELECANIFORMES,THRESKIORNITHIDAE,Threskiornis,solitarius,Raphus solitarius ,"Reunion Ibis, Réunion Ibis, Réunion Flightless Ibis, Réunion Solitaire"
+PELECANIFORMES,THRESKIORNITHIDAE,Threskiornis,spinicollis,,Straw-necked Ibis
+PROCELLARIIFORMES,DIOMEDEIDAE,Diomedea,amsterdamensis,,"Amsterdam Albatross, Amsterdam Island Albatross"
+PROCELLARIIFORMES,DIOMEDEIDAE,Diomedea,antipodensis,,Antipodean Albatross
+PROCELLARIIFORMES,DIOMEDEIDAE,Diomedea,dabbenena,Diomedea chionoptera chionoptera,Tristan Albatross
+PROCELLARIIFORMES,DIOMEDEIDAE,Diomedea,epomophora,,"Southern Royal Albatross, Royal Albatross"
+PROCELLARIIFORMES,DIOMEDEIDAE,Diomedea,exulans,,Wandering Albatross
+PROCELLARIIFORMES,DIOMEDEIDAE,Diomedea,sanfordi,,Northern Royal Albatross
+PROCELLARIIFORMES,DIOMEDEIDAE,Phoebastria,albatrus,Diomedea albatrus albatrus|Diomedea albatrus albatrus|Diomedea albatrus albatrus|Diomedea albatrus albatrus,Short-tailed Albatross
+PROCELLARIIFORMES,DIOMEDEIDAE,Phoebastria,immutabilis,Diomedea immutabilis immutabilis|Diomedea immutabilis immutabilis,Laysan Albatross
+PROCELLARIIFORMES,DIOMEDEIDAE,Phoebastria,irrorata,Diomedea irrorata irrorata|Diomedea irrorata irrorata|Diomedea irrorata irrorata|Diomedea irrorata irrorata,Waved Albatross
+PROCELLARIIFORMES,DIOMEDEIDAE,Phoebastria,nigripes,Diomedea nigripes nigripes|Diomedea nigripes nigripes|Diomedea nigripes nigripes|Diomedea nigripes nigripes,Black-footed Albatross
+PROCELLARIIFORMES,DIOMEDEIDAE,Phoebetria,fusca,,"Sooty Albatross, Dark-mantled Sooty Albatross"
+PROCELLARIIFORMES,DIOMEDEIDAE,Phoebetria,palpebrata,,"Light-mantled Albatross, Light-mantled Sooty Albatross"
+PROCELLARIIFORMES,DIOMEDEIDAE,Thalassarche,bulleri,Diomedea bulleri bulleri|Diomedea bulleri bulleri|Diomedea bulleri bulleri|Diomedea bulleri bulleri|Diomedea bulleri bulleri,"Buller's Albatross, Buller's Mollymawk"
+PROCELLARIIFORMES,DIOMEDEIDAE,Thalassarche,carteri,,Indian Yellow-nosed Albatross
+PROCELLARIIFORMES,DIOMEDEIDAE,Thalassarche,cauta,,Shy Albatross
+PROCELLARIIFORMES,DIOMEDEIDAE,Thalassarche,chlororhynchos,,"Atlantic Yellow-nosed Albatross, Yellow-nosed Albatross"
+PROCELLARIIFORMES,DIOMEDEIDAE,Thalassarche,chrysostoma,Diomedea chrysostoma chrysostoma|Diomedea chrysostoma chrysostoma|Diomedea chrysostoma chrysostoma|Diomedea chrysostoma chrysostoma|Diomedea chrysostoma chrysostoma|Diomedea chrysostoma chrysostoma|Diomedea chrysostoma chrysostoma,"Grey-headed Albatross, Grey-headed Mollymawk, Gray-headed Albatross"
+PROCELLARIIFORMES,DIOMEDEIDAE,Thalassarche,eremita,,Chatham Albatross
+PROCELLARIIFORMES,DIOMEDEIDAE,Thalassarche,impavida,,Campbell Albatross
+PROCELLARIIFORMES,DIOMEDEIDAE,Thalassarche,melanophris,Thalassarche melanophrys|Thalassarche melanophris melanophris,Black-browed Albatross
+PROCELLARIIFORMES,DIOMEDEIDAE,Thalassarche,salvini,,Salvin's Albatross
+PROCELLARIIFORMES,DIOMEDEIDAE,Thalassarche,steadi,,White-capped Albatross
+PROCELLARIIFORMES,HYDROBATIDAE,Hydrobates,castro,Oceanodroma castro,"Band-rumped Storm-petrel, Band-rumped Storm-Petrel"
+PROCELLARIIFORMES,HYDROBATIDAE,Hydrobates,furcatus,Oceanodroma furcata,"Fork-tailed Storm-petrel, Fork-tailed Storm Petrel, Fork-tailed Storm-Petrel"
+PROCELLARIIFORMES,HYDROBATIDAE,Hydrobates,homochroa,Oceanodroma homochroa,"Ashy Storm-petrel, Ashy Storm Petrel, Ashy Storm-Petrel"
+PROCELLARIIFORMES,HYDROBATIDAE,Hydrobates,hornbyi,Oceanodroma hornbyi,"Ringed Storm-petrel, Hornby's Storm Petrel, Ringed Storm-Petrel"
+PROCELLARIIFORMES,HYDROBATIDAE,Hydrobates,leucorhous,Hydrobates leucorhoa leucorhoa|Oceanodroma leucorhoa,"Leach's Storm-petrel, Leach's Storm-Petrel, Leach's Storm Petrel"
+PROCELLARIIFORMES,HYDROBATIDAE,Hydrobates,macrodactylus,Oceanodroma macrodactyla,"Guadalupe Storm-petrel, Guadalupe Storm Petrel, Guadalupe Storm-Petrel"
+PROCELLARIIFORMES,HYDROBATIDAE,Hydrobates,markhami,Oceanodroma markhami,"Markham's Storm-petrel, Markham's Storm Petrel, Markham's Storm-Petrel"
+PROCELLARIIFORMES,HYDROBATIDAE,Hydrobates,matsudairae,Hydrobates matsudairae matsudairae|Oceanodroma matsudairae,"Matsudaira's Storm-petrel, Matsudaira's Storm-Petrel, Matsudaira's Storm Petrel"
+PROCELLARIIFORMES,HYDROBATIDAE,Hydrobates,melania,Oceanodroma melania,"Black Storm-petrel, Black Storm Petrel, Black Storm-Petrel"
+PROCELLARIIFORMES,HYDROBATIDAE,Hydrobates,microsoma,Halocyptena microsoma|Oceanodroma microsoma|Oceanodroma microsoma|Oceanodroma microsoma|Oceanodroma microsoma,"Least Storm-petrel, Least Storm Petrel, Least Storm-Petrel"
+PROCELLARIIFORMES,HYDROBATIDAE,Hydrobates,monorhis,Hydrobates monorhis monorhis|Oceanodroma monorhis,"Swinhoe's Storm-petrel, Swinhoe's Storm-Petrel, Swinhoe's Storm Petrel"
+PROCELLARIIFORMES,HYDROBATIDAE,Hydrobates,monteiroi,Oceanodroma monteiroi,Monteiro's Storm-petrel 
+PROCELLARIIFORMES,HYDROBATIDAE,Hydrobates,pelagicus,,"European Storm-petrel, European Storm-Petrel, European Storm Petrel, British Storm Petrel, Storm Petrel"
+PROCELLARIIFORMES,HYDROBATIDAE,Hydrobates,tethys,Oceanodroma tethys,"Wedge-rumped Storm-petrel, Wedge-rumped Storm Petrel, Wedge-rumped Storm-Petrel"
+PROCELLARIIFORMES,HYDROBATIDAE,Hydrobates,tristrami,Hydrobates tristrami tristrami|Oceanodroma tristrami,"Tristram's Storm-petrel, Tristram's Storm Petrel, Tristram's Storm-Petrel"
+PROCELLARIIFORMES,OCEANITIDAE,Fregetta,grallaria,,"White-bellied Storm-petrel, White-bellied Storm-Petrel, White-bellied Storm Petrel"
+PROCELLARIIFORMES,OCEANITIDAE,Fregetta,maoriana,Oceanites maorianus,"New Zealand Storm-petrel , New Zealand Storm Petrel"
+PROCELLARIIFORMES,OCEANITIDAE,Fregetta,tropica,,"Black-bellied Storm-petrel, Black-bellied Storm-Petrel, Black-bellied Storm Petrel"
+PROCELLARIIFORMES,OCEANITIDAE,Garrodia,nereis,Oceanites nereis nereis,"Grey-backed Storm-petrel, Grey-backed Storm Petrel, Gray-backed Storm-Petrel, Grey-backed Storm-Petrel"
+PROCELLARIIFORMES,OCEANITIDAE,Nesofregetta,fuliginosa,,"Polynesian Storm-petrel, Polynesian Storm-Petrel, Polynesian Storm Petrel, White-throated Storm Petrel"
+PROCELLARIIFORMES,OCEANITIDAE,Oceanites,gracilis,,"White-vented Storm-petrel, White-vented Storm Petrel, Elliot's Storm-Petrel, White-vented Storm-Petrel"
+PROCELLARIIFORMES,OCEANITIDAE,Oceanites,oceanicus,,"Wilson's Storm-petrel, Wilson's Storm-Petrel, Wilson's Storm Petrel"
+PROCELLARIIFORMES,OCEANITIDAE,Oceanites,pincoyae,,Pincoya Storm-petrel
+PROCELLARIIFORMES,OCEANITIDAE,Pelagodroma,marina,,"White-faced Storm-petrel, White-faced Storm-Petrel, White-faced Storm Petrel"
+PROCELLARIIFORMES,PROCELLARIIDAE,Aphrodroma,brevirostris,Aphrodroma brevirostris |Lugensa brevirostris|Pterodroma brevirostris|Pterodroma brevirostris|Pterodroma brevirostris|Pterodroma brevirostris,Kerguelen Petrel
+PROCELLARIIFORMES,PROCELLARIIDAE,Ardenna,bulleri,Ardenna bulleri bulleri|Puffinus bulleri,Buller's Shearwater
+PROCELLARIIFORMES,PROCELLARIIDAE,Ardenna,carneipes,Ardenna carneipes carneipes|Puffinus carneipes,Flesh-footed Shearwater
+PROCELLARIIFORMES,PROCELLARIIDAE,Ardenna,creatopus,Ardenna creatopus creatopus|Puffinus creatopus,Pink-footed Shearwater
+PROCELLARIIFORMES,PROCELLARIIDAE,Ardenna,gravis,Ardenna gravis gravis|Puffinus gravis,"Great Shearwater, Greater Shearwater"
+PROCELLARIIFORMES,PROCELLARIIDAE,Ardenna,grisea,Ardenna grisea grisea|Puffinus griseus,Sooty Shearwater
+PROCELLARIIFORMES,PROCELLARIIDAE,Ardenna,pacifica,Ardenna pacifica pacifica|Puffinus pacificus,Wedge-tailed Shearwater
+PROCELLARIIFORMES,PROCELLARIIDAE,Ardenna,tenuirostris,Ardenna tenuirostris tenuirostris|Puffinus tenuirostris,Short-tailed Shearwater
+PROCELLARIIFORMES,PROCELLARIIDAE,Bulweria,bifax,,"Small St Helena Petrel, St. Helena Bulwer's Petrel"
+PROCELLARIIFORMES,PROCELLARIIDAE,Bulweria,bulwerii,,Bulwer's Petrel
+PROCELLARIIFORMES,PROCELLARIIDAE,Bulweria,fallax,,Jouanin's Petrel
+PROCELLARIIFORMES,PROCELLARIIDAE,Calonectris,borealis,,Cory's Shearwater
+PROCELLARIIFORMES,PROCELLARIIDAE,Calonectris,diomedea,,Scopoli's Shearwater
+PROCELLARIIFORMES,PROCELLARIIDAE,Calonectris,edwardsii,,Cape Verde Shearwater
+PROCELLARIIFORMES,PROCELLARIIDAE,Calonectris,leucomelas,,Streaked Shearwater
+PROCELLARIIFORMES,PROCELLARIIDAE,Daption,capense,,"Cape Petrel, Pintado Petrel, Cape Pigeon"
+PROCELLARIIFORMES,PROCELLARIIDAE,Fulmarus,glacialis,,"Northern Fulmar, Fulmar"
+PROCELLARIIFORMES,PROCELLARIIDAE,Fulmarus,glacialoides,,"Southern Fulmar, Antarctic Fulmar"
+PROCELLARIIFORMES,PROCELLARIIDAE,Halobaena,caerulea,,Blue Petrel
+PROCELLARIIFORMES,PROCELLARIIDAE,Macronectes,giganteus,,"Southern Giant Petrel, Antarctic Giant-Petrel, Southern Giant Petrel, Southern Giant-Petrel"
+PROCELLARIIFORMES,PROCELLARIIDAE,Macronectes,halli,,"Northern Giant Petrel, Hall's Giant-Petrel, Northern Giant Petrel, Northern Giant-Petrel"
+PROCELLARIIFORMES,PROCELLARIIDAE,Pachyptila,belcheri,,"Slender-billed Prion, Slender-billed Prion"
+PROCELLARIIFORMES,PROCELLARIIDAE,Pachyptila,crassirostris,,Fulmar Prion
+PROCELLARIIFORMES,PROCELLARIIDAE,Pachyptila,desolata,,"Antarctic Prion, Dove Prion"
+PROCELLARIIFORMES,PROCELLARIIDAE,Pachyptila,salvini,,"Salvin's Prion, Salvin's Prion"
+PROCELLARIIFORMES,PROCELLARIIDAE,Pachyptila,turtur,,Fairy Prion
+PROCELLARIIFORMES,PROCELLARIIDAE,Pachyptila,vittata,,Broad-billed Prion
+PROCELLARIIFORMES,PROCELLARIIDAE,Pagodroma,nivea,,Snow Petrel
+PROCELLARIIFORMES,PROCELLARIIDAE,Pelecanoides,garnotii,Pelecanoides garnoti garnoti,"Peruvian Diving-petrel, Peruvian Diving Petrel, Peruvian Diving-Petrel"
+PROCELLARIIFORMES,PROCELLARIIDAE,Pelecanoides,georgicus,,"South Georgia Diving-petrel, South Georgia Diving-Petrel, South Georgia Diving Petrel, South Georgian Diving Petrel, South Georgian Diving-Petrel"
+PROCELLARIIFORMES,PROCELLARIIDAE,Pelecanoides,magellani,,"Magellanic Diving-petrel, Magellanic Diving Petrel, Magellanic Diving-Petrel"
+PROCELLARIIFORMES,PROCELLARIIDAE,Pelecanoides,urinatrix,,"Common Diving-petrel, Common Diving Petrel, Common Diving-Petrel"
+PROCELLARIIFORMES,PROCELLARIIDAE,Procellaria,aequinoctialis,,White-chinned Petrel
+PROCELLARIIFORMES,PROCELLARIIDAE,Procellaria,cinerea,,"Grey Petrel, Pediunker, Grey Shearwater, Gray Petrel"
+PROCELLARIIFORMES,PROCELLARIIDAE,Procellaria,conspicillata,,Spectacled Petrel
+PROCELLARIIFORMES,PROCELLARIIDAE,Procellaria,parkinsoni,,"Black Petrel, Black Petrel, Black (Parkinson's) Petrel"
+PROCELLARIIFORMES,PROCELLARIIDAE,Procellaria,westlandica,,"Westland Petrel, Westland Black Petrel"
+PROCELLARIIFORMES,PROCELLARIIDAE,Pseudobulweria,aterrima,Pterodroma aterrima aterrima|Pterodroma aterrima aterrima|Pterodroma aterrima aterrima|Pterodroma aterrima aterrima,"Mascarene Petrel, Réunion Petrel"
+PROCELLARIIFORMES,PROCELLARIIDAE,Pseudobulweria,becki,Pterodroma becki becki|Pterodroma becki becki|Pterodroma becki becki,Beck's Petrel
+PROCELLARIIFORMES,PROCELLARIIDAE,Pseudobulweria,macgillivrayi,Pterodroma macgillivrayi macgillivrayi|Pterodroma macgillivrayi macgillivrayi|Pterodroma macgillivrayi macgillivrayi,"Fiji Petrel, MacGillivray's Petrel"
+PROCELLARIIFORMES,PROCELLARIIDAE,Pseudobulweria,rostrata,Pterodroma rostrata rostrata|Pterodroma rostrata rostrata,Tahiti Petrel
+PROCELLARIIFORMES,PROCELLARIIDAE,Pterodroma,alba,,Phoenix Petrel
+PROCELLARIIFORMES,PROCELLARIIDAE,Pterodroma,arminjoniana,,"Trindade Petrel, Herald Petrel"
+PROCELLARIIFORMES,PROCELLARIIDAE,Pterodroma,atrata,,Henderson Petrel
+PROCELLARIIFORMES,PROCELLARIIDAE,Pterodroma,axillaris,,"Chatham Petrel, Chatham Islands Petrel, Chatham Island Petrel"
+PROCELLARIIFORMES,PROCELLARIIDAE,Pterodroma,baraui,,Barau's Petrel
+PROCELLARIIFORMES,PROCELLARIIDAE,Pterodroma,brevipes,,Collared Petrel
+PROCELLARIIFORMES,PROCELLARIIDAE,Pterodroma,cahow,,"Bermuda Petrel, Cahow"
+PROCELLARIIFORMES,PROCELLARIIDAE,Pterodroma,caribbaea,,Jamaican Petrel
+PROCELLARIIFORMES,PROCELLARIIDAE,Pterodroma,cervicalis,,"White-necked Petrel, White-naped Petrel"
+PROCELLARIIFORMES,PROCELLARIIDAE,Pterodroma,cookii,Pterodroma cooki cooki|Pterodroma cooki cooki,Cook's Petrel
+PROCELLARIIFORMES,PROCELLARIIDAE,Pterodroma,defilippiana,,"Masatierra Petrel, Masatierra Petrel, Defilippi's Petrel, Defilippe's Petrel, Mas Atierra Petrel"
+PROCELLARIIFORMES,PROCELLARIIDAE,Pterodroma,deserta,,Desertas Petrel
+PROCELLARIIFORMES,PROCELLARIIDAE,Pterodroma,externa,,"Juan Fernandez Petrel, Juan Fernández Petrel"
+PROCELLARIIFORMES,PROCELLARIIDAE,Pterodroma,feae,,Cape Verde Petrel
+PROCELLARIIFORMES,PROCELLARIIDAE,Pterodroma,gouldi,,Grey-faced Petrel
+PROCELLARIIFORMES,PROCELLARIIDAE,Pterodroma,hasitata,,Black-capped Petrel
+PROCELLARIIFORMES,PROCELLARIIDAE,Pterodroma,heraldica,,Herald Petrel
+PROCELLARIIFORMES,PROCELLARIIDAE,Pterodroma,hypoleuca,,Bonin Petrel
+PROCELLARIIFORMES,PROCELLARIIDAE,Pterodroma,incerta,,Atlantic Petrel
+PROCELLARIIFORMES,PROCELLARIIDAE,Pterodroma,inexpectata,,Mottled Petrel
+PROCELLARIIFORMES,PROCELLARIIDAE,Pterodroma,lessonii,Pterodroma lessoni lessoni,White-headed Petrel
+PROCELLARIIFORMES,PROCELLARIIDAE,Pterodroma,leucoptera,,"White-winged Petrel, Collared Petrel"
+PROCELLARIIFORMES,PROCELLARIIDAE,Pterodroma,longirostris,,Stejneger's Petrel
+PROCELLARIIFORMES,PROCELLARIIDAE,Pterodroma,macroptera,,Great-winged Petrel
+PROCELLARIIFORMES,PROCELLARIIDAE,Pterodroma,madeira,,"Zino's Petrel, Freira, Madeira Petrel"
+PROCELLARIIFORMES,PROCELLARIIDAE,Pterodroma,magentae,,"Magenta Petrel, Chatham Island Taiko"
+PROCELLARIIFORMES,PROCELLARIIDAE,Pterodroma,mollis,,Soft-plumaged Petrel
+PROCELLARIIFORMES,PROCELLARIIDAE,Pterodroma,neglecta,,Kermadec Petrel
+PROCELLARIIFORMES,PROCELLARIIDAE,Pterodroma,nigripennis,,Black-winged Petrel
+PROCELLARIIFORMES,PROCELLARIIDAE,Pterodroma,phaeopygia,,"Galapagos Petrel, Galápagos Petrel, Dark-rumped Petrel"
+PROCELLARIIFORMES,PROCELLARIIDAE,Pterodroma,pycrofti,,Pycroft's Petrel
+PROCELLARIIFORMES,PROCELLARIIDAE,Pterodroma,rupinarum,,"Large St Helena Petrel, St Helena Gadfly Petrel"
+PROCELLARIIFORMES,PROCELLARIIDAE,Pterodroma,sandwichensis,,Hawaiian Petrel
+PROCELLARIIFORMES,PROCELLARIIDAE,Pterodroma,solandri,,Providence Petrel
+PROCELLARIIFORMES,PROCELLARIIDAE,Pterodroma,ultima,,Murphy's Petrel
+PROCELLARIIFORMES,PROCELLARIIDAE,Puffinus,assimilis,,Little Shearwater
+PROCELLARIIFORMES,PROCELLARIIDAE,Puffinus,auricularis,,Townsend's Shearwater
+PROCELLARIIFORMES,PROCELLARIIDAE,Puffinus,bailloni,,Tropical Shearwater
+PROCELLARIIFORMES,PROCELLARIIDAE,Puffinus,bannermani,,Bannerman's Shearwater
+PROCELLARIIFORMES,PROCELLARIIDAE,Puffinus,bryani,,Bryan's Shearwater
+PROCELLARIIFORMES,PROCELLARIIDAE,Puffinus,elegans,,Subantarctic Shearwater
+PROCELLARIIFORMES,PROCELLARIIDAE,Puffinus,gavia,,Fluttering Shearwater
+PROCELLARIIFORMES,PROCELLARIIDAE,Puffinus,heinrothi,,Heinroth's Shearwater
+PROCELLARIIFORMES,PROCELLARIIDAE,Puffinus,huttoni,,Hutton's Shearwater
+PROCELLARIIFORMES,PROCELLARIIDAE,Puffinus,lherminieri,,Audubon's Shearwater
+PROCELLARIIFORMES,PROCELLARIIDAE,Puffinus,mauretanicus,,Balearic Shearwater
+PROCELLARIIFORMES,PROCELLARIIDAE,Puffinus,nativitatis,,"Christmas Shearwater, Christmas Shearwater"
+PROCELLARIIFORMES,PROCELLARIIDAE,Puffinus,newelli,,"Newell's Shearwater, Newell's Shearwater"
+PROCELLARIIFORMES,PROCELLARIIDAE,Puffinus,opisthomelas,,Black-vented Shearwater
+PROCELLARIIFORMES,PROCELLARIIDAE,Puffinus,persicus,,Persian Shearwater
+PROCELLARIIFORMES,PROCELLARIIDAE,Puffinus,puffinus,,Manx Shearwater
+PROCELLARIIFORMES,PROCELLARIIDAE,Puffinus,subalaris,,Galapagos Shearwater
+PROCELLARIIFORMES,PROCELLARIIDAE,Puffinus,yelkouan,,Yelkouan Shearwater
+PROCELLARIIFORMES,PROCELLARIIDAE,Thalassoica,antarctica,,Antarctic Petrel
+SPHENISCIFORMES,SPHENISCIDAE,Aptenodytes,forsteri,,Emperor Penguin
+SPHENISCIFORMES,SPHENISCIDAE,Aptenodytes,patagonicus,,King Penguin
+SPHENISCIFORMES,SPHENISCIDAE,Eudyptes,chrysocome,,"Southern Rockhopper Penguin, Rockhopper Penguin"
+SPHENISCIFORMES,SPHENISCIDAE,Eudyptes,chrysolophus,,Macaroni Penguin
+SPHENISCIFORMES,SPHENISCIDAE,Eudyptes,moseleyi,,Northern Rockhopper Penguin
+SPHENISCIFORMES,SPHENISCIDAE,Eudyptes,pachyrhynchus,,"Fiordland Penguin, Fiordland Crested Penguin"
+SPHENISCIFORMES,SPHENISCIDAE,Eudyptes,robustus,,"Snares Penguin, Snares Islands Penguin, Snares Crested Penguin"
+SPHENISCIFORMES,SPHENISCIDAE,Eudyptes,schlegeli,,Royal Penguin
+SPHENISCIFORMES,SPHENISCIDAE,Eudyptes,sclateri,,"Erect-crested Penguin, Big-crested Penguin"
+SPHENISCIFORMES,SPHENISCIDAE,Eudyptula,minor,,"Little Penguin, Fairy Penguin, Blue Penguin"
+SPHENISCIFORMES,SPHENISCIDAE,Megadyptes,antipodes,,Yellow-eyed Penguin
+SPHENISCIFORMES,SPHENISCIDAE,Pygoscelis,adeliae,,Adelie Penguin
+SPHENISCIFORMES,SPHENISCIDAE,Pygoscelis,antarcticus,Pygoscelis antarctica |Pygoscelis antarctica |Pygoscelis antarctica |Pygoscelis antarctica ,Chinstrap Penguin
+SPHENISCIFORMES,SPHENISCIDAE,Pygoscelis,papua,,Gentoo Penguin
+SPHENISCIFORMES,SPHENISCIDAE,Spheniscus,demersus,,"African Penguin, Jackass Penguin, Black-footed Penguin"
+SPHENISCIFORMES,SPHENISCIDAE,Spheniscus,humboldti,,"Humboldt Penguin, Peruvian Penguin"
+SPHENISCIFORMES,SPHENISCIDAE,Spheniscus,magellanicus,,Magellanic Penguin
+SPHENISCIFORMES,SPHENISCIDAE,Spheniscus,mendiculus,,"Galapagos Penguin, Galápagos Penguin"
+SULIFORMES,ANHINGIDAE,Anhinga,anhinga,,Anhinga
+SULIFORMES,ANHINGIDAE,Anhinga,melanogaster,,"Oriental Darter, Darter, African Darter"
+SULIFORMES,ANHINGIDAE,Anhinga,novaehollandiae,,"Australasian Darter, Australasian Darter"
+SULIFORMES,ANHINGIDAE,Anhinga,rufa,,"African Darter, Darter"
+SULIFORMES,FREGATIDAE,Fregata,andrewsi,,"Christmas Frigatebird, Andrews' Frigatebird, Christmas Frigatebird"
+SULIFORMES,FREGATIDAE,Fregata,aquila,,"Ascension Frigatebird, Ascension Is. Frigatebird"
+SULIFORMES,FREGATIDAE,Fregata,ariel,,Lesser Frigatebird
+SULIFORMES,FREGATIDAE,Fregata,magnificens,,Magnificent Frigatebird
+SULIFORMES,FREGATIDAE,Fregata,minor,,"Great Frigatebird, Great Frigatebird"
+SULIFORMES,PHALACROCORACIDAE,Microcarbo,africanus,Phalacrocorax africanus,"Long-tailed Cormorant, Long-tailed Cormorant"
+SULIFORMES,PHALACROCORACIDAE,Microcarbo,coronatus,Phalacrocorax coronatus,Crowned Cormorant
+SULIFORMES,PHALACROCORACIDAE,Microcarbo,melanoleucos,Microcarbo melanoleucos melanoleucos|Phalacrocorax melanoleucos,"Little Pied Cormorant, Little Shag"
+SULIFORMES,PHALACROCORACIDAE,Microcarbo,niger,Phalacrocorax niger,Little Cormorant
+SULIFORMES,PHALACROCORACIDAE,Microcarbo,pygmaeus,Halietor pygmeus|Phalacrocorax pygmaeus,Pygmy Cormorant
+SULIFORMES,SULIDAE,Morus,bassanus,Sula bassana bassana|Sula bassana bassana,"Northern Gannet, Gannet"
+SULIFORMES,SULIDAE,Morus,capensis,Sula capensis capensis,Cape Gannet
+SULIFORMES,SULIDAE,Morus,serrator,Sula serrator serrator,"Australasian Gannet, Australian Gannet"
+SULIFORMES,SULIDAE,Papasula,abbotti,Sula abbotti abbotti,Abbott's Booby
+PHAETHONTIFORMES,PHAETHONTIDAE,Phaethon,aethereus,,Red-billed Tropicbird
+PHAETHONTIFORMES,PHAETHONTIDAE,Phaethon,lepturus,,White-tailed Tropicbird
+PHAETHONTIFORMES,PHAETHONTIDAE,Phaethon,rubricauda,,Red-tailed Tropicbird
+SULIFORMES,PHALACROCORACIDAE,Phalacrocorax,aristotelis,,"European Shag, Shag"
+SULIFORMES,PHALACROCORACIDAE,Phalacrocorax,atriceps,Leucocarbo atriceps ,Imperial Shag
+SULIFORMES,PHALACROCORACIDAE,Phalacrocorax,auritus,,Double-crested Cormorant
+SULIFORMES,PHALACROCORACIDAE,Phalacrocorax,bougainvilliorum,Phalacrocorax bougainvillii,Guanay Cormorant
+SULIFORMES,PHALACROCORACIDAE,Phalacrocorax,brasilianus,,Neotropical Cormorant
+SULIFORMES,PHALACROCORACIDAE,Phalacrocorax,campbelli,Leucocarbo campbelli campbelli,Campbell Shag
+SULIFORMES,PHALACROCORACIDAE,Phalacrocorax,capensis,,Cape Cormorant
+SULIFORMES,PHALACROCORACIDAE,Phalacrocorax,capillatus,,Japanese Cormorant
+SULIFORMES,PHALACROCORACIDAE,Phalacrocorax,carbo,,"Great Cormorant, Black Shag, Cormorant, White-breasted Cormorant"
+SULIFORMES,PHALACROCORACIDAE,Phalacrocorax,carunculatus,Leucocarbo carunculatus carunculatus,"Rough-faced Shag, Rough-faced Shag"
+SULIFORMES,PHALACROCORACIDAE,Phalacrocorax,chalconotus,Leucocarbo chalconotus chalconotus,"Stewart Shag, Bronze Shag, Bronzed Shag"
+SULIFORMES,PHALACROCORACIDAE,Phalacrocorax,colensoi,Leucocarbo colensoi colensoi,"Auckland Shag, Auckland Island Shag"
+SULIFORMES,PHALACROCORACIDAE,Phalacrocorax,featherstoni,Stictocarbo featherstoni featherstoni,Pitt Shag
+SULIFORMES,PHALACROCORACIDAE,Phalacrocorax,fuscescens,,Black-faced Cormorant
+SULIFORMES,PHALACROCORACIDAE,Phalacrocorax,fuscicollis,,Indian Cormorant
+SULIFORMES,PHALACROCORACIDAE,Phalacrocorax,gaimardi,,Red-legged Cormorant
+SULIFORMES,PHALACROCORACIDAE,Phalacrocorax,harrisi,Nannopterum harrisi harrisi|Nannopterum harrisi harrisi,"Flightless Cormorant, Galapagos Cormorant"
+SULIFORMES,PHALACROCORACIDAE,Phalacrocorax,magellanicus,,"Rock Shag, Magellan Cormorant"
+SULIFORMES,PHALACROCORACIDAE,Phalacrocorax,neglectus,,Bank Cormorant
+SULIFORMES,PHALACROCORACIDAE,Phalacrocorax,nigrogularis,,Socotra Cormorant
+SULIFORMES,PHALACROCORACIDAE,Phalacrocorax,onslowi,Leucocarbo onslowi onslowi,"Chatham Shag, Chatham Shag, Chatham Island Shag"
+SULIFORMES,PHALACROCORACIDAE,Phalacrocorax,pelagicus,,"Pelagic Cormorant, Resplendent cormorant, Baird's cormorant, Pelagic shag, Kenyon's Shag"
+SULIFORMES,PHALACROCORACIDAE,Phalacrocorax,penicillatus,,"Brandt's Cormorant, Townsend's Cormorant, Pencilled Cormorant, Brown Cormorant, Tufted Cormorant"
+SULIFORMES,PHALACROCORACIDAE,Phalacrocorax,perspicillatus,,Spectacled Cormorant
+SULIFORMES,PHALACROCORACIDAE,Phalacrocorax,punctatus,Stictocarbo punctatus punctatus,Spotted Shag
+SULIFORMES,PHALACROCORACIDAE,Phalacrocorax,ranfurlyi,Leucocarbo ranfurlyi ranfurlyi,"Bounty Shag, Bounty Island Shag"
+SULIFORMES,PHALACROCORACIDAE,Phalacrocorax,sulcirostris,,"Little Black Cormorant, Little Black Shag"
+SULIFORMES,PHALACROCORACIDAE,Phalacrocorax,urile,,Red-faced Cormorant
+SULIFORMES,PHALACROCORACIDAE,Phalacrocorax,varius,,"Great Pied Cormorant, Pied Cormorant, Australian Pied Cormorant, Pied Shag"
+SULIFORMES,PHALACROCORACIDAE,Phalacrocorax,verrucosus,,Kerguelen Shag
+SULIFORMES,SULIDAE,Sula,dactylatra,,Masked Booby
+SULIFORMES,SULIDAE,Sula,granti,,Nazca Booby
+SULIFORMES,SULIDAE,Sula,leucogaster,,Brown Booby
+SULIFORMES,SULIDAE,Sula,nebouxii,,Blue-footed Booby
+SULIFORMES,SULIDAE,Sula,sula,,Red-footed Booby
+SULIFORMES,SULIDAE,Sula,variegata,,Peruvian Booby

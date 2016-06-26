@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+{% load staticfiles %}
+<head>
+<script type="text/javascript">               
+        
+        $(document).ready(function () {
+            $('.selectpicker').selectpicker({
+                size: 10,
+                width: 'auto',
+                
+            });
+        });        
+
+
+    </script>
+              
+</head>
+
+<body>
+    <div class="row">
+        <div class="col-md-12">
+            <p><a href="/lifehistory" class="btn btn-primary btn-large">&laquo; Back</a></p>
+        </div>
+        
+        <div class="col-md-2"></div>
+        <div class="col-md-3">
+            <select class="selectpicker show-tick" data-live-search="true">
+                {% for x in species %}                            
+                    <option value="{{x.species_id}}">{{x.common_name_1}}</option>                            
+                {% endfor %}   
+            </select>
+         
+        </div>
+
+        <div class="col-md-2"><h3 style="text-align:center">OR</h3></div>
+
+        <div class="col-md-3">            
+            <select class="selectpicker show-tick" data-live-search="true">
+                {% for x in species %}                            
+                    <option value="{{x.species_id}}">{{x.species_id}}</option>                            
+                {% endfor %}   
+            </select>
+        </div>
+        
+    </div>
+
+    
+
+     
+
+</body>
+</html>
