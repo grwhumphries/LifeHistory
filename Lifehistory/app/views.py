@@ -43,12 +43,22 @@ def lifehistory(request):
 
 def dbsearch(request):
     SpeciesList = Species.objects.all()
+    X = list(set(Species.objects.all().values_list('order')))
+    Y = list(set(Species.objects.all().values_list('family')))
 
-
-    context = RequestContext(request, {'species':SpeciesList})
+    context = RequestContext(request, {'species':SpeciesList,'orders':X,'families':Y})
     template = loader.get_template('app/dbsearch.html')        
     return HttpResponse(template.render(context))
         
     
 def dbadd(request):
-    return render_to_response('app/dbadd.html') 
+    return render_to_response('app/dbadd.html')
+
+
+def searchresult(request):
+    List = Species.objects.filter()
+
+
+
+
+ 

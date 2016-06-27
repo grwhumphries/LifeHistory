@@ -1,13 +1,14 @@
 <!DOCTYPE html>
 <html>
 {% load staticfiles %}
+{% load specialchars %}
 <head>
 <script type="text/javascript">               
         
         $(document).ready(function () {
             $('.selectpicker').selectpicker({
                 size: 10,
-                width: 'auto',
+                width: '75%',
                 
             });
         });        
@@ -19,35 +20,71 @@
 
 <body>
     <div class="row">
-        <div class="col-md-12">
+        <div class="col-md-1">
             <p><a href="/lifehistory" class="btn btn-primary btn-large">&laquo; Back</a></p>
         </div>
+
+        <div class="col-md-10"><h3 style="text-align:center">Select one of the following to query database</h3></div>
+
+        <div class="col-md-1"></div>
+        <div class="col-md-12"></div>
         
-        <div class="col-md-2"></div>
-        <div class="col-md-3">
+        <div class="col-md-1"></div>
+        <div class="col-md-4">
             <select class="selectpicker show-tick" data-live-search="true">
+                <option>Select by common name</option>
                 {% for x in species %}                            
                     <option value="{{x.species_id}}">{{x.common_name_1}}</option>                            
                 {% endfor %}   
-            </select>
+            </select><button type="button" class="btn btn-success" ><span class="glyphicon glyphicon-search"></span> Search</button>
          
         </div>
 
-        <div class="col-md-2"><h3 style="text-align:center">OR</h3></div>
+        <div class="col-md-1"></div>
 
-        <div class="col-md-3">            
+        <div class="col-md-4">            
             <select class="selectpicker show-tick" data-live-search="true">
+                <option>Select by scientific name</option>
                 {% for x in species %}                            
                     <option value="{{x.species_id}}">{{x.species_id}}</option>                            
                 {% endfor %}   
-            </select>
+            </select><button type="button" class="btn btn-success" ><span class="glyphicon glyphicon-search"></span> Search</button>
         </div>
+        <div class="col-md-1"></div>
+
+        <div class="col-md-12"><br /></div>
+
+
+        <div class="col-md-1"></div>
+        <div class="col-md-4">
+            <select class="selectpicker show-tick" data-live-search="true">
+                <option>Select by order</option>
+                {% for a in orders %}                            
+                    <option value="{{ a|ch }}">{{ a|ch }}</option>                            
+                {% endfor %}   
+            </select><button type="button" class="btn btn-success" ><span class="glyphicon glyphicon-search"></span> Search</button>
+         
+        </div>
+
+        <div class="col-md-1"></div>
+
+        <div class="col-md-4">            
+            <select class="selectpicker show-tick" data-live-search="true">
+                <option>Select by family</option>
+                {% for b in families %}                            
+                    <option value="{{ b|ch }}">{{ b|ch }}</option>                            
+                {% endfor %}   
+            </select><button type="button" class="btn btn-success" ><span class="glyphicon glyphicon-search"></span> Search</button>
+        </div>
+        <div class="col-md-1"></div>
         
     </div>
 
+
+
+
+
+
     
-
-     
-
 </body>
 </html>
