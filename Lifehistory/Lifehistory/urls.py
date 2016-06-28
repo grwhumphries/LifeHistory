@@ -19,11 +19,16 @@ urlpatterns = patterns('',
     url(r'^dbadd$','app.views.dbadd',name='dbadd'),
 
     url(r'^species/','app.views.species',name='species'),
-    url(r'^order/','app.views.order',name='order'),
-    
+    url(r'^order/','app.views.order',name='order'),    
     url(r'^commonname/','app.views.commonname',name='commonname'),
-
     url(r'^family/','app.views.family',name='family'),
+    url(r'^gettraits/','app.views.gettraits', name='gettraits'),
+
+    url(r'^downloadall$','app.views.downloadall',name='downloadall'),
+    url(r'^downloadCommon/','app.views.downloadCommon',name='downloadCommon'),
+    url(r'^downloadSpecies/','app.views.downloadSpecies',name='downloadSpecies'),
+    url(r'^downloadOrder/','app.views.downloadOrder',name='downloadOrder'),
+    url(r'^downloadFamily/','app.views.downloadFamily',name='downloadFamily'),
     
 
 

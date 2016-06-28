@@ -33,7 +33,7 @@
         <div class="col-md-4">
             <select class="selectpicker show-tick" data-live-search="true" name="commonSearch" id="commonSearch">
                 <option>Select by common name</option>
-                {% for x in species %}                            
+                {% for x in commonnames %}                            
                     <option value="{{x.common_name_1}}">{{x.common_name_1}}</option>                            
                 {% endfor %}   
             </select><button type="button" class="btn btn-success" id="csbut" onclick="cs()"><span class="glyphicon glyphicon-search"></span> Search</button>
@@ -77,9 +77,11 @@
             </select><button type="button" class="btn btn-success" id="fsbut" onclick="fs()" ><span class="glyphicon glyphicon-search"></span> Search</button>
         </div>
         <div class="col-md-1"></div>
-        
+    
+        <div class="col-md-12"><br /></div>
+        <div class="col-md-12" style="text-align:center"><div id="downloadbutton"></div></div>            
     </div>
-
+    
     <div id="searchresults"></div>
 
 

@@ -91,8 +91,6 @@ class Traits(models.Model):
     username = models.CharField(max_length=30)
     dt = models.CharField(max_length=30)
 
-    def __unicode__(self):
-        return self.species_id
 
 
     class Meta:

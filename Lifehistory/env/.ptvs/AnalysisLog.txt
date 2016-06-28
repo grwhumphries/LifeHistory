@@ -7980,3 +7980,25 @@ C:\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\IDE\Extensions\Micro
 2016-06-27T16:56:39: Saving group "C:\LifeHistory\Lifehistory\env\Lib\site-packages\psycopg2"
 2016-06-27T16:56:39: End of group "C:\LifeHistory\Lifehistory\env\Lib\site-packages\psycopg2"
 2016-06-27T16:56:39: Deleting 0 files
+
+2016-06-28T16:36:14: Start analysis
+2016-06-28T16:36:14: [WARNING] Library was set explicitly - skipping path detection
+2016-06-28T16:36:14: IncludeModulesFromModulePath = win32com
+2016-06-28T16:36:15: Deleting 0 files
+2016-06-28T16:36:15: astropy.CallDepth = 0
+2016-06-28T16:36:15: matplotlib.CallDepth = 3
+2016-06-28T16:36:15: pandas.CallDepth = 0
+2016-06-28T16:36:15: sympy.CallDepth = 0
+2016-06-28T16:36:15: Start group "C:\LifeHistory\Lifehistory\env\Lib\site-packages\djqscsv" with 3 files
+2016-06-28T16:36:16: Parsing "djqscsv.djqscsv" ("C:\LifeHistory\Lifehistory\env\Lib\site-packages\djqscsv\djqscsv.py")
+2016-06-28T16:36:16: Parsing "djqscsv._csql" ("C:\LifeHistory\Lifehistory\env\Lib\site-packages\djqscsv\_csql.py")
+2016-06-28T16:36:16: Parsing "djqscsv" ("C:\LifeHistory\Lifehistory\env\Lib\site-packages\djqscsv\__init__.py")
+2016-06-28T16:36:16: Parsing complete
+2016-06-28T16:36:16: Analyzing "djqscsv.djqscsv"
+2016-06-28T16:36:16: Analyzing "djqscsv._csql"
+2016-06-28T16:36:16: Analyzing "djqscsv"
+2016-06-28T16:36:16: Starting analysis of 3 modules
+2016-06-28T16:36:16: Analysis complete
+2016-06-28T16:36:16: Saving group "C:\LifeHistory\Lifehistory\env\Lib\site-packages\djqscsv"
+2016-06-28T16:36:16: End of group "C:\LifeHistory\Lifehistory\env\Lib\site-packages\djqscsv"
+2016-06-28T16:36:16: Deleting 0 files

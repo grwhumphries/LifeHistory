@@ -28,10 +28,12 @@
     {% if user.is_authenticated %}
     <div class="user"><p style="color:#ffffff">You are logged in as <span style="color:#ffcc00">{{user.username}}</span> on {{day}}/{{month}}/{{year}}</p></div>
     <a href="/">Home</a>
+    
     <div class="logout"><a class="btn btn-default" href="/logout">Log Out &raquo;</a></div> 
     {% else %}
     <a href="{% url 'login' %}" class="top-menu"><span class="glyphicon glyphicon-lock"></span> Login</a>
     {% endif %}
+
 
 </div>
 <div class="container body-content">

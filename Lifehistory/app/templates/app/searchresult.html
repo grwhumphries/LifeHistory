@@ -9,131 +9,72 @@
 <body>
 
     <div class="row">
+        
         <div class="col-md-12"><hr /></div>
-            <table class="table table-condensed table-expandable">
-                <thead>
+            <div id="speciesinfo">
+                <table class="table">
+                    <thead>
                     <tr>
-                        <th>Species information</th>                        
+                        <th>Common Name</th>
+                        <th>Sci Name</th>
+                        <th>Alias</th>
+                        <th>IUCN</th>
+                        <th>Year assessed</th>
+                        <th>Populn trend</th>
+                        <th>Coloniality</th>
+                        <th>Breeding dist</th>
+                        <th>Nest locations</th>
+                        <th>Hatchling type</th>
+                        <th>Other Data</th>
                     </tr>
-                </thead>
-                <tbody>
-                    <tr data-toggle="collapse" data-target="#speciesinfo" style="background-color:#F0F0F0">                        
-                        <td ><button class="btn btn-default btn-xs"><span class="glyphicon glyphicon-eye-open"></span></button></td>                        
-                    </tr>
-                    <tr>
-                        <td>
-                            <div id="speciesinfo">
-                                <table class="table">
-                                    <thead>
-                                    <tr>
-                                        <th>Common Name</th>
-                                        <th>Sci Name</th>
-                                        <th>Alias</th>
-                                        <th>IUCN</th>
-                                        <th>Year assessed</th>
-                                        <th>Populn trend</th>
-                                        <th>Coloniality</th>
-                                        <th>Breeding dist</th>
-                                        <th>Nest locations</th>
-                                        <th>Hatchling type</th>
-                                        <th>Other Data</th>
-                                    </tr>
-                                    </thead>
-                                    <tbody>
-                                    {% for x in LIST %}
-                                        <tr>
-                                            <td>{{x.common_name_1}}</td>
-                                            <td>{{x.species_id}}</td>
-                                            <td>{{x.common_name_2}}</td>
-                                            <td>{{x.iucn_status}}</td>
-                                            <td>{{x.year_assessed}}</td>
-                                            <td>{{x.population_trend}}</td>
-                                            <td>{{x.coloniality}}</td>
-                                            <td>{{x.breeding_dist}}</td>
-                                            <td>{{x.nest_locations}}</td>
-                                            <td>{{x.hatchling_type}}</td>
-                                            {% with "#"|addstr:x.species_id|collapse as MODTARG %}                                            
-                                            <td><button type="button" class="btn btn-info btn-sm" data-toggle="modal" data-target={{MODTARG}}><span class="glyphicon glyphicon-list-alt"></span> View Data</button></td>
-                                            {% endwith %}
-                                        </tr>
-                                    </tbody>
+                    </thead>
+                    <tbody>
+                    {% for x in LIST %}
+                        <tr>
+                            <td>{{x.common_name_1}}</td>
+                            <td>{{x.species_id}}</td>
+                            <td>{{x.common_name_2}}</td>
+                            <td>{{x.iucn_status}}</td>
+                            <td>{{x.year_assessed}}</td>
+                            <td>{{x.population_trend}}</td>
+                            <td>{{x.coloniality}}</td>
+                            <td>{{x.breeding_dist}}</td>
+                            <td>{{x.nest_locations}}</td>
+                            <td>{{x.hatchling_type}}</td>
+                            {% with "#"|addstr:x.species_id|collapse as MODTARG %}                                            
+                            <td><button type="button" class="btn btn-info btn-sm" data-toggle="modal" data-target={{MODTARG}} id="{{x.species_id}}" onclick="gettraits()"><span class="glyphicon glyphicon-list-alt"></span> View Data</button></td>
+                            {% endwith %}
+                        </tr>
+                    </tbody>
                                                                                                                                                                                
-                                    {% endfor %}
-                                </table>
-                            </div>
-                        </td>
-                    </tr>
-
-
-                </tbody>
-
-
-            </table>
+                    {% endfor %}
+                </table>
+            </div>
 
     </div>
 
 {% for x in LIST %}
-    <div class="modal fade" id={{ x.species_id|collapse }} role="dialog">
-<div class="modal-dialog">
+    <div class="modal fade" id={{ x.species_id|collapse }} role="dialog" >
+        <div class="modal-dialog">
     
-                                            <!-- Modal content-->
-                        <div class="modal-content">
-                        <div class="modal-header">
-                            <button type="button" class="close" data-dismiss="modal">&times;</button>
-                            <h4 class="modal-title">Data Source</h4>
-                        </div>
-                        <div class="modal-body">
-                            <table class="table">
-                                <thead>
-                                    <tr>
-                                        <th>female mass</th>
-                                        <th>male mass</th>
-                                        <th>clutch size</th>
-                                        <th>incubation period</th>
-                                        <th>fledging period</th>
-                                        <th>max growth rate</th>
-                                        <th>post fledging care</th>
-                                        <th>age first breeding</th>
-                                        <th>foraging distance</th>
-                                        <th>wingspan</th>
-                                        <th>max age</th>
-                                        <th>annual survival</th>
-                                        <th>citation</th>                                                            
-                                    </tr>
-                                </thead>
-                                <tbody>
-                                    {% for y in TRAITS %}
-                                        <tr>                                                                                                                                                                                          
-                                        <td><table><tr><td>{{y.female_mass_mean}}</td></tr><tr><td>{{y.female_mass_upper}}</td></tr><tr><td>{{y.female_mass_lower}}</td></tr></table></td>
-                                        <td><table><tr><td>{{y.male_mass_mean}}</td></tr><tr><td>{{y.male_mass_upper}}</td></tr><tr><td>{{y.male_mass_lower}}</td></tr></table></td>
-                                        <td><table><tr><td>{{y.clutch_size_mean}}</td></tr><tr><td>{{y.clutch_size_upper}}</td></tr><tr><td>{{y.clutch_size_lower}}</td></tr></table></td>
-                                        <td><table><tr><td>{{y.incubation_mean}}</td></tr><tr><td>{{y.incubation_period_upper}}</td></tr><tr><td>{{y.incubation_period_lower}}</td></tr></table></td>
-                                        <td><table><tr><td>{{y.fledging_period_mean}}</td></tr><tr><td>{{y.fledging_period_upper}}</td></tr><tr><td>{{y.fledging_period_lower}}</td></tr></table></td>
-                                        <td><table><tr><td>{{y.max_growth_mean}}</td></tr><tr><td>{{y.max_growth_upper}}</td></tr><tr><td>{{y.max_growth_lower}}</td></tr></table></td>
-                                        <td><table><tr><td>{{y.post_fledge_care_mean}}</td></tr><tr><td>{{y.post_fledge_care_upper}}</td></tr><tr><td>{{y.post_fledge_care_lower}}</td></tr></table></td>
-                                        <td><table><tr><td>{{y.age_first_breed_mean}}</td></tr><tr><td>{{y.age_first_breed_upper}}</td></tr><tr><td>{{y.age_first_breed_lower}}</td></tr></table></td>
-                                        <td>{{y.foraging_distance}}</td>
-                                        <td><table><tr><td>{{y.wingspan_mean}}</td></tr><tr><td>{{y.wingspan_upper}}</td></tr><tr><td>{{y.wingspan_lower}}</td></tr></table></td>
-                                        <td><table><tr><td>{{y.max_age_mean}}</td></tr><tr><td>{{y.max_age_upper}}</td></tr><tr><td>{{y.max_age_lower}}</td></tr></table></td>
-                                        <td><table><tr><td>{{y.annual_survival_mean}}</td></tr><tr><td>{{y.annual_survival_upper}}</td></tr><tr><td>{{y.annual_survival_lower}}</td></tr></table></td>
-                                        <td>{{y.citation}}</td>
-                                        </tr>
-                                    {% endfor %}
-                                </tbody>
-
-
-
-                            </table>
-                                                                    
-                                                
-                        </div>
-                        <div class="modal-footer">
-                            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-                        </div>
-                        </div>
+                                                    <!-- Modal content-->
+        <div class="modal-content">
+        <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal">&times;</button>
+            <h4 class="modal-title">life history data for {{x.common_name_1}}</h4>
+        </div>
+        <div class="modal-body">
+            {% with x.species_id|collapse|addstr:"div" as DIVID %}
+            <div id="{{DIVID}}"></div>
+            {% endwith %}                                                                                                                    
+        </div>
+        <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal" >Close</button>
+        </div>
+        </div>
       
-                    </div>
-                    </div>                                        
+        </div>
+    </div>                                        
                                         
                                         
 

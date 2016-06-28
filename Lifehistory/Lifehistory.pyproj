@@ -60,12 +60,14 @@
     <Content Include="app\static\app\scripts\OtherScripts.js" />
     <Content Include="app\templates\app\dbadd.html" />
     <Content Include="app\templates\app\dbsearch.html" />
+    <Content Include="app\templates\app\Download.html" />
     <Content Include="app\templates\app\index.html" />
     <Content Include="app\templates\app\layout.html" />
     <Content Include="app\templates\app\lifehistory.html" />
     <Content Include="app\templates\app\login.html" />
     <Content Include="app\templates\app\loginpartial.html" />
     <Content Include="app\templates\app\searchresult.html" />
+    <Content Include="app\templates\app\searchresulttraits.html" />
     <Content Include="requirements.txt" />
     <Content Include="db.sqlite3" />
     <Content Include="app\static\app\content\bootstrap.css" />
