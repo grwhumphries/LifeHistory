@@ -36,10 +36,6 @@ function dataload(URL) {
 }
 
 
-
-
-
-
 function OpenSearch() {
     //JQuery AJax
     $.ajax({

@@ -6,6 +6,13 @@
 }
 
 
+body .modal fade {
+    /* new custom width */
+    width: 1000px;
+    /* must be half of the width, minus scrollbar on the left (30px) */
+    
+}
+
 
 .top {
     position:absolute;

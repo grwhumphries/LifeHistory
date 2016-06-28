@@ -70,8 +70,9 @@ def order(request):
     if request.method == 'GET':
         l = request.GET.get('l', '')        
         List = Species.objects.filter(ord = l)
+        traits = Traits.objects.filter(species__ord = l)
     
-    context = RequestContext(request, {'LIST':List})
+    context = RequestContext(request, {'LIST':List,'TRAITS':traits})
     template = loader.get_template('app/searchresult.html')        
     return HttpResponse(template.render(context))
 
@@ -80,8 +81,9 @@ def family(request):
     if request.method == 'GET':
         l = request.GET.get('l', '')        
         List = Species.objects.filter(fam = l)
+        traits = Traits.objects.filter(species__fam = l)
     
-    context = RequestContext(request, {'LIST':List})
+    context = RequestContext(request, {'LIST':List,'TRAITS':traits})
     template = loader.get_template('app/searchresult.html')        
     return HttpResponse(template.render(context))
 
@@ -89,8 +91,9 @@ def commonname(request):
     if request.method == 'GET':
         l = request.GET.get('l', '')        
         List = Species.objects.filter(common_name_1 = l)
+        traits = Traits.objects.filter(species__common_name_1 = l)
     
-    context = RequestContext(request, {'LIST':List})
+    context = RequestContext(request, {'LIST':List,'TRAITS':traits})
     template = loader.get_template('app/searchresult.html')        
     return HttpResponse(template.render(context))
  
