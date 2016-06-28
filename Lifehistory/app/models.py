@@ -7,30 +7,30 @@ from django.db import models
 # Create your models here.
 
 class Species(models.Model):
-    species_id = models.CharField(primary_key=True, max_length=30)
-    order = models.CharField(blank=True, null=True, max_length=50)
-    family = models.CharField(blank=True, null=True, max_length=50)
-    genus = models.CharField(blank=True, null=True, max_length=50)
-    species = models.CharField(blank=True, null=True, max_length=50)
-    synonyms = models.CharField(blank=True, null=True, max_length=100)
-    common_name_1 = models.CharField(blank=True, null=True, max_length=40)
-    common_name_2 = models.CharField(blank=True, null=True, max_length=40)
-    common_name_3 = models.CharField(blank=True, null=True, max_length=40)
-    common_name_4 = models.CharField(blank=True, null=True, max_length=40)
-    common_name_5 = models.CharField(blank=True, null=True, max_length=40)
-    common_name_6 = models.CharField(blank=True, null=True, max_length=40)
-    iucn_status = models.CharField(blank=True, null=True, max_length=50)
-    red_list_criteria = models.CharField(blank=True, null=True, max_length=50)
-    year_assessed = models.PositiveIntegerField(blank=True, null=True)
-    population_trend = models.CharField(blank=True, null=True, max_length=50)
-    coloniality = models.CharField(blank=True, null=True, max_length=15)
-    breeding_dist = models.CharField(blank=True, null=True, max_length=15)
-    nest_locations = models.CharField(blank=True, null=True, max_length=15)
-    hatchling_type = models.CharField(blank=True, null=True, max_length=15)
+    fid = models.SmallIntegerField()
+    ord = models.CharField(max_length=20, blank=True, null=True)
+    fam = models.CharField(max_length=20, blank=True, null=True)
+    genus = models.CharField(max_length=20)
+    species = models.CharField(max_length=20, blank=True, null=True)
+    species_id = models.CharField(primary_key=True, max_length=40)
+    synonyms = models.CharField(max_length=300, blank=True, null=True)
+    common_name_1 = models.CharField(max_length=40)
+    common_name_2 = models.CharField(max_length=50, blank=True, null=True)
+    common_name_3 = models.CharField(max_length=50, blank=True, null=True)
+    common_name_4 = models.CharField(max_length=50, blank=True, null=True)
+    common_name_5 = models.CharField(max_length=50, blank=True, null=True)
+    common_name_6 = models.CharField(max_length=50, blank=True, null=True)
+    iucn_status = models.CharField(max_length=4, blank=True, null=True)
+    red_list_criteria = models.CharField(max_length=100, blank=True, null=True)
+    year_assessed = models.IntegerField(blank=True, null=True)
+    population_trend = models.CharField(max_length=20, blank=True, null=True)
+    coloniality = models.CharField(max_length=5, blank=True, null=True)
+    breeding_dist = models.CharField(max_length=10, blank=True, null=True)
+    nest_locations = models.CharField(max_length=15, blank=True, null=True)
+    hatchling_type = models.CharField(max_length=5, blank=True, null=True)
 
     def __unicode__(self):
         return self.species_id
-
 
     class Meta:
         db_table = 'species'
@@ -39,74 +39,60 @@ class Species(models.Model):
 
 
 class Traits(models.Model):
-    feature_id = models.AutoField(primary_key=True)
-    spec = models.ForeignKey('Species',blank=True,null=True)
-   
-    female_mass_mean = models.CharField(blank=True, null=True, max_length=5)
-    female_mass_upper = models.CharField(blank=True, null=True, max_length=5)
-    female_mass_lower = models.CharField(blank=True, null=True, max_length=5)
-    female_mass_uncertainty = models.CharField(blank=True, null=True, max_length=10)
-
-    male_mass_mean = models.CharField(blank=True, null=True, max_length=5)
-    male_mass_upper = models.CharField(blank=True, null=True, max_length=5)
-    male_mass_lower = models.CharField(blank=True, null=True, max_length=5)
-    male_mass_uncertainty = models.CharField(blank=True, null=True, max_length=10)    
-    
-    clutch_size_mean = models.CharField(blank=True, null=True, max_length=5)
-    clutch_size_upper = models.CharField(blank=True, null=True, max_length=5)
-    clutch_size_lower = models.CharField(blank=True, null=True, max_length=5)
-    clutch_size_uncertainty = models.CharField(blank=True, null=True, max_length=10)
-    clutch_interval = models.CharField(blank=True, null=True, max_length=15)
-
-    
-    incubation_period_mean = models.CharField(blank=True, null=True, max_length=5)
-    incubation_period_upper = models.CharField(blank=True, null=True, max_length=5)
-    incubation_period_lower = models.CharField(blank=True, null=True, max_length=5)
-    incubation_period_uncertainty = models.CharField(blank=True,null=True, max_length=10)
-
-
-    fledgling_period_mean = models.CharField(blank=True, null=True, max_length=5)
-    fledgling_period_upper = models.CharField(blank=True, null=True, max_length=5)
-    fledgling_period_lower = models.CharField(blank=True, null=True, max_length=5)
-    fledgling_period_uncertainty = models.CharField(blank=True, null=True, max_length=10)
-
-
-    max_growth_rate_mean = models.CharField(blank=True, null=True, max_length=5)
-    max_growth_rate_upper = models.CharField(blank=True, null=True, max_length=5)
-    max_growth_rate_lower = models.CharField(blank=True, null=True, max_length=5)
-    max_growth_rate_uncertainty = models.CharField(blank=True, null = True, max_length=10)
-
-    post_fledging_care_mean = models.CharField(blank=True, null=True, max_length=5)
-    post_fledging_care_upper = models.CharField(blank=True, null=True, max_length=5)
-    post_fledging_care_lower = models.CharField(blank=True, null=True, max_length=5)
-    post_fledging_care_uncertainty = models.CharField(blank=True,null=True, max_length=10)
-    
-    age_first_breeding_mean = models.IntegerField(blank=True, null=True)
-    age_first_breeding_upper = models.IntegerField(blank=True, null=True)
-    age_first_breeding_lower = models.IntegerField(blank=True, null=True)
-    age_first_breeding_uncertainty = models.CharField(blank=True, null=True, max_length=10)
-
-    foraging_distance = models.CharField(blank=True, null=True, max_length=15)
-
-    wingspan_mean = models.CharField(blank=True, null=True, max_length=5)
-    wingspan_upper = models.CharField(blank=True, null=True, max_length=5)
-    wingspan_lower = models.CharField(blank=True, null=True, max_length=5)
-    wingspan_uncertainty = models.CharField(blank=True, null=True, max_length=10)
-    
-    max_age_mean = models.CharField(blank=True, null=True, max_length=5)
-    max_age_upper = models.CharField(blank=True, null=True, max_length=5)
-    max_age_lower = models.CharField(blank=True, null=True, max_length=5)
-    max_age_uncertainty = models.CharField(blank=True, null=True, max_length=10)
-
-    annual_survival_mean = models.CharField(blank=True, null=True, max_length=5)
-    annual_survival_upper = models.CharField(blank=True, null=True, max_length=5)
-    annual_survival_lower = models.CharField(blank=True, null=True, max_length=5)
-    annual_survival_uncertainty = models.CharField(blank=True, null=True, max_length=10)
-
+    feature_id = models.SmallIntegerField(primary_key=True)
+    species = models.ForeignKey(Species)
+    female_mass_mean = models.DecimalField(max_digits=10, decimal_places=4, blank=True, null=True)
+    female_mass_upper = models.DecimalField(max_digits=10, decimal_places=4, blank=True, null=True)
+    female_mass_lower = models.DecimalField(max_digits=10, decimal_places=4, blank=True, null=True)
+    female_mass_uncertainty = models.CharField(max_length=50, blank=True, null=True)
+    male_mass_mean = models.DecimalField(max_digits=10, decimal_places=4, blank=True, null=True)
+    male_mass_lower = models.DecimalField(max_digits=10, decimal_places=4, blank=True, null=True)
+    male_mass_upper = models.DecimalField(max_digits=10, decimal_places=4, blank=True, null=True)
+    male_mass_uncertainty = models.CharField(max_length=50, blank=True, null=True)
+    clutch_size_mean = models.DecimalField(max_digits=10, decimal_places=4, blank=True, null=True)
+    clutch_size_lower = models.DecimalField(max_digits=10, decimal_places=4, blank=True, null=True)
+    cluth_size_upper = models.DecimalField(max_digits=10, decimal_places=4, blank=True, null=True)
+    clutch_size_uncertainty = models.CharField(max_length=50, blank=True, null=True)
+    clutch_interval = models.CharField(max_length=50, blank=True, null=True)
+    incubation_mean = models.DecimalField(max_digits=10, decimal_places=4, blank=True, null=True)
+    incubation_period_lower = models.DecimalField(max_digits=10, decimal_places=4, blank=True, null=True)
+    incubtaion_period_upper = models.DecimalField(max_digits=10, decimal_places=4, blank=True, null=True)
+    incubation_period_uncertainty = models.CharField(max_length=50, blank=True, null=True)
+    fledging_period_mean = models.DecimalField(max_digits=10, decimal_places=4, blank=True, null=True)
+    fledging_period_lower = models.DecimalField(max_digits=10, decimal_places=4, blank=True, null=True)
+    fledging_period_upper = models.DecimalField(max_digits=10, decimal_places=4, blank=True, null=True)
+    fledging_period_uncertainty = models.CharField(max_length=50, blank=True, null=True)
+    max_growth_mean = models.DecimalField(max_digits=10, decimal_places=4, blank=True, null=True)
+    max_growth_lower = models.DecimalField(max_digits=10, decimal_places=4, blank=True, null=True)
+    max_growth_upper = models.DecimalField(max_digits=10, decimal_places=4, blank=True, null=True)
+    max_growth_uncertainty = models.CharField(max_length=50, blank=True, null=True)
+    post_fledge_care_mean = models.DecimalField(max_digits=10, decimal_places=4, blank=True, null=True)
+    post_fledge_care_lower = models.DecimalField(max_digits=10, decimal_places=4, blank=True, null=True)
+    post_fledge_care_upper = models.DecimalField(max_digits=10, decimal_places=4, blank=True, null=True)
+    post_fledge_care_uncertainty = models.CharField(max_length=50, blank=True, null=True)
+    age_first_breed_mean = models.CharField(max_length=10, blank=True, null=True)
+    age_first_breed_lower = models.IntegerField(blank=True, null=True)
+    age_first_breed_upper = models.IntegerField(blank=True, null=True)
+    age_first_breed_uncertainty = models.CharField(max_length=50, blank=True, null=True)
+    foraging_distance = models.CharField(max_length=50, blank=True, null=True)
+    wingspan_mean = models.DecimalField(max_digits=10, decimal_places=4, blank=True, null=True)
+    wingspan_lower = models.DecimalField(max_digits=10, decimal_places=4, blank=True, null=True)
+    wingspan_upper = models.DecimalField(max_digits=10, decimal_places=4, blank=True, null=True)
+    wingspan_uncertainty = models.CharField(max_length=50, blank=True, null=True)
+    max_age_mean = models.DecimalField(max_digits=10, decimal_places=4, blank=True, null=True)
+    max_age_lower = models.IntegerField(blank=True, null=True)
+    max_age_upper = models.IntegerField(blank=True, null=True)
+    max_age_uncertainty = models.CharField(max_length=50, blank=True, null=True)
+    annual_survival_mean = models.DecimalField(max_digits=10, decimal_places=4, blank=True, null=True)
+    annual_survival_lower = models.DecimalField(max_digits=10, decimal_places=4, blank=True, null=True)
+    annual_survival_upper = models.DecimalField(max_digits=10, decimal_places=4, blank=True, null=True)
+    annual_survival_uncertainty = models.CharField(max_length=50, blank=True, null=True)
     citation = models.TextField(blank=True, null=True)
+    username = models.CharField(max_length=30)
+    dt = models.CharField(max_length=30)
 
     def __unicode__(self):
-        return self.feature_id
+        return self.species_id
 
 
     class Meta:

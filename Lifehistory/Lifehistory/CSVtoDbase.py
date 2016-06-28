@@ -3,7 +3,7 @@ from app.models import Species, Traits
 
 dataReader = csv.reader(open("C:/LifeHistory/Lifehistory/Seabirds-edited.csv"), delimiter=',', quotechar='"')
 
-count = 0
+count = 1
 for row in dataReader:
     if row[0] != 'order':
         print row 
@@ -34,7 +34,7 @@ for row in dataReader:
 
 
         traits = Traits()
-        traits.spec = Species.objects.get(species_id = species.species_id)
+        traits.spec = Species.objects.get(fid = count)
         
         traits.female_mass_mean=row[16]
         traits.female_mass_upper=row[17]

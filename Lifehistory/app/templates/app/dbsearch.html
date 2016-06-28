@@ -31,24 +31,24 @@
         
         <div class="col-md-1"></div>
         <div class="col-md-4">
-            <select class="selectpicker show-tick" data-live-search="true">
+            <select class="selectpicker show-tick" data-live-search="true" name="commonSearch" id="commonSearch">
                 <option>Select by common name</option>
                 {% for x in species %}                            
-                    <option value="{{x.species_id}}">{{x.common_name_1}}</option>                            
+                    <option value="{{x.common_name_1}}">{{x.common_name_1}}</option>                            
                 {% endfor %}   
-            </select><button type="button" class="btn btn-success" ><span class="glyphicon glyphicon-search"></span> Search</button>
+            </select><button type="button" class="btn btn-success" id="csbut" onclick="cs()"><span class="glyphicon glyphicon-search"></span> Search</button>
          
         </div>
 
         <div class="col-md-1"></div>
 
         <div class="col-md-4">            
-            <select class="selectpicker show-tick" data-live-search="true">
+            <select class="selectpicker show-tick" data-live-search="true" name="specSearch" id="specSearch">
                 <option>Select by scientific name</option>
                 {% for x in species %}                            
                     <option value="{{x.species_id}}">{{x.species_id}}</option>                            
                 {% endfor %}   
-            </select><button type="button" class="btn btn-success" ><span class="glyphicon glyphicon-search"></span> Search</button>
+            </select><button type="button" class="btn btn-success" id="ssbut" onclick="ss()"><span class="glyphicon glyphicon-search"></span> Search</button>
         </div>
         <div class="col-md-1"></div>
 
@@ -57,30 +57,30 @@
 
         <div class="col-md-1"></div>
         <div class="col-md-4">
-            <select class="selectpicker show-tick" data-live-search="true">
+            <select class="selectpicker show-tick" data-live-search="true" name="orderSearch" id="orderSearch">
                 <option>Select by order</option>
                 {% for a in orders %}                            
                     <option value="{{ a|ch }}">{{ a|ch }}</option>                            
                 {% endfor %}   
-            </select><button type="button" class="btn btn-success" ><span class="glyphicon glyphicon-search"></span> Search</button>
+            </select><button type="button" class="btn btn-success" id="osbut" onclick="os()"><span class="glyphicon glyphicon-search"></span> Search</button>
          
         </div>
 
         <div class="col-md-1"></div>
 
         <div class="col-md-4">            
-            <select class="selectpicker show-tick" data-live-search="true">
+            <select class="selectpicker show-tick" data-live-search="true" name="familySearch" id="familySearch">
                 <option>Select by family</option>
                 {% for b in families %}                            
                     <option value="{{ b|ch }}">{{ b|ch }}</option>                            
                 {% endfor %}   
-            </select><button type="button" class="btn btn-success" ><span class="glyphicon glyphicon-search"></span> Search</button>
+            </select><button type="button" class="btn btn-success" id="fsbut" onclick="fs()" ><span class="glyphicon glyphicon-search"></span> Search</button>
         </div>
         <div class="col-md-1"></div>
         
     </div>
 
-
+    <div id="searchresults"></div>
 
 
 

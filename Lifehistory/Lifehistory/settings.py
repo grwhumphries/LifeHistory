@@ -20,12 +20,11 @@ MANAGERS = ADMINS
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': path.join(PROJECT_ROOT, 'db.sqlite3'),
-        'USER': '',
-        'PASSWORD': '',
-        'HOST': '',
-        'PORT': '',
+        'ENGINE': 'django.db.backends.postgresql_psycopg2',
+        'NAME': 'lifehistory',
+        'USER': 'lifehistoryuser',
+        'PASSWORD': 'lifehistory',        
+        'PORT': '5432',
     }
 }
 

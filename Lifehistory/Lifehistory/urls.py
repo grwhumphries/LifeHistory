@@ -17,6 +17,16 @@ urlpatterns = patterns('',
     url(r'^lifehistory$', 'app.views.lifehistory', name='lifehistory'),
     url(r'^dbsearch$','app.views.dbsearch',name='dbsearch'),
     url(r'^dbadd$','app.views.dbadd',name='dbadd'),
+
+    url(r'^species/','app.views.species',name='species'),
+    url(r'^order/','app.views.order',name='order'),
+    
+    url(r'^commonname/','app.views.commonname',name='commonname'),
+
+    url(r'^family/','app.views.family',name='family'),
+    
+
+
     url(r'^login/$',
         'django.contrib.auth.views.login',
         {

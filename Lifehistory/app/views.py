@@ -42,9 +42,9 @@ def lifehistory(request):
     )
 
 def dbsearch(request):
-    SpeciesList = Species.objects.all()
-    X = list(set(Species.objects.all().values_list('order')))
-    Y = list(set(Species.objects.all().values_list('family')))
+    SpeciesList = Species.objects.all().order_by('species_id')
+    X = Species.objects.all().distinct('ord').order_by('ord').values_list('ord')
+    Y = Species.objects.all().distinct('fam').order_by('fam').values_list('fam')
 
     context = RequestContext(request, {'species':SpeciesList,'orders':X,'families':Y})
     template = loader.get_template('app/dbsearch.html')        
@@ -55,10 +55,42 @@ def dbadd(request):
     return render_to_response('app/dbadd.html')
 
 
-def searchresult(request):
-    List = Species.objects.filter()
+def species(request):
+    if request.method == 'GET':
+        l = request.GET.get('l', '')        
+        List = Species.objects.filter(species_id = l)
+        traits = Traits.objects.filter(species__species_id = l)    
+
+    context = RequestContext(request, {'LIST':List,'TRAITS':traits })
+    template = loader.get_template('app/searchresult.html')        
+    return HttpResponse(template.render(context))
 
 
+def order(request):
+    if request.method == 'GET':
+        l = request.GET.get('l', '')        
+        List = Species.objects.filter(ord = l)
+    
+    context = RequestContext(request, {'LIST':List})
+    template = loader.get_template('app/searchresult.html')        
+    return HttpResponse(template.render(context))
 
 
+def family(request):
+    if request.method == 'GET':
+        l = request.GET.get('l', '')        
+        List = Species.objects.filter(fam = l)
+    
+    context = RequestContext(request, {'LIST':List})
+    template = loader.get_template('app/searchresult.html')        
+    return HttpResponse(template.render(context))
+
+def commonname(request):
+    if request.method == 'GET':
+        l = request.GET.get('l', '')        
+        List = Species.objects.filter(common_name_1 = l)
+    
+    context = RequestContext(request, {'LIST':List})
+    template = loader.get_template('app/searchresult.html')        
+    return HttpResponse(template.render(context))
  
