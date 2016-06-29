@@ -91,7 +91,11 @@ def dbsearch(request):
         
     
 def dbadd(request):
-    return render_to_response('app/dbadd.html')
+    SpeciesList = Species.objects.all().order_by('species_id')
+
+    context = RequestContext(request, {'species':SpeciesList })
+    template = loader.get_template('app/dbadd.html')        
+    return HttpResponse(template.render(context))
 
 
 def species(request):

@@ -8002,3 +8002,100 @@ C:\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\IDE\Extensions\Micro
 2016-06-28T16:36:16: Saving group "C:\LifeHistory\Lifehistory\env\Lib\site-packages\djqscsv"
 2016-06-28T16:36:16: End of group "C:\LifeHistory\Lifehistory\env\Lib\site-packages\djqscsv"
 2016-06-28T16:36:16: Deleting 0 files
+
+2016-06-28T19:15:44: Start analysis
+2016-06-28T19:15:44: [WARNING] Library was set explicitly - skipping path detection
+2016-06-28T19:15:44: IncludeModulesFromModulePath = win32com
+2016-06-28T19:15:45: Deleting 37 files
+2016-06-28T19:15:45: Scraping psycopg2._psycopg
+2016-06-28T19:15:45: Command: C:\LifeHistory\Lifehistory\env\Scripts\python.exe "C:\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\IDE\Extensions\Microsoft\Python Tools for Visual Studio\2.2\ExtensionScraper.py" scrape psycopg2._psycopg C:\LifeHistory\Lifehistory\env\Lib\site-packages C:\LifeHistory\Lifehistory\env\.ptvs\psycopg2\psycopg2._psycopg
+2016-06-28T19:15:46: Scraped 1 files
+2016-06-28T19:15:46: astropy.CallDepth = 0
+2016-06-28T19:15:46: matplotlib.CallDepth = 3
+2016-06-28T19:15:46: pandas.CallDepth = 0
+2016-06-28T19:15:46: sympy.CallDepth = 0
+2016-06-28T19:15:46: Start group "C:\LifeHistory\Lifehistory\env\Lib\site-packages\djqscsv" with 3 files
+2016-06-28T19:16:31: Parsing "djqscsv.djqscsv" ("C:\LifeHistory\Lifehistory\env\Lib\site-packages\djqscsv\djqscsv.py")
+2016-06-28T19:16:31: Parsing "djqscsv._csql" ("C:\LifeHistory\Lifehistory\env\Lib\site-packages\djqscsv\_csql.py")
+2016-06-28T19:16:31: Parsing "djqscsv" ("C:\LifeHistory\Lifehistory\env\Lib\site-packages\djqscsv\__init__.py")
+2016-06-28T19:16:31: Parsing complete
+2016-06-28T19:16:31: Analyzing "djqscsv.djqscsv"
+2016-06-28T19:16:31: Analyzing "djqscsv._csql"
+2016-06-28T19:16:31: Analyzing "djqscsv"
+2016-06-28T19:16:31: Starting analysis of 3 modules
+2016-06-28T19:16:31: Analysis complete
+2016-06-28T19:16:31: Saving group "C:\LifeHistory\Lifehistory\env\Lib\site-packages\djqscsv"
+2016-06-28T19:16:32: End of group "C:\LifeHistory\Lifehistory\env\Lib\site-packages\djqscsv"
+2016-06-28T19:16:32: Start group "C:\LifeHistory\Lifehistory\env\Lib\site-packages\psycopg2" with 33 files
+2016-06-28T19:16:33: Parsing "psycopg2.errorcodes" ("C:\LifeHistory\Lifehistory\env\Lib\site-packages\psycopg2\errorcodes.py")
+2016-06-28T19:16:34: Parsing "psycopg2.extensions" ("C:\LifeHistory\Lifehistory\env\Lib\site-packages\psycopg2\extensions.py")
+2016-06-28T19:16:34: Parsing "psycopg2.extras" ("C:\LifeHistory\Lifehistory\env\Lib\site-packages\psycopg2\extras.py")
+2016-06-28T19:16:34: Parsing "psycopg2.pool" ("C:\LifeHistory\Lifehistory\env\Lib\site-packages\psycopg2\pool.py")
+2016-06-28T19:16:34: Parsing "psycopg2.psycopg1" ("C:\LifeHistory\Lifehistory\env\Lib\site-packages\psycopg2\psycopg1.py")
+2016-06-28T19:16:34: Parsing "psycopg2.tz" ("C:\LifeHistory\Lifehistory\env\Lib\site-packages\psycopg2\tz.py")
+2016-06-28T19:16:34: Parsing "psycopg2._json" ("C:\LifeHistory\Lifehistory\env\Lib\site-packages\psycopg2\_json.py")
+2016-06-28T19:16:34: Parsing "psycopg2._range" ("C:\LifeHistory\Lifehistory\env\Lib\site-packages\psycopg2\_range.py")
+2016-06-28T19:16:34: Parsing "psycopg2" ("C:\LifeHistory\Lifehistory\env\Lib\site-packages\psycopg2\__init__.py")
+2016-06-28T19:16:34: Parsing "psycopg2.tests.dbapi20" ("C:\LifeHistory\Lifehistory\env\Lib\site-packages\psycopg2\tests\dbapi20.py")
+2016-06-28T19:16:34: Parsing "psycopg2.tests.dbapi20_tpc" ("C:\LifeHistory\Lifehistory\env\Lib\site-packages\psycopg2\tests\dbapi20_tpc.py")
+2016-06-28T19:16:34: Parsing "psycopg2.tests.testconfig" ("C:\LifeHistory\Lifehistory\env\Lib\site-packages\psycopg2\tests\testconfig.py")
+2016-06-28T19:16:34: Parsing "psycopg2.tests.testutils" ("C:\LifeHistory\Lifehistory\env\Lib\site-packages\psycopg2\tests\testutils.py")
+2016-06-28T19:16:34: Parsing "psycopg2.tests.test_async" ("C:\LifeHistory\Lifehistory\env\Lib\site-packages\psycopg2\tests\test_async.py")
+2016-06-28T19:16:34: Parsing "psycopg2.tests.test_bugX000" ("C:\LifeHistory\Lifehistory\env\Lib\site-packages\psycopg2\tests\test_bugX000.py")
+2016-06-28T19:16:34: Parsing "psycopg2.tests.test_bug_gc" ("C:\LifeHistory\Lifehistory\env\Lib\site-packages\psycopg2\tests\test_bug_gc.py")
+2016-06-28T19:16:34: Parsing "psycopg2.tests.test_cancel" ("C:\LifeHistory\Lifehistory\env\Lib\site-packages\psycopg2\tests\test_cancel.py")
+2016-06-28T19:16:34: Parsing "psycopg2.tests.test_connection" ("C:\LifeHistory\Lifehistory\env\Lib\site-packages\psycopg2\tests\test_connection.py")
+2016-06-28T19:16:34: Parsing "psycopg2.tests.test_copy" ("C:\LifeHistory\Lifehistory\env\Lib\site-packages\psycopg2\tests\test_copy.py")
+2016-06-28T19:16:34: Parsing "psycopg2.tests.test_cursor" ("C:\LifeHistory\Lifehistory\env\Lib\site-packages\psycopg2\tests\test_cursor.py")
+2016-06-28T19:16:34: Parsing "psycopg2.tests.test_dates" ("C:\LifeHistory\Lifehistory\env\Lib\site-packages\psycopg2\tests\test_dates.py")
+2016-06-28T19:16:34: Parsing "psycopg2.tests.test_extras_dictcursor" ("C:\LifeHistory\Lifehistory\env\Lib\site-packages\psycopg2\tests\test_extras_dictcursor.py")
+2016-06-28T19:16:34: Parsing "psycopg2.tests.test_green" ("C:\LifeHistory\Lifehistory\env\Lib\site-packages\psycopg2\tests\test_green.py")
+2016-06-28T19:16:34: Parsing "psycopg2.tests.test_lobject" ("C:\LifeHistory\Lifehistory\env\Lib\site-packages\psycopg2\tests\test_lobject.py")
+2016-06-28T19:16:34: Parsing "psycopg2.tests.test_module" ("C:\LifeHistory\Lifehistory\env\Lib\site-packages\psycopg2\tests\test_module.py")
+2016-06-28T19:16:34: Parsing "psycopg2.tests.test_notify" ("C:\LifeHistory\Lifehistory\env\Lib\site-packages\psycopg2\tests\test_notify.py")
+2016-06-28T19:16:34: Parsing "psycopg2.tests.test_psycopg2_dbapi20" ("C:\LifeHistory\Lifehistory\env\Lib\site-packages\psycopg2\tests\test_psycopg2_dbapi20.py")
+2016-06-28T19:16:34: Parsing "psycopg2.tests.test_quote" ("C:\LifeHistory\Lifehistory\env\Lib\site-packages\psycopg2\tests\test_quote.py")
+2016-06-28T19:16:34: Parsing "psycopg2.tests.test_transaction" ("C:\LifeHistory\Lifehistory\env\Lib\site-packages\psycopg2\tests\test_transaction.py")
+2016-06-28T19:16:34: Parsing "psycopg2.tests.test_types_basic" ("C:\LifeHistory\Lifehistory\env\Lib\site-packages\psycopg2\tests\test_types_basic.py")
+2016-06-28T19:16:34: Parsing "psycopg2.tests.test_types_extras" ("C:\LifeHistory\Lifehistory\env\Lib\site-packages\psycopg2\tests\test_types_extras.py")
+2016-06-28T19:16:34: Parsing "psycopg2.tests.test_with" ("C:\LifeHistory\Lifehistory\env\Lib\site-packages\psycopg2\tests\test_with.py")
+2016-06-28T19:16:34: Parsing "psycopg2.tests" ("C:\LifeHistory\Lifehistory\env\Lib\site-packages\psycopg2\tests\__init__.py")
+2016-06-28T19:16:34: Parsing complete
+2016-06-28T19:16:34: Analyzing "psycopg2.errorcodes"
+2016-06-28T19:16:34: Analyzing "psycopg2.extensions"
+2016-06-28T19:16:34: Analyzing "psycopg2.extras"
+2016-06-28T19:16:34: Analyzing "psycopg2.pool"
+2016-06-28T19:16:34: Analyzing "psycopg2.psycopg1"
+2016-06-28T19:16:34: Analyzing "psycopg2.tz"
+2016-06-28T19:16:34: Analyzing "psycopg2._json"
+2016-06-28T19:16:34: Analyzing "psycopg2._range"
+2016-06-28T19:16:34: Analyzing "psycopg2"
+2016-06-28T19:16:34: Analyzing "psycopg2.tests.dbapi20"
+2016-06-28T19:16:34: Analyzing "psycopg2.tests.dbapi20_tpc"
+2016-06-28T19:16:34: Analyzing "psycopg2.tests.testconfig"
+2016-06-28T19:16:34: Analyzing "psycopg2.tests.testutils"
+2016-06-28T19:16:34: Analyzing "psycopg2.tests.test_async"
+2016-06-28T19:16:34: Analyzing "psycopg2.tests.test_bugX000"
+2016-06-28T19:16:34: Analyzing "psycopg2.tests.test_bug_gc"
+2016-06-28T19:16:34: Analyzing "psycopg2.tests.test_cancel"
+2016-06-28T19:16:34: Analyzing "psycopg2.tests.test_connection"
+2016-06-28T19:16:34: Analyzing "psycopg2.tests.test_copy"
+2016-06-28T19:16:34: Analyzing "psycopg2.tests.test_cursor"
+2016-06-28T19:16:34: Analyzing "psycopg2.tests.test_dates"
+2016-06-28T19:16:34: Analyzing "psycopg2.tests.test_extras_dictcursor"
+2016-06-28T19:16:34: Analyzing "psycopg2.tests.test_green"
+2016-06-28T19:16:34: Analyzing "psycopg2.tests.test_lobject"
+2016-06-28T19:16:34: Analyzing "psycopg2.tests.test_module"
+2016-06-28T19:16:34: Analyzing "psycopg2.tests.test_notify"
+2016-06-28T19:16:34: Analyzing "psycopg2.tests.test_psycopg2_dbapi20"
+2016-06-28T19:16:34: Analyzing "psycopg2.tests.test_quote"
+2016-06-28T19:16:34: Analyzing "psycopg2.tests.test_transaction"
+2016-06-28T19:16:34: Analyzing "psycopg2.tests.test_types_basic"
+2016-06-28T19:16:34: Analyzing "psycopg2.tests.test_types_extras"
+2016-06-28T19:16:34: Analyzing "psycopg2.tests.test_with"
+2016-06-28T19:16:34: Analyzing "psycopg2.tests"
+2016-06-28T19:16:34: Starting analysis of 33 modules
+2016-06-28T19:16:35: Analysis complete
+2016-06-28T19:16:35: Saving group "C:\LifeHistory\Lifehistory\env\Lib\site-packages\psycopg2"
+2016-06-28T19:16:35: End of group "C:\LifeHistory\Lifehistory\env\Lib\site-packages\psycopg2"
+2016-06-28T19:16:36: Deleting 0 files

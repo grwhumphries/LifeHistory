@@ -84,7 +84,7 @@ function OpenSearch() {
 function OpenAdd() {
     //JQuery AJax
     $.ajax({
-        url: '/admin',
+        url: '/dbadd/',
         dataType: "html",
         success: function (data) {
             $(".viewwindow").html(data);
@@ -92,6 +92,18 @@ function OpenAdd() {
     });
 }
 
+function OpenEdit() {
+    var X = $('#specSearch option:selected').val()
+    var URL = '/dbadd/?l='.concat(X);
+
+    $.ajax({
+        url: URL,
+        dataType: "html",
+        success: function (data) {
+            $("#editfields").html(data);
+        }
+    });
+}
 
 
 

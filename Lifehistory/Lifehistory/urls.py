@@ -16,7 +16,7 @@ urlpatterns = patterns('',
     url(r'^$', 'app.views.home', name='home'),
     url(r'^lifehistory$', 'app.views.lifehistory', name='lifehistory'),
     url(r'^dbsearch$','app.views.dbsearch',name='dbsearch'),
-    url(r'^dbadd$','app.views.dbadd',name='dbadd'),
+    url(r'^dbadd/','app.views.dbadd',name='dbadd'),
 
     url(r'^species/','app.views.species',name='species'),
     url(r'^order/','app.views.order',name='order'),    

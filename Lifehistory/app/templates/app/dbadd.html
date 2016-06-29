@@ -2,16 +2,38 @@
 <html>
 {% load staticfiles %}
 <head>    
-           
+<script type="text/javascript">               
+        
+        $(document).ready(function () {
+            $('.selectpicker').selectpicker({
+                size: 10,
+                width: '75%',
+                
+            });
+        });        
+
+
+    </script>           
 </head>
 
 <body>
 
-    <div class="row">
-        <div class="col-md-12">
-            <p><a href="/lifehistory" class="btn btn-primary btn-large">&laquo; Back</a></p>
+    <div class="row" style="background-color:rgba(255,255,255,0.95)">
+        <div class="col-md-4">
+            <select class="selectpicker show-tick" data-live-search="true" name="specSearch" id="specSearch">
+                <option>Select by scientific name</option>
+                {% for x in species %}                            
+                    <option value="{{x.species_id}}">{{x.species_id}}</option>                            
+                {% endfor %}   
+            </select><button type="button" class="btn btn-success" id="ssbut" onclick="ss()"><span class="glyphicon glyphicon-search"></span> Search</button>
         </div>
         
+        <div id="editfields" class="col-md-12">
+            {% for h in T %}
+                {{h.species_id}}
+            {% endfor %}
+
+        </div>
         
     </div>
     
