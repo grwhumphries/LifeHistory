@@ -98,7 +98,7 @@ ROOT_URLCONF = 'Lifehistory.urls'
 WSGI_APPLICATION = 'Lifehistory.wsgi.application'
 
 TEMPLATE_DIRS = (
-    os.path.join(PROJECT_ROOT,"app/templates/"),
+    os.path.join(PROJECT_ROOT,"/templates/"),
     # Put strings here, like "/home/html/django_templates" or
     # "C:/www/django/templates".
     # Always use forward slashes, even on Windows.
