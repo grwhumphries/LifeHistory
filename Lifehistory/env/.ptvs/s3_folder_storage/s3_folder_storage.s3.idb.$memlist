@@ -1,0 +1,5 @@
+FixedS3BotoStorage
+settings
+DefaultStorage
+StaticStorage
+S3BotoStorage
