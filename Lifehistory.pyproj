@@ -58,7 +58,6 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="app\static\app\images\background.png" />
-    <Content Include="app\static\app\images\background.psd" />
     <Content Include="app\static\app\images\Seabirds.jpg" />
     <Content Include="app\static\app\scripts\OtherScripts.js" />
     <Content Include="app\templates\dbadd.html" />
