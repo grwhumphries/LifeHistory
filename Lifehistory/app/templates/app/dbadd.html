@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html>
 {% load staticfiles %}
+{% load crispy_forms_tags %}
+
 <head>    
 <script type="text/javascript">               
         
@@ -17,25 +19,31 @@
 </head>
 
 <body>
-
+{% if user.is_authenticated %}
+{% if user.is_staff %}
     <div class="row" style="background-color:rgba(255,255,255,0.95)">
-        <div class="col-md-4">
-            <select class="selectpicker show-tick" data-live-search="true" name="specSearch" id="specSearch">
-                <option>Select by scientific name</option>
-                {% for x in species %}                            
-                    <option value="{{x.species_id}}">{{x.species_id}}</option>                            
-                {% endfor %}   
-            </select><button type="button" class="btn btn-success" id="ssbut" onclick="ss()"><span class="glyphicon glyphicon-search"></span> Search</button>
-        </div>
-        
-        <div id="editfields" class="col-md-12">
-            {% for h in T %}
-                {{h.species_id}}
-            {% endfor %}
-
-        </div>
-        
+        <div class="col-md-1">
+            <p><a href="/lifehistory" class="btn btn-primary btn-large">&laquo; Back</a></p>
+        </div>        
+        <div class="col-md-12">
+            {% crispy modelform %}{% csrf_token %}
+        </div>        
     </div>
-    
+
+{% else %}
+    <div class="row">
+        <div class="col-md-12">
+            <h2> You are not logged in as staff <a href="{% url 'login' %}">log in</a> to continue...</h2>            
+        </div>
+    </div>
+{% endif %}
+{% else %} 
+    <div class="row">
+        <div class="col-md-12">
+            <h2> You are not logged in... please <a href="{% url 'login' %}">log in</a> to continue...</h2>            
+        </div>
+    </div>
+    <p><a class="btn btn-default" href="/login">Log In &raquo;</a></p>
+{% endif %}    
 </body>
 </html>

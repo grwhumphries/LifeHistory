@@ -7,7 +7,7 @@
 </head>
 
 <body>
-
+{% if user.is_authenticated %}
     <div class="row">
         
         <div class="col-md-12"><hr /></div>
@@ -41,8 +41,8 @@
                             <td>{{x.breeding_dist}}</td>
                             <td>{{x.nest_locations}}</td>
                             <td>{{x.hatchling_type}}</td>
-                            {% with "#"|addstr:x.species_id|collapse as MODTARG %}                                            
-                            <td><button type="button" class="btn btn-info btn-sm" data-toggle="modal" data-target={{MODTARG}} id="{{x.species_id}}" onclick="gettraits()"><span class="glyphicon glyphicon-list-alt"></span> View Data</button></td>
+                            {% with "#"|addstr:x.species_id|addstr:"tar" as MODTARG %}                                            
+                            <td><button type="button" class="btn btn-info btn-sm" data-toggle="modal" data-target={{MODTARG}} id={{x.species_id}} onclick="gettraits()"><span class="glyphicon glyphicon-list-alt"></span> View Data</button></td>
                             {% endwith %}
                         </tr>
                     </tbody>
@@ -54,7 +54,9 @@
     </div>
 
 {% for x in LIST %}
-    <div class="modal fade" id={{ x.species_id|collapse }} role="dialog" >
+    {% with x.species_id|addstr:"tar" as MOD %}
+    <div class="modal fade" id={{ MOD }} role="dialog" >
+    {% endwith %}
         <div class="modal-dialog">
     
                                                     <!-- Modal content-->
@@ -64,7 +66,7 @@
             <h4 class="modal-title">life history data for {{x.common_name_1}}</h4>
         </div>
         <div class="modal-body">
-            {% with x.species_id|collapse|addstr:"div" as DIVID %}
+            {% with x.species_id|addstr:"div" as DIVID %}
             <div id="{{DIVID}}"></div>
             {% endwith %}                                                                                                                    
         </div>
@@ -80,6 +82,15 @@
 
 {% endfor %}
 
+
+{% else %}
+    <div class="row">
+        <div class="col-md-12">
+            <h2> You are not logged in... please <a href="{% url 'login' %}">log in</a> to continue...</h2>            
+        </div>
+    </div>
+    <p><a class="btn btn-default" href="/login">Log In &raquo;</a></p>
+{% endif %}
     
 </body>
 </html>

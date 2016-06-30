@@ -1,5 +1,5 @@
 ﻿{% load specialchars %}
-
+{% if user.is_authenticated %}
 <table class="table">
         <thead>
             <tr>
@@ -10,11 +10,14 @@
                 <th>fledging period</th>
                 <th>max growth rate</th>
                 <th>post fledging care</th>
-                <th>age first breeding</th>
-                <th>foraging distance</th>
+                <th>age first breeding</th>                
                 <th>wingspan</th>
                 <th>max age</th>
                 <th>annual survival</th>
+                <th>foraging distance</th>
+                <th>coloniality</th>
+                <th>mate fidelity</th>
+                <th>site fidelity</th>
                 <th>citation</th>                                                            
             </tr>
         </thead>
@@ -28,11 +31,14 @@
                 <td><table><tr><td>{{y.fledging_period_mean|default_if_none:"na"}}</td></tr><tr><td>{{y.fledging_period_upper|default_if_none:"na"}}</td></tr><tr><td>{{y.fledging_period_lower|default_if_none:"na"}}</td></tr></table></td>
                 <td><table><tr><td>{{y.max_growth_mean|default_if_none:"na"}}</td></tr><tr><td>{{y.max_growth_upper|default_if_none:"na"}}</td></tr><tr><td>{{y.max_growth_lower|default_if_none:"na"}}</td></tr></table></td>
                 <td><table><tr><td>{{y.post_fledge_care_mean|default_if_none:"na"}}</td></tr><tr><td>{{y.post_fledge_care_upper|default_if_none:"na"}}</td></tr><tr><td>{{y.post_fledge_care_lower|default_if_none:"na"}}</td></tr></table></td>
-                <td><table><tr><td>{{y.age_first_breed_mean|default_if_none:"na"}}</td></tr><tr><td>{{y.age_first_breed_upper|default_if_none:"na"}}</td></tr><tr><td>{{y.age_first_breed_lower|default_if_none:"na"}}</td></tr></table></td>
-                <td>{{y.foraging_distance|default_if_none:"na"}}</td>
+                <td><table><tr><td>{{y.age_first_breed_mean|default_if_none:"na"}}</td></tr><tr><td>{{y.age_first_breed_upper|default_if_none:"na"}}</td></tr><tr><td>{{y.age_first_breed_lower|default_if_none:"na"}}</td></tr></table></td>                
                 <td><table><tr><td>{{y.wingspan_mean|default_if_none:"na"}}</td></tr><tr><td>{{y.wingspan_upper|default_if_none:"na"}}</td></tr><tr><td>{{y.wingspan_lower|default_if_none:"na"}}</td></tr></table></td>
                 <td><table><tr><td>{{y.max_age_mean|default_if_none:"na"}}</td></tr><tr><td>{{y.max_age_upper|default_if_none:"na"}}</td></tr><tr><td>{{y.max_age_lower|default_if_none:"na"}}</td></tr></table></td>
                 <td><table><tr><td>{{y.annual_survival_mean|default_if_none:"na"}}</td></tr><tr><td>{{y.annual_survival_upper|default_if_none:"na"}}</td></tr><tr><td>{{y.annual_survival_lower|default_if_none:"na"}}</td></tr></table></td>
+                <td>{{y.foraging_distance|default_if_none:"na"}}</td>
+                <td>{{y.coloniality|default_if_none:"na"}}</td>
+                <td>{{y.mate_fidelity|default_if_none:"na"}}</td>
+                <td>{{y.site_fidelity|default_if_none:"na"}}</td>
                 <td>{{y.citation}}</td>
                 </tr>
             {% endfor %}
@@ -41,3 +47,12 @@
 
 
     </table>
+
+{% else %}
+    <div class="row">
+        <div class="col-md-12">
+            <h2> You are not logged in... please <a href="{% url 'login' %}">log in</a> to continue...</h2>            
+        </div>
+    </div>
+    <p><a class="btn btn-default" href="/login">Log In &raquo;</a></p>
+{% endif %}

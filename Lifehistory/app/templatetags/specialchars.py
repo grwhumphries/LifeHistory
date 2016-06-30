@@ -14,7 +14,9 @@ def collapse(value):
 
 @register.filter
 def addstr(arg1,arg2):
-    return str(arg1)+str(arg2)
+    x = str(arg1).replace(' ','')
+    y = str(arg2).replace(' ','')
+    return x+y
 
 @register.filter
 def empty(value):

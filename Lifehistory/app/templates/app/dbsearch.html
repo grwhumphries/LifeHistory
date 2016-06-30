@@ -19,6 +19,7 @@
 </head>
 
 <body>
+{% if user.is_authenticated %}
     <div class="row" style="background-color:rgba(255,255,255,0.95)">
         <div class="col-md-1">
             <p><a href="/lifehistory" class="btn btn-primary btn-large">&laquo; Back</a></p>
@@ -46,7 +47,7 @@
             <select class="selectpicker show-tick" data-live-search="true" name="specSearch" id="specSearch">
                 <option>Select by scientific name</option>
                 {% for x in species %}                            
-                    <option value="{{x.species_id}}">{{x.species_id}}</option>                            
+                    <option value={{x.species_id}}>{{x.genus_species}}</option>                            
                 {% endfor %}   
             </select><button type="button" class="btn btn-success" id="ssbut" onclick="ss()"><span class="glyphicon glyphicon-search"></span> Search</button>
         </div>
@@ -87,6 +88,13 @@
 
 
 
-    
+ {% else %}
+    <div class="row">
+        <div class="col-md-12">
+            <h2> You are not logged in... please <a href="{% url 'login' %}">log in</a> to continue...</h2>            
+        </div>
+    </div>
+    <p><a class="btn btn-default" href="/login">Log In &raquo;</a></p>
+{% endif %}   
 </body>
 </html>

@@ -8099,3 +8099,112 @@ C:\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\IDE\Extensions\Micro
 2016-06-28T19:16:35: Saving group "C:\LifeHistory\Lifehistory\env\Lib\site-packages\psycopg2"
 2016-06-28T19:16:35: End of group "C:\LifeHistory\Lifehistory\env\Lib\site-packages\psycopg2"
 2016-06-28T19:16:36: Deleting 0 files
+
+2016-06-29T09:24:57: Start analysis
+2016-06-29T09:24:57: [WARNING] Library was set explicitly - skipping path detection
+2016-06-29T09:24:57: IncludeModulesFromModulePath = win32com
+2016-06-29T09:24:58: Deleting 0 files
+2016-06-29T09:24:58: astropy.CallDepth = 0
+2016-06-29T09:24:58: matplotlib.CallDepth = 3
+2016-06-29T09:24:58: pandas.CallDepth = 0
+2016-06-29T09:24:58: sympy.CallDepth = 0
+2016-06-29T09:24:58: Start group "C:\LifeHistory\Lifehistory\env\Lib\site-packages\frontendadmin" with 6 files
+2016-06-29T09:24:59: Parsing "frontendadmin.forms" ("C:\LifeHistory\Lifehistory\env\Lib\site-packages\frontendadmin\forms.py")
+2016-06-29T09:24:59: Parsing "frontendadmin.urls" ("C:\LifeHistory\Lifehistory\env\Lib\site-packages\frontendadmin\urls.py")
+2016-06-29T09:24:59: Parsing "frontendadmin.views" ("C:\LifeHistory\Lifehistory\env\Lib\site-packages\frontendadmin\views.py")
+2016-06-29T09:24:59: Parsing "frontendadmin" ("C:\LifeHistory\Lifehistory\env\Lib\site-packages\frontendadmin\__init__.py")
+2016-06-29T09:24:59: Parsing "frontendadmin.templatetags.frontendadmin_tags" ("C:\LifeHistory\Lifehistory\env\Lib\site-packages\frontendadmin\templatetags\frontendadmin_tags.py")
+2016-06-29T09:24:59: Parsing "frontendadmin.templatetags" ("C:\LifeHistory\Lifehistory\env\Lib\site-packages\frontendadmin\templatetags\__init__.py")
+2016-06-29T09:24:59: Parsing complete
+2016-06-29T09:24:59: Analyzing "frontendadmin.forms"
+2016-06-29T09:24:59: Analyzing "frontendadmin.urls"
+2016-06-29T09:24:59: Analyzing "frontendadmin.views"
+2016-06-29T09:24:59: Analyzing "frontendadmin"
+2016-06-29T09:24:59: Analyzing "frontendadmin.templatetags.frontendadmin_tags"
+2016-06-29T09:24:59: Analyzing "frontendadmin.templatetags"
+2016-06-29T09:24:59: Starting analysis of 6 modules
+2016-06-29T09:24:59: Analysis complete
+2016-06-29T09:24:59: Saving group "C:\LifeHistory\Lifehistory\env\Lib\site-packages\frontendadmin"
+2016-06-29T09:24:59: End of group "C:\LifeHistory\Lifehistory\env\Lib\site-packages\frontendadmin"
+2016-06-29T09:24:59: Deleting 0 files
+
+2016-06-29T09:40:51: Start analysis
+2016-06-29T09:40:51: [WARNING] Library was set explicitly - skipping path detection
+2016-06-29T09:40:51: IncludeModulesFromModulePath = win32com
+2016-06-29T09:40:51: Deleting 6 files
+2016-06-29T09:40:51: Deleting "C:\LifeHistory\Lifehistory\env\.ptvs\frontendadmin\frontendadmin.forms.idb"
+2016-06-29T09:40:51: Deleting "C:\LifeHistory\Lifehistory\env\.ptvs\frontendadmin\frontendadmin.idb"
+2016-06-29T09:40:51: Deleting "C:\LifeHistory\Lifehistory\env\.ptvs\frontendadmin\frontendadmin.templatetags.frontendadmin_tags.idb"
+2016-06-29T09:40:51: Deleting "C:\LifeHistory\Lifehistory\env\.ptvs\frontendadmin\frontendadmin.templatetags.idb"
+2016-06-29T09:40:51: Deleting "C:\LifeHistory\Lifehistory\env\.ptvs\frontendadmin\frontendadmin.urls.idb"
+2016-06-29T09:40:51: Deleting "C:\LifeHistory\Lifehistory\env\.ptvs\frontendadmin\frontendadmin.views.idb"
+
+2016-06-29T10:08:12: Start analysis
+2016-06-29T10:08:12: [WARNING] Library was set explicitly - skipping path detection
+2016-06-29T10:08:12: IncludeModulesFromModulePath = win32com
+2016-06-29T10:08:12: Deleting 0 files
+2016-06-29T10:08:12: astropy.CallDepth = 0
+2016-06-29T10:08:12: matplotlib.CallDepth = 3
+2016-06-29T10:08:12: pandas.CallDepth = 0
+2016-06-29T10:08:12: sympy.CallDepth = 0
+2016-06-29T10:08:12: Start group "C:\LifeHistory\Lifehistory\env\Lib\site-packages\crispy_forms" with 27 files
+2016-06-29T10:08:13: Parsing "crispy_forms.base" ("C:\LifeHistory\Lifehistory\env\Lib\site-packages\crispy_forms\base.py")
+2016-06-29T10:08:13: Parsing "crispy_forms.bootstrap" ("C:\LifeHistory\Lifehistory\env\Lib\site-packages\crispy_forms\bootstrap.py")
+2016-06-29T10:08:13: Parsing "crispy_forms.compatibility" ("C:\LifeHistory\Lifehistory\env\Lib\site-packages\crispy_forms\compatibility.py")
+2016-06-29T10:08:13: Parsing "crispy_forms.exceptions" ("C:\LifeHistory\Lifehistory\env\Lib\site-packages\crispy_forms\exceptions.py")
+2016-06-29T10:08:13: Parsing "crispy_forms.helper" ("C:\LifeHistory\Lifehistory\env\Lib\site-packages\crispy_forms\helper.py")
+2016-06-29T10:08:13: Parsing "crispy_forms.layout" ("C:\LifeHistory\Lifehistory\env\Lib\site-packages\crispy_forms\layout.py")
+2016-06-29T10:08:13: Parsing "crispy_forms.layout_slice" ("C:\LifeHistory\Lifehistory\env\Lib\site-packages\crispy_forms\layout_slice.py")
+2016-06-29T10:08:13: Parsing "crispy_forms.models" ("C:\LifeHistory\Lifehistory\env\Lib\site-packages\crispy_forms\models.py")
+2016-06-29T10:08:13: Parsing "crispy_forms.utils" ("C:\LifeHistory\Lifehistory\env\Lib\site-packages\crispy_forms\utils.py")
+2016-06-29T10:08:13: Parsing "crispy_forms" ("C:\LifeHistory\Lifehistory\env\Lib\site-packages\crispy_forms\__init__.py")
+2016-06-29T10:08:13: Parsing "crispy_forms.templatetags.crispy_forms_field" ("C:\LifeHistory\Lifehistory\env\Lib\site-packages\crispy_forms\templatetags\crispy_forms_field.py")
+2016-06-29T10:08:13: Parsing "crispy_forms.templatetags.crispy_forms_filters" ("C:\LifeHistory\Lifehistory\env\Lib\site-packages\crispy_forms\templatetags\crispy_forms_filters.py")
+2016-06-29T10:08:13: Parsing "crispy_forms.templatetags.crispy_forms_tags" ("C:\LifeHistory\Lifehistory\env\Lib\site-packages\crispy_forms\templatetags\crispy_forms_tags.py")
+2016-06-29T10:08:13: Parsing "crispy_forms.templatetags.crispy_forms_utils" ("C:\LifeHistory\Lifehistory\env\Lib\site-packages\crispy_forms\templatetags\crispy_forms_utils.py")
+2016-06-29T10:08:13: Parsing "crispy_forms.templatetags" ("C:\LifeHistory\Lifehistory\env\Lib\site-packages\crispy_forms\templatetags\__init__.py")
+2016-06-29T10:08:13: Parsing "crispy_forms.tests.compatibility" ("C:\LifeHistory\Lifehistory\env\Lib\site-packages\crispy_forms\tests\compatibility.py")
+2016-06-29T10:08:13: Parsing "crispy_forms.tests.conftest" ("C:\LifeHistory\Lifehistory\env\Lib\site-packages\crispy_forms\tests\conftest.py")
+2016-06-29T10:08:13: Parsing "crispy_forms.tests.forms" ("C:\LifeHistory\Lifehistory\env\Lib\site-packages\crispy_forms\tests\forms.py")
+2016-06-29T10:08:13: Parsing "crispy_forms.tests.test_dynamic_api" ("C:\LifeHistory\Lifehistory\env\Lib\site-packages\crispy_forms\tests\test_dynamic_api.py")
+2016-06-29T10:08:13: Parsing "crispy_forms.tests.test_form_helper" ("C:\LifeHistory\Lifehistory\env\Lib\site-packages\crispy_forms\tests\test_form_helper.py")
+2016-06-29T10:08:13: Parsing "crispy_forms.tests.test_layout" ("C:\LifeHistory\Lifehistory\env\Lib\site-packages\crispy_forms\tests\test_layout.py")
+2016-06-29T10:08:13: Parsing "crispy_forms.tests.test_layout_objects" ("C:\LifeHistory\Lifehistory\env\Lib\site-packages\crispy_forms\tests\test_layout_objects.py")
+2016-06-29T10:08:13: Parsing "crispy_forms.tests.test_settings" ("C:\LifeHistory\Lifehistory\env\Lib\site-packages\crispy_forms\tests\test_settings.py")
+2016-06-29T10:08:13: Parsing "crispy_forms.tests.test_tags" ("C:\LifeHistory\Lifehistory\env\Lib\site-packages\crispy_forms\tests\test_tags.py")
+2016-06-29T10:08:13: Parsing "crispy_forms.tests.test_utils" ("C:\LifeHistory\Lifehistory\env\Lib\site-packages\crispy_forms\tests\test_utils.py")
+2016-06-29T10:08:13: Parsing "crispy_forms.tests.urls" ("C:\LifeHistory\Lifehistory\env\Lib\site-packages\crispy_forms\tests\urls.py")
+2016-06-29T10:08:13: Parsing "crispy_forms.tests" ("C:\LifeHistory\Lifehistory\env\Lib\site-packages\crispy_forms\tests\__init__.py")
+2016-06-29T10:08:13: Parsing complete
+2016-06-29T10:08:13: Analyzing "crispy_forms.base"
+2016-06-29T10:08:13: Analyzing "crispy_forms.bootstrap"
+2016-06-29T10:08:13: Analyzing "crispy_forms.compatibility"
+2016-06-29T10:08:13: Analyzing "crispy_forms.exceptions"
+2016-06-29T10:08:13: Analyzing "crispy_forms.helper"
+2016-06-29T10:08:13: Analyzing "crispy_forms.layout"
+2016-06-29T10:08:13: Analyzing "crispy_forms.layout_slice"
+2016-06-29T10:08:13: Analyzing "crispy_forms.models"
+2016-06-29T10:08:13: Analyzing "crispy_forms.utils"
+2016-06-29T10:08:13: Analyzing "crispy_forms"
+2016-06-29T10:08:13: Analyzing "crispy_forms.templatetags.crispy_forms_field"
+2016-06-29T10:08:13: Analyzing "crispy_forms.templatetags.crispy_forms_filters"
+2016-06-29T10:08:13: Analyzing "crispy_forms.templatetags.crispy_forms_tags"
+2016-06-29T10:08:13: Analyzing "crispy_forms.templatetags.crispy_forms_utils"
+2016-06-29T10:08:13: Analyzing "crispy_forms.templatetags"
+2016-06-29T10:08:13: Analyzing "crispy_forms.tests.compatibility"
+2016-06-29T10:08:13: Analyzing "crispy_forms.tests.conftest"
+2016-06-29T10:08:13: Analyzing "crispy_forms.tests.forms"
+2016-06-29T10:08:13: Analyzing "crispy_forms.tests.test_dynamic_api"
+2016-06-29T10:08:13: Analyzing "crispy_forms.tests.test_form_helper"
+2016-06-29T10:08:13: Analyzing "crispy_forms.tests.test_layout"
+2016-06-29T10:08:13: Analyzing "crispy_forms.tests.test_layout_objects"
+2016-06-29T10:08:13: Analyzing "crispy_forms.tests.test_settings"
+2016-06-29T10:08:13: Analyzing "crispy_forms.tests.test_tags"
+2016-06-29T10:08:13: Analyzing "crispy_forms.tests.test_utils"
+2016-06-29T10:08:13: Analyzing "crispy_forms.tests.urls"
+2016-06-29T10:08:13: Analyzing "crispy_forms.tests"
+2016-06-29T10:08:13: Starting analysis of 27 modules
+2016-06-29T10:08:14: Analysis complete
+2016-06-29T10:08:14: Saving group "C:\LifeHistory\Lifehistory\env\Lib\site-packages\crispy_forms"
+2016-06-29T10:08:14: End of group "C:\LifeHistory\Lifehistory\env\Lib\site-packages\crispy_forms"
+2016-06-29T10:08:14: Deleting 0 files

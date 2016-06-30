@@ -16,18 +16,37 @@
     <div class="col-md-12"><hr /></div>
     
     <div class="viewwindow" id="viewwindow">
-        <div class="col-md-4"> </div>
+        <div class="col-md-4"></div>
         <div class="col-md-4">
-            <h3 style="text-align:center">To begin, choose an action: </h3>        
+            <p style="text-align:center; font-size:18px">To begin, choose an action: </p>        
         </div>
-        <div class="col-md-4"> </div>
-        <div class="col-md-12" style="text-align:center"><p><button class="btn btn-info" onclick="OpenSearch()"><span class="glyphicon glyphicon-search"></span> Search the Database &raquo;</button></p></div>
-        {% if user.is_superuser %}    
-            <div class="col-sm-12" style="text-align:center"><p><a href="/admin/app/species/add/" class="btn btn-warning"><span class="glyphicon glyphicon-plus"></span> Add new SPECIES &raquo;</a> * Superusers Only</p></div>
+        <div class="col-md-4"><hr style="border-color:rgba(255,255,255,0)" /></div>
+        
+        <div class="col-md-4"><hr style="border-color:rgba(255,255,255,0)" /></div>
+        <div class="col-md-4" style="text-align:left"><button class="btn btn-primary" onclick="OpenSearch()"><span class="glyphicon glyphicon-search"></span> Search the Database &raquo;</button></div>        
+        <div class="col-md-4"><hr style="border-color:rgba(255,255,255,0)" /></div>
+
+        {% if user.is_superuser %}
+        <div class="col-md-4"><hr style="border-color:rgba(255,255,255,0)" /></div>                   
+            <div class="col-sm-4" style="text-align:left"><a href="/admin/app/species/add/" class="btn btn-warning"><span class="glyphicon glyphicon-plus"></span> Add new SPECIES &raquo;</a> * Superusers Only</div>                
+        <div class="col-md-4"><hr style="border-color:rgba(255,255,255,0)" /></div>
         {% endif %}
-        <div class="col-sm-12" style="text-align:center"><p><button class="btn btn-info" onclick="OpenAdd()"><span class="glyphicon glyphicon-plus"></span> Add new TRAITS for existing species &raquo;</button></p></div>
-        <div class="col-sm-12" style="text-align:center"><p><a href="/downloadall" class="btn btn-danger"><span class="glyphicon glyphicon-floppy-save"></span> Dump All Data to CSV</a> * Do this at least once per week to local machine</p></div>
-    
+
+        {% if user.is_staff %}
+        <div class="col-md-4"><hr style="border-color:rgba(255,255,255,0)" /></div>                                    
+        <div class="col-sm-5" style="text-align:left"><button class="btn btn-info" onclick="OpenAdd()"><span class="glyphicon glyphicon-plus"></span> Add new TRAITS for existing species &raquo;</button> * Staff only</div>        
+        <div class="col-md-3"><hr style="border-color:rgba(255,255,255,0)" /></div>
+
+        <div class="col-md-4"><hr style="border-color:rgba(255,255,255,0)" /></div>                    
+        <div class="col-sm-5" style="text-align:left"><a href="/admin/app/traits/" class="btn btn-info"><span class="glyphicon glyphicon-pencil"></span> Edit existing traits &raquo;</a> * Staff only</div>        
+        <div class="col-md-3"><hr style="border-color:rgba(255,255,255,0)" /></div>        
+        {% endif %}
+
+        <div class="col-md-4"><hr style="border-color:rgba(255,255,255,0)" /></div>
+        <div class="col-sm-6" style="text-align:left"><a href="/downloadall" class="btn btn-danger"><span class="glyphicon glyphicon-floppy-save"></span> Dump All Data to CSV</a></div>
+        <div class="col-md-2"><hr style="border-color:rgba(255,255,255,0)" /></div>
+
+
         <div class="col-sm-12"><hr /></div>
         <div class="col-sm-12" style="text-align:center"><h4>Access to the life history database is granted to limited individuals to date. Please keep your login information private and do not share
             the database or URL with anyone until you are granted permission.</h4></div>
@@ -36,6 +55,11 @@
         <div class="col-sm-12" style="text-align:center">
              <h3> If you are seeing this message, you are a Superuser... only Superusers have the ability to create new users or add species to the database. </h3>
         </div>
+
+        
+        <div class="col-md-4"><hr style="border-color:rgba(255,255,255,0)" /></div>
+        <div class="col-sm-6" style="text-align:left"><a href="/admin/auth/user/add/" class="btn btn-success btn-lg"><span class="glyphicon glyphicon-plus-sign"></span> Add User</a></div>
+        <div class="col-md-2"><hr style="border-color:rgba(255,255,255,0)" /></div>
         {% endif %}
     </div>
     

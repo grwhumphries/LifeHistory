@@ -30,7 +30,9 @@ urlpatterns = patterns('',
     url(r'^downloadOrder/','app.views.downloadOrder',name='downloadOrder'),
     url(r'^downloadFamily/','app.views.downloadFamily',name='downloadFamily'),
     
-
+    url(r'^EntryKey$','app.views.entrykey',name='entrykey'),
+    url(r'^SaveSuccess$','app.views.savesuccess', name='SaveSuccess'),
+    url(r'^dbPost$','app.views.dbPost',name='dbPost'),
 
     url(r'^login/$',
         'django.contrib.auth.views.login',
@@ -57,5 +59,5 @@ urlpatterns = patterns('',
     # url(r'^admin/doc/', include('django.contrib.admindocs.urls')),
 
     # Uncomment the next line to enable the admin:
-     url(r'^admin/', include(admin.site.urls)),
+     url(r'^admin/', include(admin.site.urls)),     
 )

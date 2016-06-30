@@ -16,7 +16,6 @@ species__iucn_status
 species__red_list_criteria
 species__year_assessed
 species__population_trend
-species__coloniality
 species__breeding_dist
 species__nest_locations
 species__hatchling_type
@@ -31,12 +30,12 @@ male_mass_upper
 male_mass_uncertainty
 clutch_size_mean
 clutch_size_lower
-cluth_size_upper
+clutch_size_upper
 clutch_size_uncertainty
 clutch_interval
 incubation_mean
 incubation_period_lower
-incubtaion_period_upper
+incubation_period_upper
 incubation_period_uncertainty
 fledging_period_mean
 fledging_period_lower
@@ -67,6 +66,9 @@ annual_survival_mean
 annual_survival_lower
 annual_survival_upper
 annual_survival_uncertainty
+mate_fidelity
+site_fidelity
+coloniality
 citation
 username
 dt
