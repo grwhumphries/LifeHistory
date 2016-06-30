@@ -17,7 +17,7 @@ def entrykey(request):
     assert isinstance(request, HttpRequest)
     return render(
         request,
-        'app/EntryKey.html',
+        'EntryKey.html',
         context_instance = RequestContext(request,
         {
             'title':'Database Key legend',
@@ -35,7 +35,7 @@ def dbadd(request):
     context = RequestContext(request, {'species':SpeciesList,'modelform':modelform,'year':datetime.now().year,
             'month':datetime.now().month,
             'day':datetime.now().day, })
-    template = loader.get_template('app/dbadd.html')        
+    template = loader.get_template('dbadd.html')        
     return HttpResponse(template.render(context))
 
 
@@ -44,7 +44,7 @@ def savesuccess(request):
     assert isinstance(request, HttpRequest)
     return render(
         request,
-        'app/SaveSuccess.html',
+        'SaveSuccess.html',
         context_instance = RequestContext(request,
         {
             'title':'Database Key legend',
@@ -69,11 +69,11 @@ def dbPost(request):
             
             post.save()
 
-            return render(request, 'app/SaveSuccess.html') 
+            return render(request, 'SaveSuccess.html') 
         else:
             form = PostForm()
 
-        return render_to_response('app/lifehistory.html')
+        return render_to_response('lifehistory.html')
 
 
 def home(request):
@@ -81,7 +81,7 @@ def home(request):
     assert isinstance(request, HttpRequest)
     return render(
         request,
-        'app/index.html',
+        'index.html',
         context_instance = RequestContext(request,
         {
             'title':'Home Page',
@@ -99,7 +99,7 @@ def lifehistory(request):
     assert isinstance(request, HttpRequest)
     return render(
         request,
-        'app/lifehistory.html',
+        'lifehistory.html',
         context_instance = RequestContext(request,
         {
             'title':'lifehistory',
@@ -152,7 +152,7 @@ def dbsearch(request):
     Y = Species.objects.all().distinct('fam').order_by('fam').values_list('fam')
 
     context = RequestContext(request, {'commonnames':CnameList,'species':SpeciesList,'orders':X,'families':Y})
-    template = loader.get_template('app/dbsearch.html')        
+    template = loader.get_template('dbsearch.html')        
     return HttpResponse(template.render(context))
         
    
@@ -164,7 +164,7 @@ def species(request):
         List = Species.objects.filter(species_id = l)
             
     context = RequestContext(request, {'LIST':List})
-    template = loader.get_template('app/searchresult.html')        
+    template = loader.get_template('searchresult.html')        
     return HttpResponse(template.render(context))
 
 
@@ -174,7 +174,7 @@ def order(request):
         List = Species.objects.filter(ord = l)        
     
     context = RequestContext(request, {'LIST':List})
-    template = loader.get_template('app/searchresult.html')        
+    template = loader.get_template('searchresult.html')        
     return HttpResponse(template.render(context))
 
 
@@ -184,7 +184,7 @@ def family(request):
         List = Species.objects.filter(fam = l)        
     
     context = RequestContext(request, {'LIST':List})
-    template = loader.get_template('app/searchresult.html')        
+    template = loader.get_template('searchresult.html')        
     return HttpResponse(template.render(context))
 
 def commonname(request):
@@ -193,7 +193,7 @@ def commonname(request):
         List = Species.objects.filter(common_name_1 = l)        
     
     context = RequestContext(request, {'LIST':List})
-    template = loader.get_template('app/searchresult.html')        
+    template = loader.get_template('searchresult.html')        
     return HttpResponse(template.render(context))
 
 
@@ -203,5 +203,5 @@ def gettraits(request):
         traits = Traits.objects.filter(species_id = t)
 
     context = RequestContext(request, {'TRAITS':traits})
-    template = loader.get_template('app/searchresulttraits.html')        
+    template = loader.get_template('searchresulttraits.html')        
     return HttpResponse(template.render(context))
