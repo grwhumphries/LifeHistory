@@ -161,53 +161,53 @@ LOGGING = {
 TEST_RUNNER = 'django.test.runner.DiscoverRunner'
 
 
-#SECURE_PROXY_SSL_HEADER = (
-#    "HTTP_X_FORWARDED_PROTO", 
-#    "https"
-#    )
-
-#DATABASES = {
-#    'default': {
-#        'ENGINE': 'django.db.backends.postgresql_psycopg2',
-#        'NAME': 'd64r0n56gh1s95',
-#        'USER': 'nqvvyjnkwlvhgg',
-#        'PASSWORD': '6JXEEjPlHK_xieNTbPcztL-5zq',
-#        'HOST': 'ec2-54-83-44-117.compute-1.amazonaws.com',
-#        'PORT': '5432',       
-#    }
-# }
-
-#DATABASES['default'] =  dj_database_url.config()
-#DATABASES['default']['ENGINE'] = 'django.db.backends.postgresql_psycopg2'
-
-#STATICFILES_STORAGE = 's3_folder_storage.s3.StaticStorage'
-#STATIC_S3_PATH = "static"
-
-#AWS_S3_SECURE_URLS = False 
-#AWS_QUERYSTRING_AUTH = False
-####################################################################################
-######## For the following three to work,  env variables must be set in Heroku #####
-####################################################################################
-#AWS_ACCESS_KEY_ID = os.environ.get('AWS_ACCESS_KEY_ID')
-#AWS_SECRET_ACCESS_KEY = os.environ.get('AWS_SECRET_ACCESS_KEY')
-#AWS_STORAGE_BUCKET_NAME = 'lifehistory'
-#######################################################################
-
-#STATIC_ROOT = "/%s/" % STATIC_S3_PATH
-#STATIC_URL = '//lifehistory.s3.amazonaws.com/static/'
-#ADMIN_MEDIA_PREFIX = STATIC_URL + 'admin/'
-
-
-STATIC_ROOT = path.join(PROJECT_ROOT, 'Lifehistory/app/static/').replace('\\', '/')
-STATIC_URL = '/static/'
-
+SECURE_PROXY_SSL_HEADER = (
+    "HTTP_X_FORWARDED_PROTO", 
+    "https"
+    )
 
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        'NAME': 'lifehistory',
-        'USER': 'lifehistoryuser',
-        'PASSWORD': 'lifehistory',        
-        'PORT': '5432',
+        'NAME': 'd64r0n56gh1s95',
+        'USER': 'nqvvyjnkwlvhgg',
+        'PASSWORD': '6JXEEjPlHK_xieNTbPcztL-5zq',
+        'HOST': 'ec2-54-83-44-117.compute-1.amazonaws.com',
+        'PORT': '5432',       
     }
-}
+ }
+
+DATABASES['default'] =  dj_database_url.config()
+DATABASES['default']['ENGINE'] = 'django.db.backends.postgresql_psycopg2'
+
+STATICFILES_STORAGE = 's3_folder_storage.s3.StaticStorage'
+STATIC_S3_PATH = "static"
+
+AWS_S3_SECURE_URLS = False 
+AWS_QUERYSTRING_AUTH = False
+###################################################################################
+####### For the following three to work,  env variables must be set in Heroku #####
+###################################################################################
+AWS_ACCESS_KEY_ID = os.environ.get('AWS_ACCESS_KEY_ID')
+AWS_SECRET_ACCESS_KEY = os.environ.get('AWS_SECRET_ACCESS_KEY')
+AWS_STORAGE_BUCKET_NAME = 'lifehistory'
+######################################################################
+
+STATIC_ROOT = "/%s/" % STATIC_S3_PATH
+STATIC_URL = '//lifehistory.s3.amazonaws.com/static/'
+ADMIN_MEDIA_PREFIX = STATIC_URL + 'admin/'
+
+
+#STATIC_ROOT = path.join(PROJECT_ROOT, 'Lifehistory/app/static/').replace('\\', '/')
+#STATIC_URL = '/static/'
+
+
+#DATABASES = {
+#    'default': {
+#        'ENGINE': 'django.db.backends.postgresql_psycopg2',
+#        'NAME': 'lifehistory',
+#        'USER': 'lifehistoryuser',
+#        'PASSWORD': 'lifehistory',        
+#        'PORT': '5432',
+#    }
+#}
