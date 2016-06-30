@@ -1,0 +1,37 @@
+{% extends "app/layout.html" %}
+
+{% block content %}
+
+<div class="jumbotron">
+    <h1>The Seabird Life History Database</h1>
+    <p class="lead">This application is for exploring and entering data into the seabird life history database for Maureen Lynch.</p>
+    <p style="font-size:12px;"> *** This database is derived from work by <strong>E.A. Schreiber and J. Burger (2001). The Biology of Marine Birds. CRC Press.</strong> Please cite if using data </p>
+    {% if user.is_authenticated %}
+        <p><a href="/lifehistory" class="btn btn-primary btn-large">Access the Database &raquo;</a></p>
+    {% endif %}
+</div>
+
+<div class="row" style="background-color:rgba(255,255,255,0.95)">
+    <div class="col-md-4">
+        <h2>Getting started</h2>
+        <p>
+            Clicking below will allow you to log in to the seabird life history database 
+        </p>
+        <p><a class="btn btn-success btn-lg" href="/login"><span class="glyphicon glyphicon-log-in"></span> Log In &raquo;</a></p>
+    </div>
+    <div class="col-md-4">
+        <h2>Search articles on Google</h2>
+        <p>This link will bring you to Google Scholar, where you can search for relevant articles on seabird life history</p>
+        <p><a class="btn btn-warning" href="http://scholar.google.com" target="_blank"><span class="glyphicon glyphicon-education"></span> Google Scholar &raquo;</a></p>
+    </div>
+    <div class="col-md-4">
+        <h2>Check out databases</h2>
+        <p>Clicking on this link will bring you to the Seabird Information Network on Seabirds.net, which will allow you to locate other seabird databases</p>
+        <p><a class="btn btn-info" href="http://www.seabirds.net/seabirdinfonetwork.html" target="_blank"><span class="glyphicon glyphicon-book"></span> Learn more &raquo;</a></p>
+    </div>
+</div>
+
+
+
+
+{% endblock %}

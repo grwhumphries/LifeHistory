@@ -1,0 +1,75 @@
+﻿{% extends "app/layout.html" %}
+
+{% load staticfiles %}
+
+{% block content %}
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.10.0/css/bootstrap-select.min.css">       
+<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.10.0/js/bootstrap-select.min.js"></script>    
+
+{% if user.is_authenticated %}
+        
+<div class="row" style="background-color:rgba(255,255,255,0.95)">
+    
+    <div class="col-md-12">
+        <h2 style="text-align:center"><span class="glyphicon glyphicon-ok" style="color:green"></span> Thanks! Data have been successfully saved to the database...  </h2>        
+    </div>
+    
+    <div class="col-md-12"><hr /></div>
+    
+    <div class="viewwindow" id="viewwindow">
+        <div class="col-md-4"></div>
+        <div class="col-md-4">
+            <p style="text-align:center; font-size:18px">What would you like to do next? </p>        
+        </div>
+        <div class="col-md-4"><hr style="border-color:rgba(255,255,255,0)" /></div>
+        
+        <div class="col-md-4"><hr style="border-color:rgba(255,255,255,0)" /></div>
+        <div class="col-md-4" style="text-align:left"><button class="btn btn-primary" onclick="OpenSearch()"><span class="glyphicon glyphicon-search"></span> Search the Database &raquo;</button></div>        
+        <div class="col-md-4"><hr style="border-color:rgba(255,255,255,0)" /></div>
+
+        <div class="col-md-4"><hr style="border-color:rgba(255,255,255,0)" /></div>       
+        {% if user.is_superuser %}    
+            <div class="col-sm-4" style="text-align:left"><a href="/admin/app/species/add/" class="btn btn-warning"><span class="glyphicon glyphicon-plus"></span> Add new SPECIES &raquo;</a> * Superusers Only</div>
+        {% endif %}
+        <div class="col-md-4"><hr style="border-color:rgba(255,255,255,0)" /></div>
+        
+        {% if user.is_staff %}
+        <div class="col-md-4"><hr style="border-color:rgba(255,255,255,0)" /></div>                    
+        <div class="col-sm-5" style="text-align:left"><button class="btn btn-info" onclick="OpenAdd()"><span class="glyphicon glyphicon-plus"></span> Add more TRAITS &raquo;</button> * Staff only</div>        
+        <div class="col-md-3"><hr style="border-color:rgba(255,255,255,0)" /></div>
+
+        <div class="col-md-4"><hr style="border-color:rgba(255,255,255,0)" /></div>                    
+        <div class="col-sm-5" style="text-align:left"><a href="/admin/app/traits/" class="btn btn-info"><span class="glyphicon glyphicon-pencil"></span> Edit existing traits &raquo;</a> * Staff only</div>        
+        <div class="col-md-3"><hr style="border-color:rgba(255,255,255,0)" /></div>        
+        {% endif %}
+
+        <div class="col-md-4"><hr style="border-color:rgba(255,255,255,0)" /></div>
+        <div class="col-sm-6" style="text-align:left"><a href="/downloadall" class="btn btn-danger"><span class="glyphicon glyphicon-floppy-save"></span> Dump All Data to CSV</a></div>
+        <div class="col-md-2"><hr style="border-color:rgba(255,255,255,0)" /></div>
+
+    
+        <div class="col-md-12"><hr style="border-color:black"/></div>
+        <div class="col-md-2">
+            <div class="logout"><a class="btn btn-default btn-lg" href="/logout"><span class="glyphicon glyphicon-log-out"></span> Log Out &raquo;</a></div>
+        </div>
+        <div class="col-md-8" style="text-align:center;"><img style="box-shadow: 10px 10px 5px #888888;" src="{% static 'app/images/Seabirds.jpg' %}" /></div>               
+    </div>
+    
+
+    
+</div>
+
+
+
+
+
+{% else %}
+    <div class="row">
+        <div class="col-md-12">
+            <h2> You are not logged in... please <a href="{% url 'login' %}">log in</a> to continue...</h2>            
+        </div>
+    </div>
+    <p><a class="btn btn-default" href="/login">Log In &raquo;</a></p>
+{% endif %}
+{% endblock %}

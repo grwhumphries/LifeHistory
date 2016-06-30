@@ -1,0 +1,286 @@
+﻿{% extends "app/layout.html" %}
+
+{% block content %}
+
+
+<div class="row" style="background-color:rgba(255,255,255,0.93)">
+    <div class="col-md-12">
+        <h4 style="text-align:center;"> Located below is the marine bird life history database key. If you have questions, please e-mail: Grant.Humphries@stonybrook.edu </h4>
+    </div>
+    <div class="col-md-12"><hr /></div>
+    <div class="col-md-6">
+    <table class="table" style="font-size:12px">
+        <caption>Species Traits</caption>
+        <thead>            
+            <tr>
+                <th>Trait</th>
+                <th>Units</th>
+                <th>Explanation</th>                
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Mass (male or female)</td>
+                <td>kg</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>Max growth</td>
+                <td>g/day</td>
+                <td>maximum mass gained by a chick in a day</td>
+            </tr>
+            <tr>
+                <td>Wingspan</td>
+                <td>cm</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>Age of first breeding</td>
+                <td>years</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>Max age</td>
+                <td>years</td>
+                <td>maximum age recorded for the species. This figure is higher than adult life expectancy</td>
+
+            </tr>
+            <tr>
+                <td> Annual survival </td>
+                <td> % </td>
+                <td> Estimated % of adults that survive over a year </td>
+            </tr>
+            <tr>
+                <td>Clutch size </td>
+                <td></td>
+                <td>Number of eggs</td>
+            </tr>
+            <tr>
+                <td rowspan="2">Clutch interval </td>
+                <td>B</td>
+                <td>Biennial</td>
+            </tr>
+            <tr>                
+                <td>D</td>
+                <td>Diurnal</td>
+            </tr>
+            <tr>
+                <td>Incubation period</td>
+                <td>days</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>Fledging period</td>
+                <td>days</td>
+                <td>time in days it takes for chicks to first have sustained flight (or for penguins and flightless cormorants, when they go to sea). For seven species of alcids that leave the nest before they can fly and go to sea with a parent, it apples to the time in the nest before going to sea</td>
+            </tr>
+            <tr>
+                <td>Post fledging care</td>
+                <td>days</td>
+                <td>the actual length of post-fledging care is often difficult to determine. Most research is carried out in colonies and feeding of young may still occur after birds leave the colony</td>
+            </tr>
+            <tr>
+                <td>Foraging distance</td>
+                <td>OS</td>
+                <td>Offshore</td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>NS</td>
+                <td>Nearshore</td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>NS+</td>
+                <td>Between about 0.5km offshore and "offshore"</td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>VALUE (km)</td>
+                <td>If tracking data available, this is the maximum foraging distance measured</td>
+            </tr>
+            <tr>
+                <td>Citation</td>
+                <td></td>
+                <td>Citation associated with the data in related fields</td>
+            </tr>
+                      
+            <tr>
+                <td rowspan="3">Coloniality</td>
+                <td>L</td>
+                <td>Low degree of coloniality ( 0 - 33% birds nest in a colony )</td>
+            </tr>
+            <tr>
+
+                <td>M</td>
+                <td>Medium degree of coloniality ( 34 - 66% birds nest in a colony )</td>
+            </tr>
+            <tr>
+
+                <td>H</td>
+                <td>High degree of coloniality ( 64 - 100% birds nest in a colony )</td>
+            </tr>
+
+            <tr>
+                <td rowspan="3">Mate Fidelity</td>
+                <td>L</td>
+                <td>Low degree of Mate Fidelity ( Polygamy )</td>
+            </tr>
+            <tr>
+                <td>M</td>
+                <td>Medium degree of Mate Fidelity ( Social monogamy )</td>
+            </tr>
+            <tr>    
+                <td>H</td>
+                <td>High degree of Mate Fidelity ( Total monogamy )</td>
+            </tr>
+
+            <tr>
+                <td rowspan="3">Site Fidelity</td>
+                <td>L</td>
+                <td>Never or rarely returns to same site to breed</td>
+            </tr>
+            <tr>   
+                <td>M</td>
+                <td>Returns to same colony or area, but not same nest</td>
+            </tr>
+            <tr>           
+                <td>H</td>
+                <td>Nearly always returns to same nest or closeby</td>
+            </tr>
+            
+            <tr>
+                <td rowspan="8">Nest location</td>
+                <td>Bu</td>
+                <td>Burrow</td>
+            </tr>
+            <tr>   
+                <td>Cl</td>
+                <td>Cliff or Cliff Ledge</td>
+            </tr>
+            <tr>           
+                <td>Cr</td>
+                <td>Crevice or Natural Hole: these may be on flat ground (shearwaters), slopes (puffins), or on cliff faces</td>
+            </tr>
+            <tr>   
+                <td>F</td>
+                <td>Floating in Marsh</td>
+            </tr>
+            <tr>   
+                <td>O</td>
+                <td>Open Ground</td>
+            </tr>
+            <tr>   
+                <td>T</td>
+                <td>on a Tree or Bush</td>
+            </tr>
+            <tr>   
+                <td>Sl</td>
+                <td>Steep Slope: not as steep as a cliff and generally not stone</td>
+            </tr>
+            <tr>   
+                <td>Un</td>
+                <td>Under Tree or Bush</td>
+            </tr>
+                                               
+        </tbody>
+    </table>
+    </div>
+
+    <div class="col-md-6">
+    <table class="table" style="font-size:12px">
+        <caption>Species Information</caption>
+        <thead>            
+            <tr>
+                <th>Trait</th>
+                <th>Options</th>
+                <th>Description</th>                
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td rowspan="5">Breeding Distribution</td>
+                <td>(P)Polar</td>
+                <td>South: Antarctic Continent / North: 80N-90N</td>
+            </tr>
+            <tr>
+                
+                <td>(SP) Subpolar</td>
+                <td>South: just off the edge of the Antarctic continent to about 50S / North: 80N to Antarctic circle</td>
+            </tr>
+            <tr>
+                
+                <td>(Tm) Temperate</td>
+                <td>South: about 50S to 30S / North: below Arctic Circle to 25-30N</td>
+            </tr>
+            <tr>
+                
+                <td>(STr) Subtropical</td>
+                <td>South: about 30S-15S / North: about 25-30N to 15N</td>
+            </tr>
+            <tr>               
+                <td>(Tr) Tropical</td>
+                <td>15S to 15N</td>
+            </tr>
+            <tr>
+                <td rowspan="8">IUCN status</td>              
+                <td>DD</td>
+                <td>Data Deficient: A taxon is Data Deficient when there is inadequate information to make a direct, or indirect, assessment of its risk of extinction based on its distribution and/or population status. A taxon in this category may be well studied, and its biology well known, but appropriate data on abundance and/or distribution are lacking. Data Deficient is therefore not a category of threat. Listing of taxa in this category indicates that more information is required and acknowledges the possibility that future research will show that threatened classification is appropriate</td>
+            </tr>
+            <tr>                
+                <td>LC</td>
+                <td>Least Concern: A taxon is Least Concern when it has been evaluated against the criteria and does not qualify for Critically Endangered, Endangered, Vulnerable or Near Threatened. Widespread and abundant taxa are included in this category</td>
+            </tr>            
+            <tr>           
+                <td>NT</td>
+                <td>IUCN Red List Categories, Near Threatened: A taxon is Near Threatened when it has been evaluated against the criteria but does not qualify for Critically Endangered, Endangered or Vulnerable now, but is close to qualifying for or is likely to qualify for a threatened category in the near future</td>
+            </tr>
+            <tr>                
+                <td>VU</td>
+                <td>Vulnerable: A taxon is Vulnerable when the best available evidence (large population decline, small population, small geographic area occupied, or if the calculated probability of extinction during the next 20 years is at least 10%) indicates that it is considered to be facing a very high risk of extinction in the wild</td>
+            </tr>
+            <tr>               
+                <td>EN</td>
+                <td>Endangered: A taxon is Endangered when the best available evidence (large population decline, small population, small geographic area occupied, or if the calculated probability of extinction during the next 20 years is >20%) indicates that it is considered to be facing a very high risk of extinction in the wild</td>
+            </tr>
+            <tr>                
+                <td>CR</td>
+                <td>Critically Endangered: A taxon is Critically Endangered when the best available evidence (severe population decline, very small population, very small geographic area occupied, or if the calculated probability of extinction during the next 10 years of >50%) indicates that it is facing an extremely high risk of extinction in the wild</td>
+            </tr>
+            <tr>                
+                <td>EW</td>
+                <td>Extinct in the Wild: A taxon is Extinct in the Wild when it is known only to survive in cultivation, in captivity or as a naturalized population (or populations) well outside the past range. A taxon is presumed Extinct in the Wild when exhaustive surveys in known and/or expected habitat, at appropriate times (diurnal, seasonal, annual), throughout its historic range have failed to record an individual. Surveys should be over a time frame appropriate to the taxon's life cycle and life form</td>
+            </tr>
+            <tr>                
+                <td>EX</td>
+                <td>Extinct in the Wild: A taxon is Extinct in the Wild when it is known only to survive in cultivation, in captivity or as a naturalized population (or populations) well outside the past range. A taxon is presumed Extinct in the Wild when exhaustive surveys in known and/or expected habitat, at appropriate times (diurnal, seasonal, annual), throughout its historic range have failed to record an individual. Surveys should be over a time frame appropriate to the taxon's life cycle and life form</td>
+            </tr>
+            
+            <tr>
+                <td rowspan="4">Hatchling type</td>
+                <td>(P) Precocial</td>
+                <td>Chicks have either down or contour feathers and are born with eyes open and leave nest early (can sometimes feed selves)</td>
+            </tr>
+            <tr>                
+                <td>(SP) Semiprecocial</td>
+                <td>Chicks have down and hatch with eyes open, but remain around the nest for some time soon after hatching</td>
+            </tr>
+            <tr>                
+                <td>(SA) Semi-Altricial</td>
+                <td>Chicks have down and can hatch with or without eyes open, but remain in nest to be fed until ready to fledge</td>
+            </tr>
+            <tr>                
+                <td>(A) Altricial</td>
+                <td>Chicks have no down and are hatched with eyes closed, will remain in nest until fledged</td>
+            </tr>
+            
+
+        </tbody>
+    </table>
+    </div>
+
+
+
+</div>
+
+{% endblock %}

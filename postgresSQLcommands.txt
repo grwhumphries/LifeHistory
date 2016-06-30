@@ -1,0 +1,102 @@
+CREATE TABLE public.species
+(fid SMALLINT NOT NULL,
+ord character(20),
+fam character(20),
+genus character(20) NOT NULL,
+species character(20),
+genus_species character(40),
+species_id character(40) PRIMARY KEY NOT NULL,
+synonyms character(300),
+common_name_1 character(40) NOT NULL,
+common_name_2 character(50),
+common_name_3 character(50),
+common_name_4 character(50),
+common_name_5 character(50),
+common_name_6 character(50),
+iucn_status character(4),
+red_list_criteria character(100),
+year_assessed INTEGER,
+population_trend character(20),
+breeding_dist character(10),
+nest_locations character(15),
+hatchling_type character(5)
+) 
+WITH (
+  OIDS = FALSE
+)
+;
+ALTER TABLE public.species
+  OWNER TO lifehistory;
+
+
+
+
+
+
+feature_id SMALLINT PRIMARY KEY,
+species_id character(40) NOT NULL REFERENCES species (species_id),
+female_mass_mean numeric(10,4),
+female_mass_upper numeric(10,4),
+female_mass_lower numeric(10,4),
+female_mass_uncertainty character(50),
+male_mass_mean numeric(10,4),
+male_mass_lower numeric(10,4),
+male_mass_upper numeric(10,4),
+male_mass_uncertainty character(50),
+clutch_size_mean numeric(10,4),
+clutch_size_lower numeric(10,4),
+clutch_size_upper numeric(10,4),
+clutch_size_uncertainty character(50),
+clutch_interval character(50),
+incubation_mean numeric(10,4),
+incubation_period_lower numeric(10,4),
+incubation_period_upper numeric(10,4),
+incubation_period_uncertainty character(50),
+fledging_period_mean numeric(10,4),
+fledging_period_lower numeric(10,4),
+fledging_period_upper numeric(10,4),
+fledging_period_uncertainty character(50),
+max_growth_mean numeric(10,4),
+max_growth_lower numeric(10,4),
+max_growth_upper numeric(10,4),
+max_growth_uncertainty character(50),
+post_fledge_care_mean numeric(10,4),
+post_fledge_care_lower numeric(10,4),
+post_fledge_care_upper numeric(10,4),
+post_fledge_care_uncertainty character(50),
+age_first_breed_mean character(10),
+age_first_breed_lower INTEGER,
+age_first_breed_upper INTEGER,
+age_first_breed_uncertainty character(50),
+foraging_distance character(50),
+wingspan_mean numeric(10,4),
+wingspan_lower numeric(10,4),
+wingspan_upper numeric(10,4),
+wingspan_uncertainty character(50),
+max_age_mean numeric(10,4),
+max_age_lower INTEGER,
+max_age_upper INTEGER,
+max_age_uncertainty character(50),
+annual_survival_mean numeric(10,4),
+annual_survival_lower numeric(10,4),
+annual_survival_upper numeric(10,4),
+annual_survival_uncertainty character(50),
+mate_fidelity character(15),
+site_fidelity character(15),
+coloniality character(5),
+citation TEXT,
+username character(30) NOT NULL,
+dt character(30) NOT NULL
+
+
+
+
+
+
+
+
+
+
+
+
+
