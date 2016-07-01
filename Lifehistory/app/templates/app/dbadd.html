@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+{% load staticfiles %}
+{% load crispy_forms_tags %}
+
+<head>    
+<script type="text/javascript">               
+        
+        $(document).ready(function () {
+            $('.selectpicker').selectpicker({
+                size: 10,
+                width: '75%',
+                
+            });
+        });        
+
+
+    </script>           
+</head>
+
+<body>
+{% if user.is_authenticated %}
+{% if user.is_staff %}
+    <div class="row" style="background-color:rgba(255,255,255,0.95)">
+        <div class="col-md-1">
+            <p><a href="/lifehistory" class="btn btn-primary btn-large">&laquo; Back</a></p>
+        </div>        
+        <div class="col-md-12">
+            {% crispy modelform %}{% csrf_token %}
+        </div>        
+    </div>
+
+{% else %}
+    <div class="row">
+        <div class="col-md-12">
+            <h2> You are not logged in as staff <a href="{% url 'login' %}">log in</a> to continue...</h2>            
+        </div>
+    </div>
+{% endif %}
+{% else %} 
+    <div class="row">
+        <div class="col-md-12">
+            <h2> You are not logged in... please <a href="{% url 'login' %}">log in</a> to continue...</h2>            
+        </div>
+    </div>
+    <p><a class="btn btn-default" href="/login">Log In &raquo;</a></p>
+{% endif %}    
+</body>
+</html>
