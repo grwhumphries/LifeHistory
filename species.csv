@@ -371,6 +371,7 @@ fid,ord,fam,genus,species,genus_species,species_id,synonyms,common_name_1,common
 370,PROCELLARIIFORMES,OCEANITIDAE,Fregetta,maoriana,Fregetta maoriana,Fregettamaoriana,Oceanites maorianus,New Zealand Storm-petrel , New Zealand Storm Petrel,,,,,CR,D,2013,unknown,,,
 371,PROCELLARIIFORMES,OCEANITIDAE,Oceanites,pincoyae,Oceanites pincoyae,Oceanitespincoyae,,Pincoya Storm-petrel,,,,,,DD,,2014,unknown,,,
 372,CHARADRIIFORMES,PEDIONOMIDAE,Pedionomus,torquatus,Pedionomus torquatus,Pedionomustorquatus,,Plains-wanderer,,,,,,EN,C2a(ii),2012,decreasing,,,
+,,,,,,,,,,,,,,,,,,,,
 373,PELECANIFORMES,PELECANIDAE,Pelecanus,occidentalis,Pelecanus occidentalis,Pelecanusoccidentalis,,Brown Pelican,,,,,,LC,,2012,increasing,"Tm,STr","O,T",A
 374,PELECANIFORMES,PELECANIDAE,Pelecanus,erythrorhynchos,Pelecanus erythrorhynchos,Pelecanuserythrorhynchos,,American White Pelican,,,,,,LC,,2012,increasing,Tm,O,
 375,PELECANIFORMES,PELECANIDAE,Pelecanus,conspicillatus,Pelecanus conspicillatus,Pelecanusconspicillatus,,Australian Pelican,,,,,,LC,,2012,stable,"Tm,STr",O,A
@@ -382,6 +383,7 @@ fid,ord,fam,genus,species,genus_species,species_id,synonyms,common_name_1,common
 381,PHAETHONTIFORMES,PHAETHONTIDAE,Phaethon,lepturus,Phaethon lepturus,Phaethonlepturus,,White-tailed Tropicbird,,,,,,LC,,2012,decreasing,"STr,Tr","Un,Cr",SA
 382,PHAETHONTIFORMES,PHAETHONTIDAE,Phaethon,aethereus,Phaethon aethereus,Phaethonaethereus,,Red-billed Tropicbird,,,,,,LC,,2013,decreasing,"STr, Tr","Un,Cr",SA
 383,PHAETHONTIFORMES,PHAETHONTIDAE,Phaethon,rubricauda,Phaethon rubricauda,Phaethonrubricauda,,Red-tailed Tropicbird,,,,,,LC,,2013,stable,"STr,Tr","Un,Cr",SA
+,,,,,,,,,,,,,,,,,,,,
 384,SULIFORMES,PHALACROCORACIDAE,Phalacrocorax,penicillatus,Phalacrocorax penicillatus,Phalacrocoraxpenicillatus,,Brandt's Cormorant, Townsend's Cormorant, Pencilled Cormorant, Brown Cormorant, Tufted Cormorant,,LC,,2012,decreasing,"Tm,STr",O,A
 385,SULIFORMES,PHALACROCORACIDAE,Phalacrocorax,harrisi,Phalacrocorax harrisi,Phalacrocoraxharrisi,Nannopterum harrisi harrisi|Nannopterum harrisi harrisi,Flightless Cormorant, Galapagos Cormorant,,,,,VU,D2,2013,stable,Tr,O,A
 386,SULIFORMES,PHALACROCORACIDAE,Phalacrocorax,carbo,Phalacrocorax carbo,Phalacrocoraxcarbo,,Great Cormorant, Black Shag, Cormorant, White-breasted Cormorant,,,LC,,2012,increasing,"Tm,STr","O,T,CL",A
@@ -417,8 +419,10 @@ fid,ord,fam,genus,species,genus_species,species_id,synonyms,common_name_1,common
 416,SULIFORMES,PHALACROCORACIDAE,Phalacrocorax,bougainvilliorum,Phalacrocorax bougainvilliorum,Phalacrocoraxbougainvilliorum,Phalacrocorax bougainvillii,Guanay Cormorant,,,,,,NT,,2014,decreasing,"Tm,STr","SI,O",A
 417,SULIFORMES,PHALACROCORACIDAE,Phalacrocorax,featherstoni,Phalacrocorax featherstoni,Phalacrocoraxfeatherstoni,Stictocarbo featherstoni featherstoni,Pitt Shag,,,,,,EN,C1,2012,decreasing,Tm,Cl,A
 418,SULIFORMES,PHALACROCORACIDAE,Phalacrocorax,perspicillatus,Phalacrocorax perspicillatus,Phalacrocoraxperspicillatus,,Spectacled Cormorant,,,,,,EX,,2012,,,,
+,,,,,,,,,,,,,,,,,,,,
 419,CHARADRIIFORMES,PLUVIANELLIDAE,Pluvianellus,socialis,Pluvianellus socialis,Pluvianellussocialis,,Magellanic Plover,,,,,,NT,,2012,stable,,,
 420,CHARADRIIFORMES,PLUVIANIDAE,Pluvianus,aegyptius,Pluvianus aegyptius,Pluvianusaegyptius,,Egyptian Plover, Crocodile-bird,,,,,LC,,2012,decreasing,,,
+,,,,,,,,,,,,,,,,,,,,
 421,PROCELLARIIFORMES,PROCELLARIIDAE,Pterodroma,pycrofti,Pterodroma pycrofti,Pterodromapycrofti,,Pycroft's Petrel,,,,,,VU,D2,2012,increasing,Tm,Bu,SP
 422,PROCELLARIIFORMES,PROCELLARIIDAE,Procellaria,aequinoctialis,Procellaria aequinoctialis,Procellariaaequinoctialis,,White-chinned Petrel,,,,,,VU,A4bcde,2012,decreasing,"SP,Tr",Bu,SP
 423,PROCELLARIIFORMES,PROCELLARIIDAE,Pachyptila,salvini,Pachyptila salvini,Pachyptilasalvini,,Salvin's Prion, Salvin's Prion,,,,,LC,,2012,stable,"SP,Tm","Bu,Cr",SP
@@ -514,6 +518,7 @@ fid,ord,fam,genus,species,genus_species,species_id,synonyms,common_name_1,common
 513,PROCELLARIIFORMES,PROCELLARIIDAE,Puffinus,elegans,Puffinus elegans,Puffinuselegans,,Subantarctic Shearwater,,,,,,LC,,2014,decreasing,,,
 514,PROCELLARIIFORMES,PROCELLARIIDAE,Puffinus,persicus,Puffinus persicus,Puffinuspersicus,,Persian Shearwater,,,,,,LC,,2014,decreasing,,,
 515,PROCELLARIIFORMES,PROCELLARIIDAE,Puffinus,subalaris,Puffinus subalaris,Puffinussubalaris,,Galapagos Shearwater,,,,,,LC,,2014,decreasing,,,
+,,,,,,,,,,,,,,,,,,,,
 516,CHARADRIIFORMES,RECURVIROSTRIDAE,Cladorhynchus,leucocephalus,Cladorhynchus leucocephalus,Cladorhynchusleucocephalus,,Banded Stilt,,,,,,LC,,2012,stable,,,
 517,CHARADRIIFORMES,RECURVIROSTRIDAE,Himantopus,himantopus,Himantopus himantopus,Himantopushimantopus,Himantopus leucocephalus|Himantopus mexicanus,Black-winged Stilt,,,,,,LC,,2014,increasing,,,
 518,CHARADRIIFORMES,RECURVIROSTRIDAE,Himantopus,novaezelandiae,Himantopus novaezelandiae,Himantopusnovaezelandiae,,Black Stilt,,,,,,CR,D,2013,increasing,,,
@@ -621,6 +626,10 @@ fid,ord,fam,genus,species,genus_species,species_id,synonyms,common_name_1,common
 620,CHARADRIIFORMES,SCOLOPACIDAE,Tringa,totanus,Tringa totanus,Tringatotanus,,Common Redshank, Redshank,,,,,LC,,2013,unknown,,,
 621,CHARADRIIFORMES,SCOLOPACIDAE,Xenus,cinereus,Xenus cinereus,Xenuscinereus,Tringa cinerea cinerea|Tringa cinerea cinerea|Tringa terek terek,Terek Sandpiper,,,,,,LC,,2012,stable,,,
 622,PELECANIFORMES,SCOPIDAE,Scopus,umbretta,Scopus umbretta,Scopusumbretta,,Hamerkop,,,,,,LC,,2012,stable,,,
+,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,
 623,SPHENISCIFORMES,SPHENISCIDAE,Spheniscus,demersus,Spheniscus demersus,Spheniscusdemersus,,African Penguin, Jackass Penguin, Black-footed Penguin,,,,EN,A2ace+3ce+4ace,2013,decreasing,"Tm,SP",Bu,SA
 624,SPHENISCIFORMES,SPHENISCIDAE,Eudyptula,minor,Eudyptula minor,Eudyptulaminor,,Little Penguin, Fairy Penguin, Blue Penguin,,,,LC,,2012,decreasing,Tm,Bu,SA
 625,SPHENISCIFORMES,SPHENISCIDAE,Pygoscelis,papua,Pygoscelis papua,Pygoscelispapua,,Gentoo Penguin,,,,,,NT,,2012,decreasing,"P,SP",O,SA
@@ -636,9 +645,15 @@ fid,ord,fam,genus,species,genus_species,species_id,synonyms,common_name_1,common
 635,SPHENISCIFORMES,SPHENISCIDAE,Eudyptes,pachyrhynchus,Eudyptes pachyrhynchus,Eudyptespachyrhynchus,,Fiordland Penguin, Fiordland Crested Penguin,,,,,VU,A2be+3bce+4bce;C1+2a(i),2012,decreasing,"Tm,SP","O,Cr",SA
 636,SPHENISCIFORMES,SPHENISCIDAE,Pygoscelis,antarcticus,Pygoscelis antarcticus,Pygoscelisantarcticus,Pygoscelis antarctica |Pygoscelis antarctica |Pygoscelis antarctica |Pygoscelis antarctica ,Chinstrap Penguin,,,,,,LC,,2012,increasing,"P,SP","O,SI",SA
 637,SPHENISCIFORMES,SPHENISCIDAE,Eudyptes,chrysocome,Eudyptes chrysocome,Eudypteschrysocome,,Southern Rockhopper Penguin, Rockhopper Penguin,,,,,VU,A2abcde+3bcde+4abcde,2012,decreasing,"Tm,SP","O,Cr",SA
-638,SPHENISCIFORMES,SPHENISCIDAE,Eudyptes,sclateri,Eudyptes sclateri,Eudyptessclateri,,Erect-crested Penguin, Big-crested Penguin,,,,,EN,"A2b;B2ab(i,ii,iv,v)",2012,decreasing,"Tm,SP",,sa
+638,SPHENISCIFORMES,SPHENISCIDAE,Eudyptes,sclateri,Eudyptes sclateri,Eudyptessclateri,,Erect-crested Penguin, Big-crested Penguin,,,,,EN,"A2b;B2ab(i,ii,iv,v)",2012,decreasing,"Tm,SP",,SA
 639,SPHENISCIFORMES,SPHENISCIDAE,Spheniscus,humboldti,Spheniscus humboldti,Spheniscushumboldti,,Humboldt Penguin, Peruvian Penguin,,,,,VU,A2bcde+3bcde+4bcde;C1+2b,2013,decreasing,"Tm,STr",Cr,SA
 640,SPHENISCIFORMES,SPHENISCIDAE,Eudyptes,moseleyi,Eudyptes moseleyi,Eudyptesmoseleyi,,Northern Rockhopper Penguin,,,,,,EN,A2acde+3cde+4acde,2012,decreasing,,,
+,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,
 641,CHARADRIIFORMES,STERCORARIIDAE,Stercorarius,parasiticus,Stercorarius parasiticus,Stercorariusparasiticus,,Arctic Jaeger, Arctic Skua, Arctic Jaeger,,,,LC,,2012,stable,P-Tm,O,SP
 642,CHARADRIIFORMES,STERCORARIIDAE,Catharacta,skua,Catharacta skua,Catharactaskua,Stercorarius skua|Stercorarius skua skua|Stercorarius skua skua,Great Skua,,,,,,LC,,2012,stable,Tm,O,SP
 643,CHARADRIIFORMES,STERCORARIIDAE,Catharacta,maccormicki,Catharacta maccormicki,Catharactamaccormicki,Stercorarius maccormicki|Stercorarius maccormicki maccormicki|Stercorarius maccormicki maccormicki,South Polar Skua,,,,,,LC,,2012,stable,P,O,SP
@@ -646,6 +661,7 @@ fid,ord,fam,genus,species,genus_species,species_id,synonyms,common_name_1,common
 645,CHARADRIIFORMES,STERCORARIIDAE,Stercorarius,longicaudus,Stercorarius longicaudus,Stercorariuslongicaudus,,Long-tailed Jaeger, Long-tailed Skua,,,,,LC,,2012,stable,"P,SP",O,SP
 646,CHARADRIIFORMES,STERCORARIIDAE,Catharacta,chilensis,Catharacta chilensis,Catharactachilensis,Stercorarius chilensis,Chilean Skua,,,,,,LC,,2012,stable,Tm,O,SP
 647,CHARADRIIFORMES,STERCORARIIDAE,Stercorarius,pomarinus,Stercorarius pomarinus,Stercorariuspomarinus,,Pomarine Jaeger, Pomarine Skua,,,,,LC,,2012,stable,"P,SP",O,SP
+,,,,,,,,,,,,,,,,,,,,
 648,SULIFORMES,SULIDAE,Sula,granti,Sula granti,Sulagranti,,Nazca Booby,,,,,,LC,,2012,decreasing,Tr,O,A
 649,SULIFORMES,SULIDAE,Sula,sula,Sula sula,Sulasula,,Red-footed Booby,,,,,,LC,,2012,decreasing,Tr,T,A
 650,SULIFORMES,SULIDAE,Sula,dactylatra,Sula dactylatra,Suladactylatra,,Masked Booby,,,,,,LC,,2012,decreasing,"STr,Tr","CI,O",A
@@ -656,6 +672,7 @@ fid,ord,fam,genus,species,genus_species,species_id,synonyms,common_name_1,common
 655,SULIFORMES,SULIDAE,Morus,capensis,Morus capensis,Moruscapensis,Sula capensis capensis,Cape Gannet,,,,,,VU,"A2acde+3cde+4acde; B2ab(iii,iv,v)",2012,decreasing,"Tm,STr",O,A
 656,SULIFORMES,SULIDAE,Morus,serrator,Morus serrator,Morusserrator,Sula serrator serrator,Australasian Gannet, Australian Gannet,,,,,LC,,2012,increasing,Tm,"O,CI",A
 657,SULIFORMES,SULIDAE,Papasula,abbotti,Papasula abbotti,Papasulaabbotti,Sula abbotti abbotti,Abbott's Booby,,,,,,EN,"B2ab(ii,iii,v)",2012,decreasing,Tr,T,A
+,,,,,,,,,,,,,,,,,,,,
 658,CHARADRIIFORMES,THINOCORIDAE,Attagis,gayi,Attagis gayi,Attagisgayi,,Rufous-bellied Seedsnipe,,,,,,LC,,2012,stable,,,
 659,CHARADRIIFORMES,THINOCORIDAE,Attagis,malouinus,Attagis malouinus,Attagismalouinus,,White-bellied Seedsnipe,,,,,,LC,,2012,stable,,,
 660,CHARADRIIFORMES,THINOCORIDAE,Thinocorus,orbignyianus,Thinocorus orbignyianus,Thinocorusorbignyianus,,Grey-breasted Seedsnipe, Gray-breasted Seedsnipe,,,,,LC,,2012,stable,,,
