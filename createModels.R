@@ -1,6 +1,6 @@
 setwd("C:/LifeHistory/Lifehistory/")
 
-X <- read.csv("traits.csv")
+X <- read.csv("species.csv")
 
 nList <- names(X)
 
@@ -29,3 +29,21 @@ for(i in Y$names){
 
 A <- paste(Z,collapse="', '")
 B <- paste("Traits.objects.all().values('",A,"')",sep = '')
+
+
+
+
+#### Create list of unique citations for the citation table
+
+A <- read.csv("Citation_Workbook.csv")
+
+NameList<-unique(A$citation_name)
+
+out <- data.frame(sort(as.character(NameList)))
+
+write.csv(out,"citation.csv")
+
+
+
+
+
