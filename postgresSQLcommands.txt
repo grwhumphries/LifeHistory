@@ -1,18 +1,18 @@
 CREATE TABLE public.species
-(fid SMALLINT NOT NULL,
-ord character(20),
-fam character(20),
+(
+ord character(20) NOT NULL,
+fam character(20) NOT NULL,
 genus character(20) NOT NULL,
-species character(20),
-genus_species character(40),
+species character(20) NOT NULL,
+subspecies character(50),
 species_id character(40) PRIMARY KEY NOT NULL,
+species_id_html character(40),
 synonyms character(300),
 common_name_1 character(40) NOT NULL,
 common_name_2 character(50),
 common_name_3 character(50),
 common_name_4 character(50),
 common_name_5 character(50),
-common_name_6 character(50),
 iucn_status character(4),
 red_list_criteria character(100),
 year_assessed INTEGER,
@@ -29,9 +29,7 @@ ALTER TABLE public.species
   OWNER TO lifehistory;
 
 
-
-
-
+####### traits table
 
 feature_id SMALLINT PRIMARY KEY,
 species_id character(40) NOT NULL REFERENCES species (species_id),
@@ -43,32 +41,50 @@ male_mass_mean numeric(10,4),
 male_mass_lower numeric(10,4),
 male_mass_upper numeric(10,4),
 male_mass_uncertainty character(50),
+culmen_length numeric(10,4),
+tarsus_length numeric(10,4),
+tail_length numeric(10,4),
+bmr INTEGER,
+rmr INTEGER,
+dee INTEGER,
 clutch_size_mean numeric(10,4),
 clutch_size_lower numeric(10,4),
 clutch_size_upper numeric(10,4),
 clutch_size_uncertainty character(50),
-clutch_interval character(50),
+egg_mass numeric(10,4),
 incubation_mean numeric(10,4),
 incubation_period_lower numeric(10,4),
 incubation_period_upper numeric(10,4),
-incubation_period_uncertainty character(50),
+incubation_period_uncertainty character(5),
 fledging_period_mean numeric(10,4),
 fledging_period_lower numeric(10,4),
 fledging_period_upper numeric(10,4),
-fledging_period_uncertainty character(50),
+fledging_period_uncertainty character(5),
+reproductive_success character(15),
+hatching_success character(15),
+fledging_success character(15),
 max_growth_mean numeric(10,4),
 max_growth_lower numeric(10,4),
 max_growth_upper numeric(10,4),
-max_growth_uncertainty character(50),
+max_growth_uncertainty character(5),
+feeds_per_day character(15),
 post_fledge_care_mean numeric(10,4),
 post_fledge_care_lower numeric(10,4),
 post_fledge_care_upper numeric(10,4),
-post_fledge_care_uncertainty character(50),
-age_first_breed_mean character(10),
+post_fledge_care_uncertainty character(5),
+fledgling_mass numeric(10,4),
+ratio_fledgling_to_adult numeric(10,4),
+wing_loading character(10),
+aspect_ratio character(10),
+first_year_survival character(10),
+second_year_survival character(10),
+survival_to_breeding character(10),
+age_first_breed_mean numeric(10,4),
 age_first_breed_lower INTEGER,
 age_first_breed_upper INTEGER,
-age_first_breed_uncertainty character(50),
+age_first_breed_uncertainty character(5),
 foraging_distance character(50),
+migration_distance character(15),
 wingspan_mean numeric(10,4),
 wingspan_lower numeric(10,4),
 wingspan_upper numeric(10,4),
@@ -84,19 +100,45 @@ annual_survival_uncertainty character(50),
 mate_fidelity character(15),
 site_fidelity character(15),
 coloniality character(5),
-citation TEXT,
+comments TEXT,
 username character(30) NOT NULL,
 dt character(30) NOT NULL
 
 
+#### citation table
+
+cite_id character(15) PRIMARY KEY,
+citation_name character(100),
+citation TEXT
+
+
+### sp_site_trait table
+
+sst_id SMALLINT PRIMARY KEY,
+feature_id SMALLINT NOT NULL REFERENCES traits (feature_id), 
+species_id SMALLINT NOT NULL REFERENCES species (species_id),
+cite_id character(15) NOT NULL REFERENCES citation (cite_id)
 
 
 
 
+### common_names table
+cnid SMALLINT PRIMARY KEY,
+species_id character(50) NOT NULL REFERENCES species (species_id),
+common_name_id SMALLINT NOT NULL,
+common_name character(50) NOT NULL
 
 
+### breeding_distribution table
+brid SMALLINT PRIMARY KEY,
+species_id character(50) NOT NULL REFERENCES species (species_id),
+breeding_distribution_id SMALLINT NOT NULL,
+breeding_distribution character(10) NOT NULL
 
-
-
+### nest_location table
+nlid SMALLINT PRIMARY KEY,
+species_id character(50) NOT NULL REFERENCES species (species_id),
+nest_location_id SMALLINT NOT NULL,
+nest_location character(10) NOT NULL
 
 
