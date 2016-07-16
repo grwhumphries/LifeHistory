@@ -1,0 +1,115 @@
+CREATE TABLE public.species
+(
+ord character(20) NOT NULL
+fam character(20) NOT NULL
+genus character(20) NOT NULL
+species character(20) NOT NULL
+subspecies character(50) 
+species_id character(40) PRIMARY KEY
+species_id_html character(40) NOT NULL
+synonyms character(300) 
+
+) 
+WITH (
+  OIDS = FALSE
+)
+;
+ALTER TABLE public.species
+  OWNER TO lifehistory;
+
+
+####### common_names
+cnid INTEGER PRIMARY KEY
+species_id character(40) NOT NULL REFERENCES species (species_id)
+common_name_id INTEGER NOT NULL
+common_name character(100) NOT NULL
+
+
+
+#### iucn_data
+iucnid INTEGER PRIMARY KEY,
+species_id character(40) NOT NULL REFERENCES species (species_id),
+iucn_status character(4),
+red_list_criteria character(100),
+year_assessed INTEGER,
+population_trend character(60),
+population_estimate INTEGER,
+population_range numrange,
+population_uncertainty character(10),
+population_location character(30)
+
+
+
+### breeding_distributions
+
+brid INTEGER PRIMARY KEY,
+species_id character(40) NOT NULL REFERENCES species (species_id),
+breeding_distribution_id INTEGER NOT NULL,
+breeding_distribution character(10) NOT NULL
+
+
+### nest_locations
+nlid INTEGER PRIMARY KEY,
+species_id character(40) NOT NULL REFERENCES species (species_id),
+nest_location_id INTEGER NOT NULL,
+nest_location character(10) NOT NULL
+
+
+### numeric_traits
+feature_id INTEGER PRIMARY KEY,
+species_id character(40) NOT NULL REFERENCES species (species_id),
+traits character(60) NOT NULL,
+mean numeric(10,4), 
+range numrange, 
+uncertainty character(10),
+units character(20) NOT NULL,
+comments TEXT, 
+username character(30) NOT NULL,
+dt character(30) NOT NULL
+
+
+### other_traits
+trtid INTEGER PRIMARY KEY,
+species_id character(40) NOT NULL REFERENCES species (species_id),
+variable character(40) NOT NULL,
+value character(40), 
+comments TEXT, 
+username character(30) NOT NULL,
+dt character(30) NOT NULL
+
+
+### citation
+cite_id character(15) PRIMARY KEY,
+citation_name character(100) NOT NULL,
+citation TEXT NOT NULL
+
+
+### species_citation
+relation_id INTEGER PRIMARY KEY,
+species_id character(40) NOT NULL REFERENCES species (species_id),
+cite_id character(15) NOT NULL REFERENCES citation (cite_id)
+
+### citation_numerictraits
+relation_id INTEGER PRIMARY KEY,
+feature_id SMALLINT NOT NULL REFERENCES numeric_traits (feature_id),
+cite_id character(15) NOT NULL REFERENCES citation (cite_id)
+
+
+### citation_othertraits
+relation_id INTEGER PRIMARY KEY,
+trtid INTEGER NOT NULL REFERENCES other_traits (trtid),
+cite_id character(15) NOT NULL REFERENCES citation (cite_id)
+
+
+
+
+
+
+
+
+
+
+
+
+
+

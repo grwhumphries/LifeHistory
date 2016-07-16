@@ -1,0 +1,726 @@
+ord,fam,genus,species,subspecies,species_id,species_id_html,synonyms
+CHARADRIIFORMES,ALCIDAE,Aethia,cristatella,,Aethia cristatella,Aethiacristatella,
+CHARADRIIFORMES,ALCIDAE,Aethia,psittacula,,Aethia psittacula,Aethiapsittacula,Cyclorrhynchus psittacula psittacula
+CHARADRIIFORMES,ALCIDAE,Aethia,pusilla,,Aethia pusilla,Aethiapusilla,
+CHARADRIIFORMES,ALCIDAE,Aethia,pygmaea,,Aethia pygmaea,Aethiapygmaea,
+CHARADRIIFORMES,ALCIDAE,Alca,torda,,Alca torda,Alcatorda,
+CHARADRIIFORMES,ALCIDAE,Alle,alle,,Alle alle,Allealle,
+CHARADRIIFORMES,ALCIDAE,Brachyramphus,brevirostris,,Brachyramphus brevirostris,Brachyramphusbrevirostris,
+CHARADRIIFORMES,ALCIDAE,Brachyramphus,marmoratus,,Brachyramphus marmoratus,Brachyramphusmarmoratus,
+CHARADRIIFORMES,ALCIDAE,Brachyramphus,perdix,,Brachyramphus perdix,Brachyramphusperdix,
+CHARADRIIFORMES,ALCIDAE,Cepphus,carbo,,Cepphus carbo,Cepphuscarbo,
+CHARADRIIFORMES,ALCIDAE,Cepphus,columba,,Cepphus columba,Cepphuscolumba,
+CHARADRIIFORMES,ALCIDAE,Cepphus,grylle,,Cepphus grylle,Cepphusgrylle,
+CHARADRIIFORMES,ALCIDAE,Cerorhinca,monocerata,,Cerorhinca monocerata,Cerorhincamonocerata,
+CHARADRIIFORMES,ALCIDAE,Fratercula,arctica,,Fratercula arctica,Fraterculaarctica,
+CHARADRIIFORMES,ALCIDAE,Fratercula,cirrhata,,Fratercula cirrhata,Fraterculacirrhata,Lunda cirrhata 
+CHARADRIIFORMES,ALCIDAE,Fratercula,corniculata,,Fratercula corniculata,Fraterculacorniculata,
+CHARADRIIFORMES,ALCIDAE,Pinguinus,impennis,,Pinguinus impennis,Pinguinusimpennis,
+CHARADRIIFORMES,ALCIDAE,Ptychoramphus,aleuticus,,Ptychoramphus aleuticus,Ptychoramphusaleuticus,
+CHARADRIIFORMES,ALCIDAE,Synthliboramphus,antiquus,,Synthliboramphus antiquus,Synthliboramphusantiquus,
+CHARADRIIFORMES,ALCIDAE,Synthliboramphus,craveri,,Synthliboramphus craveri,Synthliboramphuscraveri,Brachyramphus craveri craveri
+CHARADRIIFORMES,ALCIDAE,Synthliboramphus,hypoleucus,,Synthliboramphus hypoleucus,Synthliboramphushypoleucus,
+CHARADRIIFORMES,ALCIDAE,Synthliboramphus,scrippsi,,Synthliboramphus scrippsi,Synthliboramphusscrippsi,
+CHARADRIIFORMES,ALCIDAE,Synthliboramphus,wumizusume,,Synthliboramphus wumizusume,Synthliboramphuswumizusume,
+CHARADRIIFORMES,ALCIDAE,Uria,aalge,,Uria aalge,Uriaaalge,
+CHARADRIIFORMES,ALCIDAE,Uria,lomvia,,Uria lomvia,Urialomvia,
+SULIFORMES,ANHINGIDAE,Anhinga,anhinga,,Anhinga anhinga,Anhingaanhinga,
+SULIFORMES,ANHINGIDAE,Anhinga,melanogaster,,Anhinga melanogaster,Anhingamelanogaster,
+SULIFORMES,ANHINGIDAE,Anhinga,novaehollandiae,,Anhinga novaehollandiae,Anhinganovaehollandiae,
+SULIFORMES,ANHINGIDAE,Anhinga,rufa,,Anhinga rufa,Anhingarufa,
+PELECANIFORMES,ARDEIDAE,Agamia,agami,,Agamia agami,Agamiaagami,
+PELECANIFORMES,ARDEIDAE,Ardea,alba,,Ardea alba,Ardeaalba,Casmerodius albus|Egretta alba
+PELECANIFORMES,ARDEIDAE,Ardea,brachyrhyncha,,Ardea brachyrhyncha,Ardeabrachyrhyncha,
+PELECANIFORMES,ARDEIDAE,Ardea,cinerea,,Ardea cinerea,Ardeacinerea,
+PELECANIFORMES,ARDEIDAE,Ardea,cocoi,,Ardea cocoi,Ardeacocoi,
+PELECANIFORMES,ARDEIDAE,Ardea,goliath,,Ardea goliath,Ardeagoliath,
+PELECANIFORMES,ARDEIDAE,Ardea,herodias,,Ardea herodias,Ardeaherodias,
+PELECANIFORMES,ARDEIDAE,Ardea,humbloti,,Ardea humbloti,Ardeahumbloti,
+PELECANIFORMES,ARDEIDAE,Ardea,insignis,,Ardea insignis,Ardeainsignis,Ardea imperialis imperialis
+PELECANIFORMES,ARDEIDAE,Ardea,intermedia,,Ardea intermedia,Ardeaintermedia,
+PELECANIFORMES,ARDEIDAE,Ardea,melanocephala,,Ardea melanocephala,Ardeamelanocephala,
+PELECANIFORMES,ARDEIDAE,Ardea,pacifica,,Ardea pacifica,Ardeapacifica,
+PELECANIFORMES,ARDEIDAE,Ardea,plumifera,,Ardea plumifera,Ardeaplumifera,
+PELECANIFORMES,ARDEIDAE,Ardea,purpurea,,Ardea purpurea,Ardeapurpurea,
+PELECANIFORMES,ARDEIDAE,Ardea,sumatrana,,Ardea sumatrana,Ardeasumatrana,
+PELECANIFORMES,ARDEIDAE,Ardeola,bacchus,,Ardeola bacchus,Ardeolabacchus,
+PELECANIFORMES,ARDEIDAE,Ardeola,grayii,,Ardeola grayii,Ardeolagrayii,
+PELECANIFORMES,ARDEIDAE,Ardeola,idae,,Ardeola idae,Ardeolaidae,
+PELECANIFORMES,ARDEIDAE,Ardeola,ralloides,,Ardeola ralloides,Ardeolaralloides,
+PELECANIFORMES,ARDEIDAE,Ardeola,rufiventris,,Ardeola rufiventris,Ardeolarufiventris,
+PELECANIFORMES,ARDEIDAE,Ardeola,speciosa,,Ardeola speciosa,Ardeolaspeciosa,
+PELECANIFORMES,ARDEIDAE,Botaurus,lentiginosus,,Botaurus lentiginosus,Botauruslentiginosus,
+PELECANIFORMES,ARDEIDAE,Botaurus,pinnatus,,Botaurus pinnatus,Botauruspinnatus,
+PELECANIFORMES,ARDEIDAE,Botaurus,poiciloptilus,,Botaurus poiciloptilus,Botauruspoiciloptilus,
+PELECANIFORMES,ARDEIDAE,Botaurus,stellaris,,Botaurus stellaris,Botaurusstellaris,
+PELECANIFORMES,ARDEIDAE,Bubulcus,ibis,,Bubulcus ibis,Bubulcusibis,Ardea ibis ibis
+PELECANIFORMES,ARDEIDAE,Butorides,striata,,Butorides striata,Butoridesstriata,Butorides virescens
+PELECANIFORMES,ARDEIDAE,Calherodius,leuconotus,,Calherodius leuconotus,Calherodiusleuconotus,Gorsachius leuconotus
+PELECANIFORMES,ARDEIDAE,Cochlearius,cochlearius,,Cochlearius cochlearius,Cochleariuscochlearius,Cochlearius cochlearia cochlearius
+PELECANIFORMES,ARDEIDAE,Egretta,ardesiaca,,Egretta ardesiaca,Egrettaardesiaca,
+PELECANIFORMES,ARDEIDAE,Egretta,caerulea,,Egretta caerulea,Egrettacaerulea,Florida caerulea caerulea
+PELECANIFORMES,ARDEIDAE,Egretta,eulophotes,,Egretta eulophotes,Egrettaeulophotes,
+PELECANIFORMES,ARDEIDAE,Egretta,garzetta,,Egretta garzetta,Egrettagarzetta,
+PELECANIFORMES,ARDEIDAE,Egretta,gularis,,Egretta gularis,Egrettagularis,Egretta dimorpha
+PELECANIFORMES,ARDEIDAE,Egretta,novaehollandiae,,Egretta novaehollandiae,Egrettanovaehollandiae,Ardea novaehollandiae novaehollandiae
+PELECANIFORMES,ARDEIDAE,Egretta,picata,,Egretta picata,Egrettapicata,Ardea picata|Egretta picata picata
+PELECANIFORMES,ARDEIDAE,Egretta,rufescens,,Egretta rufescens,Egrettarufescens,Hydranassa rufescens rufescens
+PELECANIFORMES,ARDEIDAE,Egretta,sacra,,Egretta sacra,Egrettasacra,
+PELECANIFORMES,ARDEIDAE,Egretta,thula,,Egretta thula,Egrettathula,
+PELECANIFORMES,ARDEIDAE,Egretta,tricolor,,Egretta tricolor,Egrettatricolor,Hydranassa tricolor tricolor
+PELECANIFORMES,ARDEIDAE,Egretta,vinaceigula,,Egretta vinaceigula,Egrettavinaceigula,
+PELECANIFORMES,ARDEIDAE,Gorsachius,goisagi,,Gorsachius goisagi,Gorsachiusgoisagi,
+PELECANIFORMES,ARDEIDAE,Gorsachius,magnificus,,Gorsachius magnificus,Gorsachiusmagnificus,
+PELECANIFORMES,ARDEIDAE,Gorsachius,melanolophus,,Gorsachius melanolophus,Gorsachiusmelanolophus,Gorsachius melanophus melanophus
+PELECANIFORMES,ARDEIDAE,Ixobrychus,cinnamomeus,,Ixobrychus cinnamomeus,Ixobrychuscinnamomeus,
+PELECANIFORMES,ARDEIDAE,Ixobrychus,dubius,,Ixobrychus dubius,Ixobrychusdubius,
+PELECANIFORMES,ARDEIDAE,Ixobrychus,eurhythmus,,Ixobrychus eurhythmus,Ixobrychuseurhythmus,
+PELECANIFORMES,ARDEIDAE,Ixobrychus,exilis,,Ixobrychus exilis,Ixobrychusexilis,
+PELECANIFORMES,ARDEIDAE,Ixobrychus,flavicollis,,Ixobrychus flavicollis,Ixobrychusflavicollis,Dupetor flavicollis flavicollis
+PELECANIFORMES,ARDEIDAE,Ixobrychus,involucris,,Ixobrychus involucris,Ixobrychusinvolucris,
+PELECANIFORMES,ARDEIDAE,Ixobrychus,minutus,,Ixobrychus minutus,Ixobrychusminutus,
+PELECANIFORMES,ARDEIDAE,Ixobrychus,novaezelandiae,,Ixobrychus novaezelandiae,Ixobrychusnovaezelandiae,
+PELECANIFORMES,ARDEIDAE,Ixobrychus,sinensis,,Ixobrychus sinensis,Ixobrychussinensis,
+PELECANIFORMES,ARDEIDAE,Ixobrychus,sturmii,,Ixobrychus sturmii,Ixobrychussturmii,Ardeirallus sturmii sturmii
+PELECANIFORMES,ARDEIDAE,Nyctanassa,carcinocatactes,,Nyctanassa carcinocatactes,Nyctanassacarcinocatactes,
+PELECANIFORMES,ARDEIDAE,Nyctanassa,violacea,,Nyctanassa violacea,Nyctanassaviolacea,Nycticorax violaceus violaceus
+PELECANIFORMES,ARDEIDAE,Nycticorax,caledonicus,,Nycticorax caledonicus,Nycticoraxcaledonicus,
+PELECANIFORMES,ARDEIDAE,Nycticorax,duboisi,,Nycticorax duboisi,Nycticoraxduboisi,
+PELECANIFORMES,ARDEIDAE,Nycticorax,mauritianus,,Nycticorax mauritianus,Nycticoraxmauritianus,
+PELECANIFORMES,ARDEIDAE,Nycticorax,megacephalus,,Nycticorax megacephalus,Nycticoraxmegacephalus,
+PELECANIFORMES,ARDEIDAE,Nycticorax,nycticorax,,Nycticorax nycticorax,Nycticoraxnycticorax,
+PELECANIFORMES,ARDEIDAE,Pilherodius,pileatus,,Pilherodius pileatus,Pilherodiuspileatus,Nycticorax pileatus pileatus
+PELECANIFORMES,ARDEIDAE,Syrigma,sibilatrix,,Syrigma sibilatrix,Syrigmasibilatrix,
+PELECANIFORMES,ARDEIDAE,Tigriornis,leucolopha,,Tigriornis leucolopha,Tigriornisleucolopha,Tigriornis leucolophus
+PELECANIFORMES,ARDEIDAE,Tigrisoma,fasciatum,,Tigrisoma fasciatum,Tigrisomafasciatum,
+PELECANIFORMES,ARDEIDAE,Tigrisoma,lineatum,,Tigrisoma lineatum,Tigrisomalineatum,
+PELECANIFORMES,ARDEIDAE,Tigrisoma,mexicanum,,Tigrisoma mexicanum,Tigrisomamexicanum,
+PELECANIFORMES,ARDEIDAE,Zebrilus,undulatus,,Zebrilus undulatus,Zebrilusundulatus,
+PELECANIFORMES,ARDEIDAE,Zonerodius,heliosylus,,Zonerodius heliosylus,Zonerodiusheliosylus,
+PELECANIFORMES,BALAENICIPITIDAE,Balaeniceps,rex,,Balaeniceps rex,Balaenicepsrex,
+CHARADRIIFORMES,BURHINIDAE,Burhinus,bistriatus,,Burhinus bistriatus,Burhinusbistriatus,
+CHARADRIIFORMES,BURHINIDAE,Burhinus,capensis,,Burhinus capensis,Burhinuscapensis,
+CHARADRIIFORMES,BURHINIDAE,Burhinus,grallarius,,Burhinus grallarius,Burhinusgrallarius,
+CHARADRIIFORMES,BURHINIDAE,Burhinus,indicus,,Burhinus indicus,Burhinusindicus,
+CHARADRIIFORMES,BURHINIDAE,Burhinus,oedicnemus,,Burhinus oedicnemus,Burhinusoedicnemus,
+CHARADRIIFORMES,BURHINIDAE,Burhinus,senegalensis,,Burhinus senegalensis,Burhinussenegalensis,
+CHARADRIIFORMES,BURHINIDAE,Burhinus,superciliaris,,Burhinus superciliaris,Burhinussuperciliaris,
+CHARADRIIFORMES,BURHINIDAE,Burhinus,vermiculatus,,Burhinus vermiculatus,Burhinusvermiculatus,
+CHARADRIIFORMES,BURHINIDAE,Esacus,magnirostris,,Esacus magnirostris,Esacusmagnirostris,Burhinus giganteus giganteus|Esacus giganteus|Esacus magnirostris magnirostris|Esacus neglectus neglectus
+CHARADRIIFORMES,BURHINIDAE,Esacus,recurvirostris,,Esacus recurvirostris,Esacusrecurvirostris,Burhinus recurvirostris recurvirostris
+CHARADRIIFORMES,CHARADRIIDAE,Anarhynchus,frontalis,,Anarhynchus frontalis,Anarhynchusfrontalis,
+CHARADRIIFORMES,CHARADRIIDAE,Charadrius,alexandrinus,,Charadrius alexandrinus,Charadriusalexandrinus,
+CHARADRIIFORMES,CHARADRIIDAE,Charadrius,alticola,,Charadrius alticola,Charadriusalticola,
+CHARADRIIFORMES,CHARADRIIDAE,Charadrius,aquilonius,,Charadrius aquilonius,Charadriusaquilonius,
+CHARADRIIFORMES,CHARADRIIDAE,Charadrius,asiaticus,,Charadrius asiaticus,Charadriusasiaticus,
+CHARADRIIFORMES,CHARADRIIDAE,Charadrius,bicinctus,,Charadrius bicinctus,Charadriusbicinctus,
+CHARADRIIFORMES,CHARADRIIDAE,Charadrius,bifrontatus,,Charadrius bifrontatus,Charadriusbifrontatus,
+CHARADRIIFORMES,CHARADRIIDAE,Charadrius,collaris,,Charadrius collaris,Charadriuscollaris,
+CHARADRIIFORMES,CHARADRIIDAE,Charadrius,dealbatus,,Charadrius dealbatus,Charadriusdealbatus,
+CHARADRIIFORMES,CHARADRIIDAE,Charadrius,dubius,,Charadrius dubius,Charadriusdubius,
+CHARADRIIFORMES,CHARADRIIDAE,Charadrius,falklandicus,,Charadrius falklandicus,Charadriusfalklandicus,
+CHARADRIIFORMES,CHARADRIIDAE,Charadrius,forbesi,,Charadrius forbesi,Charadriusforbesi,
+CHARADRIIFORMES,CHARADRIIDAE,Charadrius,hiaticula,,Charadrius hiaticula,Charadriushiaticula,
+CHARADRIIFORMES,CHARADRIIDAE,Charadrius,javanicus,,Charadrius javanicus,Charadriusjavanicus,
+CHARADRIIFORMES,CHARADRIIDAE,Charadrius,leschenaultii,,Charadrius leschenaultii,Charadriusleschenaultii,
+CHARADRIIFORMES,CHARADRIIDAE,Charadrius,marginatus,,Charadrius marginatus,Charadriusmarginatus,
+CHARADRIIFORMES,CHARADRIIDAE,Charadrius,melodus,,Charadrius melodus,Charadriusmelodus,
+CHARADRIIFORMES,CHARADRIIDAE,Charadrius,modestus,,Charadrius modestus,Charadriusmodestus,
+CHARADRIIFORMES,CHARADRIIDAE,Charadrius,mongolus,,Charadrius mongolus,Charadriusmongolus,
+CHARADRIIFORMES,CHARADRIIDAE,Charadrius,montanus,,Charadrius montanus,Charadriusmontanus,
+CHARADRIIFORMES,CHARADRIIDAE,Charadrius,nivosus,,Charadrius nivosus,Charadriusnivosus,
+CHARADRIIFORMES,CHARADRIIDAE,Charadrius,obscurus,,Charadrius obscurus,Charadriusobscurus,
+CHARADRIIFORMES,CHARADRIIDAE,Charadrius,pallidus,,Charadrius pallidus,Charadriuspallidus,
+CHARADRIIFORMES,CHARADRIIDAE,Charadrius,pecuarius,,Charadrius pecuarius,Charadriuspecuarius,
+CHARADRIIFORMES,CHARADRIIDAE,Charadrius,peronii,,Charadrius peronii,Charadriusperonii,
+CHARADRIIFORMES,CHARADRIIDAE,Charadrius,placidus,,Charadrius placidus,Charadriusplacidus,
+CHARADRIIFORMES,CHARADRIIDAE,Charadrius,ruficapillus,,Charadrius ruficapillus,Charadriusruficapillus,
+CHARADRIIFORMES,CHARADRIIDAE,Charadrius,sanctaehelenae,,Charadrius sanctaehelenae,Charadriussanctaehelenae,
+CHARADRIIFORMES,CHARADRIIDAE,Charadrius,semipalmatus,,Charadrius semipalmatus,Charadriussemipalmatus,
+CHARADRIIFORMES,CHARADRIIDAE,Charadrius,thoracicus,,Charadrius thoracicus,Charadriusthoracicus,
+CHARADRIIFORMES,CHARADRIIDAE,Charadrius,tricollaris,,Charadrius tricollaris,Charadriustricollaris,
+CHARADRIIFORMES,CHARADRIIDAE,Charadrius,veredus,,Charadrius veredus,Charadriusveredus,
+CHARADRIIFORMES,CHARADRIIDAE,Charadrius,vociferus,,Charadrius vociferus,Charadriusvociferus,
+CHARADRIIFORMES,CHARADRIIDAE,Charadrius,wilsonia,,Charadrius wilsonia,Charadriuswilsonia,
+CHARADRIIFORMES,CHARADRIIDAE,Elseyornis,melanops,,Elseyornis melanops,Elseyornismelanops,Charadrius melanops melanops
+CHARADRIIFORMES,CHARADRIIDAE,Erythrogonys,cinctus,,Erythrogonys cinctus,Erythrogonyscinctus,
+CHARADRIIFORMES,CHARADRIIDAE,Eudromias,morinellus,,Eudromias morinellus,Eudromiasmorinellus,Charadrius morinellus
+CHARADRIIFORMES,CHARADRIIDAE,Hoploxypterus,cayanus,,Hoploxypterus cayanus,Hoploxypteruscayanus,Vanellus cayanus
+CHARADRIIFORMES,CHARADRIIDAE,Oreopholus,ruficollis,,Oreopholus ruficollis,Oreopholusruficollis,Eudromias ruficollis |Eudromias ruficollis ruficollis
+CHARADRIIFORMES,CHARADRIIDAE,Peltohyas,australis,,Peltohyas australis,Peltohyasaustralis,Charadrius australis|Peltohyas australis
+CHARADRIIFORMES,CHARADRIIDAE,Phegornis,mitchellii,,Phegornis mitchellii,Phegornismitchellii,
+CHARADRIIFORMES,CHARADRIIDAE,Pluvialis,apricaria,,Pluvialis apricaria,Pluvialisapricaria,
+CHARADRIIFORMES,CHARADRIIDAE,Pluvialis,dominica,,Pluvialis dominica,Pluvialisdominica,Pluvialis dominicus dominicus
+CHARADRIIFORMES,CHARADRIIDAE,Pluvialis,fulva,,Pluvialis fulva,Pluvialisfulva,
+CHARADRIIFORMES,CHARADRIIDAE,Pluvialis,squatarola,,Pluvialis squatarola,Pluvialissquatarola,
+CHARADRIIFORMES,CHARADRIIDAE,Thinornis,cucullatus,,Thinornis cucullatus,Thinorniscucullatus,Charadrius rubricollis rubricollis |Thinornis rubricollis
+CHARADRIIFORMES,CHARADRIIDAE,Thinornis,novaeseelandiae,,Thinornis novaeseelandiae,Thinornisnovaeseelandiae,
+CHARADRIIFORMES,CHARADRIIDAE,Vanellus,albiceps,,Vanellus albiceps,Vanellusalbiceps,
+CHARADRIIFORMES,CHARADRIIDAE,Vanellus,armatus,,Vanellus armatus,Vanellusarmatus,
+CHARADRIIFORMES,CHARADRIIDAE,Vanellus,chilensis,,Vanellus chilensis,Vanelluschilensis,
+CHARADRIIFORMES,CHARADRIIDAE,Vanellus,cinereus,,Vanellus cinereus,Vanelluscinereus,
+CHARADRIIFORMES,CHARADRIIDAE,Vanellus,coronatus,,Vanellus coronatus,Vanelluscoronatus,
+CHARADRIIFORMES,CHARADRIIDAE,Vanellus,crassirostris,,Vanellus crassirostris,Vanelluscrassirostris,
+CHARADRIIFORMES,CHARADRIIDAE,Vanellus,duvaucelii,,Vanellus duvaucelii,Vanellusduvaucelii,
+CHARADRIIFORMES,CHARADRIIDAE,Vanellus,gregarius,,Vanellus gregarius,Vanellusgregarius,Chettusia gregaria gregaria
+CHARADRIIFORMES,CHARADRIIDAE,Vanellus,indicus,,Vanellus indicus,Vanellusindicus,Hoplopterus indicus |Hoplopterus indicus indicus
+CHARADRIIFORMES,CHARADRIIDAE,Vanellus,leucurus,,Vanellus leucurus,Vanellusleucurus,Chettusia leucura leucura
+CHARADRIIFORMES,CHARADRIIDAE,Vanellus,lugubris,,Vanellus lugubris,Vanelluslugubris,
+CHARADRIIFORMES,CHARADRIIDAE,Vanellus,macropterus,,Vanellus macropterus,Vanellusmacropterus,
+CHARADRIIFORMES,CHARADRIIDAE,Vanellus,malarbaricus,,Vanellus malarbaricus,Vanellusmalarbaricus,
+CHARADRIIFORMES,CHARADRIIDAE,Vanellus,melanocephalus,,Vanellus melanocephalus,Vanellusmelanocephalus,
+CHARADRIIFORMES,CHARADRIIDAE,Vanellus,melanopterus,,Vanellus melanopterus,Vanellusmelanopterus,
+CHARADRIIFORMES,CHARADRIIDAE,Vanellus,miles,,Vanellus miles,Vanellusmiles,
+CHARADRIIFORMES,CHARADRIIDAE,Vanellus,novaehollandiae,,Vanellus novaehollandiae,Vanellusnovaehollandiae,
+CHARADRIIFORMES,CHARADRIIDAE,Vanellus,resplendens,,Vanellus resplendens,Vanellusresplendens,
+CHARADRIIFORMES,CHARADRIIDAE,Vanellus,senegallus,,Vanellus senegallus,Vanellussenegallus,
+CHARADRIIFORMES,CHARADRIIDAE,Vanellus,spinosus,,Vanellus spinosus,Vanellusspinosus,Hoplopterus spinosus |Hoplopterus spinosus spinosus
+CHARADRIIFORMES,CHARADRIIDAE,Vanellus,superciliosus,,Vanellus superciliosus,Vanellussuperciliosus,
+CHARADRIIFORMES,CHARADRIIDAE,Vanellus,tectus,,Vanellus tectus,Vanellustectus,Hoplopterus tectus |Hoplopterus tectus tectus
+CHARADRIIFORMES,CHARADRIIDAE,Vanellus,tricolor,,Vanellus tricolor,Vanellustricolor,
+CHARADRIIFORMES,CHARADRIIDAE,Vanellus,vanellus,,Vanellus vanellus,Vanellusvanellus,
+CHARADRIIFORMES,CHIONIDAE,Chionis,albus,,Chionis albus,Chionisalbus,Chionis alba
+CHARADRIIFORMES,CHIONIDAE,Chionis,minor,,Chionis minor,Chionisminor,
+PROCELLARIIFORMES,DIOMEDEIDAE,Diomedea,amsterdamensis,,Diomedea amsterdamensis,Diomedeaamsterdamensis,
+PROCELLARIIFORMES,DIOMEDEIDAE,Diomedea,antipodensis,,Diomedea antipodensis,Diomedeaantipodensis,
+PROCELLARIIFORMES,DIOMEDEIDAE,Diomedea,dabbenena,,Diomedea dabbenena,Diomedeadabbenena,Diomedea chionoptera chionoptera
+PROCELLARIIFORMES,DIOMEDEIDAE,Diomedea,epomophora,,Diomedea epomophora,Diomedeaepomophora,
+PROCELLARIIFORMES,DIOMEDEIDAE,Diomedea,exulans,,Diomedea exulans,Diomedeaexulans,
+PROCELLARIIFORMES,DIOMEDEIDAE,Diomedea,sanfordi,,Diomedea sanfordi,Diomedeasanfordi,
+PROCELLARIIFORMES,DIOMEDEIDAE,Phoebastria,albatrus,,Phoebastria albatrus,Phoebastriaalbatrus,Diomedea albatrus albatrus
+PROCELLARIIFORMES,DIOMEDEIDAE,Phoebastria,immutabilis,,Phoebastria immutabilis,Phoebastriaimmutabilis,Diomedea immutabilis immutabilis
+PROCELLARIIFORMES,DIOMEDEIDAE,Phoebastria,irrorata,,Phoebastria irrorata,Phoebastriairrorata,Diomedea irrorata irrorata
+PROCELLARIIFORMES,DIOMEDEIDAE,Phoebastria,nigripes,,Phoebastria nigripes,Phoebastrianigripes,Diomedea nigripes nigripes
+PROCELLARIIFORMES,DIOMEDEIDAE,Phoebetria,fusca,,Phoebetria fusca,Phoebetriafusca,
+PROCELLARIIFORMES,DIOMEDEIDAE,Phoebetria,palpebrata,,Phoebetria palpebrata,Phoebetriapalpebrata,
+PROCELLARIIFORMES,DIOMEDEIDAE,Thalassarche,bulleri,,Thalassarche bulleri,Thalassarchebulleri,Diomedea bulleri bulleri
+PROCELLARIIFORMES,DIOMEDEIDAE,Thalassarche,carteri,,Thalassarche carteri,Thalassarchecarteri,
+PROCELLARIIFORMES,DIOMEDEIDAE,Thalassarche,cauta,,Thalassarche cauta,Thalassarchecauta,
+PROCELLARIIFORMES,DIOMEDEIDAE,Thalassarche,chlororhynchos,,Thalassarche chlororhynchos,Thalassarchechlororhynchos,
+PROCELLARIIFORMES,DIOMEDEIDAE,Thalassarche,chrysostoma,,Thalassarche chrysostoma,Thalassarchechrysostoma,Diomedea chrysostoma chrysostoma
+PROCELLARIIFORMES,DIOMEDEIDAE,Thalassarche,eremita,,Thalassarche eremita,Thalassarcheeremita,
+PROCELLARIIFORMES,DIOMEDEIDAE,Thalassarche,impavida,,Thalassarche impavida,Thalassarcheimpavida,
+PROCELLARIIFORMES,DIOMEDEIDAE,Thalassarche,melanophris,,Thalassarche melanophris,Thalassarchemelanophris,Thalassarche melanophris melanophris
+PROCELLARIIFORMES,DIOMEDEIDAE,Thalassarche,salvini,,Thalassarche salvini,Thalassarchesalvini,
+PROCELLARIIFORMES,DIOMEDEIDAE,Thalassarche,steadi,,Thalassarche steadi,Thalassarchesteadi,
+CHARADRIIFORMES,DROMADIDAE,Dromas,ardeola,,Dromas ardeola,Dromasardeola,
+SULIFORMES,FREGATIDAE,Fregata,andrewsi,,Fregata andrewsi,Fregataandrewsi,
+SULIFORMES,FREGATIDAE,Fregata,aquila,,Fregata aquila,Fregataaquila,
+SULIFORMES,FREGATIDAE,Fregata,ariel,,Fregata ariel,Fregataariel,
+SULIFORMES,FREGATIDAE,Fregata,magnificens,,Fregata magnificens,Fregatamagnificens,
+SULIFORMES,FREGATIDAE,Fregata,minor,,Fregata minor,Fregataminor,
+CHARADRIIFORMES,GLAREOLIDAE,Cursorius,coromandelicus,,Cursorius coromandelicus,Cursoriuscoromandelicus,
+CHARADRIIFORMES,GLAREOLIDAE,Cursorius,cursor,,Cursorius cursor,Cursoriuscursor,
+CHARADRIIFORMES,GLAREOLIDAE,Cursorius,rufus,,Cursorius rufus,Cursoriusrufus,
+CHARADRIIFORMES,GLAREOLIDAE,Cursorius,somalensis,,Cursorius somalensis,Cursoriussomalensis,
+CHARADRIIFORMES,GLAREOLIDAE,Cursorius,temminckii,,Cursorius temminckii,Cursoriustemminckii,
+CHARADRIIFORMES,GLAREOLIDAE,Glareola,cinerea,,Glareola cinerea,Glareolacinerea,
+CHARADRIIFORMES,GLAREOLIDAE,Glareola,lactea,,Glareola lactea,Glareolalactea,
+CHARADRIIFORMES,GLAREOLIDAE,Glareola,maldivarum,,Glareola maldivarum,Glareolamaldivarum,
+CHARADRIIFORMES,GLAREOLIDAE,Glareola,nordmanni,,Glareola nordmanni,Glareolanordmanni,
+CHARADRIIFORMES,GLAREOLIDAE,Glareola,nuchalis,,Glareola nuchalis,Glareolanuchalis,
+CHARADRIIFORMES,GLAREOLIDAE,Glareola,ocularis,,Glareola ocularis,Glareolaocularis,
+CHARADRIIFORMES,GLAREOLIDAE,Glareola,pratincola,,Glareola pratincola,Glareolapratincola,
+CHARADRIIFORMES,GLAREOLIDAE,Rhinoptilus,bitorquatus,,Rhinoptilus bitorquatus,Rhinoptilusbitorquatus,Cursorius bitorquatus bitorquatus
+CHARADRIIFORMES,GLAREOLIDAE,Rhinoptilus,chalcopterus,,Rhinoptilus chalcopterus,Rhinoptiluschalcopterus,
+CHARADRIIFORMES,GLAREOLIDAE,Rhinoptilus,cinctus,,Rhinoptilus cinctus,Rhinoptiluscinctus,
+CHARADRIIFORMES,GLAREOLIDAE,Smutsornis,africanus,,Smutsornis africanus,Smutsornisafricanus,Rhinoptilus africanus
+CHARADRIIFORMES,GLAREOLIDAE,Stiltia,isabella,,Stiltia isabella,Stiltiaisabella,
+CHARADRIIFORMES,HAEMATOPODIDAE,Haematopus,ater,,Haematopus ater,Haematopusater,Haematopus bachmani
+CHARADRIIFORMES,HAEMATOPODIDAE,Haematopus,chathamensis,,Haematopus chathamensis,Haematopuschathamensis,
+CHARADRIIFORMES,HAEMATOPODIDAE,Haematopus,fuliginosus,,Haematopus fuliginosus,Haematopusfuliginosus,
+CHARADRIIFORMES,HAEMATOPODIDAE,Haematopus,leucopodus,,Haematopus leucopodus,Haematopusleucopodus,
+CHARADRIIFORMES,HAEMATOPODIDAE,Haematopus,longirostris,,Haematopus longirostris,Haematopuslongirostris,
+CHARADRIIFORMES,HAEMATOPODIDAE,Haematopus,meadewaldoi,,Haematopus meadewaldoi,Haematopusmeadewaldoi,
+CHARADRIIFORMES,HAEMATOPODIDAE,Haematopus,moquini,,Haematopus moquini,Haematopusmoquini,
+CHARADRIIFORMES,HAEMATOPODIDAE,Haematopus,ostralegus,,Haematopus ostralegus,Haematopusostralegus,Haematopus finschi
+CHARADRIIFORMES,HAEMATOPODIDAE,Haematopus,palliatus,,Haematopus palliatus,Haematopuspalliatus,
+CHARADRIIFORMES,HAEMATOPODIDAE,Haematopus,unicolor,,Haematopus unicolor,Haematopusunicolor,
+PROCELLARIIFORMES,HYDROBATIDAE,Hydrobates,castro,,Hydrobates castro,Hydrobatescastro,Oceanodroma castro
+PROCELLARIIFORMES,HYDROBATIDAE,Hydrobates,furcatus,,Hydrobates furcatus,Hydrobatesfurcatus,Oceanodroma furcata
+PROCELLARIIFORMES,HYDROBATIDAE,Hydrobates,homochroa,,Hydrobates homochroa,Hydrobateshomochroa,Oceanodroma homochroa
+PROCELLARIIFORMES,HYDROBATIDAE,Hydrobates,hornbyi,,Hydrobates hornbyi,Hydrobateshornbyi,Oceanodroma hornbyi
+PROCELLARIIFORMES,HYDROBATIDAE,Hydrobates,leucorhous,,Hydrobates leucorhous,Hydrobatesleucorhous,Hydrobates leucorhoa leucorhoa|Oceanodroma leucorhoa
+PROCELLARIIFORMES,HYDROBATIDAE,Hydrobates,macrodactylus,,Hydrobates macrodactylus,Hydrobatesmacrodactylus,Oceanodroma macrodactyla
+PROCELLARIIFORMES,HYDROBATIDAE,Hydrobates,markhami,,Hydrobates markhami,Hydrobatesmarkhami,Oceanodroma markhami
+PROCELLARIIFORMES,HYDROBATIDAE,Hydrobates,matsudairae,,Hydrobates matsudairae,Hydrobatesmatsudairae,Hydrobates matsudairae matsudairae|Oceanodroma matsudairae
+PROCELLARIIFORMES,HYDROBATIDAE,Hydrobates,melania,,Hydrobates melania,Hydrobatesmelania,Oceanodroma melania
+PROCELLARIIFORMES,HYDROBATIDAE,Hydrobates,microsoma,,Hydrobates microsoma,Hydrobatesmicrosoma,Halocyptena microsoma
+PROCELLARIIFORMES,HYDROBATIDAE,Hydrobates,monorhis,,Hydrobates monorhis,Hydrobatesmonorhis,Hydrobates monorhis monorhis|Oceanodroma monorhis
+PROCELLARIIFORMES,HYDROBATIDAE,Hydrobates,monteiroi,,Hydrobates monteiroi,Hydrobatesmonteiroi,Oceanodroma monteiroi
+PROCELLARIIFORMES,HYDROBATIDAE,Hydrobates,pelagicus,,Hydrobates pelagicus,Hydrobatespelagicus,
+PROCELLARIIFORMES,HYDROBATIDAE,Hydrobates,tethys,,Hydrobates tethys,Hydrobatestethys,Oceanodroma tethys
+PROCELLARIIFORMES,HYDROBATIDAE,Hydrobates,tristrami,,Hydrobates tristrami,Hydrobatestristrami,Hydrobates tristrami tristrami|Oceanodroma tristrami
+CHARADRIIFORMES,IBIDORHYNCHIDAE,Ibidorhyncha,struthersii,,Ibidorhyncha struthersii,Ibidorhynchastruthersii,
+CHARADRIIFORMES,JACANIDAE,Actophilornis,africanus,,Actophilornis africanus,Actophilornisafricanus,
+CHARADRIIFORMES,JACANIDAE,Actophilornis,albinucha,,Actophilornis albinucha,Actophilornisalbinucha,
+CHARADRIIFORMES,JACANIDAE,Hydrophasianus,chirurgus,,Hydrophasianus chirurgus,Hydrophasianuschirurgus,
+CHARADRIIFORMES,JACANIDAE,Irediparra,gallinacea,,Irediparra gallinacea,Irediparragallinacea,
+CHARADRIIFORMES,JACANIDAE,Jacana,jacana,,Jacana jacana,Jacanajacana,
+CHARADRIIFORMES,JACANIDAE,Jacana,spinosa,,Jacana spinosa,Jacanaspinosa,
+CHARADRIIFORMES,JACANIDAE,Metopidius,indicus,,Metopidius indicus,Metopidiusindicus,
+CHARADRIIFORMES,JACANIDAE,Microparra,capensis,,Microparra capensis,Microparracapensis,
+CHARADRIIFORMES,LARIDAE,Anous,minutus,,Anous minutus,Anousminutus,
+CHARADRIIFORMES,LARIDAE,Anous,stolidus,,Anous stolidus,Anousstolidus,
+CHARADRIIFORMES,LARIDAE,Anous,tenuirostris,,Anous tenuirostris,Anoustenuirostris,
+CHARADRIIFORMES,LARIDAE,Chlidonias,albostriatus,,Chlidonias albostriatus,Chlidoniasalbostriatus,Sterna albostriata
+CHARADRIIFORMES,LARIDAE,Chlidonias,hybrida,,Chlidonias hybrida,Chlidoniashybrida,Chlidonias hybridus hybridus
+CHARADRIIFORMES,LARIDAE,Chlidonias,leucopterus,,Chlidonias leucopterus,Chlidoniasleucopterus,
+CHARADRIIFORMES,LARIDAE,Chlidonias,niger,,Chlidonias niger,Chlidoniasniger,
+CHARADRIIFORMES,LARIDAE,Creagrus,furcatus,,Creagrus furcatus,Creagrusfurcatus,
+CHARADRIIFORMES,LARIDAE,Gelochelidon,macrotarsa,,Gelochelidon macrotarsa,Gelochelidonmacrotarsa,
+CHARADRIIFORMES,LARIDAE,Gelochelidon,nilotica,,Gelochelidon nilotica,Gelochelidonnilotica,
+CHARADRIIFORMES,LARIDAE,Gygis,alba,,Gygis alba,Gygisalba,
+CHARADRIIFORMES,LARIDAE,Gygis,microrhyncha,,Gygis microrhyncha,Gygismicrorhyncha,
+CHARADRIIFORMES,LARIDAE,Hydrocoloeus,minutus,,Hydrocoloeus minutus,Hydrocoloeusminutus,Larus minutus
+CHARADRIIFORMES,LARIDAE,Hydroprogne,caspia,,Hydroprogne caspia,Hydroprognecaspia,Hydroprogne caspia|Sterna caspia
+CHARADRIIFORMES,LARIDAE,Larosterna,inca,,Larosterna inca,Larosternainca,
+CHARADRIIFORMES,LARIDAE,Larus,argentatus,,Larus argentatus,Larusargentatus,
+CHARADRIIFORMES,LARIDAE,Larus,armenicus,,Larus armenicus,Larusarmenicus,
+CHARADRIIFORMES,LARIDAE,Larus,atlanticus,,Larus atlanticus,Larusatlanticus,
+CHARADRIIFORMES,LARIDAE,Larus,atricilla,,Larus atricilla,Larusatricilla,Leucophaeus atricilla atricilla
+CHARADRIIFORMES,LARIDAE,Larus,audouinii,,Larus audouinii,Larusaudouinii,
+CHARADRIIFORMES,LARIDAE,Larus,belcheri,,Larus belcheri,Larusbelcheri,
+CHARADRIIFORMES,LARIDAE,Larus,brunnicephalus,,Larus brunnicephalus,Larusbrunnicephalus,
+CHARADRIIFORMES,LARIDAE,Larus,bulleri,,Larus bulleri,Larusbulleri,
+CHARADRIIFORMES,LARIDAE,Larus,cachinnans,,Larus cachinnans,Laruscachinnans,
+CHARADRIIFORMES,LARIDAE,Larus,californicus,,Larus californicus,Laruscalifornicus,
+CHARADRIIFORMES,LARIDAE,Larus,canus,,Larus canus,Laruscanus,
+CHARADRIIFORMES,LARIDAE,Larus,cirrocephalus,,Larus cirrocephalus,Laruscirrocephalus,
+CHARADRIIFORMES,LARIDAE,Larus,crassirostris,,Larus crassirostris,Laruscrassirostris,
+CHARADRIIFORMES,LARIDAE,Larus,delawarensis,,Larus delawarensis,Larusdelawarensis,
+CHARADRIIFORMES,LARIDAE,Larus,dominicanus,,Larus dominicanus,Larusdominicanus,
+CHARADRIIFORMES,LARIDAE,Larus,fuliginosus,,Larus fuliginosus,Larusfuliginosus,
+CHARADRIIFORMES,LARIDAE,Larus,fuscus,,Larus fuscus,Larusfuscus,
+CHARADRIIFORMES,LARIDAE,Larus,genei,,Larus genei,Larusgenei,
+CHARADRIIFORMES,LARIDAE,Larus,glaucescens,,Larus glaucescens,Larusglaucescens,
+CHARADRIIFORMES,LARIDAE,Larus,glaucoides,,Larus glaucoides,Larusglaucoides,
+CHARADRIIFORMES,LARIDAE,Larus,hartlaubii,,Larus hartlaubii,Larushartlaubii,
+CHARADRIIFORMES,LARIDAE,Larus,heermanni,,Larus heermanni,Larusheermanni,
+CHARADRIIFORMES,LARIDAE,Larus,hemprichii,,Larus hemprichii,Larushemprichii,
+CHARADRIIFORMES,LARIDAE,Larus,hyperboreus,,Larus hyperboreus,Larushyperboreus,
+CHARADRIIFORMES,LARIDAE,Larus,ichthyaetus,,Larus ichthyaetus,Larusichthyaetus,
+CHARADRIIFORMES,LARIDAE,Larus,leucophthalmus,,Larus leucophthalmus,Larusleucophthalmus,
+CHARADRIIFORMES,LARIDAE,Larus,livens,,Larus livens,Laruslivens,
+CHARADRIIFORMES,LARIDAE,Larus,maculipennis,,Larus maculipennis,Larusmaculipennis,
+CHARADRIIFORMES,LARIDAE,Larus,marinus,,Larus marinus,Larusmarinus,
+CHARADRIIFORMES,LARIDAE,Larus,melanocephalus,,Larus melanocephalus,Larusmelanocephalus,
+CHARADRIIFORMES,LARIDAE,Larus,michahellis,,Larus michahellis,Larusmichahellis,
+CHARADRIIFORMES,LARIDAE,Larus,modestus,,Larus modestus,Larusmodestus,
+CHARADRIIFORMES,LARIDAE,Larus,novaehollandiae,,Larus novaehollandiae,Larusnovaehollandiae,Larus scopulinus
+CHARADRIIFORMES,LARIDAE,Larus,occidentalis,,Larus occidentalis,Larusoccidentalis,
+CHARADRIIFORMES,LARIDAE,Larus,pacificus,,Larus pacificus,Laruspacificus,
+CHARADRIIFORMES,LARIDAE,Larus,philadelphia,,Larus philadelphia,Larusphiladelphia,
+CHARADRIIFORMES,LARIDAE,Larus,pipixcan,,Larus pipixcan,Laruspipixcan,Leucophaeus pipixcan pipixcan
+CHARADRIIFORMES,LARIDAE,Larus,relictus,,Larus relictus,Larusrelictus,
+CHARADRIIFORMES,LARIDAE,Larus,ridibundus,,Larus ridibundus,Larusridibundus,Chroicocephalus ridibundus ridibundus
+CHARADRIIFORMES,LARIDAE,Larus,schistisagus,,Larus schistisagus,Larusschistisagus,
+CHARADRIIFORMES,LARIDAE,Larus,scopulinus,,Larus scopulinus,Larusscopulinus,
+CHARADRIIFORMES,LARIDAE,Larus,scoresbii,,Larus scoresbii,Larusscoresbii,Gabianus scoresbii|Leucophaeus scoresbii
+CHARADRIIFORMES,LARIDAE,Larus,serranus,,Larus serranus,Larusserranus,
+CHARADRIIFORMES,LARIDAE,Larus,smithsonianus,,Larus smithsonianus,Larussmithsonianus,
+CHARADRIIFORMES,LARIDAE,Larus,thayeri,,Larus thayeri,Larusthayeri,
+CHARADRIIFORMES,LARIDAE,Onychoprion,aleuticus,,Onychoprion aleuticus,Onychoprionaleuticus,Sterna aleutica
+CHARADRIIFORMES,LARIDAE,Onychoprion,anaethetus,,Onychoprion anaethetus,Onychoprionanaethetus,Onychoprion anaethetus subspecies anaethetus|Sterna anaethetus
+CHARADRIIFORMES,LARIDAE,Onychoprion,fuscatus,,Onychoprion fuscatus,Onychoprionfuscatus,Onychoprion fuscata subspecies fuscata|Sterna fuscata
+CHARADRIIFORMES,LARIDAE,Onychoprion,lunatus,,Onychoprion lunatus,Onychoprionlunatus,Sterna lunata
+CHARADRIIFORMES,LARIDAE,Pagophila,eburnea,,Pagophila eburnea,Pagophilaeburnea,
+CHARADRIIFORMES,LARIDAE,Phaetusa,simplex,,Phaetusa simplex,Phaetusasimplex,
+CHARADRIIFORMES,LARIDAE,Procelsterna,albivitta,,Procelsterna albivitta,Procelsternaalbivitta,
+CHARADRIIFORMES,LARIDAE,Procelsterna,cerulea,,Procelsterna cerulea,Procelsternacerulea,
+CHARADRIIFORMES,LARIDAE,Rhodostethia,rosea,,Rhodostethia rosea,Rhodostethiarosea,
+CHARADRIIFORMES,LARIDAE,Rissa,brevirostris,,Rissa brevirostris,Rissabrevirostris,
+CHARADRIIFORMES,LARIDAE,Rissa,tridactyla,,Rissa tridactyla,Rissatridactyla,
+CHARADRIIFORMES,LARIDAE,Rynchops,albicollis,,Rynchops albicollis,Rynchopsalbicollis,
+CHARADRIIFORMES,LARIDAE,Rynchops,flavirostris,,Rynchops flavirostris,Rynchopsflavirostris,
+CHARADRIIFORMES,LARIDAE,Rynchops,niger,,Rynchops niger,Rynchopsniger,Rhynchops niger niger
+CHARADRIIFORMES,LARIDAE,Saundersilarus,saundersi,,Saundersilarus saundersi,Saundersilarussaundersi,Larus saundersi
+CHARADRIIFORMES,LARIDAE,Sterna,acuticauda,,Sterna acuticauda,Sternaacuticauda,
+CHARADRIIFORMES,LARIDAE,Sterna,aurantia,,Sterna aurantia,Sternaaurantia,
+CHARADRIIFORMES,LARIDAE,Sterna,dougallii,,Sterna dougallii,Sternadougallii,
+CHARADRIIFORMES,LARIDAE,Sterna,forsteri,,Sterna forsteri,Sternaforsteri,
+CHARADRIIFORMES,LARIDAE,Sterna,hirundinacea,,Sterna hirundinacea,Sternahirundinacea,
+CHARADRIIFORMES,LARIDAE,Sterna,hirundo,,Sterna hirundo,Sternahirundo,
+CHARADRIIFORMES,LARIDAE,Sterna,paradisaea,,Sterna paradisaea,Sternaparadisaea,
+CHARADRIIFORMES,LARIDAE,Sterna,repressa,,Sterna repressa,Sternarepressa,
+CHARADRIIFORMES,LARIDAE,Sterna,striata,,Sterna striata,Sternastriata,
+CHARADRIIFORMES,LARIDAE,Sterna,sumatrana,,Sterna sumatrana,Sternasumatrana,
+CHARADRIIFORMES,LARIDAE,Sterna,trudeaui,,Sterna trudeaui,Sternatrudeaui,
+CHARADRIIFORMES,LARIDAE,Sterna,virgata,,Sterna virgata,Sternavirgata,
+CHARADRIIFORMES,LARIDAE,Sterna,vittata,,Sterna vittata,Sternavittata,
+CHARADRIIFORMES,LARIDAE,Sternula,albifrons,,Sternula albifrons,Sternulaalbifrons,Sterna albifrons
+CHARADRIIFORMES,LARIDAE,Sternula,antillarum,,Sternula antillarum,Sternulaantillarum,Sterna antillarum
+CHARADRIIFORMES,LARIDAE,Sternula,balaenarum,,Sternula balaenarum,Sternulabalaenarum,Sterna balaenarum
+CHARADRIIFORMES,LARIDAE,Sternula,lorata,,Sternula lorata,Sternulalorata,Sterna lorata
+CHARADRIIFORMES,LARIDAE,Sternula,nereis,,Sternula nereis,Sternulanereis,Sterna nereis
+CHARADRIIFORMES,LARIDAE,Sternula,saundersi,,Sternula saundersi,Sternulasaundersi,Sterna saundersi
+CHARADRIIFORMES,LARIDAE,Sternula,superciliaris,,Sternula superciliaris,Sternulasuperciliaris,Sterna superciliaris
+CHARADRIIFORMES,LARIDAE,Thalasseus,bengalensis,,Thalasseus bengalensis,Thalasseusbengalensis,Sterna bengalensis
+CHARADRIIFORMES,LARIDAE,Thalasseus,bergii,,Thalasseus bergii,Thalasseusbergii,Sterna bergii
+CHARADRIIFORMES,LARIDAE,Thalasseus,bernsteini,,Thalasseus bernsteini,Thalasseusbernsteini,Sterna bernsteini
+CHARADRIIFORMES,LARIDAE,Thalasseus,elegans,,Thalasseus elegans,Thalasseuselegans,Sterna elegans
+CHARADRIIFORMES,LARIDAE,Thalasseus,maximus,,Thalasseus maximus,Thalasseusmaximus,Sterna maxima
+CHARADRIIFORMES,LARIDAE,Thalasseus,sandvicensis,acuflavida,Thalasseus sandvicensis acuflavida,Thalasseussandvicensisacuflavida,Sterna sandvicensis
+CHARADRIIFORMES,LARIDAE,Thalasseus,sandvicensis,eurygnatha,Thalasseus sandvicensis eurygnatha,Thalasseussandvicensiseurygnatha,Sterna sandvicensis
+CHARADRIIFORMES,LARIDAE,Xema,sabini,,Xema sabini,Xemasabini,Larus sabini |Larus sabini sabini
+PROCELLARIIFORMES,OCEANITIDAE,Fregetta,grallaria,,Fregetta grallaria,Fregettagrallaria,
+PROCELLARIIFORMES,OCEANITIDAE,Fregetta,maoriana,,Fregetta maoriana,Fregettamaoriana,Oceanites maorianus
+PROCELLARIIFORMES,OCEANITIDAE,Fregetta,tropica,,Fregetta tropica,Fregettatropica,
+PROCELLARIIFORMES,OCEANITIDAE,Garrodia,nereis,,Garrodia nereis,Garrodianereis,Oceanites nereis nereis
+PROCELLARIIFORMES,OCEANITIDAE,Nesofregetta,fuliginosa,,Nesofregetta fuliginosa,Nesofregettafuliginosa,
+PROCELLARIIFORMES,OCEANITIDAE,Oceanites,gracilis,,Oceanites gracilis,Oceanitesgracilis,
+PROCELLARIIFORMES,OCEANITIDAE,Oceanites,gracilis,galapagoensis,Oceanites gracilis galapagoensis,Oceanitesgracilisgalapagoensis,
+PROCELLARIIFORMES,OCEANITIDAE,Oceanites,oceanicus,,Oceanites oceanicus,Oceanitesoceanicus,
+PROCELLARIIFORMES,OCEANITIDAE,Oceanites,oceanicus,chilensis,Oceanites oceanicus chilensis,Oceanitesoceanicuschilensis,
+PROCELLARIIFORMES,OCEANITIDAE,Oceanites,oceanicus,exasperatus,Oceanites oceanicus exasperatus,Oceanitesoceanicusexasperatus,
+PROCELLARIIFORMES,OCEANITIDAE,Oceanites,oceanicus,oceanicus,Oceanites oceanicus oceanicus,Oceanitesoceanicusoceanicus,
+PROCELLARIIFORMES,OCEANITIDAE,Oceanites,pincoyae,,Oceanites pincoyae,Oceanitespincoyae,
+PROCELLARIIFORMES,OCEANITIDAE,Pelagodroma,marina,,Pelagodroma marina,Pelagodromamarina,
+CHARADRIIFORMES,PEDIONOMIDAE,Pedionomus,torquatus,,Pedionomus torquatus,Pedionomustorquatus,
+PELECANIFORMES,PELECANIDAE,Pelecanus,conspicillatus,,Pelecanus conspicillatus,Pelecanusconspicillatus,
+PELECANIFORMES,PELECANIDAE,Pelecanus,crispus,,Pelecanus crispus,Pelecanuscrispus,
+PELECANIFORMES,PELECANIDAE,Pelecanus,erythrorhynchos,,Pelecanus erythrorhynchos,Pelecanuserythrorhynchos,
+PELECANIFORMES,PELECANIDAE,Pelecanus,occidentalis,,Pelecanus occidentalis,Pelecanusoccidentalis,
+PELECANIFORMES,PELECANIDAE,Pelecanus,onocrotalus,,Pelecanus onocrotalus,Pelecanusonocrotalus,
+PELECANIFORMES,PELECANIDAE,Pelecanus,philippensis,,Pelecanus philippensis,Pelecanusphilippensis,
+PELECANIFORMES,PELECANIDAE,Pelecanus,rufescens,,Pelecanus rufescens,Pelecanusrufescens,
+PELECANIFORMES,PELECANIDAE,Pelecanus,thagus,,Pelecanus thagus,Pelecanusthagus,
+PHAETHONTIFORMES,PHAETHONTIDAE,Phaethon,aethereus,,Phaethon aethereus,Phaethonaethereus,
+PHAETHONTIFORMES,PHAETHONTIDAE,Phaethon,lepturus,,Phaethon lepturus,Phaethonlepturus,
+PHAETHONTIFORMES,PHAETHONTIDAE,Phaethon,rubricauda,,Phaethon rubricauda,Phaethonrubricauda,
+SULIFORMES,PHALACROCORACIDAE,Microcarbo,africanus,,Microcarbo africanus,Microcarboafricanus,Phalacrocorax africanus
+SULIFORMES,PHALACROCORACIDAE,Microcarbo,coronatus,,Microcarbo coronatus,Microcarbocoronatus,Phalacrocorax coronatus
+SULIFORMES,PHALACROCORACIDAE,Microcarbo,melanoleucos,,Microcarbo melanoleucos,Microcarbomelanoleucos,Microcarbo melanoleucos melanoleucos|Phalacrocorax melanoleucos
+SULIFORMES,PHALACROCORACIDAE,Microcarbo,niger,,Microcarbo niger,Microcarboniger,Phalacrocorax niger
+SULIFORMES,PHALACROCORACIDAE,Microcarbo,pygmaeus,,Microcarbo pygmaeus,Microcarbopygmaeus,Halietor pygmeus|Phalacrocorax pygmaeus
+SULIFORMES,PHALACROCORACIDAE,Phalacrocorax,bransfieldensis,,Phalacrocorax bransfieldensis,Phalacrocoraxbransfieldensis,Notocarbo bransfieldensis
+SULIFORMES,PHALACROCORACIDAE,Phalacrocorax,georgianus,,Phalacrocorax georgianus,Phalacrocoraxgeorgianus,Notocarbo georgianus
+SULIFORMES,PHALACROCORACIDAE,Phalacrocorax,aristotelis,,Phalacrocorax aristotelis,Phalacrocoraxaristotelis,
+SULIFORMES,PHALACROCORACIDAE,Phalacrocorax,atriceps,,Phalacrocorax atriceps,Phalacrocoraxatriceps,Leucocarbo atriceps 
+SULIFORMES,PHALACROCORACIDAE,Phalacrocorax,auritus,,Phalacrocorax auritus,Phalacrocoraxauritus,
+SULIFORMES,PHALACROCORACIDAE,Phalacrocorax,bougainvilliorum,,Phalacrocorax bougainvilliorum,Phalacrocoraxbougainvilliorum,Phalacrocorax bougainvillii
+SULIFORMES,PHALACROCORACIDAE,Phalacrocorax,brasilianus,,Phalacrocorax brasilianus,Phalacrocoraxbrasilianus,
+SULIFORMES,PHALACROCORACIDAE,Phalacrocorax,campbelli,,Phalacrocorax campbelli,Phalacrocoraxcampbelli,Leucocarbo campbelli campbelli
+SULIFORMES,PHALACROCORACIDAE,Phalacrocorax,capensis,,Phalacrocorax capensis,Phalacrocoraxcapensis,
+SULIFORMES,PHALACROCORACIDAE,Phalacrocorax,capillatus,,Phalacrocorax capillatus,Phalacrocoraxcapillatus,
+SULIFORMES,PHALACROCORACIDAE,Phalacrocorax,carbo,,Phalacrocorax carbo,Phalacrocoraxcarbo,
+SULIFORMES,PHALACROCORACIDAE,Phalacrocorax,carunculatus,,Phalacrocorax carunculatus,Phalacrocoraxcarunculatus,Leucocarbo carunculatus carunculatus
+SULIFORMES,PHALACROCORACIDAE,Phalacrocorax,chalconotus,,Phalacrocorax chalconotus,Phalacrocoraxchalconotus,Leucocarbo chalconotus chalconotus
+SULIFORMES,PHALACROCORACIDAE,Phalacrocorax,colensoi,,Phalacrocorax colensoi,Phalacrocoraxcolensoi,Leucocarbo colensoi colensoi
+SULIFORMES,PHALACROCORACIDAE,Phalacrocorax,featherstoni,,Phalacrocorax featherstoni,Phalacrocoraxfeatherstoni,Stictocarbo featherstoni featherstoni
+SULIFORMES,PHALACROCORACIDAE,Phalacrocorax,fuscescens,,Phalacrocorax fuscescens,Phalacrocoraxfuscescens,
+SULIFORMES,PHALACROCORACIDAE,Phalacrocorax,fuscicollis,,Phalacrocorax fuscicollis,Phalacrocoraxfuscicollis,
+SULIFORMES,PHALACROCORACIDAE,Phalacrocorax,gaimardi,,Phalacrocorax gaimardi,Phalacrocoraxgaimardi,
+SULIFORMES,PHALACROCORACIDAE,Phalacrocorax,harrisi,,Phalacrocorax harrisi,Phalacrocoraxharrisi,Nannopterum harrisi harrisi
+SULIFORMES,PHALACROCORACIDAE,Phalacrocorax,magellanicus,,Phalacrocorax magellanicus,Phalacrocoraxmagellanicus,
+SULIFORMES,PHALACROCORACIDAE,Phalacrocorax,neglectus,,Phalacrocorax neglectus,Phalacrocoraxneglectus,
+SULIFORMES,PHALACROCORACIDAE,Phalacrocorax,nigrogularis,,Phalacrocorax nigrogularis,Phalacrocoraxnigrogularis,
+SULIFORMES,PHALACROCORACIDAE,Phalacrocorax,onslowi,,Phalacrocorax onslowi,Phalacrocoraxonslowi,Leucocarbo onslowi onslowi
+SULIFORMES,PHALACROCORACIDAE,Phalacrocorax,pelagicus,,Phalacrocorax pelagicus,Phalacrocoraxpelagicus,
+SULIFORMES,PHALACROCORACIDAE,Phalacrocorax,penicillatus,,Phalacrocorax penicillatus,Phalacrocoraxpenicillatus,
+SULIFORMES,PHALACROCORACIDAE,Phalacrocorax,perspicillatus,,Phalacrocorax perspicillatus,Phalacrocoraxperspicillatus,
+SULIFORMES,PHALACROCORACIDAE,Phalacrocorax,punctatus,,Phalacrocorax punctatus,Phalacrocoraxpunctatus,Stictocarbo punctatus punctatus
+SULIFORMES,PHALACROCORACIDAE,Phalacrocorax,ranfurlyi,,Phalacrocorax ranfurlyi,Phalacrocoraxranfurlyi,Leucocarbo ranfurlyi ranfurlyi
+SULIFORMES,PHALACROCORACIDAE,Phalacrocorax,sulcirostris,,Phalacrocorax sulcirostris,Phalacrocoraxsulcirostris,
+SULIFORMES,PHALACROCORACIDAE,Phalacrocorax,urile,,Phalacrocorax urile,Phalacrocoraxurile,
+SULIFORMES,PHALACROCORACIDAE,Phalacrocorax,varius,,Phalacrocorax varius,Phalacrocoraxvarius,
+SULIFORMES,PHALACROCORACIDAE,Phalacrocorax,verrucosus,,Phalacrocorax verrucosus,Phalacrocoraxverrucosus,
+CHARADRIIFORMES,PLUVIANELLIDAE,Pluvianellus,socialis,,Pluvianellus socialis,Pluvianellussocialis,
+CHARADRIIFORMES,PLUVIANIDAE,Pluvianus,aegyptius,,Pluvianus aegyptius,Pluvianusaegyptius,
+PROCELLARIIFORMES,PROCELLARIIDAE,Aphrodroma,brevirostris,,Aphrodroma brevirostris,Aphrodromabrevirostris,Lugensa brevirostris|Pterodroma brevirostris|
+PROCELLARIIFORMES,PROCELLARIIDAE,Ardenna,bulleri,,Ardenna bulleri,Ardennabulleri,Ardenna bulleri bulleri|Puffinus bulleri
+PROCELLARIIFORMES,PROCELLARIIDAE,Ardenna,carneipes,,Ardenna carneipes,Ardennacarneipes,Ardenna carneipes carneipes|Puffinus carneipes
+PROCELLARIIFORMES,PROCELLARIIDAE,Ardenna,creatopus,,Ardenna creatopus,Ardennacreatopus,Ardenna creatopus creatopus|Puffinus creatopus
+PROCELLARIIFORMES,PROCELLARIIDAE,Ardenna,gravis,,Ardenna gravis,Ardennagravis,Ardenna gravis gravis|Puffinus gravis
+PROCELLARIIFORMES,PROCELLARIIDAE,Ardenna,grisea,,Ardenna grisea,Ardennagrisea,Ardenna grisea grisea|Puffinus griseus
+PROCELLARIIFORMES,PROCELLARIIDAE,Ardenna,pacifica,,Ardenna pacifica,Ardennapacifica,Ardenna pacifica pacifica|Puffinus pacificus
+PROCELLARIIFORMES,PROCELLARIIDAE,Ardenna,tenuirostris,,Ardenna tenuirostris,Ardennatenuirostris,Ardenna tenuirostris tenuirostris|Puffinus tenuirostris
+PROCELLARIIFORMES,PROCELLARIIDAE,Bulweria,bifax,,Bulweria bifax,Bulweriabifax,
+PROCELLARIIFORMES,PROCELLARIIDAE,Bulweria,bulwerii,,Bulweria bulwerii,Bulweriabulwerii,
+PROCELLARIIFORMES,PROCELLARIIDAE,Bulweria,fallax,,Bulweria fallax,Bulweriafallax,
+PROCELLARIIFORMES,PROCELLARIIDAE,Calonectris,borealis,,Calonectris borealis,Calonectrisborealis,
+PROCELLARIIFORMES,PROCELLARIIDAE,Calonectris,diomedea,,Calonectris diomedea,Calonectrisdiomedea,
+PROCELLARIIFORMES,PROCELLARIIDAE,Calonectris,edwardsii,,Calonectris edwardsii,Calonectrisedwardsii,
+PROCELLARIIFORMES,PROCELLARIIDAE,Calonectris,leucomelas,,Calonectris leucomelas,Calonectrisleucomelas,
+PROCELLARIIFORMES,PROCELLARIIDAE,Daption,capense,,Daption capense,Daptioncapense,
+PROCELLARIIFORMES,PROCELLARIIDAE,Fulmarus,glacialis,,Fulmarus glacialis,Fulmarusglacialis,
+PROCELLARIIFORMES,PROCELLARIIDAE,Fulmarus,glacialoides,,Fulmarus glacialoides,Fulmarusglacialoides,
+PROCELLARIIFORMES,PROCELLARIIDAE,Halobaena,caerulea,,Halobaena caerulea,Halobaenacaerulea,
+PROCELLARIIFORMES,PROCELLARIIDAE,Macronectes,giganteus,,Macronectes giganteus,Macronectesgiganteus,
+PROCELLARIIFORMES,PROCELLARIIDAE,Macronectes,halli,,Macronectes halli,Macronecteshalli,
+PROCELLARIIFORMES,PROCELLARIIDAE,Pachyptila,belcheri,,Pachyptila belcheri,Pachyptilabelcheri,
+PROCELLARIIFORMES,PROCELLARIIDAE,Pachyptila,crassirostris,,Pachyptila crassirostris,Pachyptilacrassirostris,
+PROCELLARIIFORMES,PROCELLARIIDAE,Pachyptila,desolata,,Pachyptila desolata,Pachyptiladesolata,
+PROCELLARIIFORMES,PROCELLARIIDAE,Pachyptila,salvini,,Pachyptila salvini,Pachyptilasalvini,
+PROCELLARIIFORMES,PROCELLARIIDAE,Pachyptila,turtur,,Pachyptila turtur,Pachyptilaturtur,
+PROCELLARIIFORMES,PROCELLARIIDAE,Pachyptila,vittata,,Pachyptila vittata,Pachyptilavittata,
+PROCELLARIIFORMES,PROCELLARIIDAE,Pagodroma,nivea,,Pagodroma nivea,Pagodromanivea,
+PROCELLARIIFORMES,PROCELLARIIDAE,Pelecanoides,garnotii,,Pelecanoides garnotii,Pelecanoidesgarnotii,Pelecanoides garnoti garnoti
+PROCELLARIIFORMES,PROCELLARIIDAE,Pelecanoides,georgicus,,Pelecanoides georgicus,Pelecanoidesgeorgicus,
+PROCELLARIIFORMES,PROCELLARIIDAE,Pelecanoides,magellani,,Pelecanoides magellani,Pelecanoidesmagellani,
+PROCELLARIIFORMES,PROCELLARIIDAE,Pelecanoides,urinatrix,,Pelecanoides urinatrix,Pelecanoidesurinatrix,
+PROCELLARIIFORMES,PROCELLARIIDAE,Pelecanoides,urinatrix,exsul,Pelecanoides urinatrix exsul,Pelecanoidesurinatrixexsul,
+PROCELLARIIFORMES,PROCELLARIIDAE,Procellaria,aequinoctialis,,Procellaria aequinoctialis,Procellariaaequinoctialis,
+PROCELLARIIFORMES,PROCELLARIIDAE,Procellaria,cinerea,,Procellaria cinerea,Procellariacinerea,
+PROCELLARIIFORMES,PROCELLARIIDAE,Procellaria,conspicillata,,Procellaria conspicillata,Procellariaconspicillata,
+PROCELLARIIFORMES,PROCELLARIIDAE,Procellaria,parkinsoni,,Procellaria parkinsoni,Procellariaparkinsoni,
+PROCELLARIIFORMES,PROCELLARIIDAE,Procellaria,westlandica,,Procellaria westlandica,Procellariawestlandica,
+PROCELLARIIFORMES,PROCELLARIIDAE,Pseudobulweria,aterrima,,Pseudobulweria aterrima,Pseudobulweriaaterrima,Pterodroma aterrima aterrima
+PROCELLARIIFORMES,PROCELLARIIDAE,Pseudobulweria,becki,,Pseudobulweria becki,Pseudobulweriabecki,Pterodroma becki becki
+PROCELLARIIFORMES,PROCELLARIIDAE,Pseudobulweria,macgillivrayi,,Pseudobulweria macgillivrayi,Pseudobulweriamacgillivrayi,Pterodroma macgillivrayi macgillivrayi
+PROCELLARIIFORMES,PROCELLARIIDAE,Pseudobulweria,rostrata,,Pseudobulweria rostrata,Pseudobulweriarostrata,Pterodroma rostrata rostrata
+PROCELLARIIFORMES,PROCELLARIIDAE,Pterodroma,occulta,,Pterdroma occulta,Pterdromaocculta,
+PROCELLARIIFORMES,PROCELLARIIDAE,Pterodroma,alba,,Pterodroma alba,Pterodromaalba,
+PROCELLARIIFORMES,PROCELLARIIDAE,Pterodroma,arminjoniana,,Pterodroma arminjoniana,Pterodromaarminjoniana,
+PROCELLARIIFORMES,PROCELLARIIDAE,Pterodroma,atrata,,Pterodroma atrata,Pterodromaatrata,
+PROCELLARIIFORMES,PROCELLARIIDAE,Pterodroma,axillaris,,Pterodroma axillaris,Pterodromaaxillaris,
+PROCELLARIIFORMES,PROCELLARIIDAE,Pterodroma,baraui,,Pterodroma baraui,Pterodromabaraui,
+PROCELLARIIFORMES,PROCELLARIIDAE,Pterodroma,brevipes,,Pterodroma brevipes,Pterodromabrevipes,
+PROCELLARIIFORMES,PROCELLARIIDAE,Pterodroma,cahow,,Pterodroma cahow,Pterodromacahow,
+PROCELLARIIFORMES,PROCELLARIIDAE,Pterodroma,caribbaea,,Pterodroma caribbaea,Pterodromacaribbaea,
+PROCELLARIIFORMES,PROCELLARIIDAE,Pterodroma,cervicalis,,Pterodroma cervicalis,Pterodromacervicalis,
+PROCELLARIIFORMES,PROCELLARIIDAE,Pterodroma,cookii,,Pterodroma cookii,Pterodromacookii,Pterodroma cooki cooki
+PROCELLARIIFORMES,PROCELLARIIDAE,Pterodroma,defilippiana,,Pterodroma defilippiana,Pterodromadefilippiana,
+PROCELLARIIFORMES,PROCELLARIIDAE,Pterodroma,deserta,,Pterodroma deserta,Pterodromadeserta,
+PROCELLARIIFORMES,PROCELLARIIDAE,Pterodroma,externa,,Pterodroma externa,Pterodromaexterna,
+PROCELLARIIFORMES,PROCELLARIIDAE,Pterodroma,feae,,Pterodroma feae,Pterodromafeae,
+PROCELLARIIFORMES,PROCELLARIIDAE,Pterodroma,gouldi,,Pterodroma gouldi,Pterodromagouldi,
+PROCELLARIIFORMES,PROCELLARIIDAE,Pterodroma,hasitata,,Pterodroma hasitata,Pterodromahasitata,
+PROCELLARIIFORMES,PROCELLARIIDAE,Pterodroma,heraldica,,Pterodroma heraldica,Pterodromaheraldica,
+PROCELLARIIFORMES,PROCELLARIIDAE,Pterodroma,hypoleuca,,Pterodroma hypoleuca,Pterodromahypoleuca,
+PROCELLARIIFORMES,PROCELLARIIDAE,Pterodroma,incerta,,Pterodroma incerta,Pterodromaincerta,
+PROCELLARIIFORMES,PROCELLARIIDAE,Pterodroma,inexpectata,,Pterodroma inexpectata,Pterodromainexpectata,
+PROCELLARIIFORMES,PROCELLARIIDAE,Pterodroma,lessonii,,Pterodroma lessonii,Pterodromalessonii,Pterodroma lessoni lessoni
+PROCELLARIIFORMES,PROCELLARIIDAE,Pterodroma,leucoptera,,Pterodroma leucoptera,Pterodromaleucoptera,
+PROCELLARIIFORMES,PROCELLARIIDAE,Pterodroma,longirostris,,Pterodroma longirostris,Pterodromalongirostris,
+PROCELLARIIFORMES,PROCELLARIIDAE,Pterodroma,macroptera,,Pterodroma macroptera,Pterodromamacroptera,
+PROCELLARIIFORMES,PROCELLARIIDAE,Pterodroma,madeira,,Pterodroma madeira,Pterodromamadeira,
+PROCELLARIIFORMES,PROCELLARIIDAE,Pterodroma,magentae,,Pterodroma magentae,Pterodromamagentae,
+PROCELLARIIFORMES,PROCELLARIIDAE,Pterodroma,mollis,,Pterodroma mollis,Pterodromamollis,
+PROCELLARIIFORMES,PROCELLARIIDAE,Pterodroma,neglecta,,Pterodroma neglecta,Pterodromaneglecta,
+PROCELLARIIFORMES,PROCELLARIIDAE,Pterodroma,nigripennis,,Pterodroma nigripennis,Pterodromanigripennis,
+PROCELLARIIFORMES,PROCELLARIIDAE,Pterodroma,phaeopygia,,Pterodroma phaeopygia,Pterodromaphaeopygia,
+PROCELLARIIFORMES,PROCELLARIIDAE,Pterodroma,pycrofti,,Pterodroma pycrofti,Pterodromapycrofti,
+PROCELLARIIFORMES,PROCELLARIIDAE,Pterodroma,rupinarum,,Pterodroma rupinarum,Pterodromarupinarum,
+PROCELLARIIFORMES,PROCELLARIIDAE,Pterodroma,sandwichensis,,Pterodroma sandwichensis,Pterodromasandwichensis,
+PROCELLARIIFORMES,PROCELLARIIDAE,Pterodroma,solandri,,Pterodroma solandri,Pterodromasolandri,
+PROCELLARIIFORMES,PROCELLARIIDAE,Pterodroma,ultima,,Pterodroma ultima,Pterodromaultima,
+PROCELLARIIFORMES,PROCELLARIIDAE,Puffinus,assimilis,,Puffinus assimilis,Puffinusassimilis,
+PROCELLARIIFORMES,PROCELLARIIDAE,Puffinus,auricularis,,Puffinus auricularis,Puffinusauricularis,
+PROCELLARIIFORMES,PROCELLARIIDAE,Puffinus,bailloni,,Puffinus bailloni,Puffinusbailloni,
+PROCELLARIIFORMES,PROCELLARIIDAE,Puffinus,bannermani,,Puffinus bannermani,Puffinusbannermani,
+PROCELLARIIFORMES,PROCELLARIIDAE,Puffinus,bryani,,Puffinus bryani,Puffinusbryani,
+PROCELLARIIFORMES,PROCELLARIIDAE,Puffinus,elegans,,Puffinus elegans,Puffinuselegans,
+PROCELLARIIFORMES,PROCELLARIIDAE,Puffinus,gavia,,Puffinus gavia,Puffinusgavia,
+PROCELLARIIFORMES,PROCELLARIIDAE,Puffinus,heinrothi,,Puffinus heinrothi,Puffinusheinrothi,
+PROCELLARIIFORMES,PROCELLARIIDAE,Puffinus,huttoni,,Puffinus huttoni,Puffinushuttoni,
+PROCELLARIIFORMES,PROCELLARIIDAE,Puffinus,lherminieri,,Puffinus lherminieri,Puffinuslherminieri,
+PROCELLARIIFORMES,PROCELLARIIDAE,Puffinus,mauretanicus,,Puffinus mauretanicus,Puffinusmauretanicus,
+PROCELLARIIFORMES,PROCELLARIIDAE,Puffinus,nativitatis,,Puffinus nativitatis,Puffinusnativitatis,
+PROCELLARIIFORMES,PROCELLARIIDAE,Puffinus,newelli,,Puffinus newelli,Puffinusnewelli,
+PROCELLARIIFORMES,PROCELLARIIDAE,Puffinus,opisthomelas,,Puffinus opisthomelas,Puffinusopisthomelas,
+PROCELLARIIFORMES,PROCELLARIIDAE,Puffinus,persicus,,Puffinus persicus,Puffinuspersicus,
+PROCELLARIIFORMES,PROCELLARIIDAE,Puffinus,puffinus,,Puffinus puffinus,Puffinuspuffinus,
+PROCELLARIIFORMES,PROCELLARIIDAE,Puffinus,subalaris,,Puffinus subalaris,Puffinussubalaris,
+PROCELLARIIFORMES,PROCELLARIIDAE,Puffinus,yelkouan,,Puffinus yelkouan,Puffinusyelkouan,
+PROCELLARIIFORMES,PROCELLARIIDAE,Thalassoica,antarctica,,Thalassoica antarctica,Thalassoicaantarctica,
+CHARADRIIFORMES,RECURVIROSTRIDAE,Cladorhynchus,leucocephalus,,Cladorhynchus leucocephalus,Cladorhynchusleucocephalus,
+CHARADRIIFORMES,RECURVIROSTRIDAE,Himantopus,himantopus,,Himantopus himantopus,Himantopushimantopus,Himantopus leucocephalus|Himantopus mexicanus
+CHARADRIIFORMES,RECURVIROSTRIDAE,Himantopus,novaezelandiae,,Himantopus novaezelandiae,Himantopusnovaezelandiae,
+CHARADRIIFORMES,RECURVIROSTRIDAE,Recurvirostra,americana,,Recurvirostra americana,Recurvirostraamericana,
+CHARADRIIFORMES,RECURVIROSTRIDAE,Recurvirostra,andina,,Recurvirostra andina,Recurvirostraandina,
+CHARADRIIFORMES,RECURVIROSTRIDAE,Recurvirostra,avosetta,,Recurvirostra avosetta,Recurvirostraavosetta,
+CHARADRIIFORMES,RECURVIROSTRIDAE,Recurvirostra,novaehollandiae,,Recurvirostra novaehollandiae,Recurvirostranovaehollandiae,
+CHARADRIIFORMES,ROSTRATULIDAE,Nycticryphes,semicollaris,,Nycticryphes semicollaris,Nycticryphessemicollaris,Nycticryphes semicollaris|Nycticryphes semicollaris|Rostratula semicollaris
+CHARADRIIFORMES,ROSTRATULIDAE,Rostratula,australis,,Rostratula australis,Rostratulaaustralis,
+CHARADRIIFORMES,ROSTRATULIDAE,Rostratula,benghalensis,,Rostratula benghalensis,Rostratulabenghalensis,
+CHARADRIIFORMES,SCOLOPACIDAE,Actitis,hypoleucos,,Actitis hypoleucos,Actitishypoleucos,Tringa hypoleucos hypoleucos|Tringa hypoleucos hypoleucos|Tringa hypoleucos hypoleucos
+CHARADRIIFORMES,SCOLOPACIDAE,Actitis,macularius,,Actitis macularius,Actitismacularius,Actitis macularia macularia|Actitis macularia macularia|Tringa macularia macularia
+CHARADRIIFORMES,SCOLOPACIDAE,Arenaria,interpres,,Arenaria interpres,Arenariainterpres,
+CHARADRIIFORMES,SCOLOPACIDAE,Arenaria,melanocephala,,Arenaria melanocephala,Arenariamelanocephala,
+CHARADRIIFORMES,SCOLOPACIDAE,Bartramia,longicauda,,Bartramia longicauda,Bartramialongicauda,
+CHARADRIIFORMES,SCOLOPACIDAE,Calidris,acuminata,,Calidris acuminata,Calidrisacuminata,
+CHARADRIIFORMES,SCOLOPACIDAE,Calidris,alba,,Calidris alba,Calidrisalba,
+CHARADRIIFORMES,SCOLOPACIDAE,Calidris,alpina,,Calidris alpina,Calidrisalpina,
+CHARADRIIFORMES,SCOLOPACIDAE,Calidris,bairdii,,Calidris bairdii,Calidrisbairdii,
+CHARADRIIFORMES,SCOLOPACIDAE,Calidris,canutus,,Calidris canutus,Calidriscanutus,
+CHARADRIIFORMES,SCOLOPACIDAE,Calidris,falcinellus,,Calidris falcinellus,Calidrisfalcinellus,Limicola falcinellus
+CHARADRIIFORMES,SCOLOPACIDAE,Calidris,ferruginea,,Calidris ferruginea,Calidrisferruginea,
+CHARADRIIFORMES,SCOLOPACIDAE,Calidris,fuscicollis,,Calidris fuscicollis,Calidrisfuscicollis,
+CHARADRIIFORMES,SCOLOPACIDAE,Calidris,himantopus,,Calidris himantopus,Calidrishimantopus,Micropalama himantopus
+CHARADRIIFORMES,SCOLOPACIDAE,Calidris,maritima,,Calidris maritima,Calidrismaritima,
+CHARADRIIFORMES,SCOLOPACIDAE,Calidris,mauri,,Calidris mauri,Calidrismauri,
+CHARADRIIFORMES,SCOLOPACIDAE,Calidris,melanotos,,Calidris melanotos,Calidrismelanotos,
+CHARADRIIFORMES,SCOLOPACIDAE,Calidris,minuta,,Calidris minuta,Calidrisminuta,
+CHARADRIIFORMES,SCOLOPACIDAE,Calidris,minutilla,,Calidris minutilla,Calidrisminutilla,
+CHARADRIIFORMES,SCOLOPACIDAE,Calidris,ptilocnemis,,Calidris ptilocnemis,Calidrisptilocnemis,
+CHARADRIIFORMES,SCOLOPACIDAE,Calidris,pugnax,,Calidris pugnax,Calidrispugnax,Philomachus pugnax
+CHARADRIIFORMES,SCOLOPACIDAE,Calidris,pusilla,,Calidris pusilla,Calidrispusilla,
+CHARADRIIFORMES,SCOLOPACIDAE,Calidris,pygmaea,,Calidris pygmaea,Calidrispygmaea,Eurynorhynchus pygmeus
+CHARADRIIFORMES,SCOLOPACIDAE,Calidris,ruficollis,,Calidris ruficollis,Calidrisruficollis,
+CHARADRIIFORMES,SCOLOPACIDAE,Calidris,subminuta,,Calidris subminuta,Calidrissubminuta,
+CHARADRIIFORMES,SCOLOPACIDAE,Calidris,subruficollis,,Calidris subruficollis,Calidrissubruficollis,Tryngites subruficollis
+CHARADRIIFORMES,SCOLOPACIDAE,Calidris,temminckii,,Calidris temminckii,Calidristemminckii,
+CHARADRIIFORMES,SCOLOPACIDAE,Calidris,tenuirostris,,Calidris tenuirostris,Calidristenuirostris,
+CHARADRIIFORMES,SCOLOPACIDAE,Calidris,virgata,,Calidris virgata,Calidrisvirgata,Aphriza virgata
+CHARADRIIFORMES,SCOLOPACIDAE,Coenocorypha,aucklandica,,Coenocorypha aucklandica,Coenocoryphaaucklandica,
+CHARADRIIFORMES,SCOLOPACIDAE,Coenocorypha,barrierensis,,Coenocorypha barrierensis,Coenocoryphabarrierensis,
+CHARADRIIFORMES,SCOLOPACIDAE,Coenocorypha,huegeli,,Coenocorypha huegeli,Coenocoryphahuegeli,
+CHARADRIIFORMES,SCOLOPACIDAE,Coenocorypha,iredalei,,Coenocorypha iredalei,Coenocoryphairedalei,
+CHARADRIIFORMES,SCOLOPACIDAE,Coenocorypha,pusilla,,Coenocorypha pusilla,Coenocoryphapusilla,
+CHARADRIIFORMES,SCOLOPACIDAE,Gallinago,andina,,Gallinago andina,Gallinagoandina,
+CHARADRIIFORMES,SCOLOPACIDAE,Gallinago,delicata,,Gallinago delicata,Gallinagodelicata,
+CHARADRIIFORMES,SCOLOPACIDAE,Gallinago,gallinago,,Gallinago gallinago,Gallinagogallinago,
+CHARADRIIFORMES,SCOLOPACIDAE,Gallinago,hardwickii,,Gallinago hardwickii,Gallinagohardwickii,
+CHARADRIIFORMES,SCOLOPACIDAE,Gallinago,imperialis,,Gallinago imperialis,Gallinagoimperialis,
+CHARADRIIFORMES,SCOLOPACIDAE,Gallinago,jamesoni,,Gallinago jamesoni,Gallinagojamesoni,
+CHARADRIIFORMES,SCOLOPACIDAE,Gallinago,macrodactyla,,Gallinago macrodactyla,Gallinagomacrodactyla,
+CHARADRIIFORMES,SCOLOPACIDAE,Gallinago,media,,Gallinago media,Gallinagomedia,
+CHARADRIIFORMES,SCOLOPACIDAE,Gallinago,megala,,Gallinago megala,Gallinagomegala,
+CHARADRIIFORMES,SCOLOPACIDAE,Gallinago,nemoricola,,Gallinago nemoricola,Gallinagonemoricola,
+CHARADRIIFORMES,SCOLOPACIDAE,Gallinago,nigripennis,,Gallinago nigripennis,Gallinagonigripennis,
+CHARADRIIFORMES,SCOLOPACIDAE,Gallinago,nobilis,,Gallinago nobilis,Gallinagonobilis,
+CHARADRIIFORMES,SCOLOPACIDAE,Gallinago,paraguaiae,,Gallinago paraguaiae,Gallinagoparaguaiae,
+CHARADRIIFORMES,SCOLOPACIDAE,Gallinago,solitaria,,Gallinago solitaria,Gallinagosolitaria,
+CHARADRIIFORMES,SCOLOPACIDAE,Gallinago,stenura,,Gallinago stenura,Gallinagostenura,
+CHARADRIIFORMES,SCOLOPACIDAE,Gallinago,stricklandii,,Gallinago stricklandii,Gallinagostricklandii,
+CHARADRIIFORMES,SCOLOPACIDAE,Gallinago,undulata,,Gallinago undulata,Gallinagoundulata,
+CHARADRIIFORMES,SCOLOPACIDAE,Limnodromus,griseus,,Limnodromus griseus,Limnodromusgriseus,
+CHARADRIIFORMES,SCOLOPACIDAE,Limnodromus,scolopaceus,,Limnodromus scolopaceus,Limnodromusscolopaceus,
+CHARADRIIFORMES,SCOLOPACIDAE,Limnodromus,semipalmatus,,Limnodromus semipalmatus,Limnodromussemipalmatus,
+CHARADRIIFORMES,SCOLOPACIDAE,Limosa,fedoa,,Limosa fedoa,Limosafedoa,
+CHARADRIIFORMES,SCOLOPACIDAE,Limosa,haemastica,,Limosa haemastica,Limosahaemastica,
+CHARADRIIFORMES,SCOLOPACIDAE,Limosa,lapponica,,Limosa lapponica,Limosalapponica,
+CHARADRIIFORMES,SCOLOPACIDAE,Limosa,limosa,,Limosa limosa,Limosalimosa,
+CHARADRIIFORMES,SCOLOPACIDAE,Lymnocryptes,minimus,,Lymnocryptes minimus,Lymnocryptesminimus,
+CHARADRIIFORMES,SCOLOPACIDAE,Numenius,americanus,,Numenius americanus,Numeniusamericanus,
+CHARADRIIFORMES,SCOLOPACIDAE,Numenius,arquata,,Numenius arquata,Numeniusarquata,
+CHARADRIIFORMES,SCOLOPACIDAE,Numenius,borealis,,Numenius borealis,Numeniusborealis,
+CHARADRIIFORMES,SCOLOPACIDAE,Numenius,madagascariensis,,Numenius madagascariensis,Numeniusmadagascariensis,
+CHARADRIIFORMES,SCOLOPACIDAE,Numenius,minutus,,Numenius minutus,Numeniusminutus,
+CHARADRIIFORMES,SCOLOPACIDAE,Numenius,phaeopus,,Numenius phaeopus,Numeniusphaeopus,
+CHARADRIIFORMES,SCOLOPACIDAE,Numenius,tahitiensis,,Numenius tahitiensis,Numeniustahitiensis,
+CHARADRIIFORMES,SCOLOPACIDAE,Numenius,tenuirostris,,Numenius tenuirostris,Numeniustenuirostris,
+CHARADRIIFORMES,SCOLOPACIDAE,Phalaropus,fulicarius,,Phalaropus fulicarius,Phalaropusfulicarius,Phalaropus fulicaria fulicaria
+CHARADRIIFORMES,SCOLOPACIDAE,Phalaropus,lobatus,,Phalaropus lobatus,Phalaropuslobatus,
+CHARADRIIFORMES,SCOLOPACIDAE,Prosobonia,cancellata,,Prosobonia cancellata,Prosoboniacancellata,
+CHARADRIIFORMES,SCOLOPACIDAE,Prosobonia,ellisi,,Prosobonia ellisi,Prosoboniaellisi,
+CHARADRIIFORMES,SCOLOPACIDAE,Prosobonia,leucoptera,,Prosobonia leucoptera,Prosobonialeucoptera,
+CHARADRIIFORMES,SCOLOPACIDAE,Prosobonia,parvirostris,,Prosobonia parvirostris,Prosoboniaparvirostris,
+CHARADRIIFORMES,SCOLOPACIDAE,Scolopax,bukidnonensis,,Scolopax bukidnonensis,Scolopaxbukidnonensis,
+CHARADRIIFORMES,SCOLOPACIDAE,Scolopax,celebensis,,Scolopax celebensis,Scolopaxcelebensis,
+CHARADRIIFORMES,SCOLOPACIDAE,Scolopax,minor,,Scolopax minor,Scolopaxminor,
+CHARADRIIFORMES,SCOLOPACIDAE,Scolopax,mira,,Scolopax mira,Scolopaxmira,
+CHARADRIIFORMES,SCOLOPACIDAE,Scolopax,rochussenii,,Scolopax rochussenii,Scolopaxrochussenii,
+CHARADRIIFORMES,SCOLOPACIDAE,Scolopax,rosenbergii,,Scolopax rosenbergii,Scolopaxrosenbergii,
+CHARADRIIFORMES,SCOLOPACIDAE,Scolopax,rusticola,,Scolopax rusticola,Scolopaxrusticola,
+CHARADRIIFORMES,SCOLOPACIDAE,Scolopax,saturata,,Scolopax saturata,Scolopaxsaturata,
+CHARADRIIFORMES,SCOLOPACIDAE,Steganopus,tricolor,,Steganopus tricolor,Steganopustricolor,Phalaropus tricolor
+CHARADRIIFORMES,SCOLOPACIDAE,Tringa,brevipes,,Tringa brevipes,Tringabrevipes,Heteroscelus brevipes|Tringa brevipes
+CHARADRIIFORMES,SCOLOPACIDAE,Tringa,erythropus,,Tringa erythropus,Tringaerythropus,
+CHARADRIIFORMES,SCOLOPACIDAE,Tringa,flavipes,,Tringa flavipes,Tringaflavipes,
+CHARADRIIFORMES,SCOLOPACIDAE,Tringa,glareola,,Tringa glareola,Tringaglareola,
+CHARADRIIFORMES,SCOLOPACIDAE,Tringa,guttifer,,Tringa guttifer,Tringaguttifer,
+CHARADRIIFORMES,SCOLOPACIDAE,Tringa,incana,,Tringa incana,Tringaincana,Heteroscelus incanus
+CHARADRIIFORMES,SCOLOPACIDAE,Tringa,melanoleuca,,Tringa melanoleuca,Tringamelanoleuca,
+CHARADRIIFORMES,SCOLOPACIDAE,Tringa,nebularia,,Tringa nebularia,Tringanebularia,
+CHARADRIIFORMES,SCOLOPACIDAE,Tringa,ochropus,,Tringa ochropus,Tringaochropus,
+CHARADRIIFORMES,SCOLOPACIDAE,Tringa,semipalmata,,Tringa semipalmata,Tringasemipalmata,Catoptrophorus semipalmatus
+CHARADRIIFORMES,SCOLOPACIDAE,Tringa,solitaria,,Tringa solitaria,Tringasolitaria,
+CHARADRIIFORMES,SCOLOPACIDAE,Tringa,stagnatilis,,Tringa stagnatilis,Tringastagnatilis,
+CHARADRIIFORMES,SCOLOPACIDAE,Tringa,totanus,,Tringa totanus,Tringatotanus,
+CHARADRIIFORMES,SCOLOPACIDAE,Xenus,cinereus,,Xenus cinereus,Xenuscinereus,Tringa cinerea cinerea|Tringa terek terek
+PELECANIFORMES,SCOPIDAE,Scopus,umbretta,,Scopus umbretta,Scopusumbretta,
+SPHENISCIFORMES,SPHENISCIDAE,Aptenodytes,forsteri,,Aptenodytes forsteri,Aptenodytesforsteri,
+SPHENISCIFORMES,SPHENISCIDAE,Aptenodytes,patagonicus,,Aptenodytes patagonicus,Aptenodytespatagonicus,
+SPHENISCIFORMES,SPHENISCIDAE,Eudyptes,chrysocome,,Eudyptes chrysocome,Eudypteschrysocome,
+SPHENISCIFORMES,SPHENISCIDAE,Eudyptes,chrysolophus,,Eudyptes chrysolophus,Eudypteschrysolophus,
+SPHENISCIFORMES,SPHENISCIDAE,Eudyptes,moseleyi,,Eudyptes moseleyi,Eudyptesmoseleyi,
+SPHENISCIFORMES,SPHENISCIDAE,Eudyptes,pachyrhynchus,,Eudyptes pachyrhynchus,Eudyptespachyrhynchus,
+SPHENISCIFORMES,SPHENISCIDAE,Eudyptes,robustus,,Eudyptes robustus,Eudyptesrobustus,
+SPHENISCIFORMES,SPHENISCIDAE,Eudyptes,schlegeli,,Eudyptes schlegeli,Eudyptesschlegeli,
+SPHENISCIFORMES,SPHENISCIDAE,Eudyptes,sclateri,,Eudyptes sclateri,Eudyptessclateri,
+SPHENISCIFORMES,SPHENISCIDAE,Eudyptula,minor,,Eudyptula minor,Eudyptulaminor,
+SPHENISCIFORMES,SPHENISCIDAE,Megadyptes,antipodes,,Megadyptes antipodes,Megadyptesantipodes,
+SPHENISCIFORMES,SPHENISCIDAE,Pygoscelis,adeliae,,Pygoscelis adeliae,Pygoscelisadeliae,
+SPHENISCIFORMES,SPHENISCIDAE,Pygoscelis,antarcticus,,Pygoscelis antarcticus,Pygoscelisantarcticus,Pygoscelis antarctica
+SPHENISCIFORMES,SPHENISCIDAE,Pygoscelis,papua,,Pygoscelis papua,Pygoscelispapua,
+SPHENISCIFORMES,SPHENISCIDAE,Spheniscus,demersus,,Spheniscus demersus,Spheniscusdemersus,
+SPHENISCIFORMES,SPHENISCIDAE,Spheniscus,humboldti,,Spheniscus humboldti,Spheniscushumboldti,
+SPHENISCIFORMES,SPHENISCIDAE,Spheniscus,magellanicus,,Spheniscus magellanicus,Spheniscusmagellanicus,
+SPHENISCIFORMES,SPHENISCIDAE,Spheniscus,mendiculus,,Spheniscus mendiculus,Spheniscusmendiculus,
+CHARADRIIFORMES,STERCORARIIDAE,Catharacta,antarctica,,Catharacta antarctica,Catharactaantarctica,Catharacta lonnbergi|Stercorarius lonnbergi
+CHARADRIIFORMES,STERCORARIIDAE,Catharacta,chilensis,,Catharacta chilensis,Catharactachilensis,Stercorarius chilensis
+CHARADRIIFORMES,STERCORARIIDAE,Catharacta,maccormicki,,Catharacta maccormicki,Catharactamaccormicki,Stercorarius maccormicki|Stercorarius maccormicki maccormicki
+CHARADRIIFORMES,STERCORARIIDAE,Catharacta,skua,,Catharacta skua,Catharactaskua,Stercorarius skua|Stercorarius skua skua
+CHARADRIIFORMES,STERCORARIIDAE,Stercorarius,longicaudus,,Stercorarius longicaudus,Stercorariuslongicaudus,
+CHARADRIIFORMES,STERCORARIIDAE,Stercorarius,parasiticus,,Stercorarius parasiticus,Stercorariusparasiticus,
+CHARADRIIFORMES,STERCORARIIDAE,Stercorarius,pomarinus,,Stercorarius pomarinus,Stercorariuspomarinus,
+SULIFORMES,SULIDAE,Morus,bassanus,,Morus bassanus,Morusbassanus,Sula bassana bassana
+SULIFORMES,SULIDAE,Morus,capensis,,Morus capensis,Moruscapensis,Sula capensis capensis
+SULIFORMES,SULIDAE,Morus,serrator,,Morus serrator,Morusserrator,Sula serrator serrator
+SULIFORMES,SULIDAE,Papasula,abbotti,,Papasula abbotti,Papasulaabbotti,Sula abbotti abbotti
+SULIFORMES,SULIDAE,Sula,dactylatra,,Sula dactylatra,Suladactylatra,
+SULIFORMES,SULIDAE,Sula,granti,,Sula granti,Sulagranti,
+SULIFORMES,SULIDAE,Sula,leucogaster,,Sula leucogaster,Sulaleucogaster,
+SULIFORMES,SULIDAE,Sula,nebouxii,,Sula nebouxii,Sulanebouxii,
+SULIFORMES,SULIDAE,Sula,sula,,Sula sula,Sulasula,
+SULIFORMES,SULIDAE,Sula,variegata,,Sula variegata,Sulavariegata,
+CHARADRIIFORMES,THINOCORIDAE,Attagis,gayi,,Attagis gayi,Attagisgayi,
+CHARADRIIFORMES,THINOCORIDAE,Attagis,malouinus,,Attagis malouinus,Attagismalouinus,
+CHARADRIIFORMES,THINOCORIDAE,Thinocorus,orbignyianus,,Thinocorus orbignyianus,Thinocorusorbignyianus,
+CHARADRIIFORMES,THINOCORIDAE,Thinocorus,rumicivorus,,Thinocorus rumicivorus,Thinocorusrumicivorus,
+PELECANIFORMES,THRESKIORNITHIDAE,Bostrychia,bocagei,,Bostrychia bocagei,Bostrychiabocagei,
+PELECANIFORMES,THRESKIORNITHIDAE,Bostrychia,carunculata,,Bostrychia carunculata,Bostrychiacarunculata,
+PELECANIFORMES,THRESKIORNITHIDAE,Bostrychia,hagedash,,Bostrychia hagedash,Bostrychiahagedash,
+PELECANIFORMES,THRESKIORNITHIDAE,Bostrychia,olivacea,,Bostrychia olivacea,Bostrychiaolivacea,
+PELECANIFORMES,THRESKIORNITHIDAE,Bostrychia,rara,,Bostrychia rara,Bostrychiarara,
+PELECANIFORMES,THRESKIORNITHIDAE,Cercibis,oxycerca,,Cercibis oxycerca,Cercibisoxycerca,
+PELECANIFORMES,THRESKIORNITHIDAE,Eudocimus,albus,,Eudocimus albus,Eudocimusalbus,
+PELECANIFORMES,THRESKIORNITHIDAE,Eudocimus,ruber,,Eudocimus ruber,Eudocimusruber,
+PELECANIFORMES,THRESKIORNITHIDAE,Geronticus,calvus,,Geronticus calvus,Geronticuscalvus,
+PELECANIFORMES,THRESKIORNITHIDAE,Geronticus,eremita,,Geronticus eremita,Geronticuseremita,
+PELECANIFORMES,THRESKIORNITHIDAE,Lophotibis,cristata,,Lophotibis cristata,Lophotibiscristata,
+PELECANIFORMES,THRESKIORNITHIDAE,Mesembrinibis,cayennensis,,Mesembrinibis cayennensis,Mesembrinibiscayennensis,
+PELECANIFORMES,THRESKIORNITHIDAE,Nipponia,nippon,,Nipponia nippon,Nipponianippon,
+PELECANIFORMES,THRESKIORNITHIDAE,Phimosus,infuscatus,,Phimosus infuscatus,Phimosusinfuscatus,
+PELECANIFORMES,THRESKIORNITHIDAE,Platalea,ajaja,,Platalea ajaja,Plataleaajaja,Ajaia ajaja ajaja
+PELECANIFORMES,THRESKIORNITHIDAE,Platalea,alba,,Platalea alba,Plataleaalba,
+PELECANIFORMES,THRESKIORNITHIDAE,Platalea,flavipes,,Platalea flavipes,Plataleaflavipes,
+PELECANIFORMES,THRESKIORNITHIDAE,Platalea,leucorodia,,Platalea leucorodia,Platalealeucorodia,
+PELECANIFORMES,THRESKIORNITHIDAE,Platalea,minor,,Platalea minor,Plataleaminor,
+PELECANIFORMES,THRESKIORNITHIDAE,Platalea,regia,,Platalea regia,Platalearegia,
+PELECANIFORMES,THRESKIORNITHIDAE,Plegadis,chihi,,Plegadis chihi,Plegadischihi,
+PELECANIFORMES,THRESKIORNITHIDAE,Plegadis,falcinellus,,Plegadis falcinellus,Plegadisfalcinellus,
+PELECANIFORMES,THRESKIORNITHIDAE,Plegadis,ridgwayi,,Plegadis ridgwayi,Plegadisridgwayi,
+PELECANIFORMES,THRESKIORNITHIDAE,Pseudibis,davisoni,,Pseudibis davisoni,Pseudibisdavisoni,
+PELECANIFORMES,THRESKIORNITHIDAE,Pseudibis,papillosa,,Pseudibis papillosa,Pseudibispapillosa,
+PELECANIFORMES,THRESKIORNITHIDAE,Thaumatibis,gigantea,,Thaumatibis gigantea,Thaumatibisgigantea,Pseudibis gigantea gigantea
+PELECANIFORMES,THRESKIORNITHIDAE,Theristicus,branickii,,Theristicus branickii,Theristicusbranickii,
+PELECANIFORMES,THRESKIORNITHIDAE,Theristicus,caerulescens,,Theristicus caerulescens,Theristicuscaerulescens,Harpiprion caerulescens caerulescens
+PELECANIFORMES,THRESKIORNITHIDAE,Theristicus,caudatus,,Theristicus caudatus,Theristicuscaudatus,
+PELECANIFORMES,THRESKIORNITHIDAE,Theristicus,melanopis,,Theristicus melanopis,Theristicusmelanopis,
+PELECANIFORMES,THRESKIORNITHIDAE,Threskiornis,aethiopicus,,Threskiornis aethiopicus,Threskiornisaethiopicus,
+PELECANIFORMES,THRESKIORNITHIDAE,Threskiornis,bernieri,,Threskiornis bernieri,Threskiornisbernieri,
+PELECANIFORMES,THRESKIORNITHIDAE,Threskiornis,melanocephalus,,Threskiornis melanocephalus,Threskiornismelanocephalus,
+PELECANIFORMES,THRESKIORNITHIDAE,Threskiornis,moluccus,,Threskiornis moluccus,Threskiornismoluccus,Threskiornis molucca
+PELECANIFORMES,THRESKIORNITHIDAE,Threskiornis,solitarius,,Threskiornis solitarius,Threskiornissolitarius,Raphus solitarius 
+PELECANIFORMES,THRESKIORNITHIDAE,Threskiornis,spinicollis,,Threskiornis spinicollis,Threskiornisspinicollis,
+CHARADRIIFORMES,TURNICIDAE,Ortyxelos,meiffrenii,,Ortyxelos meiffrenii,Ortyxelosmeiffrenii,
+CHARADRIIFORMES,TURNICIDAE,Turnix,castanotus,,Turnix castanotus,Turnixcastanotus,Turnix castanota
+CHARADRIIFORMES,TURNICIDAE,Turnix,everetti,,Turnix everetti,Turnixeveretti,
+CHARADRIIFORMES,TURNICIDAE,Turnix,hottentottus,,Turnix hottentottus,Turnixhottentottus,
+CHARADRIIFORMES,TURNICIDAE,Turnix,maculosus,,Turnix maculosus,Turnixmaculosus,Turnix maculosa
+CHARADRIIFORMES,TURNICIDAE,Turnix,melanogaster,,Turnix melanogaster,Turnixmelanogaster,
+CHARADRIIFORMES,TURNICIDAE,Turnix,nanus,,Turnix nanus,Turnixnanus,
+CHARADRIIFORMES,TURNICIDAE,Turnix,nigricollis,,Turnix nigricollis,Turnixnigricollis,
+CHARADRIIFORMES,TURNICIDAE,Turnix,novaecaledoniae,,Turnix novaecaledoniae,Turnixnovaecaledoniae,
+CHARADRIIFORMES,TURNICIDAE,Turnix,ocellatus,,Turnix ocellatus,Turnixocellatus,Turnix ocellata
+CHARADRIIFORMES,TURNICIDAE,Turnix,olivii,,Turnix olivii,Turnixolivii,Turnix olivei olivei
+CHARADRIIFORMES,TURNICIDAE,Turnix,pyrrhothorax,,Turnix pyrrhothorax,Turnixpyrrhothorax,
+CHARADRIIFORMES,TURNICIDAE,Turnix,suscitator,,Turnix suscitator,Turnixsuscitator,
+CHARADRIIFORMES,TURNICIDAE,Turnix,sylvaticus,,Turnix sylvaticus,Turnixsylvaticus,Turnix sylvatica
+CHARADRIIFORMES,TURNICIDAE,Turnix,tanki,,Turnix tanki,Turnixtanki,
+CHARADRIIFORMES,TURNICIDAE,Turnix,varius,,Turnix varius,Turnixvarius,
+CHARADRIIFORMES,TURNICIDAE,Turnix,velox,,Turnix velox,Turnixvelox,
+CHARADRIIFORMES,TURNICIDAE,Turnix,worcesteri,,Turnix worcesteri,Turnixworcesteri,
