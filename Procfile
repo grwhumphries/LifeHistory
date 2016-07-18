@@ -1,1 +1,1 @@
-web: gunicorn Lifehistory.wsgi --log-file -
+web: gunicorn MAPPPD.wsgi --log-file -

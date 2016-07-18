@@ -1,6 +1,0 @@
-SWFTypeAlreadyExistsError
-SWFWorkflowExecutionAlreadyStartedError
-SWFResponseError
-SWFDomainAlreadyExistsError
-SWFOperationNotPermittedError
-SWFLimitExceededError

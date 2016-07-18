@@ -17,6 +17,7 @@ urlpatterns = patterns('',
     url(r'^lifehistory$', 'app.views.lifehistory', name='lifehistory'),
     url(r'^dbsearch$','app.views.dbsearch',name='dbsearch'),
     url(r'^dbadd/','app.views.dbadd',name='dbadd'),
+    url(r'^dbaddother/','app.views.dbaddother',name='dbaddother'),
 
     url(r'^species/','app.views.species',name='species'),
     url(r'^order/','app.views.order',name='order'),    
@@ -33,11 +34,12 @@ urlpatterns = patterns('',
     url(r'^EntryKey$','app.views.entrykey',name='entrykey'),
     url(r'^SaveSuccess$','app.views.savesuccess', name='SaveSuccess'),
     url(r'^dbPost$','app.views.dbPost',name='dbPost'),
+    url(r'^dbPostother$','app.views.dbPostother',name='dbPostother'),
 
     url(r'^login/$',
         'django.contrib.auth.views.login',
         {
-            'template_name': 'login.html',
+            'template_name': 'app/login.html',
             'authentication_form': BootstrapAuthenticationForm,
             'extra_context':
             {

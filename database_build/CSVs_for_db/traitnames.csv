@@ -1,0 +1,38 @@
+trtnmid,tble,variable,tr_value,tr_name
+1,other_traits,hatchling type,SP,Semi precocial
+2,other_traits,hatchling type,P,Precocial
+3,other_traits,hatchling type,A,Altricial
+4,other_traits,hatchling type,SA,Semi altricial
+5,other_traits,mate fidelity,L,Low
+6,other_traits,mate fidelity,M,Medium
+7,other_traits,mate fidelity,H,High
+8,other_traits,site fidelity,L,Low
+9,other_traits,site fidelity,M,Medium
+10,other_traits,site fidelity,H,High
+11,other_traits,coloniality,L,Low
+12,other_traits,coloniality,M,Medium
+13,other_traits,coloniality,H,High
+14,nest_locations,nest location,Cr,Crevice
+15,nest_locations,nest location,O,Open ground
+16,nest_locations,nest location,T,On Tree
+17,nest_locations,nest location,unknown,unknown
+18,nest_locations,nest location,Bu,Burrow
+19,nest_locations,nest location,Sl,Slope
+20,nest_locations,nest location,Cl,Cliff
+21,nest_locations,nest location,Un,Under tree
+22,nest_locations,nest location,F,Floating in marsh
+25,breeding_distribution,breeding distribution,SP,Sub-polar
+26,breeding_distribution,breeding distribution,Tm,Temperate
+27,breeding_distribution,breeding distribution,P,Polar
+28,breeding_distribution,breeding distribution,unknown,unknown
+29,breeding_distribution,breeding distribution,P-Tm,Polar - Temperate
+30,breeding_distribution,breeding distribution,SP-STr,Sub-polar - Sub-tropical
+31,breeding_distribution,breeding distribution,STr,Sub-tropical
+32,breeding_distribution,breeding distribution,Tr,Tropical
+33,breeding_distribution,breeding distribution,Tm-P,Temperate - Polar
+34,breeding_distribution,breeding distribution,Tm-Tr,Temperate - Tropical
+35,breeding_distribution,breeding distribution,SP-Tm,Sub-polar - Temperate
+37,breeding_distribution,breeding distribution,Tm-STr,Temperate - Sub-tropical
+38,foraging,foraging location,NS,Nearshore
+39,foraging,foraging location,NS+,Midshore
+40,foraging,foraging location,OS,Offshore

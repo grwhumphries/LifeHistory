@@ -58,6 +58,30 @@ function fs() {
 }
 
 
+
+function traitopts() {
+    var X = $('#id_traits option:selected').val()
+    var URL = '/dbaddother/?ct='.concat(X);
+    $.ajax({
+        url: URL,
+        dataType: "html",
+        success: function (data) {
+            $(".viewwindow").html(data);
+        }
+    });
+
+}
+
+
+
+
+
+
+
+
+
+
+
 function dataload(URL) {
     
     $.ajax({
@@ -91,6 +115,19 @@ function OpenAdd() {
         }
     });
 }
+
+function OpenAddother() {
+    //JQuery AJax
+    $.ajax({
+        url: '/dbaddother/',
+        dataType: "html",
+        success: function (data) {
+            $(".viewwindow").html(data);
+        }
+    });
+}
+
+
 
 function OpenEdit() {
     var X = $('#specSearch option:selected').val()

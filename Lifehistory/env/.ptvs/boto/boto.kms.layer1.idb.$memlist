@@ -1,9 +1,0 @@
-JSONResponseError
-six
-base64
-AWSQueryConnection
-json
-RegionInfo
-exceptions
-boto
-KMSConnection

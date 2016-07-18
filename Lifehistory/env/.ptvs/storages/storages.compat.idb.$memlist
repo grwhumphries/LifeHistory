@@ -1,9 +1,0 @@
-urlparse
-DjangoStorage
-BytesIO
-django
-deconstructible
-DjangoFileSystemStorage
-StorageMixin
-FileSystemStorage
-Storage

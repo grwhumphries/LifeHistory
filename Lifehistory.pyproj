@@ -54,23 +54,26 @@
     <Folder Include="app\static\app\fonts\" />
     <Folder Include="app\static\app\scripts\" />
     <Folder Include="app\templates\" />
+    <Folder Include="app\templates\app\" />
     <Folder Include="Lifehistory\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="app\static\app\images\background.png" />
+    <Content Include="app\static\app\images\background.psd" />
     <Content Include="app\static\app\images\Seabirds.jpg" />
     <Content Include="app\static\app\scripts\OtherScripts.js" />
-    <Content Include="app\templates\dbadd.html" />
-    <Content Include="app\templates\dbsearch.html" />
-    <Content Include="app\templates\EntryKey.html" />
-    <Content Include="app\templates\index.html" />
-    <Content Include="app\templates\layout.html" />
-    <Content Include="app\templates\lifehistory.html" />
-    <Content Include="app\templates\login.html" />
-    <Content Include="app\templates\loginpartial.html" />
-    <Content Include="app\templates\SaveSuccess.html" />
-    <Content Include="app\templates\searchresult.html" />
-    <Content Include="app\templates\searchresulttraits.html" />
+    <Content Include="app\templates\app\dbaddother.html" />
+    <Content Include="app\templates\app\dbadd.html" />
+    <Content Include="app\templates\app\dbsearch.html" />
+    <Content Include="app\templates\app\EntryKey.html" />
+    <Content Include="app\templates\app\index.html" />
+    <Content Include="app\templates\app\layout.html" />
+    <Content Include="app\templates\app\lifehistory.html" />
+    <Content Include="app\templates\app\login.html" />
+    <Content Include="app\templates\app\loginpartial.html" />
+    <Content Include="app\templates\app\SaveSuccess.html" />
+    <Content Include="app\templates\app\searchresult.html" />
+    <Content Include="app\templates\app\searchresulttraits.html" />
     <Content Include="requirements.txt" />
     <Content Include="db.sqlite3" />
     <Content Include="app\static\app\content\bootstrap.css" />

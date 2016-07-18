@@ -6,8 +6,8 @@ from django.shortcuts import render, render_to_response
 from django.http import HttpRequest, HttpResponse, HttpResponseBadRequest
 from django.template import RequestContext, loader
 from datetime import datetime
-from app.models import Species, Traits
-from app.forms import PostForm
+from app.models import Species, NumericTraits, Citation, OtherTraits, Traitnames
+from app.forms import PostForm, PostFormOther
 from djqscsv import render_to_csv_response
 import csv
 
@@ -17,7 +17,7 @@ def entrykey(request):
     assert isinstance(request, HttpRequest)
     return render(
         request,
-        'EntryKey.html',
+        'app/EntryKey.html',
         context_instance = RequestContext(request,
         {
             'title':'Database Key legend',
@@ -27,15 +27,47 @@ def entrykey(request):
         })
     )
 
+def dbaddother(request):
+    modelform = PostFormOther()
+    SpeciesList = Species.objects.all().order_by('species_id')
+    traitslist = OtherTraits.objects.all().distinct('variable')
+    citations = Citation.objects.all()
+
+    if request.method == 'GET':
+        chartrait = request.GET.get('ct','')
+        X = Traitnames.objects.filter(variable = chartrait)
+    else:
+        X = []
+
+    context = RequestContext(request, {'species':SpeciesList,
+                                       'citations':citations,
+                                       'traits':traitslist,
+                                       'modelform':modelform,
+                                       'traitopts':X,
+                                       'year':datetime.now().year,
+                                       'month':datetime.now().month,
+                                       'day':datetime.now().day, })
+    template = loader.get_template('app/dbaddother.html')        
+    return HttpResponse(template.render(context))
+
+
 
 def dbadd(request):
     modelform = PostForm()
     SpeciesList = Species.objects.all().order_by('species_id')
+    traitslist = NumericTraits.objects.all().distinct('traits')
+    unitslist = NumericTraits.objects.all().distinct('units')
+    citations = Citation.objects.all()
 
-    context = RequestContext(request, {'species':SpeciesList,'modelform':modelform,'year':datetime.now().year,
-            'month':datetime.now().month,
-            'day':datetime.now().day, })
-    template = loader.get_template('dbadd.html')        
+    context = RequestContext(request, {'species':SpeciesList,
+                                       'citations':citations,
+                                       'numtraits':traitslist,
+                                       'units':unitslist,
+                                       'modelform':modelform,
+                                       'year':datetime.now().year,
+                                       'month':datetime.now().month,
+                                       'day':datetime.now().day, })
+    template = loader.get_template('app/dbadd.html')        
     return HttpResponse(template.render(context))
 
 
@@ -44,7 +76,7 @@ def savesuccess(request):
     assert isinstance(request, HttpRequest)
     return render(
         request,
-        'SaveSuccess.html',
+        'app/SaveSuccess.html',
         context_instance = RequestContext(request,
         {
             'title':'Database Key legend',
@@ -69,11 +101,31 @@ def dbPost(request):
             
             post.save()
 
-            return render(request, 'SaveSuccess.html') 
+            return render(request, 'app/SaveSuccess.html') 
         else:
             form = PostForm()
 
-        return render_to_response('lifehistory.html')
+        return render_to_response('app/lifehistory.html')
+
+def dbPostother(request):
+    if request.method == 'POST':
+        form = PostFormOther(request.POST)
+        if form.is_valid():
+            post = form.save(commit = False)
+            post.feature_id = request.POST.get("feature_id", "")
+            specId = request.POST.get("species", "")
+            post.username = request.POST.get("username", "")
+            post.dt = request.POST.get("dt", "")            
+            post.species_id = Species.objects.get(species_id = specId)
+            
+            post.save()
+
+            return render(request, 'app/SaveSuccess.html') 
+        else:
+            form = PostForm()
+
+        return render_to_response('app/lifehistory.html')
+
 
 
 def home(request):
@@ -81,7 +133,7 @@ def home(request):
     assert isinstance(request, HttpRequest)
     return render(
         request,
-        'index.html',
+        'app/index.html',
         context_instance = RequestContext(request,
         {
             'title':'Home Page',
@@ -94,12 +146,12 @@ def home(request):
 
 def lifehistory(request):
     """Renders the contact page."""
-          
-    all = Traits.objects.all().select_related()
+       
+    all = NumericTraits.objects.all().select_related()
     assert isinstance(request, HttpRequest)
     return render(
         request,
-        'lifehistory.html',
+        'app/lifehistory.html',
         context_instance = RequestContext(request,
         {
             'title':'lifehistory',
@@ -152,7 +204,7 @@ def dbsearch(request):
     Y = Species.objects.all().distinct('fam').order_by('fam').values_list('fam')
 
     context = RequestContext(request, {'commonnames':CnameList,'species':SpeciesList,'orders':X,'families':Y})
-    template = loader.get_template('dbsearch.html')        
+    template = loader.get_template('app/dbsearch.html')        
     return HttpResponse(template.render(context))
         
    
@@ -164,7 +216,7 @@ def species(request):
         List = Species.objects.filter(species_id = l)
             
     context = RequestContext(request, {'LIST':List})
-    template = loader.get_template('searchresult.html')        
+    template = loader.get_template('app/searchresult.html')        
     return HttpResponse(template.render(context))
 
 
@@ -174,7 +226,7 @@ def order(request):
         List = Species.objects.filter(ord = l)        
     
     context = RequestContext(request, {'LIST':List})
-    template = loader.get_template('searchresult.html')        
+    template = loader.get_template('app/searchresult.html')        
     return HttpResponse(template.render(context))
 
 
@@ -184,7 +236,7 @@ def family(request):
         List = Species.objects.filter(fam = l)        
     
     context = RequestContext(request, {'LIST':List})
-    template = loader.get_template('searchresult.html')        
+    template = loader.get_template('app/searchresult.html')        
     return HttpResponse(template.render(context))
 
 def commonname(request):
@@ -193,7 +245,7 @@ def commonname(request):
         List = Species.objects.filter(common_name_1 = l)        
     
     context = RequestContext(request, {'LIST':List})
-    template = loader.get_template('searchresult.html')        
+    template = loader.get_template('app/searchresult.html')        
     return HttpResponse(template.render(context))
 
 
@@ -203,5 +255,5 @@ def gettraits(request):
         traits = Traits.objects.filter(species_id = t)
 
     context = RequestContext(request, {'TRAITS':traits})
-    template = loader.get_template('searchresulttraits.html')        
+    template = loader.get_template('app/searchresulttraits.html')        
     return HttpResponse(template.render(context))

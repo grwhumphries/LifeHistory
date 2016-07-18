@@ -1,7 +1,0 @@
-RDSConnection
-RegionInfo
-exceptions
-AWSQueryConnection
-json
-JSONResponseError
-boto

@@ -1,9 +1,0 @@
-TooManyRequestsException
-BotoServerError
-InternalErrorException
-DeveloperUserAlreadyRegisteredException
-LimitExceededException
-InvalidParameterException
-ResourceConflictException
-NotAuthorizedException
-ResourceNotFoundException

@@ -1,8 +1,0 @@
-PredictorNotMountedException
-BotoServerError
-InternalServerException
-ResourceNotFoundException
-ResourceInUseException
-InvalidInputException
-LimitExceededException
-IdempotentParameterMismatchException
