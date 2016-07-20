@@ -36,6 +36,8 @@ urlpatterns = patterns('',
     url(r'^dbPost$','app.views.dbPost',name='dbPost'),
     url(r'^dbPostother$','app.views.dbPostother',name='dbPostother'),
 
+    url(r'^chartraits/', 'app.views.chartraits',name='chartraits'),
+
     url(r'^login/$',
         'django.contrib.auth.views.login',
         {
@@ -50,6 +52,8 @@ urlpatterns = patterns('',
             }
         },
         name='login'),
+
+
     url(r'^logout$',
         'django.contrib.auth.views.logout',
         {

@@ -1,0 +1,26 @@
+﻿<head>    
+<script type="text/javascript">               
+        
+        $(document).ready(function () {
+            $('.selectpicker').selectpicker({
+                size: 10,
+                width: '75%',
+                
+            });
+        });        
+
+
+    </script>           
+</head> 
+
+
+<label for="id_traitopt" class="control-label requiredField">
+ Trait values<span class="asteriskField">*</span> </label>
+<div class="controls">
+    <select class="selectpicker show-tick" name="traitopt" id="id_traitopt">
+    <option value="select value">Select value</option>    
+    {% for x in traitopts %}
+    <option value="{{x.tr_value}}">{{x.tr_name}}</option>
+    {% endfor %}
+    </select>
+</div>

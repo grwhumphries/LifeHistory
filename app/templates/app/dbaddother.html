@@ -11,25 +11,72 @@
                 size: 10,
                 width: '75%',
                 
+            });            
+        });
+
+        $(function () {
+            $('#submit-id-dbpostother').click(function (e) {
+                e.preventDefault()
+
+                var species = $("#id_species").val();
+                var trtid = $("#id_trtid").val();
+                var username = $("#id_username").val();
+                var dt = $("#id_dt").val();
+                var traitopt = $("#id_traitopt").val();
+                var citation = $("#id_citation").val();
+                var traits = $("#id_traits").val();
+                
+                $.ajax({
+                    type: "POST",
+                    url: "/dbPostother",
+                    data: { species: species, trtid: trtid, username: username, dt: dt, traitopt: traitopt, citation: citation, traits: traits },
+                    success: function () {
+                        var dat = '<h3 style="text-align:center"><span class="glyphicon glyphicon-ok" style="color:green"></span> Data saved...  </h3>'
+                        var clr = '<div class="col-md-3" style="text-align:center"><button class="btn btn-danger" onclick="OpenAddother()"><span class="glyphicon glyphicon-fire"></span> Clear sheet &raquo;</button></div>'
+
+                        $('#savesuccess').html(dat);
+                        $('#clrbtn').html(clr);
+                        var t = parseInt(trtid) + 1
+                        $("#id_trtid").val(t)
+                    },
+                    error: function () {                        
+                        if (species == "Select by scientific name") {
+                            $('#specieslab').css('color', 'red');
+                            $('#specieslab').text('Select a species *');
+                        };
+                        if (traitopt == "Select value") {                           
+                            $('#traitoptlab').css('color', 'red');
+                            $('#traitoptlab').text('Select a value *');
+                        };
+                        if (citation == "Select citation") {
+                            $('#citationlab').css('color', 'red');
+                            $('#citationlab').text('Select a citation *');
+                        };                        
+                    }
+                });                
+                return false;
             });
-            $('#id_traits').change(traitopts())
-        });        
-        
+        });
 
     </script>           
 </head>
 
 <body>
+
+
 {% if user.is_authenticated %}
 {% if user.is_staff %}
     <div class="row" style="background-color:rgba(255,255,255,0.95)">
         <div class="col-md-1">
             <p><a href="/lifehistory" class="btn btn-primary btn-large">&laquo; Back</a></p>
         </div>
-        <div class="col-md-6" style="text-align:center"><button class="btn btn-info" onclick="OpenAdd()"><span class="glyphicon glyphicon-plus"></span> Add numeric traits &raquo;</button></div>              
+        <div class="col-md-6" style="text-align:center"><button class="btn btn-info" onclick="OpenAdd()"><span class="glyphicon glyphicon-plus"></span> Add numeric traits &raquo;</button></div>                      
+        <div class="col-md-3" id="clrbtn"></div>
         <div class="col-md-12">
             {% crispy modelform %}{% csrf_token %}
-        </div>        
+        </div>
+        
+             
     </div>
 
 {% else %}

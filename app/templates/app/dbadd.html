@@ -13,7 +13,65 @@
                 
             });
         });        
+        $(function () {
+            $('#submit-id-dbpost').click(function (e) {
+                e.preventDefault()
 
+                var species = $("#id_species").val();
+                var traits = $("#id_traits").val();
+                var units = $("#id_units").val();
+                var uncertainty = $("#id_uncertainty").val();
+                var mean = $("#id_mean").val();                
+                var range0 = $("#id_range_0").val();                
+                var range1 = $("#id_range_1").val();
+                var citation = $("#id_citation").val();
+                var feature_id = $("#id_feature_id").val();
+                var username = $("#id_username").val();
+                var dt = $("#id_dt").val();
+                                                
+
+                $.ajax({
+                    type: "POST",
+                    url: "/dbPost",
+                    data: { species: species, traits: traits, units: units, uncertainty: uncertainty,mean: mean, range0: range0, range1: range1, citation: citation, feature_id: feature_id, username: username, dt: dt},
+                    success: function () {
+                        var dat = '<h3 style="text-align:center"><span class="glyphicon glyphicon-ok" style="color:green"></span> Data saved...  </h3>'
+                        var clr = '<div class="col-md-3" style="text-align:center"><button class="btn btn-danger" onclick="OpenAdd()"><span class="glyphicon glyphicon-fire"></span> Clear sheet &raquo;</button></div>'
+
+                        $('#savesuccess').html(dat);
+                        $('#clrbtn').html(clr);
+                        var t = parseInt(feature_id) + 1
+                        $("#id_feature_id").val(t)
+                    },
+                    error: function () {                        
+                        if (species == "Select by scientific name") {
+                            $('#specieslab').css('color', 'red');
+                            $('#specieslab').text('Select a species *');
+                        };
+
+                        if (traits == "Select trait to add") {
+                            $('#traitlab').css('color', 'red');
+                            $('#traitlab').text('Select a trait *');
+                        };
+                        if (units == "Select units") {
+                            $('#unitlab').css('color', 'red');
+                            $('#unitlab').text('Select units *');
+                        };
+                        if (uncertainty == "Select uncertainty") {
+                            $('#uncertaintylab').css('color', 'red');
+                            $('#uncertaintylab').text('Select uncertainty *');
+                        };
+                        if (citation == "Select citation") {
+                            $('#citationlab').css('color', 'red');
+                            $('#citationlab').text('Select a citation *');
+                        };
+                        $('#savesuccess').html('<h4 style="color:red"> There is an error on the page, data not saved... </h4>')
+                        
+                    }
+                });
+                return false;
+            });
+        });
 
     </script>           
 </head>
@@ -26,6 +84,7 @@
             <p><a href="/lifehistory" class="btn btn-primary btn-large">&laquo; Back</a></p>
         </div>
         <div class="col-md-6" style="text-align:center"><button class="btn btn-info" onclick="OpenAddother()"><span class="glyphicon glyphicon-plus"></span> Add character traits &raquo;</button></div>      
+        <div class="col-md-3" id="clrbtn"></div>
         <div class="col-md-12">
             {% crispy modelform %}{% csrf_token %}
         </div>        

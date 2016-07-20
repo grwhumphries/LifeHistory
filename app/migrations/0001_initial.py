@@ -2,6 +2,7 @@
 from __future__ import unicode_literals
 
 from django.db import migrations, models
+import app.models
 import django.contrib.postgres.fields.ranges
 
 
@@ -16,45 +17,52 @@ class Migration(migrations.Migration):
             fields=[
                 ('brid', models.IntegerField(serialize=False, primary_key=True)),
                 ('breeding_distribution_id', models.IntegerField()),
-                ('breeding_distribution', models.CharField(max_length=10)),
+                ('breeding_distribution', models.CharField(max_length=5)),
                 ('username', models.CharField(max_length=30)),
                 ('dt', models.CharField(max_length=30)),
             ],
             options={
+                'verbose_name': 'Breeding distribution',
                 'db_table': 'breeding_distributions',
                 'managed': False,
+                'verbose_name_plural': 'Breeding distribution',
             },
         ),
         migrations.CreateModel(
             name='Citation',
             fields=[
-                ('cite_id', models.CharField(max_length=15, serialize=False, primary_key=True)),
+                ('cite_id', models.CharField(default=app.models.citation_id_create, max_length=25, serialize=False, primary_key=True)),
                 ('citation_name', models.CharField(max_length=100)),
                 ('citation', models.TextField()),
             ],
             options={
+                'ordering': ['citation_name'],
                 'db_table': 'citation',
                 'managed': False,
             },
         ),
         migrations.CreateModel(
-            name='CitationNumerictraits',
+            name='CitationNumerictraitSpecies',
             fields=[
                 ('relation_id', models.IntegerField(serialize=False, primary_key=True)),
             ],
             options={
-                'db_table': 'citation_numerictraits',
+                'verbose_name': 'Citation numerictrait table',
+                'db_table': 'citation_numerictrait_species',
                 'managed': False,
+                'verbose_name_plural': 'Citation numerictrait table',
             },
         ),
         migrations.CreateModel(
-            name='CitationOthertraits',
+            name='CitationOthertraitSpecies',
             fields=[
                 ('relation_id', models.IntegerField(serialize=False, primary_key=True)),
             ],
             options={
-                'db_table': 'citation_othertraits',
+                'verbose_name': 'Citation othertrait table',
+                'db_table': 'citation_othertrait_species',
                 'managed': False,
+                'verbose_name_plural': 'Citation othertrait table',
             },
         ),
         migrations.CreateModel(
@@ -65,8 +73,11 @@ class Migration(migrations.Migration):
                 ('common_name', models.CharField(max_length=100)),
             ],
             options={
+                'ordering': ['species_id', 'common_name'],
+                'verbose_name': 'Common names',
                 'db_table': 'common_names',
                 'managed': False,
+                'verbose_name_plural': 'Common names',
             },
         ),
         migrations.CreateModel(
@@ -78,8 +89,10 @@ class Migration(migrations.Migration):
                 ('dt', models.CharField(max_length=30)),
             ],
             options={
+                'verbose_name': 'Foraging location',
                 'db_table': 'foraging',
                 'managed': False,
+                'verbose_name_plural': 'Foraging location',
             },
         ),
         migrations.CreateModel(
@@ -96,8 +109,10 @@ class Migration(migrations.Migration):
                 ('population_location', models.CharField(max_length=30, null=True, blank=True)),
             ],
             options={
+                'verbose_name': 'IUCN data',
                 'db_table': 'iucn_data',
                 'managed': False,
+                'verbose_name_plural': 'IUCN data',
             },
         ),
         migrations.CreateModel(
@@ -110,14 +125,16 @@ class Migration(migrations.Migration):
                 ('dt', models.CharField(max_length=30)),
             ],
             options={
+                'verbose_name': 'Nesting locations',
                 'db_table': 'nest_locations',
                 'managed': False,
+                'verbose_name_plural': 'Nesting locations',
             },
         ),
         migrations.CreateModel(
             name='OtherTraits',
             fields=[
-                ('trtid', models.IntegerField(serialize=False, primary_key=True)),
+                ('trt_id', models.IntegerField(serialize=False, primary_key=True)),
                 ('variable', models.CharField(max_length=40)),
                 ('value', models.CharField(max_length=40, null=True, blank=True)),
                 ('comments', models.TextField(null=True, blank=True)),
@@ -144,18 +161,10 @@ class Migration(migrations.Migration):
                 ('synonyms', models.CharField(max_length=300, null=True, blank=True)),
             ],
             options={
+                'verbose_name': 'Species',
                 'db_table': 'species',
                 'managed': False,
-            },
-        ),
-        migrations.CreateModel(
-            name='SpeciesCitation',
-            fields=[
-                ('relation_id', models.IntegerField(serialize=False, primary_key=True)),
-            ],
-            options={
-                'db_table': 'species_citation',
-                'managed': False,
+                'verbose_name_plural': 'Species',
             },
         ),
         migrations.CreateModel(
@@ -164,19 +173,21 @@ class Migration(migrations.Migration):
                 ('trtnmid', models.IntegerField(serialize=False, primary_key=True)),
                 ('tble', models.CharField(max_length=40)),
                 ('variable', models.CharField(max_length=40)),
-                ('tr_value', models.CharField(max_length=15)),
+                ('tr_value', models.CharField(max_length=25)),
                 ('tr_name', models.CharField(max_length=40)),
             ],
             options={
+                'verbose_name': 'Trait values',
                 'db_table': 'traitnames',
                 'managed': False,
+                'verbose_name_plural': 'Trait values',
             },
         ),
         migrations.CreateModel(
             name='NumericTraits',
             fields=[
                 ('feature_id', models.IntegerField(serialize=False, primary_key=True)),
-                ('traits', models.CharField(max_length=60)),
+                ('traits', models.CharField(max_length=30)),
                 ('mean', models.DecimalField(null=True, max_digits=10, decimal_places=4, blank=True)),
                 ('range', django.contrib.postgres.fields.ranges.FloatRangeField(null=True, blank=True)),
                 ('uncertainty', models.CharField(max_length=10, null=True, blank=True)),

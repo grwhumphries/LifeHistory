@@ -61,23 +61,16 @@ function fs() {
 
 function traitopts() {
     var X = $('#id_traits option:selected').val()
-    var URL = '/dbaddother/?ct='.concat(X);
+    var URL = '/chartraits/?ct='.concat(X);
+    
     $.ajax({
         url: URL,
         dataType: "html",
         success: function (data) {
-            $(".viewwindow").html(data);
+            $("#div_id_traitopt").html(data);            
         }
-    });
-
+    });    
 }
-
-
-
-
-
-
-
 
 
 

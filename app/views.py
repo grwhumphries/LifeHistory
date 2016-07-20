@@ -1,12 +1,12 @@
 ﻿"""
 Definition of views.
 """
-
+from django.views.decorators.csrf import csrf_exempt
 from django.shortcuts import render, render_to_response
 from django.http import HttpRequest, HttpResponse, HttpResponseBadRequest
 from django.template import RequestContext, loader
 from datetime import datetime
-from app.models import Species, NumericTraits, Citation, OtherTraits, Traitnames
+from app.models import *
 from app.forms import PostForm, PostFormOther
 from djqscsv import render_to_csv_response
 import csv
@@ -32,23 +32,33 @@ def dbaddother(request):
     SpeciesList = Species.objects.all().order_by('species_id')
     traitslist = OtherTraits.objects.all().distinct('variable')
     citations = Citation.objects.all()
-
-    if request.method == 'GET':
-        chartrait = request.GET.get('ct','')
-        X = Traitnames.objects.filter(variable = chartrait)
-    else:
-        X = []
+    X = Traitnames.objects.filter(variable = "coloniality")
+    
 
     context = RequestContext(request, {'species':SpeciesList,
                                        'citations':citations,
                                        'traits':traitslist,
-                                       'modelform':modelform,
                                        'traitopts':X,
+                                       'modelform':modelform,                                       
                                        'year':datetime.now().year,
                                        'month':datetime.now().month,
                                        'day':datetime.now().day, })
     template = loader.get_template('app/dbaddother.html')        
     return HttpResponse(template.render(context))
+
+
+
+def chartraits(request):
+    if request.method == 'GET':
+        chartrait = request.GET.get('ct','')
+        X = Traitnames.objects.filter(variable = chartrait)
+    else:
+        X = []
+    context = RequestContext(request, {'traitopts':X})
+    template = loader.get_template('app/chartraits.html')        
+    return HttpResponse(template.render(context))
+
+
 
 
 
@@ -87,44 +97,101 @@ def savesuccess(request):
     )
 
 
-
+@csrf_exempt  ## NOTE - this is required to get past the 403 forbidden error when using an Ajax call for saving
 def dbPost(request):
+    args = {}
     if request.method == 'POST':
         form = PostForm(request.POST)
         if form.is_valid():
             post = form.save( commit = False)
             post.feature_id = request.POST.get("feature_id", "")
-            specId = request.POST.get("species", "")
+            specId = request.POST.get("species", "")            
+            citeId = request.POST.get("citation", "")            
             post.username = request.POST.get("username", "")
             post.dt = request.POST.get("dt", "")            
-            post.species_id = Species.objects.get(species_id = specId)
+            post.species_id = Species.objects.get(species_id_html = specId)
+            post.traits = request.POST.get("traits", "")            
+            if request.POST.get("mean","") == "":
+                post.mean = None
+            else:
+                post.mean = int(request.POST.get("mean",""))
+            
+            if request.POST.get("range0","") == "":
+                r1 = None
+            else: 
+                r1 = int(request.POST.get("range0",""))
+            if request.POST.get("range1","") == "":
+                r2 = None
+            else:
+                r2 = int(request.POST.get("range1",""))
+                                            
+            post.range = [r1,r2]
+            
+            
+            post.uncertainty = request.POST.get("uncertainty","")
+            post.units = request.POST.get("units","")
+            post.cite = Citation.objects.get(citation_name = citeId)
             
             post.save()
 
-            return render(request, 'app/SaveSuccess.html') 
+            cnt = CitationNumerictraitSpecies()
+            cnt.relation_id = CitationNumerictraitSpecies.objects.all().order_by('-relation_id').values_list()[0][0] + 1
+            cnt.feature = NumericTraits.objects.get(feature_id = request.POST.get("feature_id", ""))
+            cnt.cite = Citation.objects.get(citation_name = citeId)
+            cnt.species = Species.objects.get(species_id_html = specId)
+            cnt.save()
+        
+            return HttpResponse('')        
         else:
-            form = PostForm()
+            print form.errors                       
+           
+    else:
+        form = PostFormOther()
+    
+        args['form'] = form
+        return render(request, 'app/lifehistory.html', args)
 
-        return render_to_response('app/lifehistory.html')
 
+
+@csrf_exempt
 def dbPostother(request):
+    
+    args = {}
     if request.method == 'POST':
+    #if request.is_ajax():
         form = PostFormOther(request.POST)
         if form.is_valid():
             post = form.save(commit = False)
-            post.feature_id = request.POST.get("feature_id", "")
+            post.trt_id = request.POST.get("trtid", "")
             specId = request.POST.get("species", "")
             post.username = request.POST.get("username", "")
             post.dt = request.POST.get("dt", "")            
-            post.species_id = Species.objects.get(species_id = specId)
-            
+            post.species_id = Species.objects.get(species_id_html = specId)
+            post.value = request.POST.get("traitopt","")
+            citeId = request.POST.get("citation", "")
+            post.cite = Citation.objects.get(citation_name = citeId)
+            post.variable = request.POST.get("traits","")
+                                      
             post.save()
 
-            return render(request, 'app/SaveSuccess.html') 
+            cots = CitationOthertraitSpecies()
+            cots.relation_id = CitationOthertraitSpecies.objects.all().order_by('-relation_id').values_list()[0][0] + 1
+            cots.trt = OtherTraits.objects.get(trt_id = request.POST.get("trtid", ""))
+            cots.cite = Citation.objects.get(citation_name = citeId)
+            cots.species = Species.objects.get(species_id_html = specId)
+            cots.save()
+            
+            
+            return HttpResponse('')        
         else:
-            form = PostForm()
-
-        return render_to_response('app/lifehistory.html')
+            print form.errors                       
+           
+    else:
+        form = PostFormOther()
+    
+        args['form'] = form
+        return render(request, 'app/lifehistory.html', args)
+        
 
 
 
