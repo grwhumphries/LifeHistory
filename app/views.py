@@ -30,7 +30,7 @@ def entrykey(request):
 def dbaddother(request):
     modelform = PostFormOther()
     SpeciesList = Species.objects.all().order_by('species_id')
-    traitslist = OtherTraits.objects.all().order_by('variable').distinct('variable')
+    traitslist = OtherTraits.objects.all().order_by('variable','-trt_id').distinct('variable')
     citations = Citation.objects.all()
     X = Traitnames.objects.filter(variable = "coloniality")
     
@@ -66,7 +66,7 @@ def dbadd(request):
     modelform = PostForm()
     SpeciesList = Species.objects.all().order_by('species_id')
     traitslist = NumericTraits.objects.all().order_by('traits','-feature_id').distinct('traits')
-    unitslist = NumericTraits.objects.all().order_by('traits','-trt_id').distinct('units')
+    unitslist = NumericTraits.objects.all().order_by('traits','-feature_id').distinct('units')
     citations = Citation.objects.all()
 
     context = RequestContext(request, {'species':SpeciesList,
