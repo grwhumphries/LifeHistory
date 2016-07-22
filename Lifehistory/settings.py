@@ -167,6 +167,19 @@ SECURE_PROXY_SSL_HEADER = (
     )
 
 
+
+DATABASES = {
+    'default': {
+        'ENGINE': 'django.db.backends.postgresql_psycopg2',
+        'NAME': 'deca61kto3l4lf',
+        'USER': 'jliozkvprqtcde',
+        'PASSWORD': '6vh787r7K1mngfIKvPFqwdOz7z',
+        'HOST': 'ec2-54-235-125-135.compute-1.amazonaws.com',
+        'PORT': '5432',       
+    }
+ }
+
+
 DATABASES['default'] =  dj_database_url.config()
 DATABASES['default']['ENGINE'] = 'django.db.backends.postgresql_psycopg2'
 
@@ -189,16 +202,6 @@ STATIC_ROOT = "/%s/" % STATIC_S3_PATH
 STATIC_URL = '//lifehistory.s3.amazonaws.com/static/'
 ADMIN_MEDIA_PREFIX = STATIC_URL + 'admin/'
 
-DATABASES = {
-    'default': {
-        'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        'NAME': 'deca61kto3l4lf',
-        'USER': 'jliozkvprqtcde',
-        'PASSWORD': '6vh787r7K1mngfIKvPFqwdOz7z',
-        'HOST': 'ec2-54-235-125-135.compute-1.amazonaws.com',
-        'PORT': '5432',       
-    }
- }
 
 
 
