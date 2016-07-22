@@ -69,7 +69,7 @@ class NumericTraits(models.Model):
         db_table = 'numeric_traits'
         verbose_name = "Numeric Traits"
         verbose_name_plural = "Numeric Traits"
-        ordering = ['traits']
+       
 
 
 class OtherTraits(models.Model):
@@ -91,7 +91,7 @@ class OtherTraits(models.Model):
         db_table = 'other_traits'
         verbose_name = "Character Traits"
         verbose_name_plural = "Character Traits"
-        ordering = ['variable']
+       
 
 
 class BreedingDistributions(models.Model):
