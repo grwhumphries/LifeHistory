@@ -369,25 +369,13 @@ def charactertraits(request):
     if request.method == 'GET':
         l = request.GET.get('l','')
                 
-        Chtraits = OtherTraits.objects.filter(species_id = l)..order_by('variable','-trt_id').select_related('cite')        
+        Chtraits = OtherTraits.objects.filter(species_id = l).order_by('variable','-trt_id').select_related('cite')        
         Breed = BreedingDistributions.objects.filter(species_id = l).select_related('cite')
         Nests = NestLocations.objects.filter(species_id = l).select_related('cite')
 
     context = RequestContext(request, {'chLIST':Chtraits,'Breed':Breed,'Nests':Nests})
     template = loader.get_template('app/charactertraits.html')        
     return HttpResponse(template.render(context))
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
