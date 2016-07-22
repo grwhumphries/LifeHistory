@@ -36,7 +36,7 @@
                     data: { species: species, traits: traits, units: units, uncertainty: uncertainty,mean: mean, range0: range0, range1: range1, citation: citation, feature_id: feature_id, username: username, dt: dt},
                     success: function () {
                         var dat = '<h3 style="text-align:center"><span class="glyphicon glyphicon-ok" style="color:green"></span> Data saved...  </h3>'
-                        var clr = '<div class="col-md-3" style="text-align:center"><button class="btn btn-danger" onclick="OpenAdd()"><span class="glyphicon glyphicon-fire"></span> Clear sheet &raquo;</button></div>'
+                        var clr = '<div class="col-md-3" style="text-align:center"><button class="btn btn-danger" onclick="CallIn('.concat("'/dbadd/','.viewwindow')").concat('"').concat('><span class="glyphicon glyphicon-fire"></span> Clear sheet &raquo;</button></div>')
 
                         $('#savesuccess').html(dat);
                         $('#clrbtn').html(clr);
@@ -83,7 +83,7 @@
         <div class="col-md-1">
             <p><a href="/lifehistory" class="btn btn-primary btn-large">&laquo; Back</a></p>
         </div>
-        <div class="col-md-6" style="text-align:center"><button class="btn btn-info" onclick="OpenAddother()"><span class="glyphicon glyphicon-plus"></span> Add character traits &raquo;</button></div>      
+        <div class="col-md-6" style="text-align:center"><button class="btn btn-info" onclick="CallIn('/dbaddother/','.viewwindow')"><span class="glyphicon glyphicon-plus"></span> Add character traits &raquo;</button></div>      
         <div class="col-md-3" id="clrbtn"></div>
         <div class="col-md-12">
             {% crispy modelform %}{% csrf_token %}

@@ -1,0 +1,32 @@
+﻿{% load specialchars %}
+{% if user.is_authenticated %}
+<table class="table">
+    <thead>
+        <tr>
+            <th>Trait</th>
+            <th>Value</th>
+            <th>Range</th>
+            <th>Units</th>
+            <th>Uncertainty</th>
+            <th>citation</th>
+        </tr>
+    </thead>
+    {% for y in LIST %}
+    <tr>                                         
+        <td>{{y.traits}}</td>
+        <td>{{y.mean|default_if_none:""}}</td>
+        <td>{{y.range|range}}</td>
+        <td>{{y.units}}</td>
+        <td>{{y.uncertainty|default_if_none:""}}</td>
+        <td>{{y.cite.citation_name}}</td>
+    </tr>
+    {% endfor %}
+    </table>
+{% else %}
+    <div class="row">
+        <div class="col-md-12">
+            <h2> You are not logged in... please <a href="{% url 'login' %}">log in</a> to continue...</h2>            
+        </div>
+    </div>
+    <p><a class="btn btn-default" href="/login">Log In &raquo;</a></p>
+{% endif %}

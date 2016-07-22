@@ -8,79 +8,59 @@
 
 <body>
 {% if user.is_authenticated %}
-    <div class="row">
+    <div class="row" style="background-color:rgba(255,255,255,0.95)">
         
         <div class="col-md-12"><hr /></div>
             <div id="speciesinfo">
-                <table class="table">
+                <table class="table table-condensed table-expandable" style="border-collapse:collapse">
                     <thead>
                     <tr>
                         <th>Common Name</th>
-                        <th>Sci Name</th>
-                        <th>Alias</th>
-                        <th>IUCN</th>
-                        <th>Year assessed</th>
-                        <th>Populn trend</th>
-                        <th>Coloniality</th>
-                        <th>Breeding dist</th>
-                        <th>Nest locations</th>
-                        <th>Hatchling type</th>
-                        <th>Other Data</th>
+                        <th>Sci. Name</th>
+                        <th>IUCN status</th>
+                        <th>Population trend</th>
+                        <th>Mass / Morphology</th>
+                        <th>Life History</th>
                     </tr>
                     </thead>
                     <tbody>
-                    {% for x in LIST %}
+                    {% for x in CommName %}
                         <tr>
-                            <td>{{x.common_name_1}}</td>
+                            <td>{{x.common_name}}</td>
                             <td>{{x.species_id}}</td>
-                            <td>{{x.common_name_2}}</td>
-                            <td>{{x.iucn_status}}</td>
-                            <td>{{x.year_assessed}}</td>
-                            <td>{{x.population_trend}}</td>
-                            <td>{{x.coloniality}}</td>
-                            <td>{{x.breeding_dist}}</td>
-                            <td>{{x.nest_locations}}</td>
-                            <td>{{x.hatchling_type}}</td>
-                            {% with "#"|addstr:x.species_id|addstr:"tar" as MODTARG %}                                            
-                            <td><button type="button" class="btn btn-info btn-sm" data-toggle="modal" data-target={{MODTARG}} id={{x.species_id}} onclick="gettraits()"><span class="glyphicon glyphicon-list-alt"></span> View Data</button></td>
-                            {% endwith %}
+                            <td>{{x.species_id|ICUNstat}}</td>
+                            <td>{{x.species_id|ICUNtrend}}</td>
+                            {% with "#"|addstr:x.species.species_id_html|addstr:"num" as IDVAL1 %}
+                            {% with "#"|addstr:x.species.species_id_html|addstr:"char" as IDVAL2 %}
+                            {% with x.species.species_id_html|addstr:"num" as IDV1 %}
+                            {% with x.species.species_id_html|addstr:"char" as IDV2 %}
+                            {% with x.species_id|addstrnospace:"_nid" as numID %}
+                            {% with x.species_id|addstrnospace:"_cid" as chaID %}
+
+                            <td><button id="{{numID}}" class="btn btn-primary" onclick="getnumtr()"><span class="glyphicon glyphicon-eye-open"></span> View</button></td>
+                            <td><button id="{{chaID}}" class="btn btn-primary" onclick="getchartr()"><span class="glyphicon glyphicon-eye-open"></span> View</button></td>                            
+                        </tr>
+                        <tr>
+                            <td colspan="3" class="hiddenRow">                                                            
+                                <div class="collapse" id={{IDV1}}></div>                                
+                            </td>
+                            <td colspan="3" class="hiddenRow">                                
+                                <div class="collapse" id={{IDV2}}><p>value here</p></div>                               
+                            </td>                            
                         </tr>
                     </tbody>
-                                                                                                                                                                               
+                    {% endwith %}
+                    {% endwith %}
+                    {% endwith %}
+                    {% endwith %}
+                    {% endwith %}
+                    {% endwith %}                                                                                                                                                           
                     {% endfor %}
                 </table>
             </div>
 
     </div>
 
-{% for x in LIST %}
-    {% with x.species_id|addstr:"tar" as MOD %}
-    <div class="modal fade" id={{ MOD }} role="dialog" >
-    {% endwith %}
-        <div class="modal-dialog">
-    
-                                                    <!-- Modal content-->
-        <div class="modal-content">
-        <div class="modal-header">
-            <button type="button" class="close" data-dismiss="modal">&times;</button>
-            <h4 class="modal-title">life history data for {{x.common_name_1}}</h4>
-        </div>
-        <div class="modal-body">
-            {% with x.species_id|addstr:"div" as DIVID %}
-            <div id="{{DIVID}}"></div>
-            {% endwith %}                                                                                                                    
-        </div>
-        <div class="modal-footer">
-            <button type="button" class="btn btn-default" data-dismiss="modal" >Close</button>
-        </div>
-        </div>
-      
-        </div>
-    </div>                                        
-                                        
-                                        
-
-{% endfor %}
 
 
 {% else %}

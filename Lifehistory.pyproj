@@ -71,9 +71,9 @@
     <Content Include="app\templates\app\lifehistory.html" />
     <Content Include="app\templates\app\login.html" />
     <Content Include="app\templates\app\loginpartial.html" />
-    <Content Include="app\templates\app\SaveSuccess.html" />
+    <Content Include="app\templates\app\charactertraits.html" />
     <Content Include="app\templates\app\searchresult.html" />
-    <Content Include="app\templates\app\searchresulttraits.html" />
+    <Content Include="app\templates\app\numerictraits.html" />
     <Content Include="app\templates\app\chartraits.html" />
     <Content Include="requirements.txt" />
     <Content Include="db.sqlite3" />

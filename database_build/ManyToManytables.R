@@ -16,7 +16,7 @@ X <- data.frame(relation_id=c(1:nrow(X)),X)
 
 setwd("C:/LifeHistory/database_build/")
 X <- read.csv("CSVs_for_db/species_citation.csv")
-Y <- read.csv("newtraits.csv")
+Y <- read.csv("numeric_traits.csv")
 library(foreach)
 
 

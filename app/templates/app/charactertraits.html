@@ -1,0 +1,58 @@
+﻿{% load specialchars %}
+{% if user.is_authenticated %}
+<table class="table">
+    <thead>
+        <tr>
+            <th>Trait</th>
+            <th>Value</th>
+            <th style="text-align:center">Citation</th>                                               
+        </tr>
+    </thead>
+    <tbody>
+    {% for z in chLIST %}                                        
+        <tr>
+            <td>{{z.variable}}</td>
+            <td>{{z.value|default_if_none:""}}</td>
+            <td style="text-align:center">{{z.cite.citation_name}}</td>
+        </tr>
+    {% endfor %}                                        
+        <tr>
+            <td>Breeding distribution</td>
+            <td colspan="2">
+            <table class="table">
+                <tbody>
+                {% for b in Breed %}                                                    
+                <tr>
+                    <td>{{b.breeding_distribution}}</td>
+                    <td style="text-align:center">{{b.cite.citation_name}}</td>
+                </tr>
+                {% endfor %}
+                </tbody>
+            </table>
+            </td>                                                                                                                                                                                                                                                  
+        </tr>                                        
+        <tr>
+            <td>Nesting habitat</td>
+            <td colspan="2">
+            <table class="table">
+                <tbody>
+                {% for n in Nests %}                                                    
+                <tr>
+                    <td>{{n.nest_location}}</td>
+                    <td style="text-align:center">{{n.cite.citation_name}}</td>
+                </tr>
+                {% endfor %}
+                </tbody>
+            </table>
+            </td>
+        </tr>
+    </tbody>
+    </table>
+{% else %}
+    <div class="row">
+        <div class="col-md-12">
+            <h2> You are not logged in... please <a href="{% url 'login' %}">log in</a> to continue...</h2>            
+        </div>
+    </div>
+    <p><a class="btn btn-default" href="/login">Log In &raquo;</a></p>
+{% endif %}

@@ -192,10 +192,10 @@ TEST_RUNNER = 'django.test.runner.DiscoverRunner'
 #DATABASES = {
 #    'default': {
 #        'ENGINE': 'django.db.backends.postgresql_psycopg2',
-#        'NAME': 'd64r0n56gh1s95',
-#        'USER': 'nqvvyjnkwlvhgg',
-#        'PASSWORD': '6JXEEjPlHK_xieNTbPcztL-5zq',
-#        'HOST': 'ec2-54-83-44-117.compute-1.amazonaws.com',
+#        'NAME': 'deca61kto3l4lf',
+#        'USER': 'jliozkvprqtcde',
+#        'PASSWORD': '6vh787r7K1mngfIKvPFqwdOz7z',
+#        'HOST': 'ec2-54-235-125-135.compute-1.amazonaws.com',
 #        'PORT': '5432',       
 #    }
 # }

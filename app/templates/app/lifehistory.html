@@ -23,7 +23,7 @@
         <div class="col-md-4"><hr style="border-color:rgba(255,255,255,0)" /></div>
         
         <div class="col-md-4"><hr style="border-color:rgba(255,255,255,0)" /></div>
-        <div class="col-md-4" style="text-align:left"><button class="btn btn-primary" onclick="OpenSearch()"><span class="glyphicon glyphicon-search"></span> Search the Database &raquo;</button></div>        
+        <div class="col-md-4" style="text-align:left"><button class="btn btn-primary" onclick="CallIn('/dbsearch', '.viewwindow')"><span class="glyphicon glyphicon-search"></span> Search the Database &raquo;</button></div>        
         <div class="col-md-4"><hr style="border-color:rgba(255,255,255,0)" /></div>
 
         {% if user.is_superuser %}
@@ -34,21 +34,21 @@
 
         {% if user.is_staff %}
         <div class="col-md-4"><hr style="border-color:rgba(255,255,255,0)" /></div>                                    
-        <div class="col-sm-5" style="text-align:left"><button class="btn btn-info" onclick="OpenAdd()"><span class="glyphicon glyphicon-plus"></span> Add numeric traits for species &raquo;</button> * Staff only</div>        
+        <div class="col-sm-5" style="text-align:left"><button class="btn btn-info" onclick="CallIn('/dbadd/', '.viewwindow')"><span class="glyphicon glyphicon-plus"></span> Add numeric traits for species &raquo;</button> * Staff only</div>        
         <div class="col-md-3"><hr style="border-color:rgba(255,255,255,0)" /></div>
 
         <div class="col-md-4"><hr style="border-color:rgba(255,255,255,0)" /></div>                                    
-        <div class="col-sm-5" style="text-align:left"><button class="btn btn-info" onclick="OpenAddother()"><span class="glyphicon glyphicon-plus"></span> Add character traits for species &raquo;</button> * Staff only</div>        
+        <div class="col-sm-5" style="text-align:left"><button class="btn btn-info" onclick="CallIn('/dbaddother/', '.viewwindow')"><span class="glyphicon glyphicon-plus"></span> Add character traits for species &raquo;</button> * Staff only</div>        
         <div class="col-md-3"><hr style="border-color:rgba(255,255,255,0)" /></div>
 
         <div class="col-md-4"><hr style="border-color:rgba(255,255,255,0)" /></div>                    
-        <div class="col-sm-5" style="text-align:left"><a href="/admin/app/" class="btn btn-info"><span class="glyphicon glyphicon-pencil"></span> Edit existing traits &raquo;</a> * Staff only</div>        
+        <div class="col-sm-5" style="text-align:left"><a href="/admin/app/" class="btn btn-danger"><span class="glyphicon glyphicon-pencil"></span> Edit existing traits &raquo;</a> * Staff only</div>        
         <div class="col-md-3"><hr style="border-color:rgba(255,255,255,0)" /></div>        
         {% endif %}
 
-        <div class="col-md-4"><hr style="border-color:rgba(255,255,255,0)" /></div>
+        <!--<div class="col-md-4"><hr style="border-color:rgba(255,255,255,0)" /></div>
         <div class="col-sm-6" style="text-align:left"><a href="/downloadall" class="btn btn-danger"><span class="glyphicon glyphicon-floppy-save"></span> Dump All Data to CSV</a></div>
-        <div class="col-md-2"><hr style="border-color:rgba(255,255,255,0)" /></div>
+        <div class="col-md-2"><hr style="border-color:rgba(255,255,255,0)" /></div>-->
 
 
         <div class="col-sm-12"><hr /></div>

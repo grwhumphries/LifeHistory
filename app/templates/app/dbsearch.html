@@ -12,6 +12,24 @@
                 
             });
         });        
+        (function ($) {
+            $(function () {
+                $('.table-expandable').each(function () {
+                    var table = $(this);
+                    table.children('thead').children('tr').append('<th></th>');
+                    table.children('tbody').children('tr').filter(':odd').hide();
+                    table.children('tbody').children('tr').filter(':even').click(function () {
+                        var element = $(this);
+                        element.next('tr').toggle('slow');
+                        element.find(".table-expandable-arrow").toggleClass("up");
+                    });
+                    table.children('tbody').children('tr').filter(':even').each(function () {
+                        var element = $(this);
+                        element.append('<td><div class="table-expandable-arrow"></div></td>');
+                    });
+                });
+            });
+        })(jQuery);
 
 
     </script>
@@ -35,7 +53,7 @@
             <select class="selectpicker show-tick" data-live-search="true" name="commonSearch" id="commonSearch">
                 <option>Select by common name</option>
                 {% for x in commonnames %}                            
-                    <option value="{{x.common_name_1}}">{{x.common_name_1}}</option>                            
+                    <option value="{{x.species_id}}">{{x.common_name}}</option>                            
                 {% endfor %}   
             </select><button type="button" class="btn btn-success" id="csbut" onclick="cs()"><span class="glyphicon glyphicon-search"></span> Search</button>
          
@@ -47,7 +65,7 @@
             <select class="selectpicker show-tick" data-live-search="true" name="specSearch" id="specSearch">
                 <option>Select by scientific name</option>
                 {% for x in species %}                            
-                    <option value={{x.species_id}}>{{x.genus_species}}</option>                            
+                    <option value="{{x.species_id}}">{{x.species_id}}</option>                            
                 {% endfor %}   
             </select><button type="button" class="btn btn-success" id="ssbut" onclick="ss()"><span class="glyphicon glyphicon-search"></span> Search</button>
         </div>
@@ -80,7 +98,9 @@
         <div class="col-md-1"></div>
     
         <div class="col-md-12"><br /></div>
-        <div class="col-md-12" style="text-align:center"><div id="downloadbutton"></div></div>            
+        <div class="col-md-4" style="text-align:center"><div id="downloadnumeric"></div></div>
+        <div class="col-md-4" style="text-align:center"><div id="downloadcharacter"></div></div>
+        <div class="col-md-4" style="text-align:center"><div id="downloadcitations"></div></div>
     </div>
     
     <div id="searchresults"></div>

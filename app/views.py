@@ -81,21 +81,6 @@ def dbadd(request):
     return HttpResponse(template.render(context))
 
 
-def savesuccess(request):
-    """Renders the home page."""
-    assert isinstance(request, HttpRequest)
-    return render(
-        request,
-        'app/SaveSuccess.html',
-        context_instance = RequestContext(request,
-        {
-            'title':'Database Key legend',
-            'year':datetime.now().year,
-            'month':datetime.now().month,
-            'day':datetime.now().day,
-        })
-    )
-
 
 @csrf_exempt  ## NOTE - this is required to get past the 403 forbidden error when using an Ajax call for saving
 def dbPost(request):
@@ -230,43 +215,93 @@ def lifehistory(request):
         })
     )
 
-def downloadall(request):    
-    all = Traits.objects.all().values('species__fid', 'species__ord', 'species__fam', 'species__genus', 'species__species', 'species__species_id', 'species__synonyms', 'species__common_name_1', 'species__common_name_2', 'species__common_name_3', 'species__common_name_4', 'species__common_name_5', 'species__common_name_6', 'species__iucn_status', 'species__red_list_criteria', 'species__year_assessed', 'species__population_trend', 'species__breeding_dist', 'species__nest_locations', 'species__hatchling_type', 'female_mass_mean', 'female_mass_upper', 'female_mass_lower', 'female_mass_uncertainty', 'male_mass_mean', 'male_mass_lower', 'male_mass_upper', 'male_mass_uncertainty', 'clutch_size_mean', 'clutch_size_lower', 'clutch_size_upper', 'clutch_size_uncertainty', 'clutch_interval', 'incubation_mean', 'incubation_period_lower', 'incubation_period_upper', 'incubation_period_uncertainty', 'fledging_period_mean', 'fledging_period_lower', 'fledging_period_upper', 'fledging_period_uncertainty', 'max_growth_mean', 'max_growth_lower', 'max_growth_upper', 'max_growth_uncertainty', 'post_fledge_care_mean', 'post_fledge_care_lower', 'post_fledge_care_upper', 'post_fledge_care_uncertainty', 'age_first_breed_mean', 'age_first_breed_lower', 'age_first_breed_upper', 'age_first_breed_uncertainty', 'foraging_distance', 'wingspan_mean', 'wingspan_lower', 'wingspan_upper', 'wingspan_uncertainty', 'max_age_mean', 'max_age_lower', 'max_age_upper', 'max_age_uncertainty', 'annual_survival_mean', 'annual_survival_lower', 'annual_survival_upper', 'annual_survival_uncertainty','coloniality', 'mate_fidelity', 'site_fidelity', 'citation', 'username', 'dt')
-    return render_to_csv_response(all)
+
+
+#def downloadall(request):
+    #all = NumericTraits.objects.all().values('species__ord', 'species__fam', 'species__genus', 'species__species','species__subspecies','traits','mean','range','uncertainty','units','cite__citation_name')    
+    #return render_to_csv_response(all)
+
     
 def downloadCommon(request):
     if request.method == 'GET':
-        l = request.GET.get('l', '')        
-        all = Traits.objects.filter(species__common_name_1 = l).values('species__fid', 'species__ord', 'species__fam', 'species__genus', 'species__species', 'species__species_id', 'species__synonyms', 'species__common_name_1', 'species__common_name_2', 'species__common_name_3', 'species__common_name_4', 'species__common_name_5', 'species__common_name_6', 'species__iucn_status', 'species__red_list_criteria', 'species__year_assessed', 'species__population_trend', 'species__breeding_dist', 'species__nest_locations', 'species__hatchling_type', 'female_mass_mean', 'female_mass_upper', 'female_mass_lower', 'female_mass_uncertainty', 'male_mass_mean', 'male_mass_lower', 'male_mass_upper', 'male_mass_uncertainty', 'clutch_size_mean', 'clutch_size_lower', 'clutch_size_upper', 'clutch_size_uncertainty', 'clutch_interval', 'incubation_mean', 'incubation_period_lower', 'incubation_period_upper', 'incubation_period_uncertainty', 'fledging_period_mean', 'fledging_period_lower', 'fledging_period_upper', 'fledging_period_uncertainty', 'max_growth_mean', 'max_growth_lower', 'max_growth_upper', 'max_growth_uncertainty', 'post_fledge_care_mean', 'post_fledge_care_lower', 'post_fledge_care_upper', 'post_fledge_care_uncertainty', 'age_first_breed_mean', 'age_first_breed_lower', 'age_first_breed_upper', 'age_first_breed_uncertainty', 'foraging_distance', 'wingspan_mean', 'wingspan_lower', 'wingspan_upper', 'wingspan_uncertainty', 'max_age_mean', 'max_age_lower', 'max_age_upper', 'max_age_uncertainty', 'annual_survival_mean', 'annual_survival_lower', 'annual_survival_upper', 'annual_survival_uncertainty','coloniality', 'mate_fidelity', 'site_fidelity', 'citation', 'username', 'dt')
-    
+        l = request.GET.get('l', '')
+        dl = request.GET.get('DL','')
+        if dl == "dlNum":        
+            all = NumericTraits.objects.filter(species_id = l).values('species__ord', 'species__fam', 'species_id','traits','mean','range','uncertainty','units','cite__citation_name')    
+        elif dl == "dlChar":
+            all = OtherTraits.objects.filter(species_id = l).values('species__ord', 'species__fam', 'species_id','variable','value','cite__citation_name')    
+        elif dl == "dlCite":
+            X = [x.cite.citation_name for x in CitationNumerictraitSpecies.objects.filter(species_id = l).distinct('cite__citation_name')]
+            Y = [y.cite.citation_name for y in CitationOthertraitSpecies.objects.filter(species_id = l).distinct('cite__citation_name')]
+            Z = X + Y
+            alist = list(set(Z))
+            all = Citation.objects.filter(citation_name__in = alist).values('citation_name','citation')
+
     return render_to_csv_response(all)
 
 def downloadSpecies(request):
     if request.method == 'GET':
         l = request.GET.get('l', '')
-        all = Traits.objects.filter(species_id = l).values('species__fid', 'species__ord', 'species__fam', 'species__genus', 'species__species', 'species__species_id', 'species__synonyms', 'species__common_name_1', 'species__common_name_2', 'species__common_name_3', 'species__common_name_4', 'species__common_name_5', 'species__common_name_6', 'species__iucn_status', 'species__red_list_criteria', 'species__year_assessed', 'species__population_trend', 'species__breeding_dist', 'species__nest_locations', 'species__hatchling_type', 'female_mass_mean', 'female_mass_upper', 'female_mass_lower', 'female_mass_uncertainty', 'male_mass_mean', 'male_mass_lower', 'male_mass_upper', 'male_mass_uncertainty', 'clutch_size_mean', 'clutch_size_lower', 'clutch_size_upper', 'clutch_size_uncertainty', 'clutch_interval', 'incubation_mean', 'incubation_period_lower', 'incubation_period_upper', 'incubation_period_uncertainty', 'fledging_period_mean', 'fledging_period_lower', 'fledging_period_upper', 'fledging_period_uncertainty', 'max_growth_mean', 'max_growth_lower', 'max_growth_upper', 'max_growth_uncertainty', 'post_fledge_care_mean', 'post_fledge_care_lower', 'post_fledge_care_upper', 'post_fledge_care_uncertainty', 'age_first_breed_mean', 'age_first_breed_lower', 'age_first_breed_upper', 'age_first_breed_uncertainty', 'foraging_distance', 'wingspan_mean', 'wingspan_lower', 'wingspan_upper', 'wingspan_uncertainty', 'max_age_mean', 'max_age_lower', 'max_age_upper', 'max_age_uncertainty', 'annual_survival_mean', 'annual_survival_lower', 'annual_survival_upper', 'annual_survival_uncertainty','coloniality', 'mate_fidelity', 'site_fidelity', 'citation', 'username', 'dt')
-    
+        dl = request.GET.get('DL','')
+        if dl == "dlNum":        
+            all = NumericTraits.objects.filter(species_id = l).values('species__ord', 'species__fam', 'species_id','traits','mean','range','uncertainty','units','cite__citation_name')    
+        elif dl == "dlChar":
+            all = OtherTraits.objects.filter(species_id = l).values('species__ord', 'species__fam', 'species_id','variable','value','cite__citation_name')    
+        elif dl == "dlCite":
+            X = [x.cite.citation_name for x in CitationNumerictraitSpecies.objects.filter(species_id = l).distinct('cite__citation_name')]
+            Y = [y.cite.citation_name for y in CitationOthertraitSpecies.objects.filter(species_id = l).distinct('cite__citation_name')]
+            Z = X + Y
+            alist = list(set(Z))
+            all = Citation.objects.filter(citation_name__in = alist).values('citation_name','citation')
+                      
     return render_to_csv_response(all)
 
 def downloadOrder(request):
     if request.method == 'GET':
         l = request.GET.get('l', '')
-        all = Traits.objects.filter(species__ord = l).values('species__fid', 'species__ord', 'species__fam', 'species__genus', 'species__species', 'species__species_id', 'species__synonyms', 'species__common_name_1', 'species__common_name_2', 'species__common_name_3', 'species__common_name_4', 'species__common_name_5', 'species__common_name_6', 'species__iucn_status', 'species__red_list_criteria', 'species__year_assessed', 'species__population_trend', 'species__breeding_dist', 'species__nest_locations', 'species__hatchling_type', 'female_mass_mean', 'female_mass_upper', 'female_mass_lower', 'female_mass_uncertainty', 'male_mass_mean', 'male_mass_lower', 'male_mass_upper', 'male_mass_uncertainty', 'clutch_size_mean', 'clutch_size_lower', 'clutch_size_upper', 'clutch_size_uncertainty', 'clutch_interval', 'incubation_mean', 'incubation_period_lower', 'incubation_period_upper', 'incubation_period_uncertainty', 'fledging_period_mean', 'fledging_period_lower', 'fledging_period_upper', 'fledging_period_uncertainty', 'max_growth_mean', 'max_growth_lower', 'max_growth_upper', 'max_growth_uncertainty', 'post_fledge_care_mean', 'post_fledge_care_lower', 'post_fledge_care_upper', 'post_fledge_care_uncertainty', 'age_first_breed_mean', 'age_first_breed_lower', 'age_first_breed_upper', 'age_first_breed_uncertainty', 'foraging_distance', 'wingspan_mean', 'wingspan_lower', 'wingspan_upper', 'wingspan_uncertainty', 'max_age_mean', 'max_age_lower', 'max_age_upper', 'max_age_uncertainty', 'annual_survival_mean', 'annual_survival_lower', 'annual_survival_upper', 'annual_survival_uncertainty','coloniality', 'mate_fidelity', 'site_fidelity', 'citation', 'username', 'dt')
-    
+        dl = request.GET.get('DL','')
+        if dl == "dlNum":        
+            all = NumericTraits.objects.filter(species__ord = l).values('species__ord', 'species__fam', 'species_id','traits','mean','range','uncertainty','units','cite__citation_name')    
+        elif dl == "dlChar":
+            all = OtherTraits.objects.filter(species__ord = l).values('species__ord', 'species__fam', 'species_id','variable','value','cite__citation_name')    
+        elif dl == "dlCite":
+            X = [x.cite.citation_name for x in CitationNumerictraitSpecies.objects.filter(species__ord = l).distinct('cite__citation_name')]
+            Y = [y.cite.citation_name for y in CitationOthertraitSpecies.objects.filter(species__ord = l).distinct('cite__citation_name')]
+            Z = X + Y
+            alist = list(set(Z))
+            all = Citation.objects.filter(citation_name__in = alist).values('citation_name','citation')
+
+        all = NumericTraits.objects.filter(species__ord = l).values('species__ord', 'species__fam', 'species__genus', 'species__species','species__subspecies','traits','mean','range','uncertainty','units','cite__citation_name')    
     return render_to_csv_response(all)
+
 
 def downloadFamily(request):
     if request.method == 'GET':
         l = request.GET.get('l', '')
-        all = Traits.objects.filter(species__fam = l).values('species__fid', 'species__ord', 'species__fam', 'species__genus', 'species__species', 'species__species_id', 'species__synonyms', 'species__common_name_1', 'species__common_name_2', 'species__common_name_3', 'species__common_name_4', 'species__common_name_5', 'species__common_name_6', 'species__iucn_status', 'species__red_list_criteria', 'species__year_assessed', 'species__population_trend', 'species__breeding_dist', 'species__nest_locations', 'species__hatchling_type', 'female_mass_mean', 'female_mass_upper', 'female_mass_lower', 'female_mass_uncertainty', 'male_mass_mean', 'male_mass_lower', 'male_mass_upper', 'male_mass_uncertainty', 'clutch_size_mean', 'clutch_size_lower', 'clutch_size_upper', 'clutch_size_uncertainty', 'clutch_interval', 'incubation_mean', 'incubation_period_lower', 'incubation_period_upper', 'incubation_period_uncertainty', 'fledging_period_mean', 'fledging_period_lower', 'fledging_period_upper', 'fledging_period_uncertainty', 'max_growth_mean', 'max_growth_lower', 'max_growth_upper', 'max_growth_uncertainty', 'post_fledge_care_mean', 'post_fledge_care_lower', 'post_fledge_care_upper', 'post_fledge_care_uncertainty', 'age_first_breed_mean', 'age_first_breed_lower', 'age_first_breed_upper', 'age_first_breed_uncertainty', 'foraging_distance', 'wingspan_mean', 'wingspan_lower', 'wingspan_upper', 'wingspan_uncertainty', 'max_age_mean', 'max_age_lower', 'max_age_upper', 'max_age_uncertainty', 'annual_survival_mean', 'annual_survival_lower', 'annual_survival_upper', 'annual_survival_uncertainty','coloniality', 'mate_fidelity', 'site_fidelity', 'citation', 'username', 'dt')
-    
+        dl = request.GET.get('DL','')
+        if dl == "dlNum":        
+            all = NumericTraits.objects.filter(species__fam = l).values('species__ord', 'species__fam', 'species_id','traits','mean','range','uncertainty','units','cite__citation_name')    
+        elif dl == "dlChar":
+            all = OtherTraits.objects.filter(species__fam = l).values('species__ord', 'species__fam', 'species_id','variable','value','cite__citation_name')    
+        elif dl == "dlCite":
+            X = [x.cite.citation_name for x in CitationNumerictraitSpecies.objects.filter(species__fam = l).distinct('cite__citation_name')]
+            Y = [y.cite.citation_name for y in CitationOthertraitSpecies.objects.filter(species__fam = l).distinct('cite__citation_name')]
+            Z = X + Y
+            alist = list(set(Z))
+            all = Citation.objects.filter(citation_name__in = alist).values('citation_name','citation')
+
     return render_to_csv_response(all)
+
+
+
+
+
 
 
 
 def dbsearch(request):
     SpeciesList = Species.objects.all().order_by('species_id')
-    CnameList = Species.objects.all().order_by('common_name_1')
+    CnameList = CommonNames.objects.all().order_by('common_name')
     X = Species.objects.all().distinct('ord').order_by('ord').values_list('ord')
     Y = Species.objects.all().distinct('fam').order_by('fam').values_list('fam')
 
@@ -280,9 +315,9 @@ def dbsearch(request):
 def species(request):
     if request.method == 'GET':
         l = request.GET.get('l', '')        
-        List = Species.objects.filter(species_id = l)
+        CommName = CommonNames.objects.filter(species_id = l).filter(common_name_id = 1).select_related()
             
-    context = RequestContext(request, {'LIST':List})
+    context = RequestContext(request, {'CommName':CommName})
     template = loader.get_template('app/searchresult.html')        
     return HttpResponse(template.render(context))
 
@@ -290,37 +325,72 @@ def species(request):
 def order(request):
     if request.method == 'GET':
         l = request.GET.get('l', '')        
-        List = Species.objects.filter(ord = l)        
+        CommName = CommonNames.objects.filter(species__ord = l).filter(common_name_id = 1).select_related()
     
-    context = RequestContext(request, {'LIST':List})
+    context = RequestContext(request, {'CommName':CommName})
     template = loader.get_template('app/searchresult.html')        
     return HttpResponse(template.render(context))
 
 
 def family(request):
     if request.method == 'GET':
-        l = request.GET.get('l', '')        
-        List = Species.objects.filter(fam = l)        
-    
-    context = RequestContext(request, {'LIST':List})
+        l = request.GET.get('l', '')
+        CommName = CommonNames.objects.filter(species__fam = l).filter(common_name_id = 1).select_related()
+                                
+    context = RequestContext(request, {'CommName':CommName})
     template = loader.get_template('app/searchresult.html')        
     return HttpResponse(template.render(context))
+
+
+
 
 def commonname(request):
     if request.method == 'GET':
-        l = request.GET.get('l', '')        
-        List = Species.objects.filter(common_name_1 = l)        
-    
-    context = RequestContext(request, {'LIST':List})
+        l = request.GET.get('l', '')
+        CommName = CommonNames.objects.filter(species_id = l).filter(common_name_id = 1).select_related()
+        
+    context = RequestContext(request, {'CommName':CommName})
     template = loader.get_template('app/searchresult.html')        
     return HttpResponse(template.render(context))
 
 
-def gettraits(request):
-    if request.method == 'GET':
-        t = request.GET.get('t','')
-        traits = Traits.objects.filter(species_id = t)
 
-    context = RequestContext(request, {'TRAITS':traits})
-    template = loader.get_template('app/searchresulttraits.html')        
+def numerictraits(request):
+    if request.method == 'GET':
+        l = request.GET.get('l','')
+        Numtraits = NumericTraits.objects.filter(species_id = l).select_related('cite') 
+
+    context = RequestContext(request, {'LIST':Numtraits})
+    template = loader.get_template('app/numerictraits.html')        
     return HttpResponse(template.render(context))
+
+
+def charactertraits(request):
+    if request.method == 'GET':
+        l = request.GET.get('l','')
+                
+        Chtraits = OtherTraits.objects.filter(species_id = l).select_related('cite')        
+        Breed = BreedingDistributions.objects.filter(species_id = l).select_related('cite')
+        Nests = NestLocations.objects.filter(species_id = l).select_related('cite')
+
+    context = RequestContext(request, {'chLIST':Chtraits,'Breed':Breed,'Nests':Nests})
+    template = loader.get_template('app/charactertraits.html')        
+    return HttpResponse(template.render(context))
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+############################################################################################
+
