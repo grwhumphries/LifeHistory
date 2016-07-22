@@ -26,7 +26,7 @@ urlpatterns = patterns('',
     url(r'^numerictraits/','app.views.numerictraits', name='numerictraits'),
     url(r'^charactertraits/','app.views.charactertraits', name='charactertraits'),
 
-    url(r'^downloadall$','app.views.downloadall',name='downloadall'),
+    #url(r'^downloadall$','app.views.downloadall',name='downloadall'),
     url(r'^downloadCommon/','app.views.downloadCommon',name='downloadCommon'),
     url(r'^downloadSpecies/','app.views.downloadSpecies',name='downloadSpecies'),
     url(r'^downloadOrder/','app.views.downloadOrder',name='downloadOrder'),
