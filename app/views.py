@@ -65,8 +65,8 @@ def chartraits(request):
 def dbadd(request):
     modelform = PostForm()
     SpeciesList = Species.objects.all().order_by('species_id')
-    traitslist = NumericTraits.objects.all().order_by('traits').distinct('traits')
-    unitslist = NumericTraits.objects.all().order_by('traits').distinct('units')
+    traitslist = NumericTraits.objects.all().order_by('traits','-feature_id').distinct('traits')
+    unitslist = NumericTraits.objects.all().order_by('traits','-trt_id').distinct('units')
     citations = Citation.objects.all()
 
     context = RequestContext(request, {'species':SpeciesList,
