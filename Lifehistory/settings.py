@@ -196,8 +196,6 @@ AWS_SECRET_ACCESS_KEY = os.environ.get('AWS_SECRET_ACCESS_KEY')
 AWS_STORAGE_BUCKET_NAME = 'lifehistory'
 ######################################################################
 
-MEDIA_ROOT = '/%s/' % DEFAULT_S3_PATH
-MEDIA_URL = '//lifehistory.s3.amazonaws.com/media/' 
 STATIC_ROOT = "/%s/" % STATIC_S3_PATH
 STATIC_URL = '//lifehistory.s3.amazonaws.com/static/'
 ADMIN_MEDIA_PREFIX = STATIC_URL + 'admin/'
