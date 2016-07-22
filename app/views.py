@@ -30,7 +30,7 @@ def entrykey(request):
 def dbaddother(request):
     modelform = PostFormOther()
     SpeciesList = Species.objects.all().order_by('species_id')
-    traitslist = OtherTraits.objects.all().order_by('variable','-trt_id').distinct('variable')
+    traitslist = OtherTraits.objects.all().distinct('variable')
     citations = Citation.objects.all()
     X = Traitnames.objects.filter(variable = "coloniality")
     
@@ -65,8 +65,8 @@ def chartraits(request):
 def dbadd(request):
     modelform = PostForm()
     SpeciesList = Species.objects.all().order_by('species_id')
-    traitslist = NumericTraits.objects.all().order_by('traits','-feature_id').distinct('traits')
-    unitslist = NumericTraits.objects.all().order_by('traits','-feature_id').distinct('units')
+    traitslist = NumericTraits.objects.all().distinct('traits')
+    unitslist = NumericTraits.objects.all().distinct('units')
     citations = Citation.objects.all()
 
     context = RequestContext(request, {'species':SpeciesList,
@@ -358,7 +358,7 @@ def commonname(request):
 def numerictraits(request):
     if request.method == 'GET':
         l = request.GET.get('l','')
-        Numtraits = NumericTraits.objects.filter(species_id = l).select_related('cite') 
+        Numtraits = NumericTraits.objects.filter(species_id = l).order_by('traits','-feature_id').select_related('cite') 
 
     context = RequestContext(request, {'LIST':Numtraits})
     template = loader.get_template('app/numerictraits.html')        
@@ -369,7 +369,7 @@ def charactertraits(request):
     if request.method == 'GET':
         l = request.GET.get('l','')
                 
-        Chtraits = OtherTraits.objects.filter(species_id = l).select_related('cite')        
+        Chtraits = OtherTraits.objects.filter(species_id = l)..order_by('variable','-trt_id').select_related('cite')        
         Breed = BreedingDistributions.objects.filter(species_id = l).select_related('cite')
         Nests = NestLocations.objects.filter(species_id = l).select_related('cite')
 
