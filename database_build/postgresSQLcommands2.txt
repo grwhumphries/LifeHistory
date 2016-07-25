@@ -94,16 +94,18 @@ ALTER TABLE public.nest_locations
 
  CREATE TABLE public.numeric_traits
 (feature_id INTEGER PRIMARY KEY,
- species_id character(40) NOT NULL REFERENCES species (species_id),
- traits character(60) NOT NULL,
- mean numeric(10,4) ,
+ species_id character varying(40) NOT NULL REFERENCES species (species_id),
+ traits character varying(60) NOT NULL,
+ mean numeric(10,2) ,
  range numrange ,
- uncertainty character(10) ,
- units character(20) NOT NULL,
- comments TEXT ,
- cite_id character(15) NOT NULL REFERENCES citation (cite_id),
- username character(30) NOT NULL,
- dt character(30) NOT NULL
+ uncertainty character varying(10) ,
+ units character varying(20) NOT NULL,
+ comments TEXT,
+ study_year TEXT,
+ study_location TEXT,
+ cite_id character varying(25) NOT NULL REFERENCES citation (cite_id),
+ username character varying(30) NOT NULL,
+ dt character varying(30) NOT NULL
 ) 
 WITH (
   OIDS = FALSE
@@ -113,14 +115,16 @@ ALTER TABLE public.numeric_traits
   OWNER TO lifehistoryuser;
 
  CREATE TABLE public.other_traits
-(trtid INTEGER PRIMARY KEY,
- species_id character(40) NOT NULL REFERENCES species (species_id),
- variable character(40) NOT NULL,
- value character(40) ,
- comments TEXT ,
- cite_id character(15) NOT NULL REFERENCES citation (cite_id),
- username character(30) NOT NULL,
- dt character(30) NOT NULL 
+(trt_id INTEGER PRIMARY KEY,
+ species_id character varying(40) NOT NULL REFERENCES species (species_id),
+ variable character varying(40) NOT NULL,
+ value character varying(40),
+ comments TEXT,
+ study_year TEXT,
+ study_location TEXT,
+ cite_id character varying(25) NOT NULL REFERENCES citation (cite_id),
+ username character varying(30) NOT NULL,
+ dt character varying(30) NOT NULL 
 ) 
 WITH (
   OIDS = FALSE
@@ -130,48 +134,39 @@ ALTER TABLE public.other_traits
   OWNER TO lifehistoryuser;
 
 
- CREATE TABLE public.species_citation  
-( relation_id INTEGER PRIMARY KEY,
- species_id character(40) NOT NULL REFERENCES species (species_id),
- cite_id character(15) NOT NULL REFERENCES citation (cite_id)
-) 
-WITH (
-  OIDS = FALSE
-)
-;
-ALTER TABLE public.species_citation 
-  OWNER TO lifehistoryuser;
 
- CREATE TABLE public.citation_numerictraits  
-( relation_id INTEGER PRIMARY KEY,
+ CREATE TABLE public.citation_numerictraits_species
+(relation_id INTEGER PRIMARY KEY,
  feature_id SMALLINT NOT NULL REFERENCES numeric_traits (feature_id),
- cite_id character(15) NOT NULL REFERENCES citation (cite_id)
+ cite_id character varying(25) NOT NULL REFERENCES citation (cite_id),
+ species_id character varying(40) NOT NULL REFERENCES species (species_id)
 ) 
 WITH (
   OIDS = FALSE
 )
 ;
-ALTER TABLE public.citation_numerictraits
+ALTER TABLE public.citation_numerictraits_species
   OWNER TO lifehistoryuser;
 
- CREATE TABLE public.citation_othertraits  
+ CREATE TABLE public.citation_othertraits_species  
 ( relation_id INTEGER PRIMARY KEY,
  trtid INTEGER NOT NULL REFERENCES other_traits (trtid),
- cite_id character(15) NOT NULL REFERENCES citation (cite_id)
+ cite_id character varying(25) NOT NULL REFERENCES citation (cite_id),
+ species_id character varying(40) NOT NULL REFERENCES species (species_id)
 ) 
 WITH (
   OIDS = FALSE
 )
 ;
-ALTER TABLE public.citation_othertraits
+ALTER TABLE public.citation_othertraits_species
   OWNER TO lifehistoryuser;
 
  CREATE TABLE public.traitnames  
 (trtnmid INTEGER  PRIMARY KEY,
- tble character(40) NOT NULL,
- variable character(40) NOT NULL,
- tr_value character(15) NOT NULL,
- tr_name character(40) NOT NULL
+ tble character varying(40) NOT NULL,
+ variable character varying(40) NOT NULL,
+ tr_value character varying(15) NOT NULL,
+ tr_name character varying(40) NOT NULL
 ) 
 WITH (
   OIDS = FALSE

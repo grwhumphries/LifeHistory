@@ -50,7 +50,8 @@ class PostForm(forms.ModelForm):
                 style = "float:right;"
                 ),
             HTML("<hr />"),            
-            
+            HTML('<a href="/admin/app/citation/add/" target="_blank" class="btn btn-danger btn-lg"> Add new citation </a>'),
+            HTML("<hr />"),
             Fieldset('Add Trait',                       
                        Div(
                            HTML('<div id="div_id_traits" class="control-group"> <label id="traitlab" for="id_traits" class="control-label requiredField">\
@@ -83,7 +84,8 @@ class PostForm(forms.ModelForm):
                 <option>Select citation</option>{% for x in citations %}<option value="{{x.citation_name}}">{{x.citation_name}}</option>{% endfor %}</select></div> </div>'
                             ),
                            HTML('<div class="col-md-12"><br /></div>'),
-                           HTML('<a href="/admin/app/citation/add/" target="_blank" class="btn btn-danger"> Add new citation </a>'),
+                           'study_year',
+                           'study_location',
                            css_class='col-md-3 input-md'
                            ),                                             
                        Div('comments',
@@ -116,7 +118,7 @@ class PostForm(forms.ModelForm):
 
     class Meta:
         model = NumericTraits
-        fields = ('mean','comments')
+        fields = ('mean','comments','study_year','study_location')
  
 class PostFormOther(forms.ModelForm):
     
@@ -146,6 +148,8 @@ class PostFormOther(forms.ModelForm):
                 HTML("<a href='/EntryKey' target='_blank' class='btn btn-warning'><span class='glyphicon glyphicon-list-alt'></span> Data Entry Key </a>"),
                 style = "float:right;"
                 ),
+            HTML("<hr />"),
+            HTML('<a href="/admin/app/citation/add/" target="_blank" class="btn btn-danger btn-lg"> Add new citation </a>'),
             HTML("<hr />"),            
             
             Fieldset('Add Trait',                       
@@ -168,7 +172,8 @@ class PostFormOther(forms.ModelForm):
                 <option>Select citation</option>{% for x in citations %}<option value="{{x.citation_name}}">{{x.citation_name}}</option>{% endfor %}</select></div> </div>'
                             ),
                            HTML('<div class="col-md-12"><br /></div>'),
-                           HTML('<a href="/admin/app/citation/add/" target="_blank" class="btn btn-danger"> Add new citation </a>'),
+                           'study_year',
+                           'study_location',                           
                            css_class='col-md-3 input-md'
                            ),                                             
                        Div('comments',
@@ -198,4 +203,4 @@ class PostFormOther(forms.ModelForm):
 
     class Meta:
         model = OtherTraits
-        fields = ('comments',)        
+        fields = ('comments','study_year','study_location')        

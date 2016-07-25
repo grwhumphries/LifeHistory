@@ -58,6 +58,8 @@ class NumericTraits(models.Model):
     uncertainty = models.CharField(max_length=10, blank=True, null=True)
     units = models.CharField(max_length=20)
     comments = models.TextField(blank=True, null=True)
+    study_year = models.CharField(blank=True, null=True,max_length=300)
+    study_location = models.CharField(blank=True, null=True,max_length=300)
     cite = models.ForeignKey(Citation)
     username = models.CharField(max_length=30)
     dt = models.CharField(max_length=30)
@@ -78,6 +80,8 @@ class OtherTraits(models.Model):
     variable = models.CharField(max_length=40)
     value = models.CharField(max_length=40, blank=True, null=True)
     comments = models.TextField(blank=True, null=True)
+    study_year = models.CharField(blank=True, null=True,max_length=300)
+    study_location = models.CharField(blank=True, null=True,max_length=300)
     cite = models.ForeignKey(Citation)
     username = models.CharField(max_length=30)
     dt = models.CharField(max_length=30)
@@ -198,7 +202,7 @@ class IucnData(models.Model):
     population_location = models.CharField(max_length=30, blank=True, null=True)
 
     def __unicode__(self):
-        return self.species_id + " | " + self.year_assessed
+        return self.species_id + " | " + str(self.year_assessed)
 
     class Meta:
         managed = False
