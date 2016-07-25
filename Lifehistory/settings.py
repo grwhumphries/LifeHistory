@@ -182,7 +182,7 @@ DATABASES = {
 
 DATABASES['default'] =  dj_database_url.config()
 DATABASES['default']['ENGINE'] = 'django.db.backends.postgresql_psycopg2'
-DATABASES['default']['NAME'] = 'deca61kto3l4lf'
+
 
 STATICFILES_STORAGE = 's3_folder_storage.s3.StaticStorage'
 STATIC_S3_PATH = "static"
