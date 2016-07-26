@@ -3,8 +3,16 @@ from django.db import models
 from app.models import *
 
 
-admin.site.register(NumericTraits)
-admin.site.register(OtherTraits)
+
+class NumericAdmin(admin.ModelAdmin):
+    search_fields = ('species__species_id',)    
+
+class OtherAdmin(admin.ModelAdmin):
+    search_fields = ('species__species_id',)
+
+
+admin.site.register(NumericTraits, NumericAdmin)
+admin.site.register(OtherTraits, OtherAdmin)
 admin.site.register(Species)
 admin.site.register(Citation)
 admin.site.register(CommonNames)
