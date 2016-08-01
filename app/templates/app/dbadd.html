@@ -28,12 +28,15 @@
                 var feature_id = $("#id_feature_id").val();
                 var username = $("#id_username").val();
                 var dt = $("#id_dt").val();
+                var comments = $("#id_comments").val();
+                var study_location = $("#id_study_location").val();
+                var study_year = $("#id_study_year").val();
                                                 
 
                 $.ajax({
                     type: "POST",
                     url: "/dbPost",
-                    data: { species: species, traits: traits, units: units, uncertainty: uncertainty,mean: mean, range0: range0, range1: range1, citation: citation, feature_id: feature_id, username: username, dt: dt},
+                    data: { species: species, traits: traits, units: units, uncertainty: uncertainty, mean: mean, range0: range0, range1: range1, citation: citation, feature_id: feature_id, username: username, dt: dt, comments: comments, study_year: study_year, study_location: study_location },
                     success: function () {
                         var dat = '<h3 style="text-align:center"><span class="glyphicon glyphicon-ok" style="color:green"></span> Data saved...  </h3>'
                         var clr = '<div class="col-md-3" style="text-align:center"><button class="btn btn-danger" onclick="CallIn('.concat("'/dbadd/','.viewwindow')").concat('"').concat('><span class="glyphicon glyphicon-fire"></span> Clear sheet &raquo;</button></div>')

@@ -156,6 +156,10 @@ def dbPostother(request):
             citeId = request.POST.get("citation", "")
             post.cite = Citation.objects.get(citation_name = citeId)
             post.variable = request.POST.get("traits","")
+            post.study_year = request.POST.get("study_year","")            
+            post.study_location = request.POST.get("study_location","")
+            comments = request.POST.get("comments","")
+            print comments
                                       
             post.save()
 

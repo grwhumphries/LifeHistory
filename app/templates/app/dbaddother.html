@@ -25,11 +25,15 @@
                 var traitopt = $("#id_traitopt").val();
                 var citation = $("#id_citation").val();
                 var traits = $("#id_traits").val();
+                var comments = $("#id_comments").val();
+                var study_location = $("#id_study_location").val();
+                var study_year = $("#id_study_year").val();
+
                 
                 $.ajax({
                     type: "POST",
                     url: "/dbPostother",
-                    data: { species: species, trtid: trtid, username: username, dt: dt, traitopt: traitopt, citation: citation, traits: traits },
+                    data: { species: species, trtid: trtid, username: username, dt: dt, traitopt: traitopt, citation: citation, traits: traits, comments: comments, study_year: study_year, study_location: study_location },
                     success: function () {
                         var dat = '<h3 style="text-align:center"><span class="glyphicon glyphicon-ok" style="color:green"></span> Data saved...  </h3>'
                         var clr = '<div class="col-md-3" style="text-align:center"><button class="btn btn-danger" onclick="CallIn('.concat("'/dbaddother/','.viewwindow')").concat('"').concat('><span class="glyphicon glyphicon-fire"></span> Clear sheet &raquo;</button></div>')
