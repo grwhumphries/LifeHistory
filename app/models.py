@@ -133,7 +133,7 @@ class CitationNumerictraitSpecies(models.Model):
 
     class Meta:
         managed = False
-        db_table = 'citation_numerictrait_species'
+        db_table = 'citation_numerictraits_species'
         verbose_name = "Citation numerictrait table"
         verbose_name_plural = "Citation numerictrait table"
 
@@ -149,7 +149,7 @@ class CitationOthertraitSpecies(models.Model):
 
     class Meta:
         managed = False
-        db_table = 'citation_othertrait_species'
+        db_table = 'citation_othertraits_species'
         verbose_name = "Citation othertrait table"
         verbose_name_plural = "Citation othertrait table"        
 
