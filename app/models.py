@@ -137,9 +137,10 @@ class CitationNumerictraitSpecies(models.Model):
         verbose_name = "Citation numerictrait table"
         verbose_name_plural = "Citation numerictrait table"
 
+
 class CitationOthertraitSpecies(models.Model):
     relation_id = models.IntegerField(primary_key=True)
-    trt = models.ForeignKey(OtherTraits, db_column='trt_id')
+    trt = models.ForeignKey(OtherTraits)
     cite = models.ForeignKey(Citation)
     species = models.ForeignKey(Species)
 

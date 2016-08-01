@@ -48,7 +48,7 @@ class Migration(migrations.Migration):
             ],
             options={
                 'verbose_name': 'Citation numerictrait table',
-                'db_table': 'citation_numerictrait_species',
+                'db_table': 'citation_numerictraits_species',
                 'managed': False,
                 'verbose_name_plural': 'Citation numerictrait table',
             },
@@ -60,7 +60,7 @@ class Migration(migrations.Migration):
             ],
             options={
                 'verbose_name': 'Citation othertrait table',
-                'db_table': 'citation_othertrait_species',
+                'db_table': 'citation_othertraits_species',
                 'managed': False,
                 'verbose_name_plural': 'Citation othertrait table',
             },
