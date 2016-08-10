@@ -299,6 +299,27 @@ def downloadFamily(request):
 
 
 
+def downloadALL(request):
+    if request.method == 'GET':        
+        dl = request.GET.get('DL','')        
+        if dl == "dlNum":        
+            all = NumericTraits.objects.all().values('species__ord', 'species__fam', 'species_id','species__iucndata__iucn_status','traits','mean','range','uncertainty','units','cite__citation_name')    
+        elif dl == "dlChar":
+            all = OtherTraits.objects.all().values('species__ord', 'species__fam', 'species_id','species__iucndata__iucn_status','species__iucndata__population_trend','variable','value','cite__citation_name')    
+        elif dl == "dlCite":
+            X = [x.cite.citation_name for x in CitationNumerictraitSpecies.objects.all().distinct('cite__citation_name')]
+            Y = [y.cite.citation_name for y in CitationOthertraitSpecies.objects.all().distinct('cite__citation_name')]
+            Z = X + Y
+            alist = list(set(Z))
+            all = Citation.objects.filter(citation_name__in = alist).values('citation_name','citation')
+                      
+        return render_to_csv_response(all)
+
+
+
+
+
+
 
 
 

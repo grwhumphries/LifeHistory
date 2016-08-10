@@ -31,7 +31,9 @@ urlpatterns = patterns('',
     url(r'^downloadSpecies/','app.views.downloadSpecies',name='downloadSpecies'),
     url(r'^downloadOrder/','app.views.downloadOrder',name='downloadOrder'),
     url(r'^downloadFamily/','app.views.downloadFamily',name='downloadFamily'),
-    
+    url(r'^downloadALL/','app.views.downloadALL', name='downloadALL'),
+
+
     url(r'^EntryKey$','app.views.entrykey',name='entrykey'),    
     url(r'^dbPost$','app.views.dbPost',name='dbPost'),
     url(r'^dbPostother$','app.views.dbPostother',name='dbPostother'),
