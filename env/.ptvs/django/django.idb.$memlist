@@ -1,7 +1,7 @@
-__version__
+utils
 apps
 get_version
-forms
+dispatch
 contrib
 conf
 views
@@ -9,11 +9,11 @@ middleware
 core
 db
 test
-utils
-dispatch
-templatetags
-http
+__version__
+forms
 setup
+http
+templatetags
 VERSION
 template
 shortcuts

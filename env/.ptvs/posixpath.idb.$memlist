@@ -1,6 +1,5 @@
 realpath
 _joinrealpath
-object
 pardir
 normpath
 extsep
@@ -28,7 +27,6 @@ sameopenfile
 _uvarprog
 splitext
 relpath
-unicode
 warnings
 ValueError
 defpath
@@ -42,7 +40,6 @@ altsep
 isfile
 join
 genericpath
-NameError
 normcase
 os
 getctime

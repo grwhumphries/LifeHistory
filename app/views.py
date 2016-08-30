@@ -99,16 +99,16 @@ def dbPost(request):
             if request.POST.get("mean","") == "":
                 post.mean = None
             else:
-                post.mean = int(request.POST.get("mean",""))
+                post.mean = float(request.POST.get("mean",""))
             
             if request.POST.get("range0","") == "":
                 r1 = None
             else: 
-                r1 = int(request.POST.get("range0",""))
+                r1 = float(request.POST.get("range0",""))
             if request.POST.get("range1","") == "":
                 r2 = None
             else:
-                r2 = int(request.POST.get("range1",""))
+                r2 = float(request.POST.get("range1",""))
                                             
             post.range = [r1,r2]
             

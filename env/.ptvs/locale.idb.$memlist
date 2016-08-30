@@ -1,8 +1,7 @@
 LC_NUMERIC
 abs
-__name__
-globals
-type
+unicode
+CODESET
 chr
 float
 LC_TIME
@@ -37,8 +36,8 @@ _localeconv
 re
 _group
 LC_MESSAGES
-unicode
-CODESET
+__name__
+globals
 TypeError
 atoi
 object
@@ -64,6 +63,7 @@ isinstance
 strxfrm
 repr
 _parse_localename
+_str
 _setlocale
 nl_langinfo
 AttributeError

@@ -4,7 +4,7 @@
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <Name>Lifehistory</Name>
     <RootNamespace>Lifehistory</RootNamespace>
-    <InterpreterId>{20512c7a-d623-41b1-a907-7fd522cdb1e9}</InterpreterId>
+    <InterpreterId>{60ff78e8-0fd9-4fa1-b8b8-47d5e8517055}</InterpreterId>
     <InterpreterVersion>2.7</InterpreterVersion>
   </PropertyGroup>
   <PropertyGroup>
@@ -75,7 +75,6 @@
     <Content Include="app\templates\app\searchresult.html" />
     <Content Include="app\templates\app\numerictraits.html" />
     <Content Include="app\templates\app\chartraits.html" />
-    <Content Include="requirements.txt" />
     <Content Include="db.sqlite3" />
     <Content Include="app\static\app\content\bootstrap.css" />
     <Content Include="app\static\app\content\bootstrap.min.css" />
@@ -84,6 +83,7 @@
     <Content Include="app\static\app\fonts\glyphicons-halflings-regular.svg" />
     <Content Include="app\static\app\fonts\glyphicons-halflings-regular.ttf" />
     <Content Include="app\static\app\fonts\glyphicons-halflings-regular.woff" />
+    <Content Include="requirements.txt" />
   </ItemGroup>
   <ItemGroup>
     <None Include="readme.mht">
@@ -92,7 +92,7 @@
   </ItemGroup>
   <ItemGroup>
     <Interpreter Include="env\">
-      <Id>{20512c7a-d623-41b1-a907-7fd522cdb1e9}</Id>
+      <Id>{60ff78e8-0fd9-4fa1-b8b8-47d5e8517055}</Id>
       <BaseInterpreter>{2af0f10d-7135-4994-9156-5d01c9c11b7e}</BaseInterpreter>
       <Version>2.7</Version>
       <Description>env (Python 2.7)</Description>
